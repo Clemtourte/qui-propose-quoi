@@ -1,0 +1,22 @@
+candidat: melenchon
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: "Budget rectificatif : 106,4 Md€ de recettes nouvelles, 81,7 Md€ de dépenses nouvelles"
+texte: >-
+  Présenté le 14 octobre 2026 comme base d'une loi de finances rectificative en cas de victoire. LFI affecte
+  25 milliards d'euros à la réduction de la dette dans ce budget (LCP écrit « chaque année », Public Sénat
+  « la première année ») et indique, selon LCP, que cela ramènerait le déficit à 5 % du PIB. Dépenses citées :
+  hausse du point d'indice des fonctionnaires (17 Md€), « garantie d'autonomie » de 1 337 euros par mois pour
+  les jeunes (9,5 Md€ par an), indexation des pensions et prestations sociales et hausse de 10 % des APL
+  (8 Md€, ventilation non précisée). Le programme présidentiel complet est attendu en novembre 2026, son
+  chiffrage début 2027.
+chiffres:
+  - libelle: Recettes nouvelles, selon LFI
+    valeur: 106,4 Md€
+    nature: position
+  - libelle: Dépenses nouvelles, selon LFI
+    valeur: 81,7 Md€
+    nature: position
+date: 2026-10-14
+sources: [lcp-2026-10-14-contre-budget-lfi, publicsenat-2026-10-14-contre-budget-lfi]

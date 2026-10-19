@@ -1,0 +1,18 @@
+candidat: melenchon
+theme: retraites
+rubrique: mesure
+nature: position
+titre: Retour à 62 ans, puis à 60 ans
+citation:
+  texte: Nous reviendrons dans un premier temps à 62 ans, et le but est de revenir plus vite à 60 ans
+  date: 2026-08-27
+  contexte: Débat des candidats organisé par le Medef, diffusé sur LCI
+texte: >-
+  Il propose d'abroger la réforme de 2023, puis de revenir à la retraite à 60 ans avec 40 annuités dans la suite
+  du mandat. Le coût du retour à 60 ans n'est pas chiffré dans les sources consultées.
+chiffres:
+  - libelle: Coût du retour à 62 ans, selon LFI (14 octobre 2026)
+    valeur: 9 Md€
+    nature: position
+date: 2026-08-27
+sources: [franceinfo-2026-08-27-debat-medef, franceinfo-2026-10-12-retraites-candidats, publicsenat-2026-10-14-contre-budget-lfi]
