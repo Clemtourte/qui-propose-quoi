@@ -1,0 +1,18 @@
+candidat: le-pen
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: "Contre-budget : 140 milliards d'euros d'économies nettes d'ici 2032"
+texte: >-
+  Présenté le 6 octobre 2026 avec Jordan Bardella. Le RN vise un déficit public sous 3 % du PIB dès 2030,
+  un retour à l'équilibre primaire en 18 mois et 30 milliards d'euros nets de baisses d'impôts sur le quinquennat.
+  Le montant d'économies dépasse de 15 milliards celui annoncé lors du débat du Medef (125 milliards).
+chiffres:
+  - libelle: Économies nettes en 2032 par rapport à 2026, selon le RN
+    valeur: 140 Md€
+    nature: position
+  - libelle: Croissance retenue par le RN pour 2028, 2029 et 2030
+    valeur: 1,8 %, 1,7 %, 1,8 %
+    nature: position
+date: 2026-10-06
+sources: [franceinfo-2026-10-06-le-pen-140-milliards, europe1-2026-10-06-contre-budget-rn, publicsenat-2026-10-06-contre-budget-rn, franceinfo-2026-10-08-critiques-budget-rn]

@@ -1,0 +1,16 @@
+candidat: le-pen
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: Baisse de la contribution française au budget de l'UE et taxe sur les rachats d'actions
+texte: >-
+  Selon franceinfo, le RN attend 11,1 milliards d'euros d'économies dès 2027 sur la contribution française au budget
+  européen, puis jusqu'à 20 milliards les années suivantes ; Jordan Bardella cite « 9 milliards d'euros sur notre
+  contribution à l'Union européenne » (Public Sénat). Le RN attend aussi 11,4 milliards d'euros dès 2027 d'une taxe
+  sur les rachats d'actions (franceinfo).
+chiffres:
+  - libelle: Recette attendue de la taxe sur les rachats d'actions en 2027, selon le RN (franceinfo)
+    valeur: 11,4 Md€
+    nature: position
+date: 2026-10-06
+sources: [franceinfo-2026-10-08-critiques-budget-rn, publicsenat-2026-10-06-contre-budget-rn]

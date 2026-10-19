@@ -1,0 +1,21 @@
+candidat: le-pen
+theme: retraites
+rubrique: mesure
+nature: position
+titre: Âge légal entre 60 et 62 ans selon l'âge d'entrée dans la vie active
+citation:
+  texte: maintenir un âge légal entre 60 et 62 ans en fonction de l'âge d'entrée sur le marché du travail
+  date: 2026-10-14
+  contexte: Déclaration à Bruxelles, rapportée par franceinfo avec l'AFP
+texte: >-
+  Elle prévoit une durée de cotisation de 40 à 42 annuités pour une pension à taux plein. Lors du débat du Medef
+  (27 août 2026), elle indiquait que ceux qui ont commencé à travailler avant 20 ans partiraient à 60 ans, pour
+  ensuite parvenir « à 42 ans de cotisations et un âge légal de 62 ans ». Le 6 octobre 2026, elle annonce
+  15 à 20 milliards d'euros d'économies à terme sur les retraites et un « pilier de capitalisation ». Le
+  14 octobre, elle renvoie la présentation détaillée de sa réforme au 17 novembre 2026.
+chiffres:
+  - libelle: Économies annoncées sur les retraites, selon le RN
+    valeur: 15 à 20 Md€ à terme
+    nature: position
+date: 2026-10-14
+sources: [franceinfo-2026-10-14-le-pen-17-novembre, franceinfo-2026-08-27-debat-medef, europe1-2026-10-06-contre-budget-rn, publicsenat-2026-10-06-contre-budget-rn]

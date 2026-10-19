@@ -1,0 +1,18 @@
+candidat: le-pen
+theme: immigration
+rubrique: mesure
+nature: position
+titre: Priorité nationale pour les aides au logement et le logement social
+citation:
+  texte: un droit naturel et juste
+  date: 2026-09-13
+  contexte: Discours de rentrée politique à Hénin-Beaumont, à propos de la priorité nationale
+texte: >-
+  Elle veut réserver les aides personnelles au logement (APL) aux Français et appliquer la priorité nationale au
+  logement social.
+chiffres:
+  - libelle: Économies attendues de la politique d'immigration et de la priorité nationale, selon le RN (contre-budget du 6 octobre 2026)
+    valeur: 15 Md€ en 2027, 29 Md€ en année pleine
+    nature: position
+date: 2026-09-13
+sources: [france3-2026-09-13-le-pen-henin-beaumont, sudradio-2026-09-13-le-pen-logement, franceinfo-2026-10-08-critiques-budget-rn]
