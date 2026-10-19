@@ -1,0 +1,9 @@
+candidat: exemple
+theme: retraites
+phrase: "[EXEMPLE] Garder la retraite à 64 ans, avec des départs anticipés pour les carrières longues."
+reponses:
+  age-legal: "[EXEMPLE] 64 ans"
+  duree: "[EXEMPLE] 43 ans, inchangée"
+  financement: "[EXEMPLE] Économie de 8 Md€ par an selon le parti"
+date: 2026-09-01
+sources: [exemple-source-primaire]

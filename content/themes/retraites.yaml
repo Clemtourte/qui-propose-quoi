@@ -1,3 +1,27 @@
 titre: "Retraites"
 ordre: 1
 accroche: "Âge de départ, durée de cotisation, financement du système."
+questions:
+  - id: age-legal
+    libelle: Âge légal de départ
+  - id: duree
+    libelle: Durée de cotisation
+  - id: financement
+    libelle: Financement annoncé
+etat_des_lieux:
+  - nature: fait
+    demo: true
+    texte: "[EXEMPLE] L'âge légal de départ est de 63 ans et 3 mois pour la génération 1964 (chiffre fictif)."
+    date: 2026-09-01
+    sources: [exemple-source-primaire]
+  - nature: fait
+    demo: true
+    texte: "[EXEMPLE] Les dépenses de retraite représentent 14 % du PIB en 2025 (chiffre fictif)."
+    date: 2026-06-15
+    sources: [exemple-source-presse]
+  - nature: jugement
+    demo: true
+    auteur: "[EXEMPLE] Autorité fictive, rapport annuel de juin 2026"
+    texte: "[EXEMPLE] Le système resterait en déficit jusqu'en 2070 dans tous les scénarios étudiés (chiffre fictif)."
+    date: 2026-06-15
+    sources: [exemple-source-presse]

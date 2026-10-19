@@ -1,0 +1,15 @@
+candidat: modele
+theme: retraites
+rubrique: mesure
+nature: position
+titre: "[EXEMPLE] Retour de l'âge légal à 62 ans"
+texte: "[EXEMPLE] Abaisser l'âge légal à 62 ans dès 2028, pour toutes les générations."
+chiffres:
+  - libelle: "[EXEMPLE] Coût annoncé par le mouvement"
+    valeur: "12 Md€ par an"
+    nature: position
+  - libelle: "[EXEMPLE] Coût estimé par l'Institut fictif"
+    valeur: "20 Md€ par an"
+    nature: jugement
+date: 2026-10-05
+sources: [exemple-source-presse]

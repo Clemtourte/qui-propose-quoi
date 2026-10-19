@@ -1,0 +1,12 @@
+candidat: modele
+theme: retraites
+rubrique: promesse
+nature: fait
+titre: "[EXEMPLE] Promesse de 2022 sur la revalorisation des petites pensions"
+promesse:
+  texte: "[EXEMPLE] Aucune pension ne sera inférieure à 1 200 euros."
+  date: 2022-03-10
+  contexte: "[EXEMPLE] Programme fictif de 2022 (référence ancienne)"
+texte: "[EXEMPLE] La proposition de loi fictive déposée en 2023 sur ce sujet n'a pas été inscrite à l'ordre du jour ; aucune mesure n'a été adoptée."
+date: 2023-11-02
+sources: [exemple-source-presse]

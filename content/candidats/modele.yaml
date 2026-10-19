@@ -1,0 +1,12 @@
+# Fictional candidate used to validate the design. Hidden in production builds.
+prenom: Dominique
+nom: Modèle
+parti: "[EXEMPLE] Mouvement fictif"
+fiche: complete
+demo: true
+fonction: "[EXEMPLE] Député fictif"
+candidature:
+  texte: "[EXEMPLE] Candidature annoncée le 5 octobre 2026 dans un entretien fictif."
+  date: 2026-10-05
+  sources: [exemple-source-presse]
+derniere_verification: 2026-10-19

@@ -1,0 +1,11 @@
+candidat: modele
+theme: retraites
+declaration:
+  texte: "[EXEMPLE] La France est le pays d'Europe où l'on part le plus tard à la retraite."
+  date: 2026-10-06
+  contexte: "[EXEMPLE] Entretien fictif sur une radio"
+verificateur: "[EXEMPLE] Service de vérification fictif"
+verdict: "[EXEMPLE] Faux"
+resume: "[EXEMPLE] Selon les données fictives citées, l'âge effectif moyen de départ en France est inférieur à la moyenne européenne."
+date_verification: 2026-10-07
+sources: [exemple-source-presse]

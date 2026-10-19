@@ -1,0 +1,13 @@
+# Fictional candidate with almost no data, to show the "non documenté" states. Hidden in production.
+prenom: Sacha
+nom: Témoin
+parti: "[EXEMPLE] Alliance fictive"
+fiche: complete
+demo: true
+candidature:
+  texte: "[EXEMPLE] Candidature annoncée le 12 octobre 2026 (fictif)."
+  date: 2026-10-12
+  sources: [exemple-source-presse]
+recherches:
+  programme: "[EXEMPLE] Recherché : site officiel, entretiens de septembre et octobre 2026. Aucune mesure publiée."
+derniere_verification: 2026-10-19

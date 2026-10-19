@@ -1,0 +1,8 @@
+candidat: modele
+theme: retraites
+phrase: "[EXEMPLE] Revenir à 62 ans, financé par une hausse des cotisations patronales."
+reponses:
+  age-legal: "[EXEMPLE] 62 ans"
+  financement: "[EXEMPLE] Hausse de 1 point des cotisations patronales, 12 Md€ par an selon le mouvement"
+date: 2026-10-05
+sources: [exemple-source-presse]

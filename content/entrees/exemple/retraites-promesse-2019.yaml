@@ -1,0 +1,12 @@
+candidat: exemple
+theme: retraites
+rubrique: promesse
+nature: fait
+titre: "[EXEMPLE] Promesse de 2019 sur le régime universel"
+promesse:
+  texte: "[EXEMPLE] Nous créerons un régime universel par points avant la fin du quinquennat."
+  date: 2019-07-18
+  contexte: "[EXEMPLE] Discours fictif en tant que ministre"
+texte: "[EXEMPLE] Le projet de loi fictif a été suspendu en mars 2020 et n'a pas été repris."
+date: 2020-03-16
+sources: [exemple-source-presse]
