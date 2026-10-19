@@ -1,0 +1,57 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../lib/data';
+
+interface Props {
+  sources: CollectionEntry<'sources'>[];
+  derniereVerification?: string;
+}
+
+const { sources, derniereVerification } = Astro.props;
+const TYPE_LABELS = {
+  primaire: 'Source primaire',
+  presse: 'Presse',
+  institution: 'Institution',
+  agregateur: 'Agrégateur',
+};
+---
+
+<section class="sources" aria-labelledby="sources-titre">
+  <h2 id="sources-titre">Sources</h2>
+  {derniereVerification && <p class="muted">Dernière vérification : {formatDate(derniereVerification)}.</p>}
+  <ol>
+    {
+      sources.map((s) => (
+        <li>
+          <a href={s.data.url} target="_blank" rel="noopener noreferrer">
+            {s.data.titre}
+          </a>
+          <span class="muted">
+            {` · ${s.data.media}${s.data.auteur ? `, ${s.data.auteur}` : ''}, ${formatDate(s.data.date_publication)} · ${TYPE_LABELS[s.data.type]} · consulté le ${formatDate(s.data.date_consultation)}`}
+          </span>
+          {s.data.note && <p class="note">{s.data.note}</p>}
+        </li>
+      ))
+    }
+  </ol>
+</section>
+
+<style>
+  .sources {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  ol {
+    padding-left: 1.25rem;
+    display: grid;
+    gap: 0.5rem;
+  }
+  .note {
+    margin: 0.15rem 0 0;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>

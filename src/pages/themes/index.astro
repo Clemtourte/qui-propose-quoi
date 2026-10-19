@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import ThemeGrid from '../../components/ThemeGrid.astro';
+import { getThemes } from '../../lib/data';
+
+const themes = await getThemes();
+---
+
+<Base title="Thèmes">
+  <div class="wrap">
+    <h1>Thèmes</h1>
+    <ThemeGrid themes={themes} />
+  </div>
+</Base>

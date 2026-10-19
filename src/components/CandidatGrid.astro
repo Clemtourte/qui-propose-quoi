@@ -1,0 +1,56 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  candidats: CollectionEntry<'candidats'>[];
+}
+
+const { candidats } = Astro.props;
+---
+
+<ul class="grid">
+  {
+    candidats.map((c) => (
+      <li>
+        <a href={`/candidats/${c.id}/`}>
+          <span class="nom">
+            {c.data.prenom} <strong>{c.data.nom}</strong>
+          </span>
+          <span class="parti">{c.data.parti}</span>
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    gap: 0.5rem;
+  }
+  a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--text);
+    text-decoration: none;
+  }
+  a:hover {
+    border-color: var(--text);
+  }
+  .nom {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+  }
+  .parti {
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+</style>

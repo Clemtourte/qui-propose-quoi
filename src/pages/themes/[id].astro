@@ -1,0 +1,57 @@
+---
+// Placeholder until the theme page checkpoint: lists the entries of each candidate on this theme.
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Item from '../../components/Item.astro';
+import { getCandidats, getThemes } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const themes = await getThemes();
+  return themes.map((t) => ({ params: { id: t.id }, props: { theme: t } }));
+}
+
+const { theme } = Astro.props;
+const candidats = await getCandidats();
+const entrees = await getCollection('entrees', ({ data }) => data.theme?.id === theme.id);
+---
+
+<Base title={theme.data.titre}>
+  <div class="wrap prose">
+    <p class="eyebrow">Thème</p>
+    <h1>{theme.data.titre}</h1>
+    <p class="muted">{theme.data.accroche}</p>
+    <p class="todo">Page thème en construction (prochaine étape).</p>
+    {
+      candidats.map((c) => {
+        const items = entrees.filter((e) => e.data.candidat.id === c.id);
+        return (
+          <section>
+            <h2>
+              <a href={`/candidats/${c.id}/`}>
+                {c.data.prenom} {c.data.nom}
+              </a>
+            </h2>
+            {items.length ? items.map((e) => <Item {...e.data} theme={undefined} />) : <p class="muted">Non documenté.</p>}
+          </section>
+        );
+      })
+    }
+  </div>
+</Base>
+
+<style>
+  .todo {
+    background: var(--empty-bg);
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+  }
+  section {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+</style>

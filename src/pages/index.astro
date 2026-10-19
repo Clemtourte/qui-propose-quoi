@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import ThemeGrid from '../components/ThemeGrid.astro';
+import CandidatGrid from '../components/CandidatGrid.astro';
+import { getCandidats, getThemes } from '../lib/data';
+
+const themes = await getThemes();
+const candidats = await getCandidats();
+---
+
+<Base title="Présidentielle 2027">
+  <div class="wrap">
+    <header class="intro prose">
+      <p class="eyebrow">Premier tour le 18 avril 2027</p>
+      <h1>Sur chaque sujet, ce que propose chaque candidat</h1>
+      <p class="lead">
+        Les programmes, les bilans et les déclarations, comparés thème par thème. Les faits, les positions des
+        candidats et les jugements des autres sont toujours séparés, et chaque information renvoie à sa source.
+      </p>
+    </header>
+
+    <section aria-labelledby="themes-titre">
+      <h2 id="themes-titre">Par thème</h2>
+      <ThemeGrid themes={themes} />
+    </section>
+
+    <section aria-labelledby="candidats-titre" class="candidats">
+      <h2 id="candidats-titre">Par candidat</h2>
+      <p class="muted small">Ordre alphabétique.</p>
+      <CandidatGrid candidats={candidats} />
+    </section>
+  </div>
+</Base>
+
+<style>
+  .intro {
+    margin-bottom: 2.5rem;
+  }
+  .lead {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--muted);
+  }
+  .candidats {
+    margin-top: 3rem;
+  }
+  .small {
+    font-size: 0.85rem;
+    margin-top: -0.25rem;
+  }
+</style>

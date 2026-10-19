@@ -1,0 +1,132 @@
+---
+// One sourced piece of information, styled by its level (fact / declared position / attributed judgement).
+import NatureTag from './NatureTag.astro';
+import SourceRefs from './SourceRefs.astro';
+import { formatDate } from '../lib/data';
+
+type Nature = 'fait' | 'position' | 'jugement';
+
+interface Props {
+  nature: Nature;
+  auteur?: string;
+  titre?: string;
+  texte: string;
+  date: string;
+  sources: Array<{ collection: 'sources'; id: string }>;
+  citation?: { texte: string; date: string; contexte: string };
+  chiffres?: Array<{ libelle: string; valeur: string; nature: Nature }>;
+  theme?: { id: string; titre: string };
+}
+
+const { nature, auteur, titre, texte, date, sources, citation, chiffres = [], theme } = Astro.props;
+---
+
+<article class:list={['item', nature]}>
+  <div class="meta">
+    <NatureTag nature={nature} auteur={auteur} />
+    <time datetime={date}>{formatDate(date)}</time>
+    {theme && <a class="theme" href={`/themes/${theme.id}/`}>{theme.titre}</a>}
+  </div>
+  {titre && <h3>{titre}</h3>}
+  {
+    citation && (
+      <figure>
+        <blockquote>« {citation.texte} »</blockquote>
+        <figcaption>
+          {formatDate(citation.date)}, {citation.contexte}
+        </figcaption>
+      </figure>
+    )
+  }
+  <p>{texte}</p>
+  {
+    chiffres.length > 0 && (
+      <dl class="chiffres">
+        {chiffres.map((c) => (
+          <div class={c.nature}>
+            <dt>{c.libelle}</dt>
+            <dd>{c.valeur}</dd>
+          </div>
+        ))}
+      </dl>
+    )
+  }
+  <SourceRefs sources={sources} />
+</article>
+
+<style>
+  .item {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--fait);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+  }
+  .item.position {
+    border-left-color: var(--position);
+  }
+  .item.jugement {
+    border-left-color: var(--jugement);
+    border-left-style: dashed;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.75rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+  .theme {
+    color: var(--muted);
+  }
+  h3 {
+    font-family: var(--font-sans);
+    font-size: 1.02rem;
+    font-weight: 650;
+    margin-bottom: 0.35rem;
+  }
+  p {
+    margin: 0;
+  }
+  figure {
+    margin: 0 0 0.6rem;
+  }
+  blockquote {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+  figcaption {
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .chiffres {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 0.5rem;
+    margin: 0.75rem 0 0;
+  }
+  .chiffres div {
+    border-radius: var(--radius);
+    padding: 0.5rem 0.65rem;
+    background: var(--fait-bg);
+  }
+  .chiffres .position {
+    background: var(--position-bg);
+  }
+  .chiffres .jugement {
+    background: var(--jugement-bg);
+  }
+  dt {
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  dd {
+    margin: 0;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+import { getEntries } from 'astro:content';
+import { formatDate } from '../lib/data';
+
+interface Props {
+  sources: Array<{ collection: 'sources'; id: string }>;
+}
+
+const sources = await getEntries(Astro.props.sources);
+---
+
+<p class="refs">
+  <span class="label">{sources.length > 1 ? 'Sources' : 'Source'}</span>
+  {
+    sources.map((s) => (
+      <a href={s.data.url} target="_blank" rel="noopener noreferrer" title={s.data.titre}>
+        {s.data.media}, {formatDate(s.data.date_publication)}
+        <span aria-hidden="true">↗</span>
+        <span class="visually-hidden">(nouvel onglet)</span>
+      </a>
+    ))
+  }
+</p>
+
+<style>
+  .refs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+  }
+  .label {
+    font-weight: 600;
+  }
+  a {
+    color: var(--muted);
+  }
+  a:hover {
+    color: var(--accent);
+  }
+</style>

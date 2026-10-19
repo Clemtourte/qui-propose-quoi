@@ -1,0 +1,140 @@
+---
+import '../styles/global.css';
+import { showDemo } from '../lib/data';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Les candidats à la présidentielle 2027, thème par thème, avec leurs sources.' } =
+  Astro.props;
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/themes/', label: 'Thèmes' },
+  { href: '/candidats/', label: 'Candidats' },
+  { href: '/sources/', label: 'Sources' },
+];
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title === 'Présidentielle 2027' ? title : `${title} · Présidentielle 2027`}</title>
+  </head>
+  <body>
+    <a class="skip" href="#contenu">Aller au contenu</a>
+    {
+      showDemo && (
+        <div class="demo-banner" role="note">
+          Version de travail : les éléments marqués [EXEMPLE] sont fictifs.
+        </div>
+      )
+    }
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="/">Présidentielle <span>2027</span></a>
+        <nav aria-label="Navigation principale">
+          <ul>
+            {
+              nav.map((item) => (
+                <li>
+                  <a href={item.href} aria-current={path.startsWith(item.href) ? 'page' : undefined}>
+                    {item.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="contenu">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>
+          Premier tour le 18 avril 2027, second tour le 2 mai 2027. Chaque information renvoie à sa source.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .skip {
+    position: absolute;
+    left: -999px;
+    top: 0;
+    background: var(--surface);
+    padding: 0.5rem 1rem;
+    z-index: 10;
+  }
+  .skip:focus {
+    left: 1rem;
+  }
+  .demo-banner {
+    background: var(--jugement-bg);
+    color: var(--jugement);
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0.35rem 1rem;
+  }
+  .site-header {
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+  }
+  .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    padding-block: 0.85rem;
+  }
+  .brand {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--text);
+    text-decoration: none;
+  }
+  .brand span {
+    color: var(--muted);
+    font-weight: 500;
+  }
+  nav ul {
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding-block: 0.25rem;
+    border-bottom: 2px solid transparent;
+  }
+  nav a:hover,
+  nav a[aria-current='page'] {
+    border-bottom-color: var(--text);
+  }
+  main {
+    padding-block: 2rem 4rem;
+  }
+  .site-footer {
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.9rem;
+    padding-block: 1.5rem;
+  }
+</style>

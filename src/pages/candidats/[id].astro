@@ -1,0 +1,350 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Item from '../../components/Item.astro';
+import Section from '../../components/Section.astro';
+import SourceRefs from '../../components/SourceRefs.astro';
+import SourceList from '../../components/SourceList.astro';
+import NatureTag from '../../components/NatureTag.astro';
+import {
+  getCandidats,
+  getThemes,
+  collectSources,
+  formatDate,
+  STADE_LABELS,
+  CATEGORIE_LABELS,
+} from '../../lib/data';
+
+export async function getStaticPaths() {
+  const candidats = await getCandidats();
+  return candidats.map((c) => ({ params: { id: c.id }, props: { candidat: c } }));
+}
+
+const { candidat } = Astro.props;
+const c = candidat.data;
+const id = candidat.id;
+
+const themes = await getThemes();
+const themeById = new Map(themes.map((t) => [t.id, { id: t.id, titre: t.data.titre }]));
+
+const entrees = await getCollection('entrees', ({ data }) => data.candidat.id === id);
+const byRubrique = (r: string) =>
+  entrees.filter((e) => e.data.rubrique === r).sort((a, b) => b.data.date.localeCompare(a.data.date));
+
+// Programme measures are grouped by theme, in the theme order of the site.
+const mesures = byRubrique('mesure');
+const mesuresParTheme = themes
+  .map((t) => ({ theme: t, items: mesures.filter((m) => m.data.theme?.id === t.id) }))
+  .filter((g) => g.items.length > 0);
+
+const bilan = byRubrique('bilan');
+const participation = byRubrique('participation');
+const declarations = byRubrique('declaration');
+const soutiens = byRubrique('soutien_adversaire');
+
+const avis = (await getCollection('avis', ({ data }) => data.candidats.some((x) => x.id === id))).sort((a, b) =>
+  b.data.date.localeCompare(a.data.date),
+);
+const avisAvecInstitution = await Promise.all(
+  avis.map(async (a) => ({ avis: a, institution: (await getEntry(a.data.institution))! })),
+);
+const verifications = (await getCollection('verifications', ({ data }) => data.candidat.id === id)).sort((a, b) =>
+  b.data.declaration.date.localeCompare(a.data.declaration.date),
+);
+const justice = await getCollection('justice', ({ data }) => data.candidat.id === id);
+
+const sources = await collectSources([
+  c.candidature,
+  c.en_30_secondes,
+  ...c.vision,
+  ...entrees.map((e) => e.data),
+  ...avis.map((a) => a.data),
+  ...verifications.map((v) => v.data),
+  ...justice.map((j) => j.data),
+]);
+
+const r = c.recherches;
+const itemProps = (e: (typeof entrees)[number]) => ({
+  ...e.data,
+  theme: e.data.theme ? themeById.get(e.data.theme.id) : undefined,
+});
+---
+
+<Base title={`${c.prenom} ${c.nom}`} description={`${c.prenom} ${c.nom} (${c.parti}) : programme, bilan, sources.`}>
+  <div class="wrap">
+    <header class="hero">
+      <p class="eyebrow">{c.parti}</p>
+      <h1>{c.prenom} {c.nom}</h1>
+      {c.fonction && <p class="fonction">{c.fonction}</p>}
+    </header>
+
+    <section class="trente" aria-labelledby="s1">
+      <h2 id="s1"><span class="num">1</span> En 30 secondes</h2>
+      <div class="candidature">
+        <NatureTag nature="fait" />
+        <p>{c.candidature.texte}</p>
+        <SourceRefs sources={c.candidature.sources} />
+      </div>
+      {
+        c.en_30_secondes ? (
+          <div class="resume">
+            <p>{c.en_30_secondes.parcours}</p>
+            <p class="propose-titre">Propositions principales, d'après son programme :</p>
+            <ul class="propose">
+              {c.en_30_secondes.propose.map((p) => (
+                <li>{p}</li>
+              ))}
+            </ul>
+            <SourceRefs sources={c.en_30_secondes.sources} />
+          </div>
+        ) : (
+          <p class="nd-inline">
+            <strong>Parcours et propositions : non documenté.</strong> {r.en_30_secondes ?? 'Pas encore recherché.'}
+          </p>
+        )
+      }
+    </section>
+
+    <div class="sections">
+      <Section id="vision" numero={2} titre="Vision d'ensemble et cohérence" count={c.vision.length} recherche={r.vision} open>
+        {c.vision.map((v) => <Item {...v} />)}
+      </Section>
+
+      <Section id="programme" numero={3} titre="Programme" count={mesures.length} recherche={r.programme}>
+        {
+          mesuresParTheme.map((g) => (
+            <div class="groupe">
+              <h3 class="groupe-titre">
+                <a href={`/themes/${g.theme.id}/`}>{g.theme.data.titre}</a>
+              </h3>
+              {g.items.map((e) => (
+                <Item {...e.data} theme={undefined} />
+              ))}
+            </div>
+          ))
+        }
+      </Section>
+
+      <Section id="avis" numero={4} titre="Avis d'institutions sur son programme" count={avis.length} recherche={r.avis}>
+        {
+          avisAvecInstitution.map(({ avis: a, institution: inst }) => (
+            <article class="avis">
+              <p class="avis-inst">
+                <strong>{inst.data.nom}</strong>
+                <span class="muted">
+                  {' '}
+                  · {CATEGORIE_LABELS[inst.data.categorie]}
+                  {inst.data.orientation && ` (${inst.data.orientation})`} · {formatDate(a.data.date)}
+                </span>
+              </p>
+              <p class="perimetre">
+                <strong>Périmètre :</strong> {a.data.perimetre}
+              </p>
+              <p>{a.data.resume}</p>
+              <SourceRefs sources={a.data.sources} />
+            </article>
+          ))
+        }
+      </Section>
+
+      <Section id="bilan" numero={5} titre="Bilan" count={bilan.length} recherche={r.bilan}>
+        {bilan.map((e) => <Item {...itemProps(e)} />)}
+      </Section>
+
+      <Section id="verifications" numero={6} titre="Affirmations vérifiées" count={verifications.length} recherche={r.verifications}>
+        {
+          verifications.map((v) => (
+            <article class="verif">
+              <blockquote>« {v.data.declaration.texte} »</blockquote>
+              <p class="muted small">
+                {formatDate(v.data.declaration.date)}, {v.data.declaration.contexte}
+              </p>
+              <p class="verdict">
+                <span class="verdict-label">Verdict de {v.data.verificateur}</span>
+                <strong>{v.data.verdict}</strong>
+                <span class="muted small"> ({formatDate(v.data.date_verification)})</span>
+              </p>
+              <p>{v.data.resume}</p>
+              <SourceRefs sources={v.data.sources} />
+            </article>
+          ))
+        }
+      </Section>
+
+      <Section id="justice" numero={7} titre="Décisions de justice" count={justice.length} recherche={r.justice}>
+        {
+          justice.map((j) => (
+            <article class="justice">
+              <h3>{j.data.affaire}</h3>
+              <p class="stade">
+                Stade actuel : <strong>{STADE_LABELS[j.data.stade]}</strong>
+                {!j.data.definitive && <span class="presomption">Décision non définitive : présomption d'innocence</span>}
+              </p>
+              <p>{j.data.faits}</p>
+              <ol class="etapes">
+                {j.data.etapes.map((e) => (
+                  <li>
+                    <time datetime={e.date}>{formatDate(e.date)}</time> · {STADE_LABELS[e.stade]}, {e.juridiction} :{' '}
+                    {e.decision}
+                  </li>
+                ))}
+              </ol>
+              {j.data.prochaine_etape && <p class="muted">Prochaine étape : {j.data.prochaine_etape}</p>}
+              <SourceRefs sources={j.data.sources} />
+            </article>
+          ))
+        }
+      </Section>
+
+      <Section id="participation" numero={8} titre="Place laissée à la population" count={participation.length} recherche={r.participation}>
+        {participation.map((e) => <Item {...itemProps(e)} />)}
+      </Section>
+
+      <Section id="declarations" numero={9} titre="Déclarations et polémiques" count={declarations.length} recherche={r.declarations}>
+        {declarations.map((e) => <Item {...itemProps(e)} />)}
+      </Section>
+
+      <Section id="soutiens" numero={10} titre="Ce qu'en disent soutiens et adversaires" count={soutiens.length} recherche={r.soutiens}>
+        {soutiens.map((e) => <Item {...itemProps(e)} />)}
+      </Section>
+    </div>
+
+    <SourceList sources={sources} derniereVerification={c.derniere_verification} />
+  </div>
+</Base>
+
+<style>
+  .hero {
+    margin-bottom: 1.5rem;
+  }
+  .fonction {
+    color: var(--muted);
+    font-size: 1.05rem;
+    max-width: var(--measure);
+  }
+  .trente {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 48rem;
+  }
+  .trente h2 {
+    font-size: 1.3rem;
+  }
+  .num {
+    color: var(--muted);
+    font-weight: 400;
+    margin-right: 0.4rem;
+  }
+  .candidature p {
+    margin: 0.5rem 0 0;
+  }
+  .resume {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+  }
+  .propose-titre {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  .propose {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  .propose li {
+    margin-bottom: 0.3rem;
+  }
+  .nd-inline {
+    margin: 1rem 0 0;
+    color: var(--muted);
+    background: var(--empty-bg);
+    border-radius: var(--radius);
+    padding: 0.75rem 1rem;
+  }
+  .sections {
+    max-width: 48rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .groupe {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .groupe + .groupe {
+    margin-top: 0.75rem;
+  }
+  .groupe-titre {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+  .avis,
+  .verif,
+  .justice {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+  }
+  .avis p,
+  .verif p,
+  .justice p {
+    margin: 0 0 0.4rem;
+  }
+  .avis-inst {
+    font-size: 0.95rem;
+  }
+  .perimetre {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .verif blockquote {
+    margin: 0 0 0.25rem;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+  .small {
+    font-size: 0.82rem;
+  }
+  .verdict {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.5rem;
+    background: var(--jugement-bg);
+    border-radius: var(--radius);
+    padding: 0.4rem 0.6rem;
+  }
+  .verdict-label {
+    font-size: 0.8rem;
+    color: var(--jugement);
+  }
+  .justice h3 {
+    font-family: var(--font-sans);
+    font-size: 1.02rem;
+  }
+  .stade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+    align-items: baseline;
+  }
+  .presomption {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--fait);
+    background: var(--fait-bg);
+    border-radius: 999px;
+    padding: 0.1rem 0.5rem;
+  }
+  .etapes {
+    font-size: 0.9rem;
+    padding-left: 1.2rem;
+    margin: 0.5rem 0;
+  }
+</style>

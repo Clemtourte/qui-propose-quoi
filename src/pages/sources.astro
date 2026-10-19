@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import SourceList from '../components/SourceList.astro';
+import { showDemo } from '../lib/data';
+
+const sources = (await getCollection('sources', ({ id }) => showDemo || !id.startsWith('exemple-'))).sort((a, b) =>
+  b.data.date_publication.localeCompare(a.data.date_publication),
+);
+---
+
+<Base title="Sources">
+  <div class="wrap prose">
+    <h1>Toutes les sources</h1>
+    <p class="muted">{sources.length} sources, de la plus récente à la plus ancienne.</p>
+    <SourceList sources={sources} />
+  </div>
+</Base>

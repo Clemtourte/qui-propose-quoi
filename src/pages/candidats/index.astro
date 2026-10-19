@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import CandidatGrid from '../../components/CandidatGrid.astro';
+import { getCandidats } from '../../lib/data';
+
+const candidats = await getCandidats();
+---
+
+<Base title="Candidats">
+  <div class="wrap">
+    <h1>Candidats</h1>
+    <p class="muted">Ordre alphabétique.</p>
+    <CandidatGrid candidats={candidats} />
+  </div>
+</Base>

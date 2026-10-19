@@ -1,0 +1,94 @@
+---
+// A collapsible page section. An empty section stays visible with "Non documenté"
+// and, when available, what was searched.
+interface Props {
+  id: string;
+  numero: number;
+  titre: string;
+  count: number;
+  recherche?: string;
+  open?: boolean;
+}
+
+const { id, numero, titre, count, recherche, open = false } = Astro.props;
+const empty = count === 0;
+---
+
+<details class="section" id={id} open={open}>
+  <summary>
+    <span class="num">{numero}</span>
+    <span class="titre">{titre}</span>
+    <span class:list={['count', { empty }]}>{empty ? 'Non documenté' : count}</span>
+  </summary>
+  <div class="body">
+    {
+      empty ? (
+        <p class="nd">
+          <strong>Non documenté.</strong> {recherche ?? 'Section pas encore recherchée.'}
+        </p>
+      ) : (
+        <slot />
+      )
+    }
+  </div>
+</details>
+
+<style>
+  .section {
+    border-top: 1px solid var(--line);
+  }
+  summary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  summary::after {
+    content: '+';
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--muted);
+  }
+  details[open] > summary::after {
+    content: '−';
+  }
+  .num {
+    font-family: var(--font-serif);
+    color: var(--muted);
+    min-width: 1.25rem;
+  }
+  .titre {
+    flex: 1;
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 650;
+  }
+  .count {
+    font-size: 0.78rem;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0 0.5rem;
+    white-space: nowrap;
+  }
+  .count.empty {
+    font-style: italic;
+  }
+  .body {
+    display: grid;
+    gap: 0.75rem;
+    padding: 0 0 1.5rem;
+  }
+  .nd {
+    background: var(--empty-bg);
+    border-radius: var(--radius);
+    padding: 0.75rem 1rem;
+    margin: 0;
+    color: var(--muted);
+  }
+</style>

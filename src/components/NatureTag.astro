@@ -1,0 +1,43 @@
+---
+import { NATURE_LABELS } from '../lib/data';
+
+interface Props {
+  nature: keyof typeof NATURE_LABELS;
+  auteur?: string;
+}
+
+const { nature, auteur } = Astro.props;
+---
+
+<span class:list={['tag', nature]}>
+  {NATURE_LABELS[nature]}{auteur && <span class="auteur"> · {auteur}</span>}
+</span>
+
+<style>
+  .tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 650;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+  }
+  .auteur {
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 500;
+  }
+  .fait {
+    color: var(--fait);
+    background: var(--fait-bg);
+  }
+  .position {
+    color: var(--position);
+    background: var(--position-bg);
+  }
+  .jugement {
+    color: var(--jugement);
+    background: var(--jugement-bg);
+  }
+</style>
