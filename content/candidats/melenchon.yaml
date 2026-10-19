@@ -1,0 +1,10 @@
+prenom: Jean-Luc
+nom: Mélenchon
+parti: La France insoumise
+fiche: complete
+fonction: Fondateur et chef de file de La France insoumise
+candidature:
+  texte: Candidature annoncée le 3 mai 2026 au journal de 20 heures de TF1.
+  date: 2026-05-03
+  sources: [lcp-2026-05-03-melenchon-candidature]
+derniere_verification: 2026-10-19

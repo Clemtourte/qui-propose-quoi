@@ -1,0 +1,35 @@
+# Fictional candidate used to validate the design. Hidden in production builds.
+prenom: Camille
+nom: Exemple
+parti: "[EXEMPLE] Parti fictif"
+fiche: complete
+demo: true
+fonction: "[EXEMPLE] Ancienne ministre fictive, présidente du Parti fictif"
+candidature:
+  texte: "[EXEMPLE] Candidature annoncée le 1er septembre 2026 lors d'un meeting fictif."
+  date: 2026-09-01
+  sources: [exemple-source-presse]
+en_30_secondes:
+  parcours: "[EXEMPLE] Ancienne ministre de l'Économie (2017-2020), présidente du Parti fictif depuis 2021."
+  propose:
+    - "[EXEMPLE] Ramener le déficit public sous 3 % du PIB en 2030."
+    - "[EXEMPLE] Fixer l'âge légal de départ à la retraite à 64 ans, avec une durée de cotisation inchangée."
+    - "[EXEMPLE] Organiser un référendum sur la réforme des institutions dans la première année."
+  sources: [exemple-source-primaire]
+vision:
+  - nature: position
+    texte: "[EXEMPLE] Le programme se présente comme un « projet de redressement » articulé autour de trois priorités : finances publiques, travail, institutions."
+    date: 2026-09-01
+    sources: [exemple-source-primaire]
+  - nature: fait
+    texte: "[EXEMPLE] Le programme chiffre l'ensemble de ses mesures à 30 milliards d'euros de dépenses nouvelles et 45 milliards d'économies par an à horizon 2032."
+    date: 2026-09-01
+    sources: [exemple-source-primaire]
+  - nature: jugement
+    auteur: "[EXEMPLE] Institut fictif d'évaluation, note du 20 septembre 2026"
+    texte: "[EXEMPLE] Le montant des économies annoncées n'est pas documenté mesure par mesure, ce qui empêche d'en vérifier la cohérence avec la baisse d'impôts prévue."
+    date: 2026-09-20
+    sources: [exemple-source-presse]
+recherches:
+  bilan: "[EXEMPLE] Recherché : votes à l'Assemblée nationale 2017-2024, rapports de la Cour des comptes. Rien de trouvé à ce stade."
+derniere_verification: 2026-10-19

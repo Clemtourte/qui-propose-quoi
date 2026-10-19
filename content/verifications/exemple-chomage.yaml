@@ -1,0 +1,11 @@
+candidat: exemple
+theme: social
+declaration:
+  texte: "[EXEMPLE] Le chômage a baissé de moitié quand j'étais ministre."
+  date: 2026-09-15
+  contexte: "[EXEMPLE] Meeting fictif à Lyon"
+verificateur: "[EXEMPLE] Service de vérification fictif"
+verdict: "[EXEMPLE] Faux"
+resume: "[EXEMPLE] Selon les données fictives citées par le vérificateur, le taux de chômage est passé de 9,0 % à 8,1 % sur la période, soit une baisse de 10 %."
+date_verification: 2026-09-16
+sources: [exemple-source-presse]

@@ -1,0 +1,12 @@
+prenom: Bruno
+nom: Retailleau
+parti: Les Républicains
+fiche: complete
+fonction: Président des Républicains, ancien ministre de l'Intérieur
+candidature:
+  texte: >-
+    Désigné candidat le 19 avril 2026 par un vote des adhérents LR : 73,8 % des votants ont choisi la désignation
+    directe du président du parti, avec une participation d'environ 60 %.
+  date: 2026-04-19
+  sources: [publicsenat-2026-04-19-retailleau-designation]
+derniere_verification: 2026-10-19

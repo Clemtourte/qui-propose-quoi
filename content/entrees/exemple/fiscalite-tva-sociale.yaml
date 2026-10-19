@@ -1,0 +1,12 @@
+candidat: exemple
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: "[EXEMPLE] Hausse de 2 points de la TVA pour baisser les cotisations"
+texte: "[EXEMPLE] Augmenter le taux normal de TVA de 20 % à 22 % et affecter la recette à une baisse des cotisations salariales."
+chiffres:
+  - libelle: "[EXEMPLE] Recette annoncée"
+    valeur: "20 Md€ par an"
+    nature: position
+date: 2026-09-01
+sources: [exemple-source-primaire]

@@ -1,0 +1,13 @@
+prenom: Marine
+nom: Le Pen
+parti: Rassemblement national
+fiche: complete
+fonction: Présidente du groupe RN à l'Assemblée nationale
+candidature:
+  texte: >-
+    Candidature annoncée le 7 juillet 2026 au journal de 20 heures de TF1, le jour où la cour d'appel de Paris
+    a rendu son arrêt dans l'affaire des assistants parlementaires européens du FN. Le même soir, elle annonce
+    vouloir saisir la Cour de cassation.
+  date: 2026-07-07
+  sources: [euronews-2026-07-07-le-pen-candidature, publicsenat-2026-07-07-le-pen-appel]
+derniere_verification: 2026-10-19

@@ -1,0 +1,15 @@
+candidat: exemple
+theme: retraites
+rubrique: mesure
+nature: position
+titre: "[EXEMPLE] Âge légal de départ fixé à 64 ans"
+texte: "[EXEMPLE] Maintenir l'âge légal à 64 ans et ouvrir un départ anticipé pour les carrières longues dès 60 ans."
+chiffres:
+  - libelle: "[EXEMPLE] Économie annoncée par le parti"
+    valeur: "8 Md€ par an en 2032"
+    nature: position
+  - libelle: "[EXEMPLE] Économie estimée par l'Institut fictif"
+    valeur: "5 Md€ par an en 2032"
+    nature: jugement
+date: 2026-09-01
+sources: [exemple-source-primaire, exemple-source-presse]

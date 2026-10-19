@@ -1,0 +1,12 @@
+candidat: exemple
+theme: ukraine-russie
+rubrique: declaration
+nature: position
+titre: "[EXEMPLE] Déclaration sur l'aide à l'Ukraine"
+texte: "[EXEMPLE] Propos tenus lors d'un entretien télévisé. Le Parti fictif rival a dénoncé une « posture » le lendemain."
+citation:
+  texte: "[EXEMPLE] Nous devons maintenir notre aide militaire aussi longtemps que nécessaire."
+  date: 2026-09-10
+  contexte: "[EXEMPLE] Entretien sur une chaîne d'information fictive"
+date: 2026-09-10
+sources: [exemple-source-presse]

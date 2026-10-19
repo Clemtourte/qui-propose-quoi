@@ -1,0 +1,13 @@
+prenom: Marine
+nom: Tondelier
+parti: Les Écologistes
+fiche: complete
+fonction: Secrétaire nationale des Écologistes
+candidature:
+  texte: >-
+    Candidate des Écologistes. Le 21 septembre 2026, le conseil fédéral du parti a renvoyé le choix définitif
+    à un vote des adhérents du 10 au 13 décembre 2026 : candidature de Marine Tondelier ou soutien à un candidat
+    d'une autre formation de gauche.
+  date: 2026-09-21
+  sources: [publicsenat-2026-09-21-ecologistes-report]
+derniere_verification: 2026-10-19

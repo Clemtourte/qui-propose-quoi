@@ -1,0 +1,10 @@
+prenom: Éric
+nom: Zemmour
+parti: Reconquête
+fiche: complete
+fonction: Président de Reconquête
+candidature:
+  texte: Candidature confirmée le 17 septembre 2026 sur BFMTV.
+  date: 2026-09-17
+  sources: [lcp-2026-09-17-zemmour-candidature]
+derniere_verification: 2026-10-19

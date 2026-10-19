@@ -1,0 +1,16 @@
+candidat: exemple
+affaire: "[EXEMPLE] Affaire fictive des frais de mission"
+faits: "[EXEMPLE] Soupçons de détournement de fonds publics portant sur des frais de mission fictifs (2018-2019)."
+stade: appel
+definitive: false
+etapes:
+  - date: 2025-06-12
+    stade: premiere_instance
+    juridiction: "[EXEMPLE] Tribunal correctionnel fictif"
+    decision: "[EXEMPLE] Condamnée à 6 mois de prison avec sursis et 10 000 € d'amende."
+  - date: 2025-06-20
+    stade: appel
+    juridiction: "[EXEMPLE] Cour d'appel fictive"
+    decision: "[EXEMPLE] Appel interjeté par la défense."
+prochaine_etape: "[EXEMPLE] Audience d'appel prévue en février 2027."
+sources: [exemple-source-presse]
