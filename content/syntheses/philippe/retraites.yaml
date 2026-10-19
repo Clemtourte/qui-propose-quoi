@@ -1,0 +1,9 @@
+candidat: philippe
+theme: retraites
+phrase: Retraite à 65 ans et 45 annuités en moins de dix ans pour ceux qui le peuvent, avec des départs anticipés maintenus et une part de capitalisation.
+reponses:
+  age-legal: 65 ans, atteint en moins de dix ans, pour ceux qui le peuvent
+  duree: 45 annuités
+  financement: Recul de l'âge et allongement de la durée, sans hausse des cotisations ni baisse générale des pensions ; ajout d'une capitalisation collective
+date: 2026-09-29
+sources: [lcp-2026-09-29-philippe-retraites, edouardphilippe-2026-france-plus-prospere]

@@ -1,0 +1,16 @@
+candidat: philippe
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: "Pacte fiscal : 50 Md€ de baisse des impôts de production"
+texte: >-
+  Baisser de 50 milliards d'euros les impôts de production, contre 50 milliards d'euros d'« aides publiques
+  improductives » en moins (termes du programme). Moratoire fiscal : aucun nouvel impôt pendant le quinquennat.
+  Lorsqu'une entreprise décide, après discussion interne, de travailler plus longtemps, exonérer ces heures de
+  cotisations sociales et d'impôt sur le revenu.
+chiffres:
+  - libelle: Baisse des impôts de production
+    valeur: 50 Md€
+    nature: position
+date: 2026
+sources: [edouardphilippe-2026-france-plus-prospere]
