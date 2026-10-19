@@ -1,3 +1,41 @@
 titre: "Immigration"
 ordre: 3
 accroche: "Entrées, titres de séjour, asile, intégration, éloignements."
+derniere_verification: 2026-10-19
+questions:
+  - id: niveau
+    libelle: Niveau d'immigration visé
+  - id: famille
+    libelle: Regroupement familial
+  - id: asile
+    libelle: Asile
+  - id: droit-du-sol
+    libelle: Droit du sol et nationalité
+etat_des_lieux:
+  - nature: fait
+    texte: >-
+      En 2025, 384 230 premiers titres de séjour ont été délivrés, soit 11,2 % de plus qu'en 2024 (données
+      provisoires du ministère de l'Intérieur). Les études sont le premier motif (environ 118 000 titres), devant
+      les motifs humanitaires (92 600, +65 %), familiaux (91 000, stables) et économiques (51 190, −13 %).
+    date: 2026-01-27
+    sources: [publicsenat-2026-01-27-titres-sejour-2025, franceinfo-2026-01-27-rapport-immigration-2025]
+  - nature: fait
+    texte: >-
+      Environ 117 000 premières demandes d'asile ont été enregistrées en 2025 (−10 % sur un an), sur 151 665
+      demandes au total (−3,7 %), données provisoires.
+    date: 2026-01-27
+    sources: [franceinfo-2026-01-27-rapport-immigration-2025, publicsenat-2026-01-27-titres-sejour-2025]
+  - nature: fait
+    texte: >-
+      Les éloignements d'étrangers atteignent 24 985 en 2025, en hausse de 15,7 % sur un an (données provisoires).
+    date: 2026-01-27
+    sources: [publicsenat-2026-01-27-titres-sejour-2025, franceinfo-2026-01-27-rapport-immigration-2025]
+recherches:
+  avis: >-
+    Recherché le 19 octobre 2026 : aucun avis d'institution sur les projets 2027 de Marine Le Pen, Jean-Luc Mélenchon
+    ou Édouard Philippe. Autres candidats pas encore recherchés.
+  verifications: >-
+    Recherché le 19 octobre 2026 (franceinfo « Vrai ou faux », AFP Factuel) pour Marine Le Pen, Jean-Luc Mélenchon
+    et Édouard Philippe : aucune vérification publiée en 2026 trouvée sur ce thème. Autres candidats pas encore
+    recherchés.
+  promesses: Pas encore recherché.

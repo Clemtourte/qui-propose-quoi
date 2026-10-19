@@ -1,6 +1,7 @@
 titre: "Retraites"
 ordre: 1
 accroche: "Âge de départ, durée de cotisation, financement du système."
+derniere_verification: 2026-10-19
 questions:
   - id: age-legal
     libelle: Âge légal de départ
@@ -10,18 +11,43 @@ questions:
     libelle: Financement annoncé
 etat_des_lieux:
   - nature: fait
-    demo: true
-    texte: "[EXEMPLE] L'âge légal de départ est de 63 ans et 3 mois pour la génération 1964 (chiffre fictif)."
+    texte: >-
+      Depuis le 1er septembre 2026, la hausse de l'âge légal prévue par la réforme de 2023 est suspendue
+      jusqu'en 2028 (loi de financement de la sécurité sociale pour 2026). L'âge légal est de 62 ans et 9 mois
+      pour les personnes nées en 1964 (63 ans avant la suspension) ; il reste fixé à 64 ans pour les personnes
+      nées à partir de 1969.
     date: 2026-09-01
-    sources: [exemple-source-primaire]
+    sources: [servicepublic-2026-02-27-suspension-retraites]
   - nature: fait
-    demo: true
-    texte: "[EXEMPLE] Les dépenses de retraite représentent 14 % du PIB en 2025 (chiffre fictif)."
-    date: 2026-06-15
-    sources: [exemple-source-presse]
+    texte: >-
+      En 2025, les dépenses de retraite représentent 14,1 % du PIB. Le système (régimes de base et
+      complémentaires) est en déficit de 5,1 milliards d'euros, soit 0,2 point de PIB, hors charges et produits financiers.
+    date: 2026-06
+    sources: [cor-2026-06-rapport-annuel-synthese]
   - nature: jugement
-    demo: true
-    auteur: "[EXEMPLE] Autorité fictive, rapport annuel de juin 2026"
-    texte: "[EXEMPLE] Le système resterait en déficit jusqu'en 2070 dans tous les scénarios étudiés (chiffre fictif)."
-    date: 2026-06-15
-    sources: [exemple-source-presse]
+    auteur: Conseil d'orientation des retraites, rapport annuel, juin 2026
+    texte: >-
+      Dans son scénario de référence, à réglementation inchangée (suspension de la réforme de 2023 incluse),
+      avec 1,45 enfant par femme à partir de 2028 et un solde migratoire de +150 000 personnes par an, le COR projette un déficit de 0,9 point de PIB en 2045 et de 2,4 points en 2070. Les dépenses resteraient
+      proches de 14 % du PIB jusqu'en 2045 (14,2 %), puis atteindraient 15,3 % en 2070.
+    date: 2026-06
+    sources: [cor-2026-06-rapport-annuel-synthese]
+  - nature: jugement
+    auteur: Cour des comptes, rapport du 20 février 2025
+    texte: >-
+      Avancer d'un an l'âge d'ouverture des droits (63 ans au lieu de 64) coûterait 13 milliards d'euros à
+      l'ensemble des finances publiques en 2035. Le reculer d'un an (65 ans) rapporterait 10,6 milliards d'euros en
+      2035 s'il s'appliquait aux générations 1968 à 1972, et 17,7 milliards dans une variante accélérée (générations
+      1964 à 1968). Estimations publiées avant la suspension de la réforme de 2023.
+    date: 2025-02-20
+    sources: [ccomptes-2025-02-20-situation-retraites]
+recherches:
+  avis: >-
+    Recherché le 19 octobre 2026 : aucun avis d'institution portant sur les projets 2027 de Marine Le Pen,
+    Jean-Luc Mélenchon ou Édouard Philippe. Les estimations générales de la Cour des comptes et du COR figurent
+    dans l'état des lieux. Autres candidats pas encore recherchés.
+  verifications: >-
+    Recherché le 19 octobre 2026 (franceinfo « Vrai ou faux », AFP Factuel) pour Marine Le Pen, Jean-Luc Mélenchon
+    et Édouard Philippe : aucune vérification publiée en 2026 trouvée sur ce thème. Autres candidats pas encore
+    recherchés.
+  promesses: Pas encore recherché.

@@ -1,3 +1,50 @@
 titre: "Fiscalité et budget"
 ordre: 2
 accroche: "Impôts, dépense publique, déficit et dette."
+derniere_verification: 2026-10-19
+questions:
+  - id: deficit
+    libelle: Objectif de déficit
+  - id: budget
+    libelle: Économies, recettes et dépenses annoncées
+  - id: impots
+    libelle: Principales mesures fiscales
+etat_des_lieux:
+  - nature: fait
+    texte: >-
+      En 2025, le déficit public atteint 152,5 milliards d'euros, soit 5,1 % du PIB. La dette publique s'élève
+      à 3 460,5 milliards d'euros fin 2025, soit 115,7 % du PIB.
+    date: 2026-05-29
+    sources: [insee-2026-05-29-comptes-apu-2025]
+  - nature: fait
+    texte: >-
+      En 2025, les prélèvements obligatoires (nets des crédits d'impôt) représentent 43,6 % du PIB et les dépenses
+      publiques 57,3 % du PIB.
+    date: 2026-05-29
+    sources: [insee-2026-05-29-comptes-apu-2025]
+  - nature: fait
+    texte: >-
+      Le projet de loi de finances pour 2027, présenté le 1er octobre 2026, vise un déficit public de 5,0 % du PIB
+      en 2027, après 5,4 % attendus en 2026. Le gouvernement annonce un effort de 54 milliards d'euros, dont
+      43 milliards de mesures nouvelles.
+    date: 2026-10-01
+    sources: [touteleurope-2026-10-02-budget-2027]
+  - nature: jugement
+    auteur: Haut Conseil des finances publiques, avis sur les PLF et PLFSS pour 2027, octobre 2026
+    texte: >-
+      Le HCFP juge l'actualisation du déficit 2026 à 5,4 % « plausible mais encore des aléas significatifs », et la
+      prévision de croissance de 1,0 % pour 2027 « paraissant optimiste au regard des dernières évolutions ». Pour 2027,
+      il relève « un effort budgétaire qui serait important (près de 40 Md€ hors charge d'intérêts), mais une réduction
+      du déficit limitée ». Il estime que la dette continue d'augmenter et que « la stabiliser nécessite un ajustement
+      significatif dès à présent puis de poursuivre les efforts dans la durée ».
+    date: 2026-10
+    sources: [hcfp-2026-10-avis-plf-2027]
+recherches:
+  avis: >-
+    Recherché le 19 octobre 2026 : aucun avis d'institution sur les contre-budgets ou projets 2027 de Marine Le Pen,
+    Jean-Luc Mélenchon ou Édouard Philippe. Autres candidats pas encore recherchés.
+  verifications: >-
+    Recherché le 19 octobre 2026 (franceinfo « Vrai ou faux », AFP Factuel) pour Marine Le Pen, Jean-Luc Mélenchon
+    et Édouard Philippe : aucune vérification publiée en 2026 trouvée sur ce thème. Autres candidats pas encore
+    recherchés.
+  promesses: Pas encore recherché.
