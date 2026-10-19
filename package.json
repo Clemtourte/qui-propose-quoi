@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "check": "uv run python checks/check_content.py",
     "preview": "astro preview",
     "astro": "astro"
   },
