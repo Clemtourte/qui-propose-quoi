@@ -1,7 +1,7 @@
 ---
 // Overview table: one row per candidate, one column per key question of the theme.
 // It summarises declared positions; the detail and sources are in the cards below.
-import type { CandidatTheme } from '../lib/data';
+import { typo, type CandidatTheme } from '../lib/data';
 
 interface Props {
   questions: Array<{ id: string; libelle: string }>;
@@ -30,7 +30,7 @@ const { questions, parCandidat } = Astro.props;
             </th>
             {questions.map((q) => {
               const r = synthese?.data.reponses[q.id];
-              return r ? <td>{r}</td> : <td class="nd">Non documenté</td>;
+              return r ? <td>{typo(r)}</td> : <td class="nd">Non documenté</td>;
             })}
           </tr>
         ))
@@ -69,9 +69,12 @@ const { questions, parCandidat } = Astro.props;
     letter-spacing: 0.04em;
     color: var(--muted);
   }
+  td {
+    min-width: 11rem;
+  }
   tbody th {
     font-weight: 600;
-    white-space: nowrap;
+    min-width: 7rem;
     position: sticky;
     left: 0;
     background: var(--surface);

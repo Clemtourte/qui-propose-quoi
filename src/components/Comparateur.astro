@@ -3,7 +3,7 @@
 // at build time; a small script only shows the selected ones and keeps the URL
 // (?comparer=a,b) shareable. Without JavaScript the section stays hidden.
 import Item from './Item.astro';
-import type { CandidatTheme } from '../lib/data';
+import { typo, type CandidatTheme } from '../lib/data';
 
 interface Props {
   questions: Array<{ id: string; libelle: string }>;
@@ -52,7 +52,7 @@ const MAX = 3;
           {
             parCandidat.map(({ candidat: c, synthese }) => (
               <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>
-                {synthese ? <p class="phrase">{synthese.data.phrase}</p> : <p class="nd">Non documenté</p>}
+                {synthese ? <p class="phrase">{typo(synthese.data.phrase)}</p> : <p class="nd">Non documenté</p>}
               </td>
             ))
           }
@@ -68,7 +68,7 @@ const MAX = 3;
               <tr>
                 {parCandidat.map(({ candidat: c, synthese }) => {
                   const r = synthese?.data.reponses[q.id];
-                  return <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>{r ? <p>{r}</p> : <p class="nd">Non documenté</p>}</td>;
+                  return <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>{r ? <p>{typo(r)}</p> : <p class="nd">Non documenté</p>}</td>;
                 })}
               </tr>
             </>

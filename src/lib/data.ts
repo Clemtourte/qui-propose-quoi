@@ -4,6 +4,15 @@ import { getCollection, getEntries, type CollectionEntry } from 'astro:content';
 // never in the production build.
 export const showDemo = import.meta.env.DEV || import.meta.env.PUBLIC_SHOW_DEMO === 'true';
 
+/** French typography: no line break inside « », before ; : ! ? % € or between a number and its unit. */
+export function typo(s: string): string {
+  return s
+    .replace(/« /g, '« ')
+    .replace(/ »/g, ' »')
+    .replace(/ ([;:!?%€])/g, ' $1')
+    .replace(/(\d) (Md€|milliards|millions|ans|mois)/g, '$1 $2');
+}
+
 /** Drops placeholder items (demo: true) outside dev and preview builds. */
 export function visible<T extends { demo?: boolean }>(items: T[]): T[] {
   return items.filter((i) => showDemo || !i.demo);

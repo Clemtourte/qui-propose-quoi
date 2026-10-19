@@ -9,7 +9,7 @@ import VerifCard from '../../components/VerifCard.astro';
 import SourceRefs from '../../components/SourceRefs.astro';
 import SourceList from '../../components/SourceList.astro';
 import NatureTag from '../../components/NatureTag.astro';
-import { getThemes, getThemeData } from '../../lib/data';
+import { getThemes, getThemeData, typo } from '../../lib/data';
 
 export async function getStaticPaths() {
   const themes = await getThemes();
@@ -80,7 +80,7 @@ const nom = (id: string) => {
                   <span class="parti">{c.data.parti}</span>
                 </span>
                 {synthese ? (
-                  <span class="phrase">{synthese.data.phrase}</span>
+                  <span class="phrase">{typo(synthese.data.phrase)}</span>
                 ) : (
                   <span class="phrase nd-inline">Position non documentée sur ce thème.</span>
                 )}
@@ -109,13 +109,13 @@ const nom = (id: string) => {
     </section>
 
     <div class="sections">
-      <Section id="avis" titre="Avis d'institutions" count={avis.length}>
+      <Section id="avis" titre="Avis d'institutions" count={avis.length} recherche={t.recherches.avis}>
         {avis.map((a) => <AvisCard avis={a} showCandidats />)}
       </Section>
-      <Section id="verifications" titre="Affirmations vérifiées" count={verifications.length}>
+      <Section id="verifications" titre="Affirmations vérifiées" count={verifications.length} recherche={t.recherches.verifications}>
         {verifications.map((v) => <VerifCard verification={v} showCandidat />)}
       </Section>
-      <Section id="promesses" titre="Promesses passées" count={promesses.length}>
+      <Section id="promesses" titre="Promesses passées" count={promesses.length} recherche={t.recherches.promesses}>
         {
           promesses.map((e) => (
             <div class="promesse-bloc">

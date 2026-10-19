@@ -7,6 +7,13 @@ import { z } from 'astro/zod';
 // are normalised to an ISO-like string.
 const fuzzyDate = z.union([
   z.date().transform((d) => d.toISOString().slice(0, 10)),
+  // A bare year (2026) is parsed by YAML as a number.
+  z
+    .number()
+    .int()
+    .min(1900)
+    .max(2100)
+    .transform((y) => String(y)),
   z.string().regex(/^\d{4}(-\d{2}(-\d{2})?)?$/, 'Date attendue : AAAA, AAAA-MM ou AAAA-MM-JJ'),
 ]);
 
@@ -92,6 +99,8 @@ const themes = defineCollection({
     etat_des_lieux: z.array(sourcedItem).default([]),
     // Key questions used as columns of the overview table and rows of the comparator.
     questions: z.array(z.object({ id: z.string(), libelle: z.string() })).default([]),
+    // What was searched for each section of the theme page, shown when the section is empty.
+    recherches: z.record(z.string(), z.string()).default({}),
     derniere_verification: fuzzyDate.optional(),
   }),
 });

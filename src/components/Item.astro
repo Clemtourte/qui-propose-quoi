@@ -2,7 +2,7 @@
 // One sourced piece of information, styled by its level (fact / declared position / attributed judgement).
 import NatureTag from './NatureTag.astro';
 import SourceRefs from './SourceRefs.astro';
-import { formatDate } from '../lib/data';
+import { formatDate, typo } from '../lib/data';
 
 type Nature = 'fait' | 'position' | 'jugement';
 
@@ -42,11 +42,11 @@ const {
     <time datetime={date}>{formatDate(date)}</time>
     {theme && <a class="theme" href={`/themes/${theme.id}/`}>{theme.titre}</a>}
   </div>
-  {titre && <h3>{titre}</h3>}
+  {titre && <h3>{typo(titre)}</h3>}
   {
     citation && (
       <figure>
-        <blockquote>« {citation.texte} »</blockquote>
+        <blockquote>«&nbsp;{typo(citation.texte)}&nbsp;»</blockquote>
         <figcaption>
           {formatDate(citation.date)}, {citation.contexte}
         </figcaption>
@@ -57,7 +57,7 @@ const {
     promesse && (
       <figure class="promesse">
         <figcaption class="promesse-label">Promesse</figcaption>
-        <blockquote>« {promesse.texte} »</blockquote>
+        <blockquote>«&nbsp;{typo(promesse.texte)}&nbsp;»</blockquote>
         <figcaption>
           {formatDate(promesse.date)}, {promesse.contexte}
         </figcaption>
@@ -65,14 +65,14 @@ const {
     )
   }
   {promesse && <p class="promesse-label">Ce qui a été fait</p>}
-  <p>{texte}</p>
+  <p>{typo(texte)}</p>
   {
     chiffres.length > 0 && (
       <dl class="chiffres">
         {chiffres.map((c) => (
           <div class={c.nature}>
             <dt>{c.libelle}</dt>
-            <dd>{c.valeur}</dd>
+            <dd>{typo(c.valeur)}</dd>
           </div>
         ))}
       </dl>
