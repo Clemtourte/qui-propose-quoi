@@ -4,6 +4,11 @@ import { getCollection, getEntries, type CollectionEntry } from 'astro:content';
 // never in the production build.
 export const showDemo = import.meta.env.DEV || import.meta.env.PUBLIC_SHOW_DEMO === 'true';
 
+/** Drops placeholder items (demo: true) outside dev and preview builds. */
+export function visible<T extends { demo?: boolean }>(items: T[]): T[] {
+  return items.filter((i) => showDemo || !i.demo);
+}
+
 const frCollator = new Intl.Collator('fr', { sensitivity: 'base' });
 
 /** Candidates in alphabetical order by last name — never by poll score. */
@@ -66,4 +71,62 @@ export async function collectSources(items: Array<{ sources: SourceRef[] } | und
   for (const item of items) item?.sources.forEach((s) => ids.set(s.id, s));
   const entries = await getEntries([...ids.values()]);
   return entries.sort((a, b) => b.data.date_publication.localeCompare(a.data.date_publication));
+}
+
+export type CandidatTheme = {
+  candidat: CollectionEntry<'candidats'>;
+  synthese?: CollectionEntry<'syntheses'>;
+  mesures: CollectionEntry<'entrees'>[];
+  // Past record and past promises on this theme.
+  passe: CollectionEntry<'entrees'>[];
+};
+
+const byDateDesc = (a: { data: { date: string } }, b: { data: { date: string } }) =>
+  b.data.date.localeCompare(a.data.date);
+
+/** Everything shown on a theme page, for visible candidates only. */
+export async function getThemeData(theme: CollectionEntry<'themes'>) {
+  const candidats = await getCandidats();
+  const ids = new Set(candidats.map((c) => c.id));
+  const onTheme = (d: { theme?: { id: string }; candidat: { id: string } }) =>
+    d.theme?.id === theme.id && ids.has(d.candidat.id);
+
+  const entrees = await getCollection('entrees', ({ data }) => onTheme(data));
+  const syntheses = await getCollection('syntheses', ({ data }) => onTheme(data));
+  const avis = (
+    await getCollection('avis', ({ data }) => data.theme?.id === theme.id && data.candidats.some((c) => ids.has(c.id)))
+  ).sort(byDateDesc);
+  const verifications = (await getCollection('verifications', ({ data }) => onTheme(data))).sort(
+    (a, b) => b.data.declaration.date.localeCompare(a.data.declaration.date),
+  );
+
+  // A synthesis may only answer the theme's declared questions.
+  const questionIds = new Set(theme.data.questions.map((q) => q.id));
+  for (const s of syntheses) {
+    for (const q of Object.keys(s.data.reponses)) {
+      if (!questionIds.has(q)) throw new Error(`syntheses/${s.id}: question inconnue « ${q} » pour le thème ${theme.id}`);
+    }
+  }
+
+  const parCandidat: CandidatTheme[] = candidats.map((c) => {
+    const mine = entrees.filter((e) => e.data.candidat.id === c.id);
+    return {
+      candidat: c,
+      synthese: syntheses.find((s) => s.data.candidat.id === c.id),
+      mesures: mine.filter((e) => e.data.rubrique === 'mesure').sort(byDateDesc),
+      passe: mine.filter((e) => e.data.rubrique === 'bilan' || e.data.rubrique === 'promesse').sort(byDateDesc),
+    };
+  });
+
+  const etat = visible(theme.data.etat_des_lieux);
+  const promesses = entrees.filter((e) => e.data.rubrique === 'promesse').sort(byDateDesc);
+  const sources = await collectSources([
+    ...etat,
+    ...entrees.map((e) => e.data),
+    ...syntheses.map((s) => s.data),
+    ...avis.map((a) => a.data),
+    ...verifications.map((v) => v.data),
+  ]);
+
+  return { candidats, parCandidat, etat, avis, verifications, promesses, sources };
 }

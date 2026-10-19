@@ -30,6 +30,8 @@ const sourcedItem = z
     auteur: z.string().optional(),
     date: fuzzyDate,
     sources: sourcesList,
+    // Placeholder items attached to real records (e.g. a theme overview), hidden in production.
+    demo: z.boolean().default(false),
   })
   .refine((d) => d.nature !== 'jugement' || !!d.auteur, {
     message: 'Un jugement doit être attribué (champ auteur)',
@@ -88,6 +90,8 @@ const themes = defineCollection({
     ordre: z.number(),
     accroche: z.string(),
     etat_des_lieux: z.array(sourcedItem).default([]),
+    // Key questions used as columns of the overview table and rows of the comparator.
+    questions: z.array(z.object({ id: z.string(), libelle: z.string() })).default([]),
     derniere_verification: fuzzyDate.optional(),
   }),
 });
@@ -118,10 +122,12 @@ const entrees = defineCollection({
     .object({
       candidat: reference('candidats'),
       theme: reference('themes').optional(),
-      rubrique: z.enum(['mesure', 'bilan', 'participation', 'declaration', 'soutien_adversaire']),
+      rubrique: z.enum(['mesure', 'bilan', 'promesse', 'participation', 'declaration', 'soutien_adversaire']),
       nature,
       auteur: z.string().optional(),
       titre: z.string(),
+      // For rubrique "promesse": `promesse` is what was promised, `texte` what was actually done.
+      promesse: quote.optional(),
       texte: z.string(),
       citation: quote.optional(),
       chiffres: z
@@ -133,7 +139,25 @@ const entrees = defineCollection({
     .refine((d) => d.nature !== 'jugement' || !!d.auteur, {
       message: 'Un jugement doit être attribué (champ auteur)',
       path: ['auteur'],
+    })
+    .refine((d) => d.rubrique !== 'promesse' || !!d.promesse, {
+      message: 'Une entrée « promesse » doit citer la promesse (champ promesse)',
+      path: ['promesse'],
     }),
+});
+
+// One short, faithful summary of a candidate's position on a theme, plus short
+// answers to the theme's key questions. Always a declared position.
+const syntheses = defineCollection({
+  loader: yaml('./content/syntheses'),
+  schema: z.object({
+    candidat: reference('candidats'),
+    theme: reference('themes'),
+    phrase: z.string(),
+    reponses: z.record(z.string(), z.string()).default({}),
+    date: fuzzyDate,
+    sources: sourcesList,
+  }),
 });
 
 const avis = defineCollection({
@@ -198,6 +222,7 @@ export const collections = {
   themes,
   institutions,
   entrees,
+  syntheses,
   avis,
   verifications,
   justice,

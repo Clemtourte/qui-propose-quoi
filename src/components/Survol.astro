@@ -1,0 +1,86 @@
+---
+// Overview table: one row per candidate, one column per key question of the theme.
+// It summarises declared positions; the detail and sources are in the cards below.
+import type { CandidatTheme } from '../lib/data';
+
+interface Props {
+  questions: Array<{ id: string; libelle: string }>;
+  parCandidat: CandidatTheme[];
+}
+
+const { questions, parCandidat } = Astro.props;
+---
+
+<div class="scroll" tabindex="0" role="region" aria-labelledby="survol-titre">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Candidat</th>
+        {questions.map((q) => <th scope="col">{q.libelle}</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {
+        parCandidat.map(({ candidat: c, synthese }) => (
+          <tr>
+            <th scope="row">
+              <a href={`#carte-${c.id}`}>
+                {c.data.prenom} {c.data.nom}
+              </a>
+            </th>
+            {questions.map((q) => {
+              const r = synthese?.data.reponses[q.id];
+              return r ? <td>{r}</td> : <td class="nd">Non documenté</td>;
+            })}
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .scroll {
+    overflow-x: auto;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  table {
+    width: 100%;
+    min-width: 36rem;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  th,
+  td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--line);
+  }
+  tbody tr:last-child > * {
+    border-bottom: 0;
+  }
+  thead th {
+    font-size: 0.75rem;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  tbody th {
+    font-weight: 600;
+    white-space: nowrap;
+    position: sticky;
+    left: 0;
+    background: var(--surface);
+  }
+  tbody th a {
+    color: var(--text);
+  }
+  .nd {
+    color: var(--muted);
+    font-style: italic;
+  }
+</style>

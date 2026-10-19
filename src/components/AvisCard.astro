@@ -1,0 +1,65 @@
+---
+// An institution's opinion: always named, dated, with its exact scope.
+import { getEntries, getEntry, type CollectionEntry } from 'astro:content';
+import SourceRefs from './SourceRefs.astro';
+import { CATEGORIE_LABELS, formatDate } from '../lib/data';
+
+interface Props {
+  avis: CollectionEntry<'avis'>;
+  // Show which candidates the opinion covers (useful on theme pages).
+  showCandidats?: boolean;
+}
+
+const { avis, showCandidats = false } = Astro.props;
+const a = avis.data;
+const inst = (await getEntry(a.institution))!;
+const candidats = showCandidats ? await getEntries(a.candidats) : [];
+---
+
+<article class="card">
+  <p class="inst">
+    <strong>{inst.data.nom}</strong>
+    <span class="muted">
+      {` · ${CATEGORIE_LABELS[inst.data.categorie]}`}{inst.data.orientation && ` (${inst.data.orientation})`}
+      {` · ${formatDate(a.date)}`}
+    </span>
+  </p>
+  {
+    candidats.length > 0 && (
+      <p class="concerne">
+        Concerne :{' '}
+        {candidats.map((c, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={`/candidats/${c.id}/`}>
+              {c.data.prenom} {c.data.nom}
+            </a>
+          </>
+        ))}
+      </p>
+    )
+  }
+  <p class="perimetre"><strong>Périmètre :</strong> {a.perimetre}</p>
+  <p>{a.resume}</p>
+  <SourceRefs sources={a.sources} />
+</article>
+
+<style>
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+  }
+  p {
+    margin: 0 0 0.4rem;
+  }
+  .inst {
+    font-size: 0.95rem;
+  }
+  .concerne,
+  .perimetre {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+</style>

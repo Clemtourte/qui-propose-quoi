@@ -1,0 +1,74 @@
+---
+// A fact-checked statement: dated quote, named checker, the checker's own verdict.
+import { getEntry, type CollectionEntry } from 'astro:content';
+import SourceRefs from './SourceRefs.astro';
+import { formatDate } from '../lib/data';
+
+interface Props {
+  verification: CollectionEntry<'verifications'>;
+  showCandidat?: boolean;
+}
+
+const { verification, showCandidat = false } = Astro.props;
+const v = verification.data;
+const candidat = showCandidat ? await getEntry(v.candidat) : undefined;
+---
+
+<article class="card">
+  {
+    candidat && (
+      <p class="qui">
+        <a href={`/candidats/${candidat.id}/`}>
+          {candidat.data.prenom} {candidat.data.nom}
+        </a>
+      </p>
+    )
+  }
+  <blockquote>« {v.declaration.texte} »</blockquote>
+  <p class="muted small">{formatDate(v.declaration.date)}, {v.declaration.contexte}</p>
+  <p class="verdict">
+    <span class="label">Verdict de {v.verificateur}</span>
+    <strong>{v.verdict}</strong>
+    <span class="muted small">({formatDate(v.date_verification)})</span>
+  </p>
+  <p>{v.resume}</p>
+  <SourceRefs sources={v.sources} />
+</article>
+
+<style>
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+  }
+  p {
+    margin: 0 0 0.4rem;
+  }
+  .qui {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  blockquote {
+    margin: 0 0 0.25rem;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+  .small {
+    font-size: 0.82rem;
+  }
+  .verdict {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.25rem 0.5rem;
+    background: var(--jugement-bg);
+    border-radius: var(--radius);
+    padding: 0.4rem 0.6rem;
+  }
+  .label {
+    font-size: 0.8rem;
+    color: var(--jugement);
+  }
+</style>

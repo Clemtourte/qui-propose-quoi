@@ -99,9 +99,11 @@ Construire un site d'information complet sur les candidats majeurs à la présid
 - **Suivi** : serveur de dev dans le navigateur intégré pendant les sessions ; arrêt pour validation à chaque étape visible (mise en page, page candidat, page thème, comparateur) ; dépôt GitHub privé `Clemtourte/presidentielle-2027` ; aperçus Cloudflare Pages par branche (variable `PUBLIC_SHOW_DEMO=true` sur les aperçus pour afficher le candidat fictif de démonstration).
 
 ## Organisation technique
-- `content/` : données (YAML, une entrée par fichier). Schémas dans `src/content.config.ts` : une entrée invalide (source manquante, jugement sans auteur, date mal formée) fait échouer `npm run build`.
+- `content/` : données (YAML, une entrée par fichier). Schémas dans `src/content.config.ts` : une entrée invalide (jugement sans auteur, date mal formée, champ obligatoire absent) fait échouer `npm run build` ; une référence vers une source inexistante est détectée par `npm run check`.
 - `content/candidats/exemple.yaml` et les fichiers `exemple-*` : contenu **fictif** de démonstration, marqué [EXEMPLE], masqué en production. Ne jamais y mettre de vraie personne ni de vraie institution.
 - Pages dans `src/pages/`, composants dans `src/components/`, utilitaires dans `src/lib/data.ts`.
-- Commandes : `npm run dev` (site local sur http://localhost:4321), `npm run build` (vérifie les données et construit `dist/`).
+- Page thème : `questions` du thème (colonnes du tableau « En un coup d'œil » et lignes du comparateur) ; `content/syntheses/<candidat>/<theme>.yaml` donne la phrase de la carte et les réponses courtes aux questions ; les entrées `rubrique: promesse` (champ `promesse` = ce qui était promis, `texte` = ce qui a été fait) alimentent « Promesses passées ».
+- Comparateur : `/themes/<id>/?comparer=a,b,c` (lien partageable, 3 candidats max).
+- Commandes : `npm run dev` (site local sur http://localhost:4321), `npm run build` (vérifie les schémas et construit `dist/`), `npm run check` (contrôles éditoriaux Python : références cassées, source fictive dans du contenu réel, domaine exclu, jugement sans auteur, et tableau de couverture candidat × thème), `uv run pytest` et `uv run ruff check checks`.
 - Node.js 24 LTS installé via winget (`C:\Program Files\nodejs`).
 - Statut des candidatures et points incertains : voir `content/a-verifier.md`.

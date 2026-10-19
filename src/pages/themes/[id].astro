@@ -1,9 +1,15 @@
 ---
-// Placeholder until the theme page checkpoint: lists the entries of each candidate on this theme.
-import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Item from '../../components/Item.astro';
-import { getCandidats, getThemes } from '../../lib/data';
+import Section from '../../components/Section.astro';
+import Survol from '../../components/Survol.astro';
+import Comparateur from '../../components/Comparateur.astro';
+import AvisCard from '../../components/AvisCard.astro';
+import VerifCard from '../../components/VerifCard.astro';
+import SourceRefs from '../../components/SourceRefs.astro';
+import SourceList from '../../components/SourceList.astro';
+import NatureTag from '../../components/NatureTag.astro';
+import { getThemes, getThemeData } from '../../lib/data';
 
 export async function getStaticPaths() {
   const themes = await getThemes();
@@ -11,47 +17,260 @@ export async function getStaticPaths() {
 }
 
 const { theme } = Astro.props;
-const candidats = await getCandidats();
-const entrees = await getCollection('entrees', ({ data }) => data.theme?.id === theme.id);
+const t = theme.data;
+const { candidats, parCandidat, etat, avis, verifications, promesses, sources } = await getThemeData(theme);
+const nom = (id: string) => {
+  const c = candidats.find((x) => x.id === id)!;
+  return `${c.data.prenom} ${c.data.nom}`;
+};
 ---
 
-<Base title={theme.data.titre}>
-  <div class="wrap prose">
-    <p class="eyebrow">Thème</p>
-    <h1>{theme.data.titre}</h1>
-    <p class="muted">{theme.data.accroche}</p>
-    <p class="todo">Page thème en construction (prochaine étape).</p>
+<Base title={t.titre} description={`${t.titre} : ce que propose chaque candidat à la présidentielle 2027, avec sources.`}>
+  <div class="wrap">
+    <header class="hero prose">
+      <p class="eyebrow">Thème</p>
+      <h1>{t.titre}</h1>
+      <p class="accroche">{t.accroche}</p>
+    </header>
+
+    <section class="etat prose" aria-labelledby="etat-titre">
+      <h2 id="etat-titre">État des lieux</h2>
+      {
+        etat.length ? (
+          <div class="stack">
+            {etat.map((e) => (
+              <Item {...e} />
+            ))}
+          </div>
+        ) : (
+          <p class="nd">
+            <strong>Non documenté.</strong> Pas encore recherché.
+          </p>
+        )
+      }
+    </section>
+
     {
-      candidats.map((c) => {
-        const items = entrees.filter((e) => e.data.candidat.id === c.id);
-        return (
-          <section>
-            <h2>
-              <a href={`/candidats/${c.id}/`}>
-                {c.data.prenom} {c.data.nom}
-              </a>
-            </h2>
-            {items.length ? items.map((e) => <Item {...e.data} theme={undefined} />) : <p class="muted">Non documenté.</p>}
-          </section>
-        );
-      })
+      t.questions.length > 0 && (
+        <section class="survol" aria-labelledby="survol-titre">
+          <h2 id="survol-titre">En un coup d'œil</h2>
+          <p class="muted note">
+            <NatureTag nature="position" /> Ce que déclarent les candidats. Détail et sources dans les cartes plus bas.
+          </p>
+          <Survol questions={t.questions} parCandidat={parCandidat} />
+        </section>
+      )
     }
+
+    <Comparateur questions={t.questions} parCandidat={parCandidat} />
+
+    <section class="cartes" aria-labelledby="cartes-titre">
+      <h2 id="cartes-titre">Candidat par candidat</h2>
+      <p class="muted note">Ordre alphabétique.</p>
+      {
+        parCandidat.map(({ candidat: c, synthese, mesures, passe }) => {
+          const bilan = passe.filter((e) => e.data.rubrique === 'bilan');
+          return (
+            <details class="carte" id={`carte-${c.id}`}>
+              <summary>
+                <span class="qui">
+                  <span class="nom">
+                    {c.data.prenom} {c.data.nom}
+                  </span>
+                  <span class="parti">{c.data.parti}</span>
+                </span>
+                {synthese ? (
+                  <span class="phrase">{synthese.data.phrase}</span>
+                ) : (
+                  <span class="phrase nd-inline">Position non documentée sur ce thème.</span>
+                )}
+                <span class="plus" aria-hidden="true" />
+              </summary>
+              <div class="detail">
+                {synthese && <SourceRefs sources={synthese.data.sources} />}
+                <h3>Mesures</h3>
+                {mesures.length ? (
+                  mesures.map((e) => <Item {...e.data} theme={undefined} />)
+                ) : (
+                  <p class="nd">Non documenté.</p>
+                )}
+                <h3>Bilan sur ce thème</h3>
+                {bilan.length ? bilan.map((e) => <Item {...e.data} theme={undefined} />) : <p class="nd">Non documenté.</p>}
+                <p class="lien">
+                  <a href={`/candidats/${c.id}/`}>
+                    Voir le projet d'ensemble de {c.data.prenom} {c.data.nom} →
+                  </a>
+                </p>
+              </div>
+            </details>
+          );
+        })
+      }
+    </section>
+
+    <div class="sections">
+      <Section id="avis" titre="Avis d'institutions" count={avis.length}>
+        {avis.map((a) => <AvisCard avis={a} showCandidats />)}
+      </Section>
+      <Section id="verifications" titre="Affirmations vérifiées" count={verifications.length}>
+        {verifications.map((v) => <VerifCard verification={v} showCandidat />)}
+      </Section>
+      <Section id="promesses" titre="Promesses passées" count={promesses.length}>
+        {
+          promesses.map((e) => (
+            <div class="promesse-bloc">
+              <p class="promesse-qui">
+                <a href={`/candidats/${e.data.candidat.id}/`}>{nom(e.data.candidat.id)}</a>
+              </p>
+              <Item {...e.data} theme={undefined} />
+            </div>
+          ))
+        }
+      </Section>
+    </div>
+
+    <SourceList sources={sources} derniereVerification={t.derniere_verification} />
   </div>
 </Base>
 
-<style>
-  .todo {
-    background: var(--empty-bg);
-    padding: 0.75rem 1rem;
-    border-radius: var(--radius);
+<script>
+  // Links from the overview table (#carte-<id>) open the matching card.
+  function openFromHash() {
+    const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+    if (target instanceof HTMLDetailsElement) {
+      target.open = true;
+      target.scrollIntoView();
+    }
   }
-  section {
-    display: grid;
-    gap: 0.75rem;
-    margin-top: 1.5rem;
+  window.addEventListener('hashchange', openFromHash);
+  openFromHash();
+</script>
+
+<style>
+  .hero {
+    margin-bottom: 1.5rem;
+  }
+  .accroche {
+    font-family: var(--font-serif);
+    font-size: 1.2rem;
+    color: var(--muted);
   }
   h2 {
-    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  .etat,
+  .survol,
+  .cartes {
+    margin-top: 2.5rem;
+  }
+  .etat {
+    margin-top: 0;
+  }
+  .stack {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .note {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem 0.5rem;
+    font-size: 0.88rem;
+    margin-top: -0.25rem;
+  }
+  .nd {
+    background: var(--empty-bg);
+    border-radius: var(--radius);
+    padding: 0.75rem 1rem;
     margin: 0;
+    color: var(--muted);
+  }
+  .cartes {
+    max-width: 48rem;
+  }
+  .carte {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    margin-bottom: 0.6rem;
+  }
+  .carte summary {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.35rem 1rem;
+    padding: 0.9rem 1rem;
+    cursor: pointer;
+    list-style: none;
+  }
+  .carte summary::-webkit-details-marker {
+    display: none;
+  }
+  .qui {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 0.6rem;
+  }
+  .nom {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 650;
+  }
+  .parti {
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .phrase {
+    grid-column: 1;
+    font-size: 0.98rem;
+  }
+  .nd-inline {
+    color: var(--muted);
+    font-style: italic;
+  }
+  .plus {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+  .plus::after {
+    content: '+';
+    font-size: 1.4rem;
+    color: var(--muted);
+  }
+  .carte[open] .plus::after {
+    content: '−';
+  }
+  .detail {
+    display: grid;
+    gap: 0.75rem;
+    padding: 0 1rem 1rem;
+    border-top: 1px solid var(--line);
+  }
+  .detail h3 {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 0.75rem 0 0;
+  }
+  .lien {
+    margin: 0.25rem 0 0;
+    font-weight: 600;
+  }
+  .sections {
+    max-width: 48rem;
+    margin-top: 2.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .promesse-bloc {
+    display: grid;
+    gap: 0.35rem;
+  }
+  .promesse-qui {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.9rem;
   }
 </style>

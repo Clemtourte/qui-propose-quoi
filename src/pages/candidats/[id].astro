@@ -1,7 +1,9 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Item from '../../components/Item.astro';
+import AvisCard from '../../components/AvisCard.astro';
+import VerifCard from '../../components/VerifCard.astro';
 import Section from '../../components/Section.astro';
 import SourceRefs from '../../components/SourceRefs.astro';
 import SourceList from '../../components/SourceList.astro';
@@ -11,8 +13,8 @@ import {
   getThemes,
   collectSources,
   formatDate,
+  visible,
   STADE_LABELS,
-  CATEGORIE_LABELS,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -23,6 +25,7 @@ export async function getStaticPaths() {
 const { candidat } = Astro.props;
 const c = candidat.data;
 const id = candidat.id;
+const vision = visible(c.vision);
 
 const themes = await getThemes();
 const themeById = new Map(themes.map((t) => [t.id, { id: t.id, titre: t.data.titre }]));
@@ -37,16 +40,14 @@ const mesuresParTheme = themes
   .map((t) => ({ theme: t, items: mesures.filter((m) => m.data.theme?.id === t.id) }))
   .filter((g) => g.items.length > 0);
 
-const bilan = byRubrique('bilan');
+// Past record and past promises (promise vs. what was done) are read together.
+const bilan = [...byRubrique('bilan'), ...byRubrique('promesse')].sort((a, b) => b.data.date.localeCompare(a.data.date));
 const participation = byRubrique('participation');
 const declarations = byRubrique('declaration');
 const soutiens = byRubrique('soutien_adversaire');
 
 const avis = (await getCollection('avis', ({ data }) => data.candidats.some((x) => x.id === id))).sort((a, b) =>
   b.data.date.localeCompare(a.data.date),
-);
-const avisAvecInstitution = await Promise.all(
-  avis.map(async (a) => ({ avis: a, institution: (await getEntry(a.data.institution))! })),
 );
 const verifications = (await getCollection('verifications', ({ data }) => data.candidat.id === id)).sort((a, b) =>
   b.data.declaration.date.localeCompare(a.data.declaration.date),
@@ -56,7 +57,7 @@ const justice = await getCollection('justice', ({ data }) => data.candidat.id ==
 const sources = await collectSources([
   c.candidature,
   c.en_30_secondes,
-  ...c.vision,
+  ...vision,
   ...entrees.map((e) => e.data),
   ...avis.map((a) => a.data),
   ...verifications.map((v) => v.data),
@@ -106,8 +107,8 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     </section>
 
     <div class="sections">
-      <Section id="vision" numero={2} titre="Vision d'ensemble et cohérence" count={c.vision.length} recherche={r.vision} open>
-        {c.vision.map((v) => <Item {...v} />)}
+      <Section id="vision" numero={2} titre="Vision d'ensemble et cohérence" count={vision.length} recherche={r.vision} open>
+        {vision.map((v) => <Item {...v} />)}
       </Section>
 
       <Section id="programme" numero={3} titre="Programme" count={mesures.length} recherche={r.programme}>
@@ -126,49 +127,15 @@ const itemProps = (e: (typeof entrees)[number]) => ({
       </Section>
 
       <Section id="avis" numero={4} titre="Avis d'institutions sur son programme" count={avis.length} recherche={r.avis}>
-        {
-          avisAvecInstitution.map(({ avis: a, institution: inst }) => (
-            <article class="avis">
-              <p class="avis-inst">
-                <strong>{inst.data.nom}</strong>
-                <span class="muted">
-                  {' '}
-                  · {CATEGORIE_LABELS[inst.data.categorie]}
-                  {inst.data.orientation && ` (${inst.data.orientation})`} · {formatDate(a.data.date)}
-                </span>
-              </p>
-              <p class="perimetre">
-                <strong>Périmètre :</strong> {a.data.perimetre}
-              </p>
-              <p>{a.data.resume}</p>
-              <SourceRefs sources={a.data.sources} />
-            </article>
-          ))
-        }
+        {avis.map((a) => <AvisCard avis={a} />)}
       </Section>
 
-      <Section id="bilan" numero={5} titre="Bilan" count={bilan.length} recherche={r.bilan}>
+      <Section id="bilan" numero={5} titre="Bilan et promesses passées" count={bilan.length} recherche={r.bilan}>
         {bilan.map((e) => <Item {...itemProps(e)} />)}
       </Section>
 
       <Section id="verifications" numero={6} titre="Affirmations vérifiées" count={verifications.length} recherche={r.verifications}>
-        {
-          verifications.map((v) => (
-            <article class="verif">
-              <blockquote>« {v.data.declaration.texte} »</blockquote>
-              <p class="muted small">
-                {formatDate(v.data.declaration.date)}, {v.data.declaration.contexte}
-              </p>
-              <p class="verdict">
-                <span class="verdict-label">Verdict de {v.data.verificateur}</span>
-                <strong>{v.data.verdict}</strong>
-                <span class="muted small"> ({formatDate(v.data.date_verification)})</span>
-              </p>
-              <p>{v.data.resume}</p>
-              <SourceRefs sources={v.data.sources} />
-            </article>
-          ))
-        }
+        {verifications.map((v) => <VerifCard verification={v} />)}
       </Section>
 
       <Section id="justice" numero={7} titre="Décisions de justice" count={justice.length} recherche={r.justice}>
@@ -282,47 +249,14 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     letter-spacing: 0.05em;
     margin: 0;
   }
-  .avis,
-  .verif,
   .justice {
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
     padding: 0.9rem 1rem;
   }
-  .avis p,
-  .verif p,
   .justice p {
     margin: 0 0 0.4rem;
-  }
-  .avis-inst {
-    font-size: 0.95rem;
-  }
-  .perimetre {
-    font-size: 0.9rem;
-    color: var(--muted);
-  }
-  .verif blockquote {
-    margin: 0 0 0.25rem;
-    font-family: var(--font-serif);
-    font-style: italic;
-    font-size: 1.1rem;
-  }
-  .small {
-    font-size: 0.82rem;
-  }
-  .verdict {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.25rem 0.5rem;
-    background: var(--jugement-bg);
-    border-radius: var(--radius);
-    padding: 0.4rem 0.6rem;
-  }
-  .verdict-label {
-    font-size: 0.8rem;
-    color: var(--jugement);
   }
   .justice h3 {
     font-family: var(--font-sans);

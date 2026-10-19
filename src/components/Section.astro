@@ -3,7 +3,7 @@
 // and, when available, what was searched.
 interface Props {
   id: string;
-  numero: number;
+  numero?: number;
   titre: string;
   count: number;
   recherche?: string;
@@ -16,7 +16,7 @@ const empty = count === 0;
 
 <details class="section" id={id} open={open}>
   <summary>
-    <span class="num">{numero}</span>
+    {numero !== undefined && <span class="num">{numero}</span>}
     <span class="titre">{titre}</span>
     <span class:list={['count', { empty }]}>{empty ? 'Non documenté' : count}</span>
   </summary>

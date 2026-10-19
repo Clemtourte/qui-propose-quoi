@@ -1,0 +1,324 @@
+---
+// Side-by-side comparison of 2 or 3 candidates on one theme. All columns are rendered
+// at build time; a small script only shows the selected ones and keeps the URL
+// (?comparer=a,b) shareable. Without JavaScript the section stays hidden.
+import Item from './Item.astro';
+import type { CandidatTheme } from '../lib/data';
+
+interface Props {
+  questions: Array<{ id: string; libelle: string }>;
+  parCandidat: CandidatTheme[];
+}
+
+const { questions, parCandidat } = Astro.props;
+const MAX = 3;
+---
+
+<section class="cmp" data-comparateur data-max={MAX} hidden aria-labelledby="cmp-titre">
+  <h2 id="cmp-titre">Comparer côte à côte</h2>
+  <p class="muted consigne">Choisissez deux ou trois candidats.</p>
+  <div class="chips" role="group" aria-label="Candidats à comparer">
+    {
+      parCandidat.map(({ candidat: c }) => (
+        <button type="button" class="chip" data-id={c.id} aria-pressed="false">
+          {c.data.prenom} {c.data.nom}
+        </button>
+      ))
+    }
+  </div>
+  <p class="hint" data-hint aria-live="polite"></p>
+
+  <div class="scroll" data-table hidden tabindex="0" role="region" aria-label="Tableau de comparaison">
+    <table>
+      <thead>
+        <tr>
+          {
+            parCandidat.map(({ candidat: c }) => (
+              <th scope="col" data-col={c.id}>
+                <a href={`/candidats/${c.id}/`}>
+                  {c.data.prenom} {c.data.nom}
+                </a>
+                <span class="parti">{c.data.parti}</span>
+              </th>
+            ))
+          }
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="row-label">
+          <th scope="colgroup" data-label>En une phrase</th>
+        </tr>
+        <tr>
+          {
+            parCandidat.map(({ candidat: c, synthese }) => (
+              <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>
+                {synthese ? <p class="phrase">{synthese.data.phrase}</p> : <p class="nd">Non documenté</p>}
+              </td>
+            ))
+          }
+        </tr>
+        {
+          questions.map((q) => (
+            <>
+              <tr class="row-label">
+                <th scope="colgroup" data-label>
+                  {q.libelle}
+                </th>
+              </tr>
+              <tr>
+                {parCandidat.map(({ candidat: c, synthese }) => {
+                  const r = synthese?.data.reponses[q.id];
+                  return <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>{r ? <p>{r}</p> : <p class="nd">Non documenté</p>}</td>;
+                })}
+              </tr>
+            </>
+          ))
+        }
+        <tr class="row-label">
+          <th scope="colgroup" data-label>Mesures</th>
+        </tr>
+        <tr>
+          {
+            parCandidat.map(({ candidat: c, mesures }) => (
+              <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>
+                {mesures.length ? (
+                  <div class="stack">
+                    {mesures.map((e) => (
+                      <Item {...e.data} theme={undefined} compact />
+                    ))}
+                  </div>
+                ) : (
+                  <p class="nd">Non documenté</p>
+                )}
+              </td>
+            ))
+          }
+        </tr>
+        <tr class="row-label">
+          <th scope="colgroup" data-label>Bilan et promesses passées</th>
+        </tr>
+        <tr>
+          {
+            parCandidat.map(({ candidat: c, passe }) => (
+              <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>
+                {passe.length ? (
+                  <div class="stack">
+                    {passe.map((e) => (
+                      <Item {...e.data} theme={undefined} compact />
+                    ))}
+                  </div>
+                ) : (
+                  <p class="nd">Non documenté</p>
+                )}
+              </td>
+            ))
+          }
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-comparateur]');
+  if (root) {
+    const max = Number(root.dataset.max);
+    const chips = [...root.querySelectorAll<HTMLButtonElement>('.chip')];
+    const known = new Set(chips.map((b) => b.dataset.id!));
+    const table = root.querySelector<HTMLElement>('[data-table]')!;
+    const hint = root.querySelector<HTMLElement>('[data-hint]')!;
+    const cols = [...root.querySelectorAll<HTMLElement>('[data-col]')];
+    const labels = [...root.querySelectorAll<HTMLTableCellElement>('[data-label]')];
+
+    const fromUrl = new URLSearchParams(location.search).get('comparer') ?? '';
+    // Keep the click order so columns appear in the order they were picked.
+    let selected = fromUrl
+      .split(',')
+      .filter((id) => known.has(id))
+      .slice(0, max);
+
+    function render() {
+      for (const b of chips) {
+        const on = selected.includes(b.dataset.id!);
+        b.setAttribute('aria-pressed', String(on));
+        b.disabled = !on && selected.length >= max;
+      }
+      const ready = selected.length >= 2;
+      table.hidden = !ready;
+      hint.textContent = ready
+        ? ''
+        : selected.length === 1
+          ? 'Choisissez au moins un autre candidat.'
+          : '';
+      for (const cell of cols) cell.hidden = !selected.includes(cell.dataset.col!);
+      // Reorder cells of each row to follow the selection order.
+      for (const row of table.querySelectorAll('tr:not(.row-label)')) {
+        const cells = [...row.children] as HTMLElement[];
+        cells
+          .filter((c) => !c.hidden)
+          .sort((a, b) => selected.indexOf(a.dataset.col!) - selected.indexOf(b.dataset.col!))
+          .forEach((c) => row.appendChild(c));
+      }
+      for (const l of labels) l.colSpan = Math.max(selected.length, 1);
+      table.style.setProperty('--cols', String(selected.length));
+
+      const url = new URL(location.href);
+      if (selected.length) url.searchParams.set('comparer', selected.join(','));
+      else url.searchParams.delete('comparer');
+      history.replaceState(null, '', url);
+    }
+
+    for (const b of chips) {
+      b.addEventListener('click', () => {
+        const id = b.dataset.id!;
+        selected = selected.includes(id) ? selected.filter((x) => x !== id) : [...selected, id];
+        render();
+      });
+    }
+
+    root.hidden = false;
+    render();
+    if (selected.length >= 2) root.scrollIntoView();
+  }
+</script>
+
+<style>
+  .cmp {
+    margin-top: 2.5rem;
+  }
+  .consigne {
+    margin-bottom: 0.75rem;
+  }
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .chip {
+    font: inherit;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--text);
+    cursor: pointer;
+  }
+  .chip[aria-pressed='true'] {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
+  }
+  .chip[aria-pressed='true']::before {
+    content: '✓ ';
+  }
+  .chip:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+  .hint {
+    min-height: 1.5em;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .scroll {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  table {
+    table-layout: fixed;
+    width: 100%;
+    /* Each column stays readable; narrow screens scroll sideways. */
+    min-width: calc(var(--cols, 2) * 15rem);
+    border-collapse: separate;
+    border-spacing: 0.5rem 0;
+    margin-inline: -0.5rem;
+  }
+  thead th {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 0.5rem 0.25rem;
+    border-bottom: 2px solid var(--text);
+    scroll-snap-align: start;
+  }
+  thead a {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    color: var(--text);
+    display: block;
+  }
+  .parti {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .row-label th {
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    padding: 1.25rem 0.25rem 0.35rem;
+  }
+  td {
+    vertical-align: top;
+    padding: 0 0.25rem;
+  }
+  td p {
+    margin: 0;
+  }
+  .phrase {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+  }
+  .stack {
+    display: grid;
+    gap: 0.5rem;
+  }
+  .nd {
+    color: var(--muted);
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  /* Phones: no side scrolling. Each criterion is followed by one labelled answer per candidate. */
+  @media (max-width: 639px) {
+    .scroll {
+      overflow: visible;
+    }
+    table,
+    tbody,
+    tr,
+    th,
+    td {
+      display: block;
+    }
+    table {
+      min-width: 0;
+      margin: 0;
+    }
+    thead {
+      display: none;
+    }
+    td[hidden] {
+      display: none;
+    }
+    .row-label th {
+      padding: 1.25rem 0 0.4rem;
+      border-top: 1px solid var(--line);
+    }
+    td {
+      padding: 0 0 0 0.75rem;
+      margin-bottom: 0.6rem;
+      border-left: 3px solid var(--line);
+    }
+    td::before {
+      content: attr(data-name);
+      display: block;
+      font-weight: 650;
+      font-size: 0.85rem;
+      margin-bottom: 0.15rem;
+    }
+  }
+</style>

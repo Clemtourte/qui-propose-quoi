@@ -14,14 +14,29 @@ interface Props {
   date: string;
   sources: Array<{ collection: 'sources'; id: string }>;
   citation?: { texte: string; date: string; contexte: string };
+  promesse?: { texte: string; date: string; contexte: string };
   chiffres?: Array<{ libelle: string; valeur: string; nature: Nature }>;
   theme?: { id: string; titre: string };
+  // Tighter layout for narrow columns (comparator).
+  compact?: boolean;
 }
 
-const { nature, auteur, titre, texte, date, sources, citation, chiffres = [], theme } = Astro.props;
+const {
+  nature,
+  auteur,
+  titre,
+  texte,
+  date,
+  sources,
+  citation,
+  promesse,
+  chiffres = [],
+  theme,
+  compact = false,
+} = Astro.props;
 ---
 
-<article class:list={['item', nature]}>
+<article class:list={['item', nature, { compact }]}>
   <div class="meta">
     <NatureTag nature={nature} auteur={auteur} />
     <time datetime={date}>{formatDate(date)}</time>
@@ -38,6 +53,18 @@ const { nature, auteur, titre, texte, date, sources, citation, chiffres = [], th
       </figure>
     )
   }
+  {
+    promesse && (
+      <figure class="promesse">
+        <figcaption class="promesse-label">Promesse</figcaption>
+        <blockquote>« {promesse.texte} »</blockquote>
+        <figcaption>
+          {formatDate(promesse.date)}, {promesse.contexte}
+        </figcaption>
+      </figure>
+    )
+  }
+  {promesse && <p class="promesse-label">Ce qui a été fait</p>}
   <p>{texte}</p>
   {
     chiffres.length > 0 && (
@@ -80,6 +107,28 @@ const { nature, auteur, titre, texte, date, sources, citation, chiffres = [], th
   }
   .theme {
     color: var(--muted);
+  }
+  .promesse {
+    border-left: 2px solid var(--line);
+    padding-left: 0.75rem;
+  }
+  .promesse-label {
+    font-size: 0.75rem;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 0 0 0.15rem;
+  }
+  .compact {
+    padding: 0.7rem 0.75rem;
+    font-size: 0.92rem;
+  }
+  .compact h3 {
+    font-size: 0.95rem;
+  }
+  .compact .chiffres {
+    grid-template-columns: 1fr;
   }
   h3 {
     font-family: var(--font-sans);
