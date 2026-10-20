@@ -101,3 +101,10 @@ Périmètre retenu pour tous : procédures pénales visant personnellement le ca
 - **Tondelier** : les mesures citées sont celles du plan des Écologistes de septembre 2025, pas un programme présidentiel.
 - **Mélenchon** : le RIC figure dans des contributions de militants, mais n'est pas listé comme mesure du programme dans la synthèse consultée ; non publié.
 - **Votes passés** (révisions constitutionnelles, motions de censure, propositions sur le RIC) : pas encore recherchés.
+
+### Enquêtes sur les campagnes (ajout du 20 octobre 2026)
+- Recherche limitée aux campagnes des candidats eux-mêmes : seuls Le Pen, Mélenchon et Zemmour ont déjà été candidats à la présidentielle ; aucune enquête trouvée sur les campagnes européennes ou législatives des autres. Recherche par moteur de recherche, à compléter.
+- Zemmour, SMS de 2022 : suite de l'enquête préliminaire (classement, poursuites) non trouvée. Hors périmètre pénal, non publié : amende de 20 000 € infligée par la CNIL à Reconquête le 25 janvier 2024 (information et effacement des données de prospection), confirmée par le Conseil d'État le 15 avril 2025.
+- Enquêtes visant les partis sans lien avec la campagne du candidat, non retenues : parquet européen sur le RN (dépenses au Parlement européen), perquisitions de 2022 chez Renaissance dans l'enquête sur les campagnes d'Emmanuel Macron et McKinsey.
+- Le Pen, assistants parlementaires : nombre de coprévenus condamnés en appel (« dix autres cadres » selon Orange, onze personnes jugées selon Public Sénat) non publié faute de recoupement.
+

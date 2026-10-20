@@ -1,0 +1,24 @@
+candidat: zemmour
+affaire: SMS de campagne adressés à des électeurs de confession juive (2022)
+role: >-
+  Candidat dont la campagne est visée. Plainte contre X ; aucune mise en cause personnelle rapportée. Son équipe
+  a confirmé être à l'origine de l'envoi.
+concerne: campagne
+faits: >-
+  SMS signé du nom du candidat envoyé le 8 avril 2022, quelques heures avant la fin de la campagne officielle du
+  premier tour, renvoyant vers une page de Reconquête adressée aux « Français de confession juive ». Selon son équipe,
+  environ dix mille SMS ont été envoyés à l'aide d'un courtier en données personnelles. Plainte de l'UEJF et de
+  l'association J'accuse AIJI.
+stade: enquete
+definitive: false
+etapes:
+- date: '2022-04-12'
+  stade: enquete
+  juridiction: Parquet de Paris
+  decision: >-
+    Ouverture d'une enquête préliminaire pour détention, conservation et transmission de données personnelles hors
+    des cas prévus par la loi et détournement de la finalité d'un fichier.
+prochaine_etape: Suite de l'enquête (classement, poursuites) non documentée.
+sources:
+- europe1-2022-04-12-zemmour-sms
+- francebleu-2022-04-12-zemmour-sms

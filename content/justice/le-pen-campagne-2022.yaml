@@ -1,10 +1,16 @@
 candidat: le-pen
 affaire: Financement de la campagne présidentielle de 2022
+role: >-
+  Candidate dont la campagne est visée. Aucune mise en examen rapportée ; selon son avocat (juillet 2024), elle
+  n'avait jamais été entendue.
+concerne: campagne
 faits: >-
   Information judiciaire ouverte à la suite d'un signalement de la Commission nationale des comptes de campagne.
-  Chefs visés : prêt d'une personne morale à un candidat, acceptation de ce prêt par un candidat, détournement de
-  biens publics, escroquerie au préjudice d'une personne publique, faux et usage de faux. Le parquet n'a pas détaillé
-  les soupçons. Son avocat indique qu'elle n'a « jamais été entendue » sur ces faits (juillet 2024).
+  Selon le parquet de Paris (juillet 2025), elle porte sur des soupçons de financement illégal de la campagne présidentielle
+  de 2022, des législatives qui ont suivi et des européennes de 2024 : prêts de particuliers au parti ou à ses candidats,
+  surfacturations ou prestations fictives intégrées aux demandes de remboursement par l'État. Chefs visés à l'ouverture
+  : prêt d'une personne morale à un candidat, acceptation de ce prêt par un candidat, détournement de biens publics,
+  escroquerie au préjudice d'une personne publique, faux et usage de faux.
 stade: enquete
 definitive: false
 etapes:
@@ -12,7 +18,12 @@ etapes:
   stade: enquete
   juridiction: Parquet de Paris
   decision: Ouverture d'une information judiciaire, confiée à un juge d'instruction.
-prochaine_etape: Suite de l'instruction non documentée depuis juillet 2024.
+- date: '2025-07-09'
+  stade: enquete
+  juridiction: Juges d'instruction (Paris)
+  decision: Perquisitions au siège du Rassemblement national, dans des sociétés et au domicile de leurs dirigeants.
+prochaine_etape: Suite de l'instruction non documentée depuis juillet 2025.
 sources:
 - leclubdesjuristes-2024-07-09-le-pen-campagne-2022
 - publicsenat-2024-07-09-le-pen-campagne-2022
+- lepetitjournal-2025-07-09-rn-perquisition
