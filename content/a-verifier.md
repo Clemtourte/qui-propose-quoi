@@ -45,6 +45,7 @@ Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Éc
 - Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
 - État des lieux : 11 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
+- Décisions de justice visant les **figures importantes de chaque parti** (et pas seulement le candidat), par exemple Julien Odoul ou Frédéric Boccaletti pour le RN, demandé le 20 octobre 2026. À faire pour les 8 partis avec une même règle, à définir avant de chercher : qui compte comme « membre important » (direction du parti, présidents de groupe, porte-parole, têtes de liste nationales ?), même périmètre de dates et même type de procédures que pour les candidats. Affichage à prévoir à part de la section du candidat, pour ne pas confondre les deux.
 
 ## Deuxième passe (Attal, Glucksmann, Retailleau, Tondelier, Zemmour × 3 thèmes), 19-20 octobre 2026
 Contenu revérifié par trois vérificateurs indépendants ; corrections appliquées. Restent :
