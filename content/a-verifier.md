@@ -42,7 +42,7 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour les 8 candidats : « En 30 secondes », « Vision d'ensemble », « Place laissée à la population », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
+- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
 - État des lieux : 11 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
 
@@ -90,3 +90,14 @@ Périmètre retenu pour tous : procédures pénales visant personnellement le ca
 - Retailleau : plaintes devant la Cour de justice de la République en 2025 (LDH ; avocate Khadija Aoudia, déclarée irrecevable selon El Moudjahid seul), sans enquête connue.
 - Tondelier : plainte qu'elle a déposée contre Steeve Briois (mars 2026), où elle est plaignante.
 - Le Pen 2022 et Mélenchon 2017 : statut de chaque candidat dans les enquêtes sur leurs comptes de campagne (non mis en examen selon leur camp) ; suite de l'instruction sur la campagne 2022 non trouvée depuis juillet 2024.
+
+## « En 30 secondes » et « Place laissée à la population », 20 octobre 2026
+- **Propositions principales** : aucun programme complet publié ou traité ; la fiche affiche à la place les synthèses des thèmes déjà couverts. À remplacer par les priorités annoncées par chaque candidat quand les programmes sortiront (LFI le 6 novembre, RN partiel).
+- **Parcours** : une seule source (portraits franceinfo du 8 octobre 2026) pour Attal, Philippe, Retailleau et Tondelier ; à recouper par une biographie officielle (Assemblée nationale, Sénat, gouvernement). Philippe : dates de ses mandats de maire du Havre non précisées.
+- **Écarts de chiffres** : Toute l'Europe donne 21,84 % pour Mélenchon en 2022 ; le site retient 21,95 %, calculé sur la décision du Conseil constitutionnel (7 712 520 voix sur 35 132 947 suffrages exprimés).
+- **Le Pen** : la « révolution référendaire » (RIC à 500 000 signatures, septennat non renouvelable) date du programme de 2022 ; sa reprise en 2027 n'est pas documentée. Les référendums de 2026 ne sont connus que par un fact-check d'Euronews.
+- **Zemmour** : un référendum sur l'immigration pour 2027 est évoqué par des agrégateurs, sans source de presse de 2026 trouvée ; seule son proposition de février 2025 sur le Conseil constitutionnel est publiée.
+- **Attal** : recours au 49.3 comme Premier ministre (janvier-septembre 2024) non documenté ; propositions institutionnelles connues par son seul entretien au JDD (1er août 2026).
+- **Tondelier** : les mesures citées sont celles du plan des Écologistes de septembre 2025, pas un programme présidentiel.
+- **Mélenchon** : le RIC figure dans des contributions de militants, mais n'est pas listé comme mesure du programme dans la synthèse consultée ; non publié.
+- **Votes passés** (révisions constitutionnelles, motions de censure, propositions sur le RIC) : pas encore recherchés.
