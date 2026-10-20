@@ -1,0 +1,21 @@
+candidat: glucksmann
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: Taxer les plus gros héritages pour augmenter le salaire net
+citation:
+  texte: En taxant davantage les méga-héritages, les 1% les plus gros, 99% des héritages ne seront pas affectés
+  date: 2026-08-23
+  contexte: Annonce de sa candidature sur TF1, rapportée par franceinfo
+texte: >-
+  Il attend « 15 milliards d'euros » de recettes, à reverser sur les salaires. Selon son équipe (franceinfo, 25 août
+  2026), seules les successions de plus de 2 millions d'euros seraient concernées, avec trois leviers : tranche haute
+  portée de 45 à 50 % (2 Md€), pacte Dutreil restreint (3 Md€), imposition des plus-values latentes (10 Md€). Lors du
+  débat du Medef, il propose de baisser la CSG sur les salaires et de la financer par les successions, en voulant
+  éviter « l'aggravation de la dette ».
+chiffres:
+  - libelle: Recette attendue, selon le candidat
+    valeur: 15 Md€
+    nature: position
+date: 2026-08-23
+sources: [franceinfo-2026-08-25-vdf-glucksmann-heritages, publicsenat-2026-08-24-glucksmann-propositions, franceinfo-2026-08-27-debat-medef]

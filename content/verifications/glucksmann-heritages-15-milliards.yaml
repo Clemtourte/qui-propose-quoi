@@ -1,0 +1,15 @@
+candidat: glucksmann
+theme: fiscalite-budget
+declaration:
+  texte: En taxant davantage les méga-héritages, les 1% les plus gros, 99% des héritages ne seront pas affectés. Ça nous permettra de récupérer 15 milliards d'euros
+  date: 2026-08-23
+  contexte: Annonce de sa candidature sur TF1
+verificateur: franceinfo (Le vrai du faux)
+verdict: "« La projection paraît optimiste, selon certains économistes »"
+resume: >-
+  Pour atteindre 15 milliards d'euros supplémentaires, les droits de succession et de donation devraient passer
+  d'environ 20 à 35 milliards par an. Guillaume Allègre, économiste à l'OFCE, juge que « taxer 1% des plus gros
+  héritages ne suffirait pas, c'est très optimiste » et qu'il faudrait toucher 5 à 10 % des plus aisés. L'équipe du
+  candidat détaille trois leviers (tranche haute, pacte Dutreil, plus-values latentes).
+date_verification: 2026-08-25
+sources: [franceinfo-2026-08-25-vdf-glucksmann-heritages]
