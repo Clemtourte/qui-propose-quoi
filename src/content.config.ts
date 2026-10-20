@@ -79,7 +79,8 @@ const candidats = defineCollection({
     en_30_secondes: z
       .object({
         parcours: z.string(),
-        propose: z.array(z.string()).max(3),
+        // Empty until the programme is published: the page then shows the theme summaries instead.
+        propose: z.array(z.string()).max(3).default([]),
         sources: sourcesList,
       })
       .optional(),
@@ -132,6 +133,8 @@ const entrees = defineCollection({
       candidat: reference('candidats'),
       theme: reference('themes').optional(),
       rubrique: z.enum(['mesure', 'bilan', 'promesse', 'participation', 'declaration', 'soutien_adversaire']),
+      // Also listed (as a link) under "Place laissée à la population" on the candidate page.
+      aussi_participation: z.boolean().default(false),
       nature,
       auteur: z.string().optional(),
       titre: z.string(),

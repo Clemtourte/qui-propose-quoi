@@ -45,6 +45,10 @@ const mesuresParTheme = themes
 // Past record and past promises (promise vs. what was done) are read together.
 const bilan = [...byRubrique('bilan'), ...byRubrique('promesse')].sort((a, b) => b.data.date.localeCompare(a.data.date));
 const participation = byRubrique('participation');
+// Entries filed elsewhere (programme, record) that also concern popular participation.
+const participationAilleurs = entrees
+  .filter((e) => e.data.aussi_participation && e.data.rubrique !== 'participation')
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
 const declarations = byRubrique('declaration');
 const soutiens = byRubrique('soutien_adversaire');
 
@@ -61,9 +65,17 @@ const justice = (await getCollection('justice', ({ data }) => data.candidat.id =
   lastStep(b).localeCompare(lastStep(a)),
 );
 
+// Theme summaries, shown in "En 30 secondes" while no programme priorities are recorded.
+const syntheses = (await getCollection('syntheses', ({ data }) => data.candidat.id === id))
+  .map((s) => ({ s, theme: themes.find((t) => t.id === s.data.theme.id) }))
+  .filter((x) => x.theme)
+  .sort((a, b) => a.theme!.data.ordre - b.theme!.data.ordre);
+const showSyntheses = !c.en_30_secondes?.propose.length && syntheses.length > 0;
+
 const sources = await collectSources([
   c.candidature,
   c.en_30_secondes,
+  ...(showSyntheses ? syntheses.map((x) => x.s.data) : []),
   ...vision,
   ...entrees.map((e) => e.data),
   ...avis.map((a) => a.data),
@@ -96,19 +108,42 @@ const itemProps = (e: (typeof entrees)[number]) => ({
       {
         c.en_30_secondes ? (
           <div class="resume">
-            <p>{c.en_30_secondes.parcours}</p>
-            <p class="propose-titre">Propositions principales, d'après son programme :</p>
-            <ul class="propose">
-              {c.en_30_secondes.propose.map((p) => (
-                <li>{p}</li>
-              ))}
-            </ul>
+            <NatureTag nature="fait" />
+            <p>{typo(c.en_30_secondes.parcours)}</p>
             <SourceRefs sources={c.en_30_secondes.sources} />
           </div>
         ) : (
           <p class="nd-inline">
-            <strong>Parcours et propositions : non documenté.</strong> {r.en_30_secondes ?? 'Pas encore recherché.'}
+            <strong>Parcours : non documenté.</strong> {r.en_30_secondes ?? 'Pas encore recherché.'}
           </p>
+        )
+      }
+      {
+        c.en_30_secondes?.propose.length ? (
+          <div class="resume">
+            <NatureTag nature="position" />
+            <p class="propose-titre">Propositions principales, d'après son programme&nbsp;:</p>
+            <ul class="propose">
+              {c.en_30_secondes.propose.map((p) => (
+                <li>{typo(p)}</li>
+              ))}
+            </ul>
+          </div>
+        ) : (
+          showSyntheses && (
+            <div class="resume">
+              <NatureTag nature="position" />
+              <p class="propose-titre">Ses positions sur les thèmes déjà traités sur ce site&nbsp;:</p>
+              <ul class="propose">
+                {syntheses.map(({ s, theme }) => (
+                  <li>
+                    <a href={`/themes/${theme!.id}/`}>{theme!.data.titre}</a>&nbsp;: {typo(s.data.phrase)}
+                  </li>
+                ))}
+              </ul>
+              <SourceRefs sources={[...new Map(syntheses.flatMap((x) => x.s.data.sources).map((x) => [x.id, x])).values()]} />
+            </div>
+          )
         )
       }
     </section>
@@ -171,8 +206,34 @@ const itemProps = (e: (typeof entrees)[number]) => ({
         {r.justice && <p class="muted perimetre">{typo(r.justice)}</p>}
       </Section>
 
-      <Section id="participation" numero={8} titre="Place laissée à la population" count={participation.length} recherche={r.participation}>
+      <Section
+        id="participation"
+        numero={8}
+        titre="Place laissée à la population"
+        count={participation.length + participationAilleurs.length}
+        recherche={r.participation}
+      >
         {participation.map((e) => <Item {...itemProps(e)} />)}
+        {
+          participationAilleurs.length > 0 && (
+            <div class="voir-aussi">
+              <p class="propose-titre">Voir aussi, dans d'autres sections de cette page&nbsp;:</p>
+              <ul>
+                {participationAilleurs.map((e) => (
+                  <li>
+                    {typo(e.data.titre)}
+                    {e.data.theme && (
+                      <>
+                        {' '}
+                        (<a href={`/themes/${e.data.theme.id}/`}>{themeById.get(e.data.theme.id)?.titre}</a>)
+                      </>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
       </Section>
 
       <Section id="declarations" numero={9} titre="Déclarations et polémiques" count={declarations.length} recherche={r.declarations}>
@@ -231,6 +292,10 @@ const itemProps = (e: (typeof entrees)[number]) => ({
   }
   .propose li {
     margin-bottom: 0.3rem;
+  }
+  .voir-aussi {
+    margin-top: 1rem;
+    font-size: 0.92rem;
   }
   .nd-inline {
     margin: 1rem 0 0;
