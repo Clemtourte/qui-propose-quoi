@@ -1,0 +1,15 @@
+candidat: zemmour
+theme: fiscalite-budget
+declaration:
+  texte: Le Casse du siècle
+  date: 2026-09-02
+  contexte: Livre de Sarah Knafo, eurodéputée Reconquête, qui chiffre à plus d'un million d'euros le « préjudice » subi par un salarié au cours de sa carrière
+verificateur: franceinfo (Vrai ou faux)
+verdict: Le « casse du siècle » « apparaît surtout comme une construction destinée à soutenir ses convictions politiques »
+resume: >-
+  La plupart des données citées sont réelles, selon franceinfo. L'économiste Antoine Bozio (IPP) confirme que les
+  cotisations employeur pèsent sur les salaires, mais rappelle qu'elles financent retraite, chômage et assurance
+  maladie : « A priori, il n'y a aucun préjudice, sauf si on pense qu'une autre organisation permettrait de payer
+  moins cher pour les mêmes services ».
+date_verification: 2026-09-08
+sources: [franceinfo-2026-09-08-vof-knafo-casse-du-siecle]

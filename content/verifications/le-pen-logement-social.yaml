@@ -1,0 +1,16 @@
+candidat: le-pen
+theme: immigration
+declaration:
+  texte: Aujourd'hui, 70% des Français sont éligibles au parc social et seulement 11% en bénéficient.
+  date: 2026-09-13
+  contexte: Meeting à Hénin-Beaumont, pour défendre la priorité nationale dans le logement social
+verificateur: franceinfo (Vrai ou faux)
+verdict: "« Des chiffres tirés d'études bien réelles, mais qui ne peuvent pas être interprétés de la façon dont le parti les présente »"
+resume: >-
+  Le chiffre de 70 % est « globalement juste » mais porte sur les ménages résidant en France, de nationalité française
+  ou non (Ancols, 2023), et l'Ancols le dit « à relativiser ». Les 11 % viennent d'une enquête Ined-Insee sur les
+  18-59 ans « sans ascendance migratoire ou ultramarine », catégorie qui « ne correspond pas à la nationalité
+  française », selon le démographe Patrick Simon (Ined). En 2013, selon l'Insee, 79,5 % des ménages du parc social
+  avaient une personne de référence française de naissance et 8,6 % française par naturalisation.
+date_verification: 2026-09-17
+sources: [franceinfo-2026-09-17-vof-le-pen-logement-social]

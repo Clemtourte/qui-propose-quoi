@@ -1,0 +1,14 @@
+candidat: melenchon
+theme: fiscalite-budget
+declaration:
+  texte: Ce que nous demandons c'est que la BCE mette au frigo cette dette en la transformant en sorte de dette perpétuelle
+  date: 2026-08
+  contexte: Mathilde Panot, députée LFI, présentant les propositions de son parti sur BFMTV
+verificateur: franceinfo (Le vrai du faux)
+verdict: "« Dans notre cas, la BCE ne peut pas racheter la dette »"
+resume: >-
+  « Il est possible de mettre la dette au frigo », le pays continuant de payer des intérêts, explique Éric Heyer
+  (OFCE). Mais la BCE ne s'engage pas à détenir une dette indéfiniment, précise Mathieu Plane (OFCE), et elle ne peut
+  pas racheter les titres d'un seul pays : il faudrait un programme d'urgence pour plusieurs pays de la zone euro.
+date_verification: 2026-08-26
+sources: [franceinfo-2026-08-26-vdf-bce-dette]

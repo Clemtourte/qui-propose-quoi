@@ -1,7 +1,7 @@
 titre: "Fiscalité et budget"
 ordre: 2
 accroche: "Impôts, dépense publique, déficit et dette."
-derniere_verification: 2026-10-19
+derniere_verification: 2026-10-20
 questions:
   - id: deficit
     libelle: Objectif de déficit
@@ -44,7 +44,7 @@ recherches:
     Recherché le 19 octobre 2026 : aucun avis d'institution sur les contre-budgets ou projets 2027 de Marine Le Pen,
     Jean-Luc Mélenchon ou Édouard Philippe. Autres candidats pas encore recherchés.
   verifications: >-
-    Recherché le 19 octobre 2026 (franceinfo « Vrai ou faux », AFP Factuel) pour Marine Le Pen, Jean-Luc Mélenchon
-    et Édouard Philippe : aucune vérification publiée en 2026 trouvée sur ce thème. Autres candidats pas encore
-    recherchés.
+    Recherché le 20 octobre 2026 en parcourant toutes les publications des rubriques « Vrai ou faux » et
+    « Le vrai du faux » de franceinfo depuis mai 2026. Retenues : les vérifications d'une affirmation d'un candidat
+    ou d'une mesure de son programme. Autres vérificateurs (AFP Factuel, Les Décodeurs) pas encore recherchés.
   promesses: Pas encore recherché.

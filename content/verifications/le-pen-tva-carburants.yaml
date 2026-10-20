@@ -1,0 +1,14 @@
+candidat: le-pen
+theme: fiscalite-budget
+declaration:
+  texte: C'est ce que nous proposons depuis cinq ans
+  date: 2026-09-18
+  contexte: Sur ICI Gironde, à propos de la baisse de la TVA sur les carburants de 20 % à 5,5 % défendue par le RN
+verificateur: franceinfo (Le vrai du faux)
+verdict: "« Cette mesure, présentée par le RN comme la meilleure solution pour baisser les prix des carburants, est illégale au regard du droit européen »"
+resume: >-
+  Depuis la directive de 2006 sur la TVA, les États membres doivent appliquer un taux normal « pas inférieur à 15% » ;
+  les taux réduits sont limités à une liste de biens et services dont les carburants ne font pas partie. La TVA sur
+  les carburants est de 19 % en Allemagne, 21 % en Espagne et en Belgique, 22 % en Italie.
+date_verification: 2026-09-24
+sources: [franceinfo-2026-09-24-vof-tva-carburants]
