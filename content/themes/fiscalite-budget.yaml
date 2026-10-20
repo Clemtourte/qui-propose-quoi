@@ -16,12 +16,22 @@ etat_des_lieux:
       à 3 460,5 milliards d'euros fin 2025, soit 115,7 % du PIB.
     date: 2026-05-29
     sources: [insee-2026-05-29-comptes-apu-2025]
+    chiffres_cles:
+      - valeur: "5,1 % du PIB"
+        libelle: "déficit public en 2025 (152,5 milliards d'euros)"
+      - valeur: "115,7 % du PIB"
+        libelle: "dette publique fin 2025 (3 460,5 milliards d'euros)"
   - nature: fait
     texte: >-
       En 2025, les prélèvements obligatoires (nets des crédits d'impôt) représentent 43,6 % du PIB et les dépenses
       publiques 57,3 % du PIB.
     date: 2026-05-29
     sources: [insee-2026-05-29-comptes-apu-2025]
+    chiffres_cles:
+      - valeur: "43,6 % du PIB"
+        libelle: "prélèvements obligatoires en 2025"
+      - valeur: "57,3 % du PIB"
+        libelle: "dépenses publiques en 2025"
   - nature: fait
     texte: >-
       Le projet de loi de finances pour 2027, présenté le 1er octobre 2026, vise un déficit public de 5,0 % du PIB

@@ -18,12 +18,20 @@ etat_des_lieux:
       nées à partir de 1969.
     date: 2026-09-01
     sources: [servicepublic-2026-02-27-suspension-retraites]
+    chiffres_cles:
+      - valeur: "62 ans et 9 mois"
+        libelle: "âge légal de départ pour les personnes nées en 1964, la hausse prévue en 2023 étant suspendue jusqu'en 2028"
   - nature: fait
     texte: >-
       En 2025, les dépenses de retraite représentent 14,1 % du PIB. Le système (régimes de base et
       complémentaires) est en déficit de 5,1 milliards d'euros, soit 0,2 point de PIB, hors charges et produits financiers.
     date: 2026-06
     sources: [cor-2026-06-rapport-annuel-synthese]
+    chiffres_cles:
+      - valeur: "14,1 % du PIB"
+        libelle: "dépenses de retraite en 2025"
+      - valeur: "5,1 milliards d'euros"
+        libelle: "déficit du système de retraite en 2025"
   - nature: jugement
     auteur: Conseil d'orientation des retraites, rapport annuel, juin 2026
     texte: >-

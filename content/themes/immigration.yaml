@@ -19,17 +19,26 @@ etat_des_lieux:
       les motifs humanitaires (92 600, +65 %), familiaux (91 000, stables) et économiques (51 190, −13 %).
     date: 2026-01-27
     sources: [publicsenat-2026-01-27-titres-sejour-2025, franceinfo-2026-01-27-rapport-immigration-2025]
+    chiffres_cles:
+      - valeur: "384 230"
+        libelle: "premiers titres de séjour délivrés en 2025 (+11,2 % sur un an, données provisoires)"
   - nature: fait
     texte: >-
       Environ 117 000 premières demandes d'asile ont été enregistrées en 2025 (−10 % sur un an), sur 151 665
       demandes au total (−3,7 %), données provisoires.
     date: 2026-01-27
     sources: [franceinfo-2026-01-27-rapport-immigration-2025, publicsenat-2026-01-27-titres-sejour-2025]
+    chiffres_cles:
+      - valeur: "environ 117 000"
+        libelle: "premières demandes d'asile en 2025 (−10 % sur un an, données provisoires)"
   - nature: fait
     texte: >-
       Les éloignements d'étrangers atteignent 24 985 en 2025, en hausse de 15,7 % sur un an (données provisoires).
     date: 2026-01-27
     sources: [publicsenat-2026-01-27-titres-sejour-2025, franceinfo-2026-01-27-rapport-immigration-2025]
+    chiffres_cles:
+      - valeur: "24 985"
+        libelle: "éloignements d'étrangers en 2025 (+15,7 % sur un an, données provisoires)"
 recherches:
   avis: >-
     Recherché le 19 octobre 2026 : aucun avis d'institution sur les projets 2027 de Marine Le Pen, Jean-Luc Mélenchon
