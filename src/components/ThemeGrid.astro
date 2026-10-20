@@ -3,23 +3,48 @@ import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   themes: CollectionEntry<'themes'>[];
+  // Candidates with a summary on each theme; themes without any are shown as "coming".
+  couverture?: Record<string, number>;
+  total?: number;
 }
 
-const { themes } = Astro.props;
+const { themes, couverture = {}, total = 0 } = Astro.props;
+const prets = themes.filter((t) => (couverture[t.id] ?? 0) > 0);
+const avenir = themes.filter((t) => !(couverture[t.id] ?? 0));
 ---
 
 <ul class="grid">
   {
-    themes.map((t) => (
+    prets.map((t) => (
       <li>
-        <a href={`/themes/${t.id}/`}>
+        <a href={`/themes/${t.id}/`} class="pret">
           <span class="titre">{t.data.titre}</span>
           <span class="accroche">{t.data.accroche}</span>
+          <span class="badge">
+            {couverture[t.id]}
+            {total ? ` / ${total}` : ''} candidats
+          </span>
         </a>
       </li>
     ))
   }
 </ul>
+{
+  avenir.length > 0 && (
+    <>
+      <p class="avenir-titre">À venir</p>
+      <ul class="grid avenir">
+        {avenir.map((t) => (
+          <li>
+            <a href={`/themes/${t.id}/`}>
+              <span class="titre">{t.data.titre}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )
+}
 
 <style>
   .grid {
@@ -44,12 +69,47 @@ const { themes } = Astro.props;
     transition: border-color 0.15s;
   }
   a:hover {
-    border-color: var(--text);
+    border-color: var(--accent);
+  }
+  .pret {
+    border-top: 4px solid var(--accent);
+    padding: 1.1rem 1.1rem 1rem;
+  }
+  .badge {
+    margin-top: auto;
+    padding-top: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .avenir-titre {
+    margin: 1.75rem 0 0.6rem;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .avenir {
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 0.5rem;
+  }
+  .avenir a {
+    padding: 0.6rem 0.8rem;
+    background: transparent;
+    border-style: dashed;
+    color: var(--muted);
+  }
+  .avenir .titre {
+    font-size: 0.95rem;
+    font-weight: 600;
   }
   .titre {
     font-family: var(--font-serif);
-    font-weight: 650;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
   }
   .accroche {
     font-size: 0.88rem;
@@ -70,6 +130,9 @@ const { themes } = Astro.props;
     }
     .accroche {
       display: none;
+    }
+    .avenir {
+      grid-template-columns: 1fr 1fr;
     }
   }
 </style>

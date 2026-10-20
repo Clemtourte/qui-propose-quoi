@@ -37,6 +37,8 @@ const sourcedItem = z
     auteur: z.string().optional(),
     date: fuzzyDate,
     sources: sourcesList,
+    // Key figures quoted from `texte`, shown as large numbers at the top of a theme page.
+    chiffres_cles: z.array(z.object({ valeur: z.string(), libelle: z.string() })).default([]),
     // Placeholder items attached to real records (e.g. a theme overview), hidden in production.
     demo: z.boolean().default(false),
   })

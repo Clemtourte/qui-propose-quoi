@@ -9,6 +9,7 @@ import SourceRefs from '../../components/SourceRefs.astro';
 import SourceList from '../../components/SourceList.astro';
 import JusticeCard from '../../components/JusticeCard.astro';
 import NatureTag from '../../components/NatureTag.astro';
+import Initiales from '../../components/Initiales.astro';
 import Legende from '../../components/Legende.astro';
 import {
   getCandidats,
@@ -101,8 +102,13 @@ const itemProps = (e: (typeof entrees)[number]) => ({
 <Base title={`${c.prenom} ${c.nom}`} description={`${c.prenom} ${c.nom} (${c.parti}) : programme, bilan, sources.`}>
   <div class="wrap">
     <header class="hero">
-      <p class="eyebrow">{c.parti}</p>
-      <h1>{c.prenom} {c.nom}</h1>
+      <div class="identite">
+        <Initiales prenom={c.prenom} nom={c.nom} size="lg" />
+        <div>
+          <p class="eyebrow">{c.parti}</p>
+          <h1>{c.prenom} {c.nom}</h1>
+        </div>
+      </div>
       {c.fonction && <p class="fonction">{c.fonction}</p>}
       <Legende />
     </header>
@@ -158,7 +164,7 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     </section>
 
     <div class="sections">
-      <Section id="vision" numero={2} titre="Vision d'ensemble et cohérence" count={vision.length} recherche={r.vision} open>
+      <Section id="vision" numero={2} titre="Vision d'ensemble et cohérence" count={vision.length} recherche={r.vision} open={vision.length > 0}>
         {vision.map((v) => <Item {...v} />)}
       </Section>
 
@@ -267,6 +273,15 @@ const itemProps = (e: (typeof entrees)[number]) => ({
   .hero {
     margin-bottom: 1.5rem;
   }
+  .identite {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .identite h1 {
+    margin: 0;
+  }
   .fonction {
     color: var(--muted);
     font-size: 1.05rem;
@@ -275,6 +290,7 @@ const itemProps = (e: (typeof entrees)[number]) => ({
   .trente {
     background: var(--surface);
     border: 1px solid var(--line);
+    border-top: 4px solid var(--accent);
     border-radius: var(--radius);
     padding: 1.25rem;
     margin-bottom: 2rem;
@@ -283,10 +299,23 @@ const itemProps = (e: (typeof entrees)[number]) => ({
   .trente h2 {
     font-size: 1.3rem;
   }
+  .trente h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
   .num {
-    color: var(--muted);
-    font-weight: 400;
-    margin-right: 0.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--surface);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
   }
   .candidature p {
     margin: 0.5rem 0 0;

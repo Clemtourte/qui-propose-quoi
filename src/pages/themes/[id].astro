@@ -10,7 +10,9 @@ import SourceRefs from '../../components/SourceRefs.astro';
 import SourceList from '../../components/SourceList.astro';
 import NatureTag from '../../components/NatureTag.astro';
 import Legende from '../../components/Legende.astro';
-import { getThemes, getThemeData, typo } from '../../lib/data';
+import Initiales from '../../components/Initiales.astro';
+import { getEntry } from 'astro:content';
+import { getThemes, getThemeData, typo, formatDate } from '../../lib/data';
 
 export async function getStaticPaths() {
   const themes = await getThemes();
@@ -20,6 +22,22 @@ export async function getStaticPaths() {
 const { theme } = Astro.props;
 const t = theme.data;
 const { candidats, parCandidat, etat, avis, verifications, promesses, sources } = await getThemeData(theme);
+// Key figures from the overview, each linked to the first source of its statement.
+const chiffres = await Promise.all(
+  etat.flatMap((e) =>
+    e.chiffres_cles.map(async (c) => {
+      // "5,1 % du PIB" -> big "5,1 %" + smaller "du PIB"; values starting with a word stay whole.
+      const m = c.valeur.match(/^([\d\s,.%+−-]*\d[\d\s,.%]*?)\s+([A-Za-zÀ-ÿ].*)$/);
+      return {
+        ...c,
+        nombre: m ? m[1] : c.valeur,
+        unite: m ? m[2] : '',
+        date: e.date,
+        source: await getEntry(e.sources[0]),
+      };
+    }),
+  ),
+);
 const nom = (id: string) => {
   const c = candidats.find((x) => x.id === id)!;
   return `${c.data.prenom} ${c.data.nom}`;
@@ -35,15 +53,47 @@ const nom = (id: string) => {
       <Legende />
     </header>
 
-    <section class="etat prose" aria-labelledby="etat-titre">
+    <section class="etat" aria-labelledby="etat-titre">
       <h2 id="etat-titre">État des lieux</h2>
       {
-        etat.length ? (
-          <div class="stack">
-            {etat.map((e) => (
-              <Item {...e} />
+        chiffres.length > 0 && (
+          <ul class="chiffres-cles">
+            {chiffres.map((c) => (
+              <li>
+                <span class="valeur">
+                  {typo(c.nombre)}
+                  {c.unite && <span class="unite">{typo(c.unite)}</span>}
+                </span>
+                <span class="libelle">{typo(c.libelle)}</span>
+                {c.source && (
+                  <a class="src" href={c.source.data.url} target="_blank" rel="noopener noreferrer">
+                    {c.source.data.media}, {formatDate(c.date)}
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                )}
+              </li>
             ))}
-          </div>
+          </ul>
+        )
+      }
+      {
+        etat.length ? (
+          chiffres.length > 0 ? (
+            <details class="etat-detail">
+              <summary>Lire l'état des lieux complet ({etat.length} éléments, avec les projections et les évaluations)</summary>
+              <div class="stack">
+                {etat.map((e) => (
+                  <Item {...e} />
+                ))}
+              </div>
+            </details>
+          ) : (
+            <div class="stack">
+              {etat.map((e) => (
+                <Item {...e} />
+              ))}
+            </div>
+          )
         ) : (
           <p class="nd">
             <strong>Non documenté.</strong> Pas encore recherché.
@@ -75,17 +125,20 @@ const nom = (id: string) => {
           return (
             <details class="carte" id={`carte-${c.id}`}>
               <summary>
-                <span class="qui">
-                  <span class="nom">
-                    {c.data.prenom} {c.data.nom}
+                <Initiales prenom={c.data.prenom} nom={c.data.nom} size="sm" />
+                <span class="corps">
+                  <span class="qui">
+                    <span class="nom">
+                      {c.data.prenom} {c.data.nom}
+                    </span>
+                    <span class="parti">{c.data.parti}</span>
                   </span>
-                  <span class="parti">{c.data.parti}</span>
+                  {synthese ? (
+                    <span class="phrase">{typo(synthese.data.phrase)}</span>
+                  ) : (
+                    <span class="phrase nd-inline">Position non documentée sur ce thème.</span>
+                  )}
                 </span>
-                {synthese ? (
-                  <span class="phrase">{typo(synthese.data.phrase)}</span>
-                ) : (
-                  <span class="phrase nd-inline">Position non documentée sur ce thème.</span>
-                )}
                 <span class="plus" aria-hidden="true" />
               </summary>
               <div class="detail">
@@ -172,6 +225,59 @@ const nom = (id: string) => {
     display: grid;
     gap: 0.75rem;
   }
+  .chiffres-cles {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11.5rem, 1fr));
+    gap: 0.75rem;
+    max-width: 56rem;
+  }
+  .chiffres-cles li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--fait);
+    border-radius: var(--radius);
+  }
+  .valeur {
+    font-family: var(--font-serif);
+    font-size: 1.85rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--fait);
+    font-variant-numeric: tabular-nums;
+  }
+  .unite {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-top: 0.15rem;
+  }
+  .libelle {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .src {
+    margin-top: auto;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .etat-detail {
+    max-width: var(--measure);
+  }
+  .etat-detail > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+    padding: 0.4rem 0;
+    margin-bottom: 0.5rem;
+  }
   .note {
     display: flex;
     flex-wrap: wrap;
@@ -198,14 +304,22 @@ const nom = (id: string) => {
   }
   .carte summary {
     display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0.35rem 1rem;
-    padding: 0.9rem 1rem;
+    grid-template-columns: auto 1fr auto;
+    align-items: start;
+    gap: 0.85rem;
+    padding: 1rem;
     cursor: pointer;
     list-style: none;
   }
   .carte summary::-webkit-details-marker {
     display: none;
+  }
+  .carte:hover {
+    border-color: var(--accent);
+  }
+  .corps {
+    display: grid;
+    gap: 0.3rem;
   }
   .qui {
     display: flex;
@@ -214,31 +328,32 @@ const nom = (id: string) => {
     gap: 0 0.6rem;
   }
   .nom {
-    font-family: var(--font-serif);
-    font-size: 1.15rem;
-    font-weight: 650;
+    font-weight: 700;
+    font-size: 0.98rem;
   }
   .parti {
-    font-size: 0.82rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     color: var(--muted);
   }
   .phrase {
-    grid-column: 1;
-    font-size: 0.98rem;
+    font-family: var(--font-serif);
+    font-size: 1.08rem;
+    line-height: 1.45;
   }
   .nd-inline {
     color: var(--muted);
     font-style: italic;
   }
   .plus {
-    grid-column: 2;
-    grid-row: 1 / span 2;
     align-self: center;
   }
   .plus::after {
     content: '+';
     font-size: 1.4rem;
-    color: var(--muted);
+    color: var(--accent);
   }
   .carte[open] .plus::after {
     content: '−';
@@ -274,5 +389,28 @@ const nom = (id: string) => {
     margin: 0;
     font-weight: 600;
     font-size: 0.9rem;
+  }
+  /* Phones: two figures per row and tighter cards, so the page does not turn into a long column. */
+  @media (max-width: 599px) {
+    .chiffres-cles {
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+    }
+    .chiffres-cles li {
+      padding: 0.75rem;
+    }
+    .valeur {
+      font-size: 1.35rem;
+    }
+    .libelle {
+      font-size: 0.8rem;
+    }
+    .carte summary {
+      gap: 0.6rem;
+      padding: 0.85rem 0.75rem;
+    }
+    .phrase {
+      font-size: 1rem;
+    }
   }
 </style>

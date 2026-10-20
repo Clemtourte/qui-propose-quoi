@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import Initiales from './Initiales.astro';
 
 interface Props {
   candidats: CollectionEntry<'candidats'>[];
@@ -13,10 +14,13 @@ const { candidats } = Astro.props;
     candidats.map((c) => (
       <li>
         <a href={`/candidats/${c.id}/`}>
-          <span class="nom">
-            {c.data.prenom} <strong>{c.data.nom}</strong>
+          <Initiales prenom={c.data.prenom} nom={c.data.nom} size="sm" />
+          <span class="txt">
+            <span class="nom">
+              {c.data.prenom} <strong>{c.data.nom}</strong>
+            </span>
+            <span class="parti">{c.data.parti}</span>
           </span>
-          <span class="parti">{c.data.parti}</span>
         </a>
       </li>
     ))
@@ -34,7 +38,8 @@ const { candidats } = Astro.props;
   }
   a {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
     padding: 0.75rem 1rem;
     border: 1px solid var(--line);
     border-radius: var(--radius);
@@ -43,14 +48,18 @@ const { candidats } = Astro.props;
     text-decoration: none;
   }
   a:hover {
-    border-color: var(--text);
+    border-color: var(--accent);
+  }
+  .txt {
+    display: flex;
+    flex-direction: column;
   }
   .nom {
     font-family: var(--font-serif);
     font-size: 1.1rem;
   }
   .parti {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--muted);
   }
 </style>

@@ -5,20 +5,22 @@
   --font-serif: 'Source Serif 4 Variable', Georgia, serif;
   --font-sans: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
-  --bg: #fbfaf7;
+  --bg: #f6f4ef;
   --surface: #ffffff;
-  --text: #1c1c1a;
-  --muted: #5d5b55;
-  --line: #e3e0d8;
-  --accent: #1d3f6e;
+  --text: #191917;
+  --muted: #5f5c55;
+  --line: #e0dcd2;
+  --accent: #1f4b99;
+  --accent-bg: #e8eefa;
+  --accent-strong: #163a78;
 
-  /* The three levels of information. Muted, distinct, never party colours. */
-  --fait: #3c4a55;
-  --fait-bg: #eef1f3;
-  --position: #1e6a64;
-  --position-bg: #e8f3f1;
-  --jugement: #8a5a17;
-  --jugement-bg: #f8f0e3;
+  /* The three levels of information. Distinct hues, never party colours. */
+  --fait: #2f4d6b;
+  --fait-bg: #e6edf4;
+  --position: #0d7368;
+  --position-bg: #def2ee;
+  --jugement: #9a5208;
+  --jugement-bg: #fbecd7;
 
   --empty-bg: repeating-linear-gradient(-45deg, #f3f1ec 0 8px, #ece9e2 8px 16px);
   --radius: 6px;
@@ -27,18 +29,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #161614;
-    --surface: #1f1f1c;
-    --text: #ecebe6;
-    --muted: #a8a59c;
-    --line: #34332e;
-    --accent: #9cbbe6;
-    --fait: #b9c6d0;
-    --fait-bg: #24292d;
-    --position: #8fd1c8;
-    --position-bg: #1c2b29;
-    --jugement: #e3b673;
-    --jugement-bg: #2e261a;
+    --bg: #141413;
+    --surface: #1f1f1d;
+    --text: #eeede8;
+    --muted: #aaa79e;
+    --line: #36352f;
+    --accent: #8fb3f2;
+    --accent-bg: #1c2638;
+    --accent-strong: #b5ccf7;
+    --fait: #b3c7db;
+    --fait-bg: #223040;
+    --position: #7fd6c9;
+    --position-bg: #173330;
+    --jugement: #f0b768;
+    --jugement-bg: #3a2a14;
     --empty-bg: repeating-linear-gradient(-45deg, #1f1f1c 0 8px, #252521 8px 16px);
   }
 }
@@ -58,7 +62,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font-sans);
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -77,7 +81,18 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+/* Section headings get a short accent bar, so the page structure reads at a glance. */
+main h2:not(:has(.num))::before {
+  content: '';
+  display: block;
+  width: 2.25rem;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent);
+  margin-bottom: 0.6rem;
 }
 
 h3 {
@@ -112,11 +127,11 @@ button:focus-visible {
 }
 
 .eyebrow {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin: 0 0 0.5rem;
 }
 
