@@ -2,6 +2,8 @@
 import '../styles/global.css';
 import { showDemo } from '../lib/data';
 
+const SITE_NAME = 'Qui propose quoi';
+
 interface Props {
   title: string;
   description?: string;
@@ -25,7 +27,7 @@ const nav = [
     <meta name="robots" content="noindex, nofollow, noarchive" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title === 'Présidentielle 2027' ? title : `${title} · Présidentielle 2027`}</title>
+    <title>{title === SITE_NAME ? title : `${title} · ${SITE_NAME}`}</title>
   </head>
   <body>
     <a class="skip" href="#contenu">Aller au contenu</a>
@@ -38,7 +40,7 @@ const nav = [
     }
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href="/">Présidentielle <span>2027</span></a>
+        <a class="brand" href="/">Qui propose quoi <span>· 2027</span></a>
         <nav aria-label="Navigation principale">
           <ul>
             {
