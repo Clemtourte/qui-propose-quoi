@@ -1,0 +1,17 @@
+candidat: zemmour
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: "Reconquête : baisse des dépenses et refus des hausses d'impôts (Sarah Knafo)"
+texte: >-
+  Position exprimée par Sarah Knafo, députée européenne Reconquête, en réaction au projet de budget 2027 du
+  gouvernement : ne pas remplacer 800 000 postes de la fonction publique (40 milliards d'euros par an), supprimer
+  l'aide publique au développement (14 milliards), réserver les prestations sociales non contributives aux Français
+  (jusqu'à 20 milliards), supprimer des agences. Elle censurerait tout gouvernement dont le budget contient « un seul
+  impôt qui augmente ».
+chiffres:
+  - libelle: Économie annuelle attendue du non-remplacement de 800 000 postes, selon Sarah Knafo
+    valeur: 40 Md€
+    nature: position
+date: 2026-09-18
+sources: [franceinfo-2026-09-18-knafo-budget]

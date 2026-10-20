@@ -4,7 +4,25 @@ parti: Reconquête
 fiche: complete
 fonction: Président de Reconquête
 candidature:
-  texte: Candidature confirmée le 17 septembre 2026 sur BFMTV.
+  texte: "Candidature confirmée le 17 septembre 2026 sur BFMTV ; la déclaration officielle de candidature est annoncée pour l'automne."
   date: 2026-09-17
-  sources: [lcp-2026-09-17-zemmour-candidature]
+  sources: [lcp-2026-09-17-zemmour-candidature, europe1-2026-09-18-zemmour-immigration]
+recherches:
+  en_30_secondes: Pas encore rédigé.
+  vision: >-
+    Pas encore rédigée. Aucun programme chiffré d'Éric Zemmour trouvé au 20 octobre 2026 ; les positions
+    économiques citées sont celles de Sarah Knafo (Reconquête).
+  avis: >-
+    Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
+    d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
+  verifications: >-
+    Recherché le 19 octobre 2026 (franceinfo « Vrai ou faux », AFP Factuel) pour les retraites, la fiscalité et
+    le budget, l'immigration : aucune vérification publiée en 2026 trouvée. Autres thèmes pas encore recherchés.
+  justice: Pas encore recherché.
+  participation: Pas encore recherché.
+  declarations: Pas encore recherché.
+  soutiens: Pas encore recherché de façon systématique.
+  bilan: >-
+    Recherché le 19 octobre 2026 : aucun vote ni acte public sur les réformes des retraites de 2023 et 2025 trouvé.
+    Fiscalité et immigration pas encore recherchées.
 derniere_verification: 2026-10-19
