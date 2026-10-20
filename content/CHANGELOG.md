@@ -11,3 +11,12 @@
   - Le Pen : citation retraites remplacée par une citation verbatim du 14 octobre ; dates corrigées (critique d'Édouard Philippe le 6 octobre, propos de Richard Ferrand le 9 octobre) ; financement des retraites (15 à 20 Md€ annoncés) ajouté ; divergences signalées (règle d'or, contribution à l'UE) ; chiffre de croissance attribué au HCFP retiré ; réaction de Marine Le Pen du 14 octobre et saisine RN-UDR du 16 octobre ajoutées ; motion de censure RN du 20 mars 2023 ajoutée.
   - Mélenchon : « 25 Md€ par an » remplacé par la divergence entre sources ; chiffrage début 2027 rattaché au programme ; interprétation « surtout sur les patrimoines » remplacée par le chiffre (45 Md€) ; mots ajoutés retirés de la synthèse immigration ; nom du programme 2027 corrigé.
   - Philippe : périmètre de la suspension de l'asile (Mayotte et Guyane) ; « aides publiques improductives » (termes du programme) ; citation retraites complétée (« pour les Français qui le peuvent ») ; liste de pays sûrs : écart entre programme et France 2 signalé.
+
+## 20 octobre 2026
+- Deuxième passe : Attal, Glucksmann, Retailleau, Tondelier et Zemmour sur les retraites, la fiscalité et le budget, l'immigration (synthèses, mesures, votes au Parlement pour Attal et Retailleau).
+- Revérification indépendante (trois sous-agents) puis corrections :
+  - Attal : citation de 2022 remplacée par le texte du compte rendu officiel du Sénat ; date de l'entretien au Parisien corrigée (2 juillet) ; « année blanche » sur les prestations, « sans hausse d'impôts » et « cap » 2037 ajoutés ; mots absents des sources retirés.
+  - Glucksmann : citation sur les héritages remplacée par la version verbatim (TF1, 23 août) ; assiette et leviers du chiffrage ajoutés ; évolution sur l'âge de départ (62 ans depuis le 4 octobre) ; date du livre (28 mai) ; vérification franceinfo ajoutée.
+  - Retailleau : date de la citation sur la Constitution (12 février, TF1) ; analyse de Public Sénat sur l'article 11 sortie de la position du candidat ; citation sur les opérateurs remise dans son contexte ; titre de l'avis des juristes recentré ; 12 Md€ attribués à la réforme paramétrique.
+  - Tondelier : programme économique du parti (L'Opinion, 13 juillet) ajouté ; financement des retraites ; vérification franceinfo sur le pacte Dutreil ; déclaration du 1er mai 2026 sur l'immigration.
+  - Zemmour : propos de Zemmour lui-même sur les retraites (franceinfo, 30 septembre) ajoutés ; positions de Sarah Knafo citées en entier ; statut de candidature nuancé.

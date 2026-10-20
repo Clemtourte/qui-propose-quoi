@@ -43,7 +43,19 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour Le Pen, Mélenchon et Philippe : « En 30 secondes », « Vision d'ensemble », « Décisions de justice », « Place laissée à la population », et les 11 autres thèmes.
-- Pour les 5 autres candidats : toutes les sections.
+- Pour les 8 candidats : « En 30 secondes », « Vision d'ensemble », « Décisions de justice », « Place laissée à la population », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
 - État des lieux : 11 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
+
+## Deuxième passe (Attal, Glucksmann, Retailleau, Tondelier, Zemmour × 3 thèmes), 19-20 octobre 2026
+Contenu revérifié par trois vérificateurs indépendants ; corrections appliquées. Restent :
+
+### Vérifications de faits : recherche à refaire pour tous
+La revérification a trouvé deux « Vrai ou faux » de franceinfo (Glucksmann, 25 août 2026 ; Tondelier, 2 septembre 2026) que la première recherche avait manqués. Une recherche complémentaire du 20 octobre n'en a pas trouvé d'autre pour les six autres candidats sur ces thèmes, mais la méthode (moteur de recherche) est peu fiable. À faire : parcourir directement les rubriques « Vrai ou faux » et « Le vrai du faux » de franceinfo, AFP Factuel et Les Décodeurs depuis août 2026, pour les huit candidats. Pistes hors thèmes : La Dépêche, 6 octobre 2026 (Glucksmann, salaires des enseignants) ; émission franceinfo « Vrai ou faux » du 5 septembre 2026 (propositions économiques de la gauche).
+
+### Chiffres et citations à confirmer
+- **Attal** : 7 Md€ d'économies pour 100 000 postes (Public Sénat seul) ; capitalisation présentée comme « une dose » (LCP) ou un système à « généraliser » (franceinfo) ; quotas d'immigration de travail repérés seulement via un agrégateur (Le Figaro, 30 avril 2026).
+- **Glucksmann** : critiques de la baisse de la CSG par ses concurrents de la primaire (Nouvel Obs, 2 octobre 2026) non reprises, en attendant la passe sur les réactions ; projet de Place publique de mars 2026 à consulter (source primaire).
+- **Retailleau** : proposition de loi constitutionnelle de 2023 (élargissement de l'article 11), retirée de l'ordre du jour, à vérifier sur senat.fr pour le bilan ; comparaison des 7,5 Md€ visés sur les opérateurs avec le rapport sénatorial Lavarde (2025).
+- **Tondelier** : positions sur l'immigration listées sans source par Le Courrier de l'Atlas (19 octobre 2026) ; doctrine des Écologistes du 13 juillet 2026 inaccessible (lesecologistes.fr, erreur 403), connue par L'Opinion.
+- **Zemmour** : Europe 1 date par erreur l'entretien BFMTV du « jeudi 18 septembre » (c'est le jeudi 17) ; affirmation de Zemmour sur un article du code des étrangers « de 1945 » à faire vérifier ; positions économiques connues surtout par Sarah Knafo ; consultation en ligne de Reconquête sur le programme.
