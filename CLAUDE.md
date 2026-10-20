@@ -63,7 +63,7 @@ Construire un site d'information complet sur les candidats majeurs à la présid
 ## Méthode de travail
 1. **Recherche** : un sujet à la fois (un candidat ou un thème). Chercher d'abord les sources primaires, ensuite la presse. Noter systématiquement les contradictions entre sources.
 2. **Rédaction** : suivre exactement la structure fixe ci-dessus. Phrases courtes, chiffres concrets, pas d'adjectifs évaluatifs.
-3. **Vérification avant d'écrire dans `content/`** : citations relues contre la source, dates, chiffres recalculés, attribution des jugements. Pour un contenu à enjeu élevé, faire revérifier par une autre session ou un sous-agent qui n'a pas vu la rédaction.
+3. **Vérification avant d'écrire dans `content/`** : citations relues contre la source, dates, chiffres recalculés, attribution des jugements. Pas de sous-agents (trop coûteux en tokens) : le rédacteur relit lui-même chaque citation, date et chiffre dans le texte source téléchargé avant d'écrire, et signale dans `content/a-verifier.md` ce qui n'a qu'une source.
 4. **Test visuel** : après chaque changement de design ou de contenu, lancer le site en local et le regarder (desktop et mobile) avant de déclarer terminé.
 5. **Commits** : petits commits, un par candidat ou thème, message en français décrivant le contenu ajouté.
 
