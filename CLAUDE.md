@@ -1,4 +1,4 @@
-# Site « Présidentielle 2027 » : consignes du projet
+# Site « Qui propose quoi · 2027 » : consignes du projet
 
 Langue de travail et du site : français. Date de référence du projet : octobre 2026 (1er tour le 18 avril 2027, 2nd tour le 2 mai 2027).
 
@@ -96,7 +96,7 @@ Construire un site d'information complet sur les candidats majeurs à la présid
 - **Hébergement et accès** : Cloudflare Pages + Cloudflare Access (connexion par lien e-mail, liste blanche, gratuit jusqu'à 50 utilisateurs), en-tête et meta `noindex`.
 - **Fonctions interactives retenues** : comparateur côte à côte (2-3 candidats sur un thème) ; votes réels (scrutins AN/PE sur les grands textes, source primaire) ; glossaire en infobulle + recherche plein texte (Pagefind). Écartés pour l'instant : quiz de citations, boussole électorale (risque de biais par le choix et la pondération des questions).
 - **V1** : 3 candidats × 3 thèmes de bout en bout pour valider le modèle de données et le design, puis montée en charge.
-- **Suivi** : serveur de dev dans le navigateur intégré pendant les sessions ; arrêt pour validation à chaque étape visible (mise en page, page candidat, page thème, comparateur) ; dépôt GitHub privé `Clemtourte/presidentielle-2027` ; aperçus Cloudflare Pages par branche (variable `PUBLIC_SHOW_DEMO=true` sur les aperçus pour afficher le candidat fictif de démonstration).
+- **Suivi** : serveur de dev dans le navigateur intégré pendant les sessions ; arrêt pour validation à chaque étape visible (mise en page, page candidat, page thème, comparateur) ; dépôt GitHub privé `Clemtourte/qui-propose-quoi` (site « Qui propose quoi · 2027 », adresse prévue `qui-propose-quoi.pages.dev`) ; aperçus Cloudflare Pages par branche (variable `PUBLIC_SHOW_DEMO=true` sur les aperçus pour afficher le candidat fictif de démonstration).
 
 ## Organisation technique
 - `content/` : données (YAML, une entrée par fichier). Schémas dans `src/content.config.ts` : une entrée invalide (jugement sans auteur, date mal formée, champ obligatoire absent) fait échouer `npm run build` ; une référence vers une source inexistante est détectée par `npm run check`.

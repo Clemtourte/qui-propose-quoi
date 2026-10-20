@@ -1,4 +1,4 @@
-# Présidentielle 2027
+# Qui propose quoi · 2027
 
 Site d'information sur les candidats à la présidentielle 2027, par thème et par candidat, avec sources. Accès restreint.
 
