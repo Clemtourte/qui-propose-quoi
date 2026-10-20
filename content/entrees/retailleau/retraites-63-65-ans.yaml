@@ -1,0 +1,27 @@
+candidat: retailleau
+theme: retraites
+rubrique: mesure
+nature: position
+titre: Âge minimal de 63 ans, taux plein à 65 ans
+citation:
+  texte: L'âge minimal de départ, c'est 63 ans
+  date: 2026-09-22
+  contexte: Sur LCI, rapporté par LCP
+texte: >-
+  Départ possible à 63 ans avec une décote de 7 % par an, taux plein à 65 ans (au lieu de 67) même sans toutes les
+  annuités ; l'âge du taux plein évoluerait avec l'espérance de vie, l'âge minimal de 63 ans non. Les carrières
+  longues complètes pourraient partir à taux plein à 63 ans, avec une incitation à travailler jusqu'à 65 ans. Une
+  part de capitalisation « pour les jeunes » représenterait 25 à 30 % de leur retraite ; une piste de financement est
+  une cotisation de 1 % du salaire brut, répartie entre salarié et employeur. Son plan budgétaire du 12 octobre prévoit
+  d'améliorer les comptes du système d'environ 42 milliards d'euros, dont 12 milliards issus de la réforme
+  paramétrique (départ entre 63 et 65 ans avec décote), le reste venant de la capitalisation, du placement des
+  réserves, de la convergence sur l'Agirc-Arrco et de la fin des derniers régimes spéciaux (Public Sénat).
+chiffres:
+  - libelle: Économies cumulées sur cinq ans, selon le candidat (LCI, 22 septembre 2026)
+    valeur: 40 Md€
+    nature: position
+  - libelle: Amélioration des comptes du système de retraite, selon son plan budgétaire (12 octobre 2026)
+    valeur: environ 42 Md€
+    nature: position
+date: 2026-09-22
+sources: [lcp-2026-09-23-retailleau-retraites, publicsenat-2026-10-12-retailleau-economies, franceinfo-2026-10-12-retraites-candidats]

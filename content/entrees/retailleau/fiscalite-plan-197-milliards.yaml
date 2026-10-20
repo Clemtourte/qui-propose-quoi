@@ -1,0 +1,26 @@
+candidat: retailleau
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: Plan de 197 milliards d'euros d'effort sur cinq ans
+citation:
+  texte: La suppression sera la règle, la prolongation d'activité sera l'exception
+  date: 2026-10-12
+  contexte: À propos des opérateurs de l'État (agences), lors de la présentation de son plan budgétaire, rapportée par Public Sénat
+texte: >-
+  Présenté le 12 octobre 2026 : 96 Md€ sur l'État, 91 Md€ sur la sphère sociale, 10 Md€ sur les collectivités ;
+  excédent primaire en 2030, déficit sous 3 % du PIB en 2031 et à 2,2 % en fin de quinquennat. Non-remplacement de
+  400 000 agents publics partant à la retraite (25 Md€), suppression ou réintégration d'opérateurs de l'État
+  (7,5 Md€), budgets construits « systématiquement sur la base zéro » (11,5 Md€), 10 Md€ d'économies sur
+  l'immigration, dont une grande partie dépend d'une révision constitutionnelle selon Public Sénat. Allègements de
+  prélèvements : 30 Md€ pour les entreprises (dont la suppression d'impôts de production) et 21 Md€ pour les ménages
+  (dont l'exonération de cotisations sur les heures supplémentaires) ; l'article cite aussi un total de 56 Md€.
+chiffres:
+  - libelle: Effort sur cinq ans, selon le candidat
+    valeur: 197 Md€
+    nature: position
+  - libelle: Agents publics non remplacés
+    valeur: 400 000
+    nature: position
+date: 2026-10-12
+sources: [publicsenat-2026-10-12-retailleau-economies]

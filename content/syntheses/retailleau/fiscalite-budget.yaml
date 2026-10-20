@@ -1,0 +1,9 @@
+candidat: retailleau
+theme: fiscalite-budget
+phrase: Un plan de 197 milliards d'euros d'effort sur cinq ans, dont 51 à 56 milliards d'allègements de prélèvements selon les passages de la source, pour un déficit sous 3 % en 2031.
+reponses:
+  deficit: Sous 3 % du PIB en 2031 ; 2,2 % en fin de quinquennat
+  budget: 197 Md€ d'effort sur cinq ans ; 400 000 agents publics non remplacés (25 Md€)
+  impots: 51 à 56 Md€ d'allègements de prélèvements (chiffres divergents dans la source), dont 30 Md€ pour les entreprises
+date: 2026-10-12
+sources: [publicsenat-2026-10-12-retailleau-economies]
