@@ -1,0 +1,60 @@
+---
+// Explains the three labels used across the site (fact, position, opinion).
+import NatureTag from './NatureTag.astro';
+---
+
+<details class="legende">
+  <summary>Comment lire les étiquettes</summary>
+  <dl>
+    <div>
+      <dt><NatureTag nature="fait" /></dt>
+      <dd>Un fait vérifiable : un chiffre, une date, un vote, une décision.</dd>
+    </div>
+    <div>
+      <dt><NatureTag nature="position" /></dt>
+      <dd>Ce que le candidat ou son parti déclare ou propose.</dd>
+    </div>
+    <div>
+      <dt><NatureTag nature="jugement" /></dt>
+      <dd>
+        L'avis d'une autre personne ou organisation (adversaire, syndicat, économiste…), toujours nommée. À ne pas
+        confondre avec une décision de justice, présentée dans la section « Décisions de justice ».
+      </dd>
+    </div>
+  </dl>
+</details>
+
+<style>
+  .legende {
+    font-size: 0.9rem;
+    margin: 1rem 0 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.6rem 0.9rem;
+    background: var(--surface);
+  }
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  dl {
+    margin: 0.75rem 0 0.25rem;
+    display: grid;
+    gap: 0.6rem;
+  }
+  dl div {
+    display: grid;
+    grid-template-columns: minmax(7.5rem, auto) 1fr;
+    gap: 0.75rem;
+    align-items: baseline;
+  }
+  dd {
+    margin: 0;
+  }
+  @media (max-width: 479px) {
+    dl div {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+  }
+</style>

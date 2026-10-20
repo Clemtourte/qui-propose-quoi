@@ -217,6 +217,11 @@ const justice = defineCollection({
   schema: z.object({
     candidat: reference('candidats'),
     affaire: z.string(),
+    // The candidate's own position in the case (defendant, assisted witness, not charged...).
+    role: z.string(),
+    // 'campagne': investigation into one of the candidate's own election campaigns in which
+    // the candidate is not personally charged; listed apart on the page.
+    concerne: z.enum(['candidat', 'campagne']).default('candidat'),
     faits: z.string(),
     stade,
     // 'non_documente': no source states whether the decision became final.

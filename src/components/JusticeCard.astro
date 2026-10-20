@@ -1,0 +1,78 @@
+---
+// One court case or investigation on a candidate page: role, stage, steps, sources.
+import type { CollectionEntry } from 'astro:content';
+import SourceRefs from './SourceRefs.astro';
+import { STADE_LABELS, finaliteLabel, formatDate, typo } from '../lib/data';
+
+interface Props {
+  j: CollectionEntry<'justice'>;
+}
+
+const d = Astro.props.j.data;
+const finalite = finaliteLabel(d);
+// Shown after a colon, so it starts lower case in French.
+const role = d.role.charAt(0).toLowerCase() + d.role.slice(1);
+---
+
+<article class="justice">
+  <h3>{typo(d.affaire)}</h3>
+  <p class="role"><strong>Son rôle&nbsp;:</strong> {typo(role)}</p>
+  <p class="stade">
+    Stade actuel&nbsp;: <strong>{STADE_LABELS[d.stade]}</strong>
+    {finalite && <span class="presomption">{finalite}</span>}
+  </p>
+  <p>{typo(d.faits)}</p>
+  <ol class="etapes">
+    {
+      d.etapes.map((e) => (
+        <li>
+          <time datetime={e.date}>{formatDate(e.date)}</time> · {STADE_LABELS[e.stade]}, {e.juridiction}&nbsp;:{' '}
+          {typo(e.decision)}
+        </li>
+      ))
+    }
+  </ol>
+  {d.prochaine_etape && <p class="muted">Prochaine étape&nbsp;: {typo(d.prochaine_etape)}</p>}
+  <SourceRefs sources={d.sources} />
+</article>
+
+<style>
+  .justice {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.9rem;
+  }
+  .justice p {
+    margin: 0 0 0.4rem;
+  }
+  h3 {
+    font-family: var(--font-sans);
+    font-size: 1.02rem;
+    margin: 0 0 0.4rem;
+  }
+  .role {
+    border-left: 3px solid var(--line);
+    padding-left: 0.6rem;
+  }
+  .stade {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+    align-items: baseline;
+  }
+  .presomption {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--fait);
+    background: var(--fait-bg);
+    border-radius: 999px;
+    padding: 0.1rem 0.5rem;
+  }
+  .etapes {
+    font-size: 0.9rem;
+    padding-left: 1.2rem;
+    margin: 0.5rem 0;
+  }
+</style>

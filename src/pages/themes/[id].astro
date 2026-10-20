@@ -9,6 +9,7 @@ import VerifCard from '../../components/VerifCard.astro';
 import SourceRefs from '../../components/SourceRefs.astro';
 import SourceList from '../../components/SourceList.astro';
 import NatureTag from '../../components/NatureTag.astro';
+import Legende from '../../components/Legende.astro';
 import { getThemes, getThemeData, typo } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -31,6 +32,7 @@ const nom = (id: string) => {
       <p class="eyebrow">Thème</p>
       <h1>{t.titre}</h1>
       <p class="accroche">{t.accroche}</p>
+      <Legende />
     </header>
 
     <section class="etat prose" aria-labelledby="etat-titre">

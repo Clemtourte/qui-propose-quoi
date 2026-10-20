@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ThemeGrid from '../components/ThemeGrid.astro';
 import CandidatGrid from '../components/CandidatGrid.astro';
+import Legende from '../components/Legende.astro';
 import { getCandidats, getThemes } from '../lib/data';
 
 const themes = await getThemes();
@@ -15,8 +16,9 @@ const candidats = await getCandidats();
       <h1>Sur chaque sujet, ce que propose chaque candidat</h1>
       <p class="lead">
         Les programmes, les bilans et les déclarations, comparés thème par thème. Les faits, les positions des
-        candidats et les jugements des autres sont toujours séparés, et chaque information renvoie à sa source.
+        candidats et les opinions des autres sont toujours séparés, et chaque information renvoie à sa source.
       </p>
+      <Legende />
     </header>
 
     <section aria-labelledby="themes-titre">

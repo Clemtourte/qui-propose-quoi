@@ -47,8 +47,9 @@ export function formatDate(date: string): string {
 
 export const NATURE_LABELS = {
   fait: 'Fait',
-  position: 'Position déclarée',
-  jugement: 'Jugement attribué',
+  position: 'Position',
+  // Someone else's assessment, always named. Not called "jugement" to avoid confusion with court rulings.
+  jugement: 'Opinion',
 } as const;
 
 export const STADE_LABELS: Record<CollectionEntry<'justice'>['data']['stade'], string> = {
@@ -76,6 +77,24 @@ export function finaliteLabel(j: CollectionEntry<'justice'>['data']): string | n
   return j.definitive === false
     ? "Décision non définitive : présomption d'innocence"
     : "Caractère définitif non documenté : présomption d'innocence tant qu'il n'est pas établi";
+}
+
+/** Outcome bucket of a case, used for the summary line of the justice section. */
+export const ISSUES = [
+  { id: 'definitive', label: 'condamnation définitive', pluriel: 'condamnations définitives' },
+  {
+    id: 'non_definitive',
+    label: 'condamnation non définitive ou au caractère définitif non établi',
+    pluriel: 'condamnations non définitives ou au caractère définitif non établi',
+  },
+  { id: 'en_cours', label: 'enquête en cours, sans jugement', pluriel: 'enquêtes en cours, sans jugement' },
+  { id: 'relaxe', label: 'relaxe ou non-lieu', pluriel: 'relaxes ou non-lieux' },
+] as const;
+
+export function issueJustice(j: CollectionEntry<'justice'>['data']): (typeof ISSUES)[number]['id'] {
+  if (NO_CHARGE.includes(j.stade)) return 'relaxe';
+  if (j.stade === 'enquete' || j.stade === 'mise_en_examen') return 'en_cours';
+  return j.definitive === true ? 'definitive' : 'non_definitive';
 }
 
 export const CATEGORIE_LABELS: Record<CollectionEntry<'institutions'>['data']['categorie'], string> = {

@@ -7,15 +7,16 @@ import VerifCard from '../../components/VerifCard.astro';
 import Section from '../../components/Section.astro';
 import SourceRefs from '../../components/SourceRefs.astro';
 import SourceList from '../../components/SourceList.astro';
+import JusticeCard from '../../components/JusticeCard.astro';
 import NatureTag from '../../components/NatureTag.astro';
+import Legende from '../../components/Legende.astro';
 import {
   getCandidats,
   getThemes,
   collectSources,
-  formatDate,
   visible,
-  STADE_LABELS,
-  finaliteLabel,
+  ISSUES,
+  issueJustice,
   typo,
 } from '../../lib/data';
 
@@ -64,6 +65,13 @@ const lastStep = (j: { data: { etapes: { date: string }[] } }) =>
 const justice = (await getCollection('justice', ({ data }) => data.candidat.id === id)).sort((a, b) =>
   lastStep(b).localeCompare(lastStep(a)),
 );
+// Cases against the candidate, then investigations into their campaigns where they are not charged.
+const justicePerso = justice.filter((j) => j.data.concerne === 'candidat');
+const justiceCampagne = justice.filter((j) => j.data.concerne === 'campagne');
+const resumeJustice = ISSUES.map((i) => ({
+  ...i,
+  n: justicePerso.filter((j) => issueJustice(j.data) === i.id).length,
+})).filter((i) => i.n > 0);
 
 // Theme summaries, shown in "En 30 secondes" while no programme priorities are recorded.
 const syntheses = (await getCollection('syntheses', ({ data }) => data.candidat.id === id))
@@ -96,6 +104,7 @@ const itemProps = (e: (typeof entrees)[number]) => ({
       <p class="eyebrow">{c.parti}</p>
       <h1>{c.prenom} {c.nom}</h1>
       {c.fonction && <p class="fonction">{c.fonction}</p>}
+      <Legende />
     </header>
 
     <section class="trente" aria-labelledby="s1">
@@ -182,26 +191,31 @@ const itemProps = (e: (typeof entrees)[number]) => ({
 
       <Section id="justice" numero={7} titre="Décisions de justice" count={justice.length} recherche={r.justice}>
         {
-          justice.map((j) => (
-            <article class="justice">
-              <h3>{typo(j.data.affaire)}</h3>
-              <p class="stade">
-                Stade actuel : <strong>{STADE_LABELS[j.data.stade]}</strong>
-                {finaliteLabel(j.data) && <span class="presomption">{finaliteLabel(j.data)}</span>}
+          resumeJustice.length > 0 && (
+            <p class="resume-justice">
+              <strong>En bref&nbsp;:</strong>{' '}
+              {resumeJustice.map((i, k) => (
+                <>
+                  {k > 0 && ' · '}
+                  {i.n} {i.n > 1 ? i.pluriel : i.label}
+                </>
+              ))}
+              .
+            </p>
+          )
+        }
+        {justicePerso.map((j) => <JusticeCard j={j} />)}
+        {
+          justiceCampagne.length > 0 && (
+            <>
+              <h3 class="sous-bloc">Enquêtes visant ses campagnes électorales</h3>
+              <p class="muted small">
+                Procédures sur le financement ou l'organisation de ses campagnes, dans lesquelles aucune mise en cause
+                personnelle n'est rapportée.
               </p>
-              <p>{typo(j.data.faits)}</p>
-              <ol class="etapes">
-                {j.data.etapes.map((e) => (
-                  <li>
-                    <time datetime={e.date}>{formatDate(e.date)}</time> · {STADE_LABELS[e.stade]}, {e.juridiction}&nbsp;:{' '}
-                    {typo(e.decision)}
-                  </li>
-                ))}
-              </ol>
-              {j.data.prochaine_etape && <p class="muted">Prochaine étape&nbsp;: {typo(j.data.prochaine_etape)}</p>}
-              <SourceRefs sources={j.data.sources} />
-            </article>
-          ))
+              {justiceCampagne.map((j) => <JusticeCard j={j} />)}
+            </>
+          )
         }
         {r.justice && <p class="muted perimetre">{typo(r.justice)}</p>}
       </Section>
@@ -322,39 +336,19 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     letter-spacing: 0.05em;
     margin: 0;
   }
-  .justice {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 0.9rem 1rem;
+  .resume-justice {
+    margin: 0 0 1rem;
   }
-  .justice p {
-    margin: 0 0 0.4rem;
-  }
-  .justice h3 {
+  .sous-bloc {
     font-family: var(--font-sans);
-    font-size: 1.02rem;
+    font-size: 1rem;
+    margin: 1.5rem 0 0.25rem;
   }
-  .stade {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem 0.75rem;
-    align-items: baseline;
-  }
-  .presomption {
-    font-size: 0.78rem;
-    font-weight: 600;
-    color: var(--fait);
-    background: var(--fait-bg);
-    border-radius: 999px;
-    padding: 0.1rem 0.5rem;
+  .small {
+    font-size: 0.85rem;
+    margin-top: 0;
   }
   .perimetre {
     font-size: 0.85rem;
-  }
-  .etapes {
-    font-size: 0.9rem;
-    padding-left: 1.2rem;
-    margin: 0.5rem 0;
   }
 </style>
