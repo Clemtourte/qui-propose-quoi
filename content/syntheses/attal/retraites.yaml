@@ -1,0 +1,9 @@
+candidat: attal
+theme: retraites
+phrase: Supprimer l'âge légal pour centrer le système sur la durée de cotisation, et ouvrir un compte de capitalisation à chaque naissance.
+reponses:
+  age-legal: Suppression de l'âge légal
+  duree: "Critère central : pension plus faible si départ plus tôt, plus élevée si départ plus tard"
+  financement: Compte de capitalisation ouvert à chaque naissance avec 1 000 € versés par l'État
+date: 2026-10-12
+sources: [lcp-2026-09-16-retraites-candidats, franceinfo-2026-10-12-retraites-candidats]

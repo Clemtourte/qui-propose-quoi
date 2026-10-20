@@ -1,0 +1,15 @@
+candidat: attal
+theme: fiscalite-budget
+rubrique: bilan
+nature: fait
+titre: En 2022, ministre des Comptes publics, il s'oppose au Sénat à une baisse de 5 % des effectifs de l'État
+citation:
+  texte: Mais dire qu'on va supprimer 125 000 postes de fonctionnaires sans préciser où ne me semble ni justifié ni crédible.
+  date: 2022-11-02
+  contexte: Séance du Sénat, compte rendu intégral
+texte: >-
+  Le 2 novembre 2022, alors ministre délégué chargé des Comptes publics, il demande le retrait d'un amendement visant
+  à baisser de 5 % les emplois de l'État et de ses opérateurs, à défaut un avis défavorable. En 2026, il propose
+  100 000 suppressions de postes de fonctionnaires d'État ; Public Sénat parle d'un « virage à 180 degrés ».
+date: 2022-11-02
+sources: [senat-2022-11-02-compte-rendu, publicsenat-2026-07-03-attal-fonctionnaires]

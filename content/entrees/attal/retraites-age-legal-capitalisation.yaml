@@ -1,0 +1,20 @@
+candidat: attal
+theme: retraites
+rubrique: mesure
+nature: position
+titre: Suppression de l'âge légal et part de capitalisation
+citation:
+  texte: Vous partez très tôt, vous avez très peu. Vous partez plus tard, vous avez plus.
+  date: 2026-08
+  contexte: Entretien sur BFMTV, rapporté par LCP
+texte: >-
+  Il veut supprimer l'âge légal de départ, qu'il juge inutile, et faire reposer le système sur la durée de
+  cotisation. Il propose d'introduire une part de capitalisation : un compte ouvert à chaque naissance avec
+  1 000 euros versés par l'État, puis abondé par les parents et grands-parents jusqu'aux 18 ans de l'enfant, avec
+  des versements défiscalisés.
+chiffres:
+  - libelle: Versement de l'État à la naissance, selon le candidat
+    valeur: 1 000 €
+    nature: position
+date: 2026-10-12
+sources: [lcp-2026-09-16-retraites-candidats, franceinfo-2026-10-12-retraites-candidats, franceinfo-2026-08-27-debat-medef]

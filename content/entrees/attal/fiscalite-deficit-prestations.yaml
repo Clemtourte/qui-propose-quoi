@@ -1,0 +1,23 @@
+candidat: attal
+theme: fiscalite-budget
+rubrique: mesure
+nature: position
+titre: Déficit à 3 % avant 2032, année blanche sur les prestations et 100 000 postes d'État en moins
+citation:
+  texte: Pour mon premier budget 2028, il faudra faire une année blanche sur l'ensemble des prestations sociales, en épargnant toutefois les petites retraites
+  date: 2026-07-02
+  contexte: Entretien au Parisien, rapporté par Moneyvox et Acteurs publics
+texte: >-
+  Il vise un déficit public de 3 % du PIB « avant 2032 » et un « cap » de 0 % du PIB en 2037, soumis au verdict des
+  urnes à la fin du premier quinquennat, avec une règle d'or qu'il souhaite faire adopter par référendum. Il chiffre
+  l'effort à 120 à 150 milliards d'euros d'économies, sans hausse d'impôts, dont deux tiers sur les dépenses sociales.
+  Il prévoit des réformes des retraites, des arrêts maladie et de l'assurance chômage, et la suppression de 100 000
+  postes de fonctionnaires d'État (non-remplacement de départs à la retraite, départs volontaires), en préservant
+  l'Éducation nationale, les Armées, la Justice et l'Intérieur. Public Sénat cite une économie de 7 milliards d'euros
+  pour ces postes (chiffre non recoupé).
+chiffres:
+  - libelle: Économies prévues sur dix ans, selon le candidat
+    valeur: 120 à 150 Md€
+    nature: position
+date: 2026-07-02
+sources: [publicsenat-2026-07-03-attal-fonctionnaires, moneyvox-2026-07-03-attal-fonctionnaires, acteurspublics-2026-07-03-attal-fonctionnaires]
