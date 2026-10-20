@@ -63,6 +63,21 @@ export const STADE_LABELS: Record<CollectionEntry<'justice'>['data']['stade'], s
   classement: 'Classement sans suite',
 };
 
+const NO_CHARGE: CollectionEntry<'justice'>['data']['stade'][] = ['relaxe', 'non_lieu', 'classement'];
+
+/** Status line shown next to the current stage of a court case. */
+export function finaliteLabel(j: CollectionEntry<'justice'>['data']): string | null {
+  // The stage label already says it.
+  if (j.definitive === true) return j.stade === 'definitive' ? null : 'Décision définitive';
+  if (j.stade === 'enquete' || j.stade === 'mise_en_examen') return "Procédure en cours : présomption d'innocence";
+  if (NO_CHARGE.includes(j.stade)) {
+    return j.definitive === false ? 'Décision non définitive' : 'Caractère définitif non documenté';
+  }
+  return j.definitive === false
+    ? "Décision non définitive : présomption d'innocence"
+    : "Caractère définitif non documenté : présomption d'innocence tant qu'il n'est pas établi";
+}
+
 export const CATEGORIE_LABELS: Record<CollectionEntry<'institutions'>['data']['categorie'], string> = {
   institution_publique: 'Institution publique',
   autorite_independante: 'Autorité indépendante',

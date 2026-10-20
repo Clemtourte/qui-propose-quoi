@@ -103,6 +103,7 @@ Construire un site d'information complet sur les candidats majeurs à la présid
 - `content/candidats/exemple.yaml` et les fichiers `exemple-*` : contenu **fictif** de démonstration, marqué [EXEMPLE], masqué en production. Ne jamais y mettre de vraie personne ni de vraie institution.
 - Pages dans `src/pages/`, composants dans `src/components/`, utilitaires dans `src/lib/data.ts`.
 - Page thème : `questions` du thème (colonnes du tableau « En un coup d'œil » et lignes du comparateur) ; `content/syntheses/<candidat>/<theme>.yaml` donne la phrase de la carte et les réponses courtes aux questions ; les entrées `rubrique: promesse` (champ `promesse` = ce qui était promis, `texte` = ce qui a été fait) alimentent « Promesses passées ».
+- Décisions de justice : `content/justice/<candidat>-<affaire>.yaml`, une procédure par fichier ; `definitive` vaut `true`, `false` ou `non_documente` (aucune source ne dit s'il y a eu recours) ; périmètre commun dans `recherches.justice` de chaque candidat.
 - Comparateur : `/themes/<id>/?comparer=a,b,c` (lien partageable, 3 candidats max).
 - Commandes : `npm run dev` (site local sur http://localhost:4321), `npm run build` (vérifie les schémas et construit `dist/`), `npm run check` (contrôles éditoriaux Python : références cassées, source fictive dans du contenu réel, domaine exclu, jugement sans auteur, et tableau de couverture candidat × thème), `uv run pytest` et `uv run ruff check checks`.
 - Node.js 24 LTS installé via winget (`C:\Program Files\nodejs`).

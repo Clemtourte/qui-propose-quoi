@@ -15,6 +15,8 @@ import {
   formatDate,
   visible,
   STADE_LABELS,
+  finaliteLabel,
+  typo,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -52,7 +54,12 @@ const avis = (await getCollection('avis', ({ data }) => data.candidats.some((x) 
 const verifications = (await getCollection('verifications', ({ data }) => data.candidat.id === id)).sort((a, b) =>
   b.data.declaration.date.localeCompare(a.data.declaration.date),
 );
-const justice = await getCollection('justice', ({ data }) => data.candidat.id === id);
+// Most recent step first, so ongoing cases come before old ones.
+const lastStep = (j: { data: { etapes: { date: string }[] } }) =>
+  j.data.etapes.map((e) => e.date).sort().at(-1) ?? '';
+const justice = (await getCollection('justice', ({ data }) => data.candidat.id === id)).sort((a, b) =>
+  lastStep(b).localeCompare(lastStep(a)),
+);
 
 const sources = await collectSources([
   c.candidature,
@@ -142,25 +149,26 @@ const itemProps = (e: (typeof entrees)[number]) => ({
         {
           justice.map((j) => (
             <article class="justice">
-              <h3>{j.data.affaire}</h3>
+              <h3>{typo(j.data.affaire)}</h3>
               <p class="stade">
                 Stade actuel : <strong>{STADE_LABELS[j.data.stade]}</strong>
-                {!j.data.definitive && <span class="presomption">Décision non définitive : présomption d'innocence</span>}
+                {finaliteLabel(j.data) && <span class="presomption">{finaliteLabel(j.data)}</span>}
               </p>
-              <p>{j.data.faits}</p>
+              <p>{typo(j.data.faits)}</p>
               <ol class="etapes">
                 {j.data.etapes.map((e) => (
                   <li>
-                    <time datetime={e.date}>{formatDate(e.date)}</time> · {STADE_LABELS[e.stade]}, {e.juridiction} :{' '}
-                    {e.decision}
+                    <time datetime={e.date}>{formatDate(e.date)}</time> · {STADE_LABELS[e.stade]}, {e.juridiction}&nbsp;:{' '}
+                    {typo(e.decision)}
                   </li>
                 ))}
               </ol>
-              {j.data.prochaine_etape && <p class="muted">Prochaine étape : {j.data.prochaine_etape}</p>}
+              {j.data.prochaine_etape && <p class="muted">Prochaine étape&nbsp;: {typo(j.data.prochaine_etape)}</p>}
               <SourceRefs sources={j.data.sources} />
             </article>
           ))
         }
+        {r.justice && <p class="muted perimetre">{typo(r.justice)}</p>}
       </Section>
 
       <Section id="participation" numero={8} titre="Place laissée à la population" count={participation.length} recherche={r.participation}>
@@ -275,6 +283,9 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     background: var(--fait-bg);
     border-radius: 999px;
     padding: 0.1rem 0.5rem;
+  }
+  .perimetre {
+    font-size: 0.85rem;
   }
   .etapes {
     font-size: 0.9rem;

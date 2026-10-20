@@ -216,7 +216,8 @@ const justice = defineCollection({
     affaire: z.string(),
     faits: z.string(),
     stade,
-    definitive: z.boolean(),
+    // 'non_documente': no source states whether the decision became final.
+    definitive: z.union([z.boolean(), z.literal('non_documente')]),
     etapes: z
       .array(z.object({ date: fuzzyDate, stade, juridiction: z.string(), decision: z.string() }))
       .min(1),
