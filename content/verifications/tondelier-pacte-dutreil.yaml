@@ -1,0 +1,15 @@
+candidat: tondelier
+theme: fiscalite-budget
+declaration:
+  texte: le changer parce qu'il est aujourd'hui détourné
+  date: 2026-08-27
+  contexte: Débat des candidats organisé par le Medef, à propos du pacte Dutreil
+verificateur: franceinfo (Vrai ou faux)
+verdict: "« L'affirmation de Marine Tondelier trouve un appui direct » dans l'évaluation de la Cour des comptes"
+resume: >-
+  La Cour des comptes et l'Institut des politiques publiques (novembre 2025) jugent le champ du pacte Dutreil
+  « trop large et insuffisamment ciblé » et y relèvent des mécanismes « de l'optimisation fiscale ». Son coût est
+  réévalué à 5,5 milliards d'euros en 2024. L'économiste Laurent Bach (IPP) juge toutefois que parler de détournement
+  n'est « pas évident », ces possibilités étant autorisées par la loi.
+date_verification: 2026-09-02
+sources: [franceinfo-2026-09-02-vof-tondelier-dutreil]
