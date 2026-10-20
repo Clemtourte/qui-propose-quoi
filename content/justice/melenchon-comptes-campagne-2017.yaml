@@ -1,0 +1,23 @@
+candidat: melenchon
+affaire: Comptes de la campagne présidentielle de 2017
+faits: >-
+  Information judiciaire sur les comptes de sa campagne de 2017, notamment des soupçons de surfacturation de prestations
+  par la société de communication Mediascop. Selon des sources proches du dossier, quatre personnes ont été mises
+  en examen, dont le trésorier de LFI Bastien Lachaud et Sophia Chikirou. Selon LFI, Jean-Luc Mélenchon n'a été
+  ni entendu ni mis en examen.
+stade: enquete
+definitive: false
+etapes:
+- date: '2018'
+  stade: enquete
+  juridiction: Parquet de Paris, puis juges d'instruction
+  decision: Enquête préliminaire, perquisition au siège de LFI le 16 octobre 2018, puis information judiciaire.
+- date: 2026-05
+  stade: enquete
+  juridiction: Juges d'instruction (Paris)
+  decision: Fin des investigations, avec quatre mises en examen.
+prochaine_etape: Réquisitoire du parquet, puis non-lieu ou renvoi devant un tribunal ; LFI demande un classement.
+sources:
+- europe1-2026-06-02-lfi-comptes-2017
+- leclubdesjuristes-2026-06-02-lfi-comptes-2017
+- publicsenat-2019-12-09-melenchon-perquisition

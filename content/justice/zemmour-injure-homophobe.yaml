@@ -1,0 +1,23 @@
+candidat: zemmour
+affaire: Injure homophobe (CNews, 2019)
+faits: >-
+  Propos tenus le 15 octobre 2019 dans « Face à l'info », lors d'un débat sur la procréation médicalement assistée
+  : « On a des caprices d'une petite minorité qui tient la main sur l'État et qui l'asservit à son profit ».
+stade: relaxe
+definitive: non_documente
+etapes:
+- date: 2023-09
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris
+  decision: Coupable d'injure homophobe. 4 000 € d'amende.
+- date: '2024-09-11'
+  stade: relaxe
+  juridiction: Cour d'appel de Paris
+  decision: >-
+    Relaxe : la cour juge que les propos ne sont pas injurieux envers un groupe de personnes à raison de leur orientation
+    sexuelle.
+prochaine_etape: 'Pourvoi éventuel des parties civiles : non documenté.'
+sources:
+- lalibre-2024-09-12-zemmour-appels
+- leclubdesjuristes-2024-09-13-zemmour-appel
+- lgbtqnation-2023-10-07-zemmour

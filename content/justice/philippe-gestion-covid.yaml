@@ -1,0 +1,26 @@
+candidat: philippe
+affaire: Gestion de l'épidémie de Covid-19 (Cour de justice de la République)
+faits: >-
+  Information judiciaire ouverte après des plaintes de médecins, de syndicats et de particuliers sur la gestion
+  gouvernementale de la première vague, dont le maintien du premier tour des municipales le 15 mars 2020. Chefs
+  examinés : abstention volontaire de combattre un sinistre et mise en danger de la vie d'autrui.
+stade: non_lieu
+definitive: non_documente
+etapes:
+- date: 2020-07
+  stade: enquete
+  juridiction: Commission des requêtes de la CJR
+  decision: Transmission des plaintes au procureur général ; ouverture d'une information judiciaire.
+- date: '2022-10-18'
+  stade: enquete
+  juridiction: Commission d'instruction de la CJR
+  decision: Placé sous le statut de témoin assisté, sans mise en examen.
+- date: '2025-07-07'
+  stade: non_lieu
+  juridiction: Commission d'instruction de la CJR
+  decision: >-
+    Non-lieu, conformément aux réquisitions du procureur général du 21 mai 2025 (même décision pour Agnès Buzyn
+    et Olivier Véran).
+sources:
+- franceinfo-2022-10-23-philippe-cjr
+- leclubdesjuristes-2025-07-07-cjr-covid

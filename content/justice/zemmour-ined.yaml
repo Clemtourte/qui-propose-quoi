@@ -1,0 +1,24 @@
+candidat: zemmour
+affaire: Diffamation envers l'Institut national d'études démographiques (Ined)
+faits: >-
+  Propos tenus le 2 avril 2021 sur CNews, dans l'émission « Face à l'info » : « l'Ined trafique les chiffres, tout
+  le monde le sait ». Plainte de l'Ined avec constitution de partie civile.
+stade: definitive
+definitive: true
+etapes:
+- date: '2024-01-29'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris (17e chambre)
+  decision: >-
+    Coupable de complicité de diffamation publique envers une administration publique. 1 500 € d'amende avec sursis.
+- date: '2024-12-11'
+  stade: appel
+  juridiction: Cour d'appel de Paris
+  decision: Condamnation confirmée.
+- date: '2026-01-27'
+  stade: cassation
+  juridiction: Cour de cassation
+  decision: 'Pourvoi rejeté : la condamnation est définitive.'
+sources:
+- mediaterranee-2026-02-03-zemmour-ined
+- kohen-2026-10-18-zemmour

@@ -1,0 +1,18 @@
+candidat: melenchon
+affaire: Rébellion lors de la perquisition du siège de LFI
+faits: >-
+  Opposition à la perquisition du 16 octobre 2018 au siège de La France insoumise : il bouscule un représentant
+  du parquet et un policier, et appelle ses proches à « enfoncer la porte ».
+stade: premiere_instance
+definitive: non_documente
+etapes:
+- date: '2019-12-09'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Bobigny
+  decision: >-
+    Coupable de rébellion et de provocation. Trois mois de prison avec sursis et 8 000 € d'amende, conformément
+    aux réquisitions du parquet.
+prochaine_etape: Il a annoncé le jour même ne pas faire appel ; aucun appel du parquet n'a été trouvé.
+sources:
+- publicsenat-2019-12-09-melenchon-perquisition
+- euronews-2019-12-09-melenchon-perquisition

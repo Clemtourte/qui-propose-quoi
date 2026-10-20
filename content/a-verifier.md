@@ -3,8 +3,8 @@
 Points incertains ou non documentés. Mettre à jour à chaque passe de recherche.
 
 ## Statut des candidatures (relevé le 19 octobre 2026)
-- **Le Pen** : pourvoi en cassation formé après l'arrêt d'appel du 7 juillet 2026. Selon la presse (non encore ouvert : Orange / L'Express, LCP), QPC examinées par la Cour de cassation le 16 décembre 2026 et arrêt annoncé « au plus tard début avril 2027 ». À sourcer avant publication dans la section Justice. Prévoir l'hypothèse d'un remplacement par Jordan Bardella sans la présumer.
-- **Le Pen** : détail des peines d'appel (amende, exécution provisoire) à confirmer sur une source primaire (arrêt ou communiqué de la cour d'appel).
+- **Le Pen** : pourvoi en cassation formé après l'arrêt d'appel du 7 juillet 2026 ; QPC examinées le 16 décembre 2026 (Orange / L'Express, 17 octobre 2026, ouvert et publié dans la section Justice). Suivre la décision. Prévoir l'hypothèse d'un remplacement par Jordan Bardella sans la présumer.
+- **Le Pen** : peines d'appel publiées d'après Public Sénat et Le Club des juristes (amende de 100 000 € maintenue selon ce dernier seul) ; à confirmer sur l'arrêt ou le communiqué de la cour d'appel.
 - **Tondelier** : le conseil fédéral du 21 septembre 2026 a renvoyé le choix définitif à un vote des adhérents (10-13 décembre 2026, LCP ne mentionne que le 13). Suivre le résultat.
 - **Philippe** : date exacte de l'entretien au *Point* (septembre 2024) ; ajouter l'entretien original comme source primaire.
 - **Glucksmann** : 66,13 % (Toute l'Europe) contre 66,17 % (agrégateur repere2027.fr). Confirmer par le communiqué officiel de la primaire.
@@ -33,7 +33,6 @@ Contenu revérifié par trois vérificateurs indépendants (sous-agents n'ayant 
 Une seule critique attribuée par candidat a été retenue pour l'instant (Philippe sur le RN, l'équipe Philippe sur LFI, la CGT sur Philippe). D'autres existent dans les sources déjà lues : sur le contre-budget RN, Roland Lescure (« Vous rêvez en couleurs »), David Amiel (« un budget Potemkine, en carton-pâte »), les économistes Mathieu Plane (IFE) et Nathalie Janson (Neoma), et la réplique de Jean-Philippe Tanguy (RN) ; sur LFI, la réplique d'Édouard Philippe au débat du Medef (« interdit bancaire »). Avant de les ajouter, faire la même recherche (gouvernement, économistes, réponses du camp concerné) pour les trois candidats.
 
 ### Pistes déjà repérées pour d'autres sections
-- Le Pen, section Justice : contenu de l'arrêt d'appel du 7 juillet 2026 (Public Sénat) et calendrier de la cassation.
 - Philippe, section « Place laissée à la population » : une vingtaine d'ordonnances prévues lors d'une session extraordinaire en juillet 2027 (franceinfo, Euronews, 8-9 octobre 2026) ; mode d'adoption de la réforme des retraites non précisé.
 
 ### Sources primaires manquantes
@@ -43,7 +42,7 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour les 8 candidats : « En 30 secondes », « Vision d'ensemble », « Décisions de justice », « Place laissée à la population », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
+- Pour les 8 candidats : « En 30 secondes », « Vision d'ensemble », « Place laissée à la population », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
 - État des lieux : 11 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
 
@@ -65,3 +64,29 @@ La revérification a trouvé deux « Vrai ou faux » de franceinfo (Glucksmann, 
 - **Vérifications hors des 3 thèmes, à reprendre avec les thèmes concernés** (franceinfo) : Philippe, arrêts maladie « open bar » (santé) ; Retailleau, certificats d'économie d'énergie (énergie) et « un tiers des Français à découvert » (social) ; Attal, groupes de niveau (éducation) ; Glucksmann, taille des classes et salaires des enseignants (éducation) et soutien à Sarkozy en 2007 ; Mélenchon, pandémies et climat, « soi-disant » prix Nobel ; Le Pen, émeutes après le PSG.
 - **Vérificateurs non parcourus** : AFP Factuel, Les Décodeurs (Le Monde, inaccessible), CheckNews (Libération, inaccessible), TF1 Les Vérificateurs (inaccessible).
 - **Réactions** : déséquilibre de volume subsistant, faute de sources trouvées (Tondelier, Zemmour : aucune ; Retailleau : pas d'adversaire politique ; Attal : pas d'expert). Réactions repérées mais non retenues pour garder la grille : Roland Lescure et David Amiel sur le RN (Euronews, 7 octobre), Nathalie Janson sur le RN, Édouard Philippe sur LFI au débat du Medef, Ségolène Royal sur Glucksmann, Jean-Philippe Tanguy sur Attal (date à vérifier).
+
+## Décisions de justice, 20 octobre 2026
+Périmètre retenu pour tous : procédures pénales visant personnellement le candidat, en cours ou ayant donné lieu à une décision depuis 2017 ; plaintes sans enquête connue, procédures où il est plaignant ou victime et procédures civiles exclues. Recherche par moteur de recherche et presse, sans consultation directe de Judilibre ni de Légifrance : la liste peut être incomplète.
+
+### Caractère définitif non documenté (à vérifier, idéalement sur Judilibre)
+- Le Pen : relaxe de Nanterre (images de l'EI, 4 mai 2021), appel du parquet non trouvé ; relaxe du 20 janvier 2026 (étudiante voilée), appel éventuel de la plaignante.
+- Mélenchon : condamnation de Bobigny (9 décembre 2019), appel du parquet non trouvé ; appels des affaires Radio France (2022) et Paranagua « assassin repenti » (2021), issue non trouvée ; arrêt Paranagua du 29 juin 2022, pourvoi éventuel.
+- Philippe : non-lieu de la CJR (7 juillet 2025), recours éventuel.
+- Tondelier : arrêt de la cour d'appel de Paris (janvier 2022, date exacte non trouvée, article de France 3 du 19 janvier) ; relaxe de Narbonne (29 novembre 2024).
+- Zemmour : pourvoi dans l'affaire Pétain (arrêt d'appel du 2 avril 2025) ; pourvoi annoncé dans l'affaire Hapsatou Sy (un site non fiable parle d'un rejet le 2 septembre 2025, non retenu) ; appel de l'affaire de Crépol ; suites des affaires Obono (7 février 2024), Lola (26 mars 2025) et injure homophobe (relaxe en appel du 11 septembre 2024).
+
+### Une seule source
+- Mélenchon, assistants parlementaires européens : Toute l'Europe (citant l'AFP) seulement.
+- Philippe, Cité numérique du Havre : France 3 Normandie (avec AFP) seulement.
+- Mélenchon, Radio France : franceinfo seulement (Radio France était partie civile ; chercher une autre source).
+- Zemmour, Obono : franceinfo seulement.
+- Zemmour, « C à vous » : dates de première instance (juin 2017) et d'appel (mai 2018) données au mois près (La DH / AFP).
+- Zemmour, injure homophobe : date exacte du jugement (28 septembre 2023 selon un extrait de recherche, non ouvert).
+
+### Pistes repérées, non retenues faute de source fiable ou d'issue connue
+- Zemmour : propos sur les « trafiquants de crack » (2021-2022), renvoi en correctionnelle, issue non trouvée ; plainte de Cécile Duflot, non confirmée ; signalement du député Antoine Léaument après des propos sur LCI (octobre 2026), sans enquête connue.
+- Le Pen : affaire de diffamation envers Christian Baeckeroot (agrégateur Poligraph seul), non confirmée.
+- Mélenchon : condamnation pour absence de mentions légales sur son site (agrégateur seul).
+- Retailleau : plaintes devant la Cour de justice de la République en 2025 (LDH ; avocate Khadija Aoudia, déclarée irrecevable selon El Moudjahid seul), sans enquête connue.
+- Tondelier : plainte qu'elle a déposée contre Steeve Briois (mars 2026), où elle est plaignante.
+- Le Pen 2022 et Mélenchon 2017 : statut de chaque candidat dans les enquêtes sur leurs comptes de campagne (non mis en examen selon leur camp) ; suite de l'instruction sur la campagne 2022 non trouvée depuis juillet 2024.

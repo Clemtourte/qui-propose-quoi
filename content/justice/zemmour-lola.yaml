@@ -1,0 +1,15 @@
+candidat: zemmour
+affaire: Messages sur le meurtre de Lola (2022)
+faits: >-
+  Messages publiés sur X en octobre 2022 citant les noms de quatre suspects et parlant de « francocides ».
+stade: relaxe
+definitive: non_documente
+etapes:
+- date: '2025-03-26'
+  stade: relaxe
+  juridiction: Tribunal correctionnel de Paris
+  decision: 'Relaxe : les propos ne permettent pas de caractériser une communauté déterminée visée.'
+prochaine_etape: 'Appel éventuel des parties civiles : non documenté.'
+sources:
+- swissinfo-2025-03-26-zemmour-crepol
+- lejdd-2025-03-26-zemmour-crepol

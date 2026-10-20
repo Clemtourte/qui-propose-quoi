@@ -1,0 +1,18 @@
+candidat: tondelier
+affaire: Diffamation envers deux viticulteurs de l'Aude
+faits: >-
+  Vidéo publiée sur X en juin 2023 après une altercation avec des vignerons, dans laquelle elle déclare que des
+  agriculteurs ont « brûlé une grange ». Deux viticulteurs estimaient être accusés de l'incendie d'une grange dix
+  ans plus tôt. Le procureur n'avait requis aucune peine.
+stade: relaxe
+definitive: non_documente
+etapes:
+- date: '2024-11-29'
+  stade: relaxe
+  juridiction: Tribunal correctionnel de Narbonne
+  decision: >-
+    Relaxe : les propos ne visaient pas de manière précise l'un des viticulteurs. Les deux plaignants sont condamnés
+    chacun à 150 € d'amende civile pour procédure abusive.
+sources:
+- france3-2024-11-29-tondelier-narbonne
+- marineoceans-2024-11-29-tondelier-narbonne

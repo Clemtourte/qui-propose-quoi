@@ -1,0 +1,22 @@
+candidat: zemmour
+affaire: Injure envers Hapsatou Sy
+faits: >-
+  Propos tenus en 2018 lors d'un enregistrement d'émission de C8 : « C'est votre prénom qui est une insulte à la
+  France ».
+stade: appel
+definitive: non_documente
+etapes:
+- date: '2023-01-12'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris
+  decision: >-
+    Coupable d'injure à caractère raciste. 4 000 € d'amende, 3 000 € de dommages et intérêts et 2 000 € de frais
+    d'avocat.
+- date: '2024-03-28'
+  stade: appel
+  juridiction: Cour d'appel de Paris
+  decision: Condamnation confirmée, et 3 000 € supplémentaires de frais de procédure.
+prochaine_etape: Pourvoi en cassation annoncé ; issue non documentée.
+sources:
+- lalibre-2023-01-12-zemmour-sy
+- courrieratlas-2024-03-29-zemmour-sy

@@ -1,0 +1,17 @@
+candidat: melenchon
+affaire: Diffamation envers Paulo Paranagua (« assassin repenti »)
+faits: >-
+  Billet de blog publié en 2016 qualifiant l'ancien journaliste du Monde Paulo Paranagua d'« assassin repenti ».
+stade: premiere_instance
+definitive: non_documente
+etapes:
+- date: '2021-09-24'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris
+  decision: >-
+    Coupable de diffamation publique. 500 € d'amende avec sursis, 1 000 € de dommages et intérêts et 3 500 € d'indemnité
+    de procédure.
+prochaine_etape: Appel annoncé le jour du jugement, toujours pendant en juin 2022 ; issue non documentée.
+sources:
+- franceinfo-2021-09-24-melenchon-paranagua
+- arabnews-2021-09-24-melenchon-paranagua

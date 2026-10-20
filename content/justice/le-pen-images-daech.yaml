@@ -1,0 +1,18 @@
+candidat: le-pen
+affaire: Diffusion d'images d'exactions de l'État islamique
+faits: >-
+  Publication en 2015 sur Twitter de photos d'exactions de l'organisation État islamique. Poursuites pour diffusion
+  d'images violentes susceptibles d'être vues par un mineur. Le parquet avait requis 5 000 € d'amende.
+stade: relaxe
+definitive: non_documente
+etapes:
+- date: '2021-05-04'
+  stade: relaxe
+  juridiction: Tribunal correctionnel de Nanterre
+  decision: >-
+    Relaxe. Le tribunal juge que la diffusion avait une « vocation informative » et s'inscrivait dans une « démarche
+    de protestation politique ».
+prochaine_etape: 'Appel éventuel du parquet : non documenté.'
+sources:
+- vlmedia-2021-05-04-le-pen-daech
+- courrieratlas-2021-05-05-le-pen-daech

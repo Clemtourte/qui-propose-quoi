@@ -1,0 +1,18 @@
+candidat: le-pen
+affaire: Financement de la campagne présidentielle de 2022
+faits: >-
+  Information judiciaire ouverte à la suite d'un signalement de la Commission nationale des comptes de campagne.
+  Chefs visés : prêt d'une personne morale à un candidat, acceptation de ce prêt par un candidat, détournement de
+  biens publics, escroquerie au préjudice d'une personne publique, faux et usage de faux. Le parquet n'a pas détaillé
+  les soupçons. Son avocat indique qu'elle n'a « jamais été entendue » sur ces faits (juillet 2024).
+stade: enquete
+definitive: false
+etapes:
+- date: '2024-07-02'
+  stade: enquete
+  juridiction: Parquet de Paris
+  decision: Ouverture d'une information judiciaire, confiée à un juge d'instruction.
+prochaine_etape: Suite de l'instruction non documentée depuis juillet 2024.
+sources:
+- leclubdesjuristes-2024-07-09-le-pen-campagne-2022
+- publicsenat-2024-07-09-le-pen-campagne-2022

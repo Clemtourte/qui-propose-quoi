@@ -1,0 +1,23 @@
+candidat: tondelier
+affaire: Diffamation envers le maire d'Hénin-Beaumont (livre de 2017)
+faits: >-
+  Plainte de Steeve Briois, maire RN d'Hénin-Beaumont, de son ancien adjoint Bruno Bilde et de l'ancien directeur
+  général des services de la ville, pour son livre « Nouvelles du Front » (2017), qui critique la gestion municipale.
+stade: relaxe
+definitive: non_documente
+etapes:
+- date: '2020-11-06'
+  stade: relaxe
+  juridiction: Tribunal correctionnel de Paris
+  decision: >-
+    Propos jugés diffamatoires, mais relaxe « au bénéfice de la bonne foi », le livre relevant d'un débat d'intérêt
+    général. Les plaignants font appel.
+- date: 2022-01
+  stade: appel
+  juridiction: Cour d'appel de Paris
+  decision: >-
+    Saisie des seuls intérêts civils, la cour déboute les plaignants de toutes leurs demandes de dommages et intérêts,
+    en l'absence de faute civile.
+sources:
+- francebleu-2020-11-06-tondelier-relaxe
+- france3-2022-01-19-tondelier-appel

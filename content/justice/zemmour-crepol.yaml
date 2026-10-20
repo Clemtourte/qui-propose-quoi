@@ -1,0 +1,16 @@
+candidat: zemmour
+affaire: Injure raciale (propos sur la mort de Thomas à Crépol)
+faits: >-
+  Propos tenus le 30 novembre 2023 sur RMC et BFMTV, opposant « deux France, deux jeunesses, celle de Thomas, celle
+  de Chahid » et évoquant les « racailles arabo-musulmanes ».
+stade: premiere_instance
+definitive: non_documente
+etapes:
+- date: '2025-03-26'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris
+  decision: Coupable d'injure raciale. 9 000 € d'amende. Relaxe pour un autre passage de l'entretien.
+prochaine_etape: Appel annoncé le 26 mars 2025 ; date et issue non documentées.
+sources:
+- swissinfo-2025-03-26-zemmour-crepol
+- lejdd-2025-03-26-zemmour-crepol

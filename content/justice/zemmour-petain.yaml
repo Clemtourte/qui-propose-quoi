@@ -1,0 +1,31 @@
+candidat: zemmour
+affaire: Propos sur Pétain (CNews, 2019)
+faits: >-
+  Propos tenus le 21 octobre 2019 sur CNews face à Bernard-Henri Lévy, sur le rôle de Pétain envers les juifs français.
+  Poursuites pour contestation de crime contre l'humanité.
+stade: cassation
+definitive: false
+etapes:
+- date: '2021-02-04'
+  stade: relaxe
+  juridiction: Tribunal correctionnel de Paris
+  decision: Relaxe.
+- date: '2022-05-12'
+  stade: relaxe
+  juridiction: Cour d'appel de Paris
+  decision: Relaxe.
+- date: '2023-09-05'
+  stade: cassation
+  juridiction: Cour de cassation
+  decision: Relaxe annulée, nouveau procès ordonné.
+- date: '2025-04-02'
+  stade: appel
+  juridiction: Cour d'appel de Paris (autrement composée)
+  decision: >-
+    Coupable. 10 000 € d'amende, 1 € de dommages et intérêts et 1 200 € de frais de justice à chacune des cinq associations
+    parties civiles. Pourvoi en cassation annoncé.
+prochaine_etape: 'Décision de la Cour de cassation sur le pourvoi : non trouvée au 18 octobre 2026.'
+sources:
+- franceinfo-2025-04-02-zemmour-petain
+- rts-2025-04-02-zemmour-petain
+- kohen-2026-10-18-zemmour

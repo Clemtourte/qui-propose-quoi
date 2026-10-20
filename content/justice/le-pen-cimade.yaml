@@ -1,0 +1,25 @@
+candidat: le-pen
+affaire: Diffamation envers La Cimade
+faits: >-
+  Propos tenus en janvier 2022 sur BFMTV : selon elle, La Cimade « organise la filière d'immigration clandestine
+  en provenance des Comores » à Mayotte.
+stade: definitive
+definitive: true
+etapes:
+- date: '2023-10-13'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel
+  decision: >-
+    Coupable de diffamation. 500 € d'amende avec sursis, 1 € de dommages et intérêts et 2 000 € de frais de justice.
+- date: '2024-09-11'
+  stade: appel
+  juridiction: Cour d'appel de Paris
+  decision: Condamnation à 500 € d'amende avec sursis confirmée.
+- date: '2025-12-16'
+  stade: cassation
+  juridiction: Cour de cassation
+  decision: 'Pourvoi rejeté : la condamnation est définitive.'
+sources:
+- euronews-2023-10-13-le-pen-cimade
+- la1ere-2025-12-16-le-pen-cimade
+- cimade-2025-12-16-le-pen

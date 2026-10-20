@@ -1,0 +1,18 @@
+candidat: melenchon
+affaire: Injure et diffamation envers Radio France
+faits: >-
+  Vidéo publiée sur Facebook le 19 octobre 2018, après une enquête de la cellule investigation de Radio France sur
+  sa campagne de 2017 : il qualifie des journalistes de franceinfo de « menteurs » et d'« abrutis » et lance « Pourrissez-les
+  partout où vous pouvez ».
+stade: premiere_instance
+definitive: non_documente
+etapes:
+- date: '2022-01-11'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris
+  decision: >-
+    Coupable d'injure publique et de diffamation publique. 500 € d'amende avec sursis et 3 000 € de dommages et
+    intérêts à Radio France.
+prochaine_etape: Appel annoncé par son avocat le 11 janvier 2022 ; issue non documentée.
+sources:
+- franceinfo-2022-01-11-melenchon-radio-france

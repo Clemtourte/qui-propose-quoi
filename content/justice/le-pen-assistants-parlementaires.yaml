@@ -1,0 +1,37 @@
+candidat: le-pen
+affaire: Assistants parlementaires européens du FN
+faits: >-
+  Détournement de fonds publics : rémunération, entre 2004 et 2016, de personnes travaillant pour le parti avec
+  les fonds du Parlement européen destinés aux assistants parlementaires. La cour d'appel a retenu un préjudice
+  total de 2,8 millions d'euros et l'absence d'enrichissement personnel, seul le parti ayant bénéficié des détournements
+  (communiqué de la cour cité par Public Sénat).
+stade: cassation
+definitive: false
+etapes:
+- date: '2025-03-31'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris
+  decision: >-
+    Coupable. Quatre ans de prison dont deux avec sursis (deux ans ferme sous surveillance électronique), 100 000
+    € d'amende et cinq ans d'inéligibilité avec exécution provisoire.
+- date: '2026-07-07'
+  stade: appel
+  juridiction: Cour d'appel de Paris
+  decision: >-
+    Culpabilité confirmée. Trois ans de prison dont deux avec sursis (un an sous bracelet électronique), 100 000
+    € d'amende, 45 mois d'inéligibilité dont 30 avec sursis. Selon la cour, la partie ferme de l'inéligibilité a
+    été exécutée depuis le 31 mars 2025.
+- date: 2026-07
+  stade: cassation
+  juridiction: Cour de cassation
+  decision: >-
+    Pourvoi formé. Il suspend l'exécution des peines pénales, mais pas celle des condamnations civiles. Treize pourvois
+    ont été reçus dans ce dossier.
+prochaine_etape: >-
+  Examen des questions prioritaires de constitutionnalité le 16 décembre 2026. Si elles ne sont pas transmises au
+  Conseil constitutionnel, un arrêt pourrait être rendu fin mars ou début avril 2027 (Orange, avec L'Express, 17
+  octobre 2026).
+sources:
+- publicsenat-2026-07-07-le-pen-appel
+- leclubdesjuristes-2026-07-09-le-pen-pourvoi
+- orange-2026-10-17-le-pen-cassation

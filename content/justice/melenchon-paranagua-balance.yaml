@@ -1,0 +1,18 @@
+candidat: melenchon
+affaire: Diffamation envers Paulo Paranagua (message de février 2018)
+faits: >-
+  Message publié sur Facebook en février 2018 : « C'est Paulo Paranagua qui l'a balancé ? », à propos d'un militant
+  arrêté puis torturé sous la dictature de Pinochet. Le tribunal correctionnel n'avait pas reconnu de caractère
+  diffamatoire à ces propos en première instance.
+stade: appel
+definitive: non_documente
+etapes:
+- date: '2022-06-29'
+  stade: appel
+  juridiction: Cour d'appel de Paris
+  decision: >-
+    Diffamation retenue. 1 € symbolique de dommages et intérêts et 2 000 € au titre des frais de justice.
+prochaine_etape: 'Pourvoi en cassation éventuel : non documenté.'
+sources:
+- franceinfo-2022-06-29-melenchon-paranagua-appel
+- europe1-2022-06-29-melenchon-paranagua-appel

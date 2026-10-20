@@ -1,0 +1,16 @@
+candidat: zemmour
+affaire: Complicité de diffamation envers Danièle Obono
+faits: >-
+  Propos tenus en août 2020 dans « Face à l'info » sur CNews, accusant la députée LFI notamment « d'organiser des
+  réunions interdites aux Blancs ».
+stade: premiere_instance
+definitive: non_documente
+etapes:
+- date: '2024-02-07'
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel de Paris (17e chambre)
+  decision: >-
+    Coupable de complicité de diffamation publique. 1 000 € d'amende avec sursis et 1 000 € de dommages et intérêts.
+prochaine_etape: 'Appel éventuel : non documenté.'
+sources:
+- franceinfo-2024-02-07-zemmour-obono

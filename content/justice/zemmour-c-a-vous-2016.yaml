@@ -1,0 +1,23 @@
+candidat: zemmour
+affaire: Provocation à la haine religieuse (« C à vous », 2016)
+faits: >-
+  Propos tenus le 6 septembre 2016 sur France 5, dont l'appel aux musulmans à faire « le choix entre l'islam et
+  la France ». Plainte de l'association CAPJPO-EuroPalestine.
+stade: definitive
+definitive: true
+etapes:
+- date: 2017-06
+  stade: premiere_instance
+  juridiction: Tribunal correctionnel
+  decision: Coupable. 5 000 € d'amende.
+- date: 2018-05
+  stade: appel
+  juridiction: Cour d'appel
+  decision: Culpabilité pour provocation à la haine religieuse confirmée, amende réduite à 3 000 €.
+- date: '2019-09-17'
+  stade: cassation
+  juridiction: Cour de cassation
+  decision: 'Pourvoi rejeté : la condamnation est définitive.'
+sources:
+- dhnet-2021-11-16-zemmour-affaires
+- courrieratlas-2019-09-17-zemmour-cassation

@@ -1,0 +1,22 @@
+candidat: philippe
+affaire: Cité numérique du Havre
+faits: >-
+  Soupçons de détournement de fonds publics, favoritisme, prise illégale d'intérêts et concussion au Havre, autour
+  d'une convention signée avec une association présidée par une adjointe au maire, qui a reçu plus d'un million
+  d'euros de subventions en deux ans. Les faits ont été signalés par une ancienne cadre de la communauté urbaine.
+  Il conteste les faits ; son cabinet indique qu'il répondra à « toutes les questions que posera la justice ».
+stade: enquete
+definitive: false
+etapes:
+- date: '2024-04-03'
+  stade: enquete
+  juridiction: Parquet national financier
+  decision: >-
+    Ouverture d'une enquête préliminaire visant le maire du Havre et une élue ; perquisitions en avril 2024.
+- date: '2026-05-19'
+  stade: enquete
+  juridiction: Parquet national financier
+  decision: Annonce de l'ouverture d'une information judiciaire, confiée à un juge d'instruction.
+prochaine_etape: Instruction en cours ; aucune mise en examen rapportée au 20 octobre 2026.
+sources:
+- france3-2026-05-19-philippe-pnf

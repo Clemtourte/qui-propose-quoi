@@ -1,0 +1,27 @@
+candidat: melenchon
+affaire: Assistants parlementaires européens
+faits: >-
+  Soupçon d'emploi d'assistants parlementaires européens pour son activité politique nationale lorsqu'il était député
+  européen (2009-2017). L'Office européen de lutte antifraude (Olaf) a estimé le préjudice à plus de 500 000 € dans
+  un rapport de mars 2021.
+stade: enquete
+definitive: false
+etapes:
+- date: 2017-09
+  stade: enquete
+  juridiction: Office européen de lutte antifraude
+  decision: Ouverture d'une enquête administrative.
+- date: '2018'
+  stade: enquete
+  juridiction: Juges d'instruction (Paris)
+  decision: Ouverture d'une information judiciaire.
+- date: '2026-05-07'
+  stade: enquete
+  juridiction: Juges d'instruction (Paris)
+  decision: >-
+    Clôture de l'instruction sans mise en examen de Jean-Luc Mélenchon. Deux anciens collaborateurs restent témoins
+    assistés.
+prochaine_etape: >-
+  Réquisitoire définitif du parquet (non-lieu ou renvoi devant un tribunal), puis décision des juges d'instruction.
+sources:
+- touteleurope-2026-07-09-melenchon-assistants
