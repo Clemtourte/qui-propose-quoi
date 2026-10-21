@@ -1,0 +1,25 @@
+candidat: le-pen
+theme: securite-justice
+rubrique: mesure
+nature: position
+titre: "Livret « Sécurité » : légitime défense présumée, peines minimales, 85 000 places de prison (programme de 2022)"
+texte: >-
+  Le livret « Sécurité » du projet présidentiel de 2022, toujours en ligne et cité par LCP le 19 octobre 2026 comme le
+  livret du programme, prévoit une « présomption de légitime défense pour les policiers et les gendarmes » ; une loi
+  de programmation augmentant de 1,5 milliard d'euros par an le budget de la sécurité et de la justice, pour créer
+  7 000 postes de policiers et gendarmes et 3 000 postes administratifs, et doubler le nombre de magistrats pour le
+  porter à 20 000 ; 85 000 places de prison à l'horizon 2028 ; l'obligation pour les communes de plus de 10 000
+  habitants de se doter d'une police municipale ; des peines minimales ; des réductions de peine qui « ne doivent
+  jamais être automatiques » ; l'expulsion systématique des étrangers condamnés.
+chiffres:
+  - libelle: Places de prison visées à l'horizon 2028 (programme de 2022)
+    valeur: "85 000"
+    nature: position
+  - libelle: Postes de policiers et gendarmes à créer (programme de 2022)
+    valeur: "7 000"
+    nature: position
+  - libelle: Magistrats visés (programme de 2022)
+    valeur: "20 000"
+    nature: position
+date: 2022
+sources: [rn-2022-livret-securite, lcp-2026-10-19-maintien-ordre-propositions]

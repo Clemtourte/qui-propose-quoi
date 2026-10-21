@@ -42,8 +42,8 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 11 autres thèmes.
-- État des lieux : 11 thèmes sur 14.
+- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 10 autres thèmes.
+- État des lieux : 10 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
 - Décisions de justice visant les **figures importantes de chaque parti** (et pas seulement le candidat), par exemple Julien Odoul ou Frédéric Boccaletti pour le RN, demandé le 20 octobre 2026. À faire pour les 8 partis avec une même règle, à définir avant de chercher : qui compte comme « membre important » (direction du parti, présidents de groupe, porte-parole, têtes de liste nationales ?), même périmètre de dates et même type de procédures que pour les candidats. Affichage à prévoir à part de la section du candidat, pour ne pas confondre les deux.
 
@@ -108,4 +108,30 @@ Périmètre retenu pour tous : procédures pénales visant personnellement le ca
 - Zemmour, SMS de 2022 : suite de l'enquête préliminaire (classement, poursuites) non trouvée. Hors périmètre pénal, non publié : amende de 20 000 € infligée par la CNIL à Reconquête le 25 janvier 2024 (information et effacement des données de prospection), confirmée par le Conseil d'État le 15 avril 2025.
 - Enquêtes visant les partis sans lien avec la campagne du candidat, non retenues : parquet européen sur le RN (dépenses au Parlement européen), perquisitions de 2022 chez Renaissance dans l'enquête sur les campagnes d'Emmanuel Macron et McKinsey.
 - Le Pen, assistants parlementaires : nombre de coprévenus condamnés en appel (« dix autres cadres » selon Orange, onze personnes jugées selon Public Sénat) non publié faute de recoupement.
+
+## Thème « Sécurité et justice », 21 octobre 2026
+Positions des 8 candidats (synthèse et mesures), état des lieux, bilan de Gabriel Attal et d'Édouard Philippe. Une grande partie des positions date des réactions aux violences du 17 octobre 2026 ; les programmes complets restent à paraître (LFI le 6 novembre).
+
+### Programmes et sources primaires
+- **Le Pen** : le livret « Sécurité » en ligne sur le site du RN date du projet de 2022 (85 000 places de prison « à l'horizon de 2028 », données de 2021). Il est affiché comme tel. Vérifier à la publication du programme 2027 si les chiffres (7 000 postes, 20 000 magistrats) sont repris. La majorité pénale à 16 ans est annoncée par Jordan Bardella, pas encore par Marine Le Pen elle-même.
+- **Mélenchon** : l'édition 2025 de *L'Avenir en commun* est « en cours de réactualisation » sur melenchon2027.fr (21 octobre 2026) ; positions tirées du site Désintox de LFI et de LCP. Livret sécurité 2027 annoncé début novembre.
+- **Glucksmann** : aucun programme sécurité publié. Le livret « Être en sécurité(s) » du PS n'est pas le sien et n'est pas repris. Son livre *Nous avons encore envie* (mai 2026) n'a pas été consulté.
+- **Tondelier** : le programme des Écologistes de juillet 2026 est désormais lisible en PDF (lesecologistes.fr) ; ce n'est pas un programme présidentiel propre à la candidate.
+- **Zemmour** : aucun programme 2027 ; positions tirées d'interviews (BFMTV le 17 septembre, CNews le 18 octobre).
+- **Ministère de la Justice** : site en maintenance le 21 octobre 2026 ; les chiffres de population détenue (1er septembre 2026) viennent de l'AFP (Sud Radio) et de CNews. Note du 1er octobre 2026 (Infos rapides Justice n° 45, environ 90 900 détenus selon un résumé de recherche) non consultée.
+
+### Une seule source
+- Budget de la Justice 2027 (JSS) : l'article dit à la fois « près de 11 milliards » contre 10,7 et une hausse « d'environ 300 millions » ; un autre article du JSS, non ouvert, parle de 400 millions. Confirmer sur le PLF 2027.
+- Le Pen / RN, majorité pénale à 16 ans et référendum par l'article 11 : RMC seul.
+- Glucksmann, réaction du 19 octobre : dépêche AFP seule (reprise par Boursorama et Yahoo) ; propos sur le narcotrafic et les maires : Public Sénat seul (novembre 2025).
+- Retailleau, citation sur la « nouvelle doctrine du maintien de l'ordre » : LCP seul.
+- Zemmour, peines planchers et loi anticasseurs (CNews, 18 octobre) : Le JDD seul. Citation sur la « remigration » et sur le « syndrome Malik Oussekine » non publiées faute de seconde source.
+- Philippe, Mélenchon, Le Pen : messages sur X du 17 octobre cités par BFMTV.com (repris par Yahoo) ; à confirmer sur les comptes X.
+- Tondelier, programme (prisons, cannabis) : source primaire seule.
+
+### Non recherché ou à compléter
+- Bilan sur ce thème : seuls Attal (loi de 2025 sur les mineurs) et Philippe (loi du 23 mars 2019) sont documentés. Pistes : Retailleau, ministre de l'Intérieur de 2024 à 2025 (loi narcotrafic du 13 juin 2025, issue d'une proposition sénatoriale) ; votes de Marine Le Pen et de Gabriel Attal, députés, sur les textes sécurité et justice (loi narcotrafic, présomption d'usage légitime de l'arme adoptée par l'Assemblée en juillet 2026).
+- Vérifications de faits : pas encore recherchées pour ce thème. Piste : Éric Zemmour affirme que les étrangers font « 25 % » des détenus (17 septembre 2026).
+- Avis d'institutions : aucun trouvé sur les mesures des candidats. Pistes : avis de la Contrôleure générale des lieux de privation de liberté (Journal officiel, juillet 2026) sur la surpopulation carcérale ; obstacle constitutionnel à l'abaissement de la majorité pénale (décision du Conseil constitutionnel du 29 août 2002 et suivantes, à vérifier).
+- Réactions des autres camps aux propositions (majorité pénale à 15 ou 16 ans, désescalade) : pas encore recherchées.
 

@@ -1,3 +1,56 @@
 titre: "Sécurité et justice"
 ordre: 4
 accroche: "Police, peines, prisons, moyens de la justice."
+derniere_verification: 2026-10-21
+questions:
+  - id: maintien-ordre
+    libelle: Maintien de l'ordre
+  - id: police
+    libelle: Police et forces de l'ordre
+  - id: peines
+    libelle: Peines et prisons
+  - id: mineurs
+    libelle: Justice des mineurs
+etat_des_lieux:
+  - nature: fait
+    texte: >-
+      En 2025, selon le bilan définitif du service statistique du ministère de l'Intérieur (délinquance enregistrée
+      par la police et la gendarmerie), les violences physiques augmentent de 5 % et les violences sexuelles de 8 %
+      (viols et tentatives de viol : +9 %). 975 personnes ont été victimes d'homicide, un nombre stable sur un an.
+      Les infractions liées aux stupéfiants progressent (usage +7 %, trafic +9 %). Les cambriolages de logement
+      baissent de 3 %, les vols avec armes de 8 %, les vols de véhicule et les vols dans les véhicules de 9 %.
+    date: 2026-07-09
+    sources: [ssmsi-2026-07-09-insecurite-delinquance-2025]
+    chiffres_cles:
+      - valeur: "+5 %"
+        libelle: "violences physiques enregistrées en 2025 (+8 % par an en moyenne depuis 2016)"
+      - valeur: "975"
+        libelle: "victimes d'homicide en 2025, un nombre stable sur un an"
+  - nature: fait
+    texte: >-
+      Au 1er septembre 2026, 90 020 personnes sont détenues, un record (+6,8 % sur un an), pour 63 348 places
+      opérationnelles (+1,2 %). La densité carcérale atteint 142,1 % en moyenne et 176,1 % dans les maisons d'arrêt,
+      où sont détenues les personnes en attente de jugement et les condamnés à de courtes peines. 8 347 matelas sont
+      posés au sol faute de lits (+51,8 % sur un an). Chiffres du ministère de la Justice rapportés par l'AFP.
+    date: 2026-09-01
+    sources: [sudradio-2026-10-03-detenus-record, cnews-2026-10-03-detenus-record]
+    chiffres_cles:
+      - valeur: "90 020"
+        libelle: "personnes détenues au 1er septembre 2026 (+6,8 % sur un an)"
+      - valeur: "142,1 %"
+        libelle: "densité carcérale au 1er septembre 2026 (176,1 % dans les maisons d'arrêt)"
+  - nature: fait
+    texte: >-
+      Le projet de loi de finances pour 2027, présenté le 1er octobre 2026, porte les crédits de la mission
+      « Justice » à près de 11 milliards d'euros, contre 10,7 milliards en 2026. Il prévoit 1 301 emplois
+      supplémentaires, dont 287 magistrats et 334 greffiers, et la livraison de 326 places de prison en 2027
+      (830 en 2026).
+    date: 2026-10-01
+    sources: [jss-2026-10-01-budget-justice-2027]
+recherches:
+  avis: >-
+    Recherché le 21 octobre 2026 : aucun avis d'institution sur les mesures proposées par les candidats en matière
+    de sécurité et de justice. La décision du Conseil constitutionnel du 19 juin 2025 sur la loi de Gabriel Attal
+    figure dans son bilan.
+  verifications: Pas encore recherché pour ce thème.
+  promesses: Pas encore recherché.
