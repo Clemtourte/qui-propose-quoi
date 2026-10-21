@@ -57,7 +57,7 @@ La revérification a trouvé deux « Vrai ou faux » de franceinfo (Glucksmann, 
 - **Attal** : 7 Md€ d'économies pour 100 000 postes (Public Sénat seul) ; capitalisation présentée comme « une dose » (LCP) ou un système à « généraliser » (franceinfo) ; quotas d'immigration de travail repérés seulement via un agrégateur (Le Figaro, 30 avril 2026).
 - **Glucksmann** : critiques de la baisse de la CSG par ses concurrents de la primaire (Nouvel Obs, 2 octobre 2026) non reprises, en attendant la passe sur les réactions ; projet de Place publique de mars 2026 à consulter (source primaire).
 - **Retailleau** : proposition de loi constitutionnelle de 2023 (élargissement de l'article 11), retirée de l'ordre du jour, à vérifier sur senat.fr pour le bilan ; comparaison des 7,5 Md€ visés sur les opérateurs avec le rapport sénatorial Lavarde (2025).
-- **Tondelier** : positions sur l'immigration listées sans source par Le Courrier de l'Atlas (19 octobre 2026) ; doctrine des Écologistes du 13 juillet 2026 inaccessible (lesecologistes.fr, erreur 403), connue par L'Opinion.
+- **Tondelier** : positions sur l'immigration tirées du programme des Écologistes de juillet 2026 (chapitre 56, PDF lu le 21 octobre 2026), source primaire seule ; ce n'est pas un programme présidentiel propre à la candidate. Aucune déclaration personnelle récente sur les régularisations trouvée en presse (seulement l'agrégateur votons-2027.fr, non retenu).
 - **Zemmour** : Europe 1 date par erreur l'entretien BFMTV du « jeudi 18 septembre » (c'est le jeudi 17) ; affirmation de Zemmour sur un article du code des étrangers « de 1945 » à faire vérifier ; positions économiques connues surtout par Sarah Knafo ; consultation en ligne de Reconquête sur le programme.
 
 ## Passe d'équité, 20 octobre 2026
@@ -118,7 +118,7 @@ Positions des 8 candidats (synthèse et mesures), état des lieux, bilan de Gabr
 - **Glucksmann** : aucun programme sécurité publié. Le livret « Être en sécurité(s) » du PS n'est pas le sien et n'est pas repris. Son livre *Nous avons encore envie* (mai 2026) n'a pas été consulté.
 - **Tondelier** : le programme des Écologistes de juillet 2026 est désormais lisible en PDF (lesecologistes.fr) ; ce n'est pas un programme présidentiel propre à la candidate.
 - **Zemmour** : aucun programme 2027 ; positions tirées d'interviews (BFMTV le 17 septembre, CNews le 18 octobre).
-- **Ministère de la Justice** : site en maintenance le 21 octobre 2026 ; les chiffres de population détenue (1er septembre 2026) viennent de l'AFP (Sud Radio) et de CNews. Note du 1er octobre 2026 (Infos rapides Justice n° 45, environ 90 900 détenus selon un résumé de recherche) non consultée.
+- **Ministère de la Justice** : site en maintenance le 21 octobre 2026 ; les chiffres de population détenue (1er septembre 2026) viennent de l'AFP (Sud Radio) et de CNews. Note du 1er octobre 2026 (Infos Rapides Justice n° 45) lue le 20 octobre 2026 et ajoutée à l'état des lieux : 89 400 détenus hors outre-mer, 90 900 en les incluant. Ce chiffre trimestriel n'est pas directement comparable au chiffre mensuel de l'AFP (90 020 au 1er septembre) ; la densité (142,1 %) reste de source AFP.
 
 ### Une seule source
 - Budget de la Justice 2027 (JSS) : l'article dit à la fois « près de 11 milliards » contre 10,7 et une hausse « d'environ 300 millions » ; un autre article du JSS, non ouvert, parle de 400 millions. Confirmer sur le PLF 2027.

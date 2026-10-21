@@ -28,15 +28,26 @@ etat_des_lieux:
         libelle: "victimes d'homicide en 2025, un nombre stable sur un an"
   - nature: fait
     texte: >-
+      Au 1er octobre 2026, selon la statistique trimestrielle du ministère de la Justice, 89 400 personnes sont
+      détenues en France hors collectivités d'outre-mer (90 900 en les incluant), soit 7,0 % de plus en un an.
+      Parmi elles, 24 400 sont prévenues, c'est-à-dire en détention provisoire, présumées innocentes (+10,8 % en un
+      an). Par ailleurs, 17 400 personnes condamnées exécutent une peine de prison ferme hors d'un établissement
+      pénitentiaire (surveillance électronique ou placement à l'extérieur).
+    date: 2026-10-01
+    sources: [justice-sser-2026-10-infos-rapides-45]
+    chiffres_cles:
+      - valeur: "89 400"
+        libelle: "personnes détenues au 1er octobre 2026, hors outre-mer (+7 % sur un an)"
+  - nature: fait
+    texte: >-
       Au 1er septembre 2026, 90 020 personnes sont détenues, un record (+6,8 % sur un an), pour 63 348 places
       opérationnelles (+1,2 %). La densité carcérale atteint 142,1 % en moyenne et 176,1 % dans les maisons d'arrêt,
       où sont détenues les personnes en attente de jugement et les condamnés à de courtes peines. 8 347 matelas sont
-      posés au sol faute de lits (+51,8 % sur un an). Chiffres du ministère de la Justice rapportés par l'AFP.
+      posés au sol faute de lits (+51,8 % sur un an). Chiffres mensuels du ministère de la Justice rapportés par
+      l'AFP.
     date: 2026-09-01
     sources: [sudradio-2026-10-03-detenus-record, cnews-2026-10-03-detenus-record]
     chiffres_cles:
-      - valeur: "90 020"
-        libelle: "personnes détenues au 1er septembre 2026 (+6,8 % sur un an)"
       - valeur: "142,1 %"
         libelle: "densité carcérale au 1er septembre 2026 (176,1 % dans les maisons d'arrêt)"
   - nature: fait

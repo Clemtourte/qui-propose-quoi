@@ -40,4 +40,5 @@
   - Bilan : votes de Marine Le Pen et de Gabriel Attal (pour la loi narcotrafic, pour la loi Attal sur les mineurs, pour la présomption d'usage légitime de l'arme), vérifiés nom par nom sur les scrutins n° 1473, 1624 et 7987 de l'Assemblée ; loi narcotrafic de 2025 pour Bruno Retailleau, alors ministre de l'Intérieur. Notes de recherche ajoutées pour Glucksmann, Tondelier et Zemmour, sans mandat national.
   - Vérifications : rubriques « Vrai ou faux » et « Le vrai du faux » de franceinfo (février-octobre 2026) et AFP Factuel parcourus ; une vérification retenue (Marine Le Pen, 2 juin 2026).
   - Avis : Défenseure des droits sur la présomption de légitime défense (26 juin 2026) ; avis de la CGLPL sur la surpopulation carcérale (2 juillet 2026) ajouté à l'état des lieux.
-
+- Immigration, Marine Tondelier : synthèse et deux entrées tirées du programme des Écologistes (juillet 2026, chapitre « Garantir les libertés de migration ») ; citations relues dans le PDF. La case Tondelier × immigration n'est plus vide.
+- Sécurité et justice : population détenue au 1er octobre 2026 ajoutée depuis la source primaire (Infos Rapides Justice n° 45).
