@@ -47,10 +47,26 @@ etat_des_lieux:
       (830 en 2026).
     date: 2026-10-01
     sources: [jss-2026-10-01-budget-justice-2027]
+  - nature: jugement
+    auteur: Contrôleur général des lieux de privation de liberté, avis publié au Journal officiel du 2 juillet 2026
+    texte: >-
+      Près de trois ans après son avis de septembre 2023, le CGLPL constate « qu'aucune mesure d'envergure nationale
+      n'a été prise » contre la surpopulation carcérale. Il réitère sa recommandation d'inscrire dans la loi « un
+      mécanisme contraignant de régulation carcérale », géré localement sous la responsabilité de l'autorité
+      judiciaire, pour résorber la surpopulation des maisons d'arrêt dans un délai fixé par la loi.
+    date: 2026-07-02
+    sources: [cglpl-2026-07-02-avis-surpopulation]
 recherches:
   avis: >-
-    Recherché le 21 octobre 2026 : aucun avis d'institution sur les mesures proposées par les candidats en matière
-    de sécurité et de justice. La décision du Conseil constitutionnel du 19 juin 2025 sur la loi de Gabriel Attal
-    figure dans son bilan.
-  verifications: Pas encore recherché pour ce thème.
+    Recherché le 21 octobre 2026 : un avis de la Défenseure des droits sur la présomption de légitime défense des
+    forces de l'ordre, mesure du livret sécurité du RN. Aucun avis d'institution trouvé sur l'abaissement de la
+    majorité pénale (RN, Bruno Retailleau), ni sur les mesures d'Édouard Philippe, de La France insoumise ou des
+    Écologistes. L'avis de la CGLPL sur la surpopulation carcérale, qui ne vise aucun candidat, figure dans l'état
+    des lieux ; la décision du Conseil constitutionnel du 19 juin 2025 sur la loi de Gabriel Attal, dans son bilan.
+  verifications: >-
+    Recherché le 21 octobre 2026 dans les pages des rubriques « Vrai ou faux » et « Le vrai du faux » de franceinfo
+    (publications de février à octobre 2026) et sur la page d'accueil d'AFP Factuel (depuis le 18 septembre 2026).
+    Retenues : les vérifications d'une affirmation d'un candidat ou d'une mesure de son programme. Les vérifications
+    visant des élus qui ne sont pas candidats (Marion Maréchal, Manuel Bompard, Éric Coquerel, élus RN) ne sont pas
+    retenues. Les Décodeurs (Le Monde) restent inaccessibles.
   promesses: Pas encore recherché.

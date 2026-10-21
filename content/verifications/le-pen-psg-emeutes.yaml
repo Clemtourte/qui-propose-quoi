@@ -1,0 +1,15 @@
+candidat: le-pen
+theme: securite-justice
+declaration:
+  texte: Il n'y a qu'en France où la victoire d'un club de foot provoque des émeutes.
+  date: 2026-05-30
+  contexte: Message sur X après les violences qui ont suivi la victoire du PSG en Ligue des champions
+verificateur: franceinfo (Vrai ou faux)
+verdict: "« Dans les faits, il n'en est rien : des débordements ont aussi régulièrement lieu chez nos voisins »"
+resume: >-
+  franceinfo cite des violences récentes à l'étranger : la parade d'Arsenal à Londres (24 arrestations), des violences
+  à Leipzig avant une finale européenne (plus de 300 supporters impliqués), des policiers blessés à Glasgow. Le
+  sociologue Williams Nuytens cite aussi la Turquie, la Belgique, la Pologne et les Pays-Bas. Les spécialistes
+  interrogés font davantage le lien avec les violences urbaines qu'avec le football.
+date_verification: 2026-06-02
+sources: [franceinfo-2026-06-02-vof-le-pen-psg]

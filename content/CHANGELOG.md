@@ -36,4 +36,8 @@
 - Sources primaires lues : bilan du SSMSI, programme d'Édouard Philippe, livret sécurité du RN (2022), programme des Écologistes (juillet 2026), page Désintox de LFI, décision du Conseil constitutionnel n° 2025-886 DC, rapport n° 1187 de la commission des lois de l'Assemblée. Chaque citation, date et chiffre relu dans le texte téléchargé.
 - Choix de rédaction : le livret du RN est présenté comme celui du projet de 2022 ; la proposition d'expulser les détenus étrangers d'Éric Zemmour, déjà saisie dans le thème immigration, n'est pas saisie une seconde fois ; deux citations d'Éric Zemmour non publiées faute de seconde source.
 - Revérification indépendante non faite (pas de sous-agent, conformément à la méthode).
+- Compléments sur « Sécurité et justice » :
+  - Bilan : votes de Marine Le Pen et de Gabriel Attal (pour la loi narcotrafic, pour la loi Attal sur les mineurs, pour la présomption d'usage légitime de l'arme), vérifiés nom par nom sur les scrutins n° 1473, 1624 et 7987 de l'Assemblée ; loi narcotrafic de 2025 pour Bruno Retailleau, alors ministre de l'Intérieur. Notes de recherche ajoutées pour Glucksmann, Tondelier et Zemmour, sans mandat national.
+  - Vérifications : rubriques « Vrai ou faux » et « Le vrai du faux » de franceinfo (février-octobre 2026) et AFP Factuel parcourus ; une vérification retenue (Marine Le Pen, 2 juin 2026).
+  - Avis : Défenseure des droits sur la présomption de légitime défense (26 juin 2026) ; avis de la CGLPL sur la surpopulation carcérale (2 juillet 2026) ajouté à l'état des lieux.
 
