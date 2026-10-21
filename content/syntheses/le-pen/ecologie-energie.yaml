@@ -1,0 +1,14 @@
+candidat: le-pen
+theme: ecologie-energie
+phrase: >-
+  Contre la programmation de l'énergie de 2026 ; en 2022, cinq paires d'EPR, arrêt des projets éoliens et démantèlement
+  des éoliennes, baisse de la TVA sur l'énergie.
+reponses:
+  nucleaire: >-
+    En 2022 : centrales prolongées jusqu'à 60 ans, cinq paires d'EPR (2031) et cinq paires d'EPR 2 (2036)
+  renouvelables: 'En 2022 : projets éoliens stoppés, éoliennes démantelées ; contre la PPE de 2026'
+  prix: 'En 2022 : baisse de la TVA sur l''énergie ; sortie du marché européen libéralisé'
+date: '2026-02-12'
+sources:
+- publicsenat-2022-03-14-le-pen-energie
+- journaldeleconomie-2026-02-12-ppe-retailleau-le-pen

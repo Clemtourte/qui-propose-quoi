@@ -1,3 +1,73 @@
-titre: "Écologie et énergie"
+titre: Écologie et énergie
 ordre: 5
-accroche: "Climat, nucléaire et renouvelables, prix de l'énergie, biodiversité."
+accroche: Climat, nucléaire et renouvelables, prix de l'énergie, biodiversité.
+derniere_verification: '2026-10-21'
+questions:
+- id: nucleaire
+  libelle: Nucléaire
+- id: renouvelables
+  libelle: Éolien et solaire
+- id: prix
+  libelle: Prix et marché de l'énergie
+- id: climat
+  libelle: Climat et sortie des fossiles
+etat_des_lieux:
+- nature: fait
+  texte: >-
+    Les émissions françaises de gaz à effet de serre ont baissé de 2,1 % en 2025, soit 7,6 millions de tonnes équivalent
+    CO2 hors puits de carbone, selon l'estimation du Citepa publiée en juin 2026. Une première estimation, en janvier
+    2026, donnait −1,6 %, un rythme jugé par le Citepa « en deçà du rythme nécessaire » pour les objectifs de 2030.
+  date: '2026-07-09'
+  sources:
+  - connaissancedesenergies-2026-07-09-hcc-rapport-2026
+  - linfodurable-2026-01-13-citepa-2025
+  chiffres_cles:
+  - valeur: −2,1 %
+    libelle: émissions de gaz à effet de serre en 2025 par rapport à 2024 (Citepa, juin 2026)
+- nature: jugement
+  auteur: Haut Conseil pour le climat, rapport annuel du 9 juillet 2026
+  texte: >-
+    Le Haut Conseil pour le climat note de « premiers progrès » mais juge que « cela est tout à fait insuffisant
+    » (Jean-François Soussana, son président). Le rythme de baisse « va devoir au moins doubler », avec plus de
+    4 % par an en 2026, 2027 et 2028 ; « la seule poursuite des politiques climatiques actuelles ne permettra pas
+    » d'y répondre. Au premier trimestre 2026, les émissions ont baissé de 4,8 %.
+  date: '2026-07-09'
+  sources:
+  - connaissancedesenergies-2026-07-09-hcc-rapport-2026
+- nature: fait
+  texte: >-
+    En 2025, 95,2 % de l'électricité produite en France métropolitaine est bas carbone, selon le Bilan électrique
+    de RTE. Le nucléaire en fournit 68,1 % (373 TWh, +3 % sur un an), l'hydraulique 11,4 % et le solaire 6 %. La
+    production d'origine fossile (18,7 TWh) est la plus faible depuis près de 75 ans. Le facteur de charge de l'éolien
+    terrestre (21,4 %) est le plus bas des dix dernières années, en raison de vents faibles.
+  date: '2026-02-25'
+  sources:
+  - connaissancedesenergies-2026-02-25-rte-bilan-2025
+  chiffres_cles:
+  - valeur: 68,1 %
+    libelle: part du nucléaire dans la production d'électricité en 2025 (95,2 % bas carbone au total)
+- nature: fait
+  texte: >-
+    La troisième programmation pluriannuelle de l'énergie (PPE), adoptée par décret le 12 février 2026 sans vote
+    du Parlement, couvre 2026-2035. Elle prolonge les réacteurs existants jusqu'à 60 ans « voire au-delà », prévoit
+    six réacteurs EPR2 (premier mis en service visé en 2038) et huit en option, et vise 15 GW d'éolien en mer en
+    2035. Elle veut passer d'environ 60 % d'énergies fossiles dans le mix énergétique en 2023 à 60 % d'énergie bas
+    carbone en 2030. Les objectifs renouvelables attribués après 2028 pourront être ajustés à la demande d'électricité.
+  date: '2026-02-13'
+  sources:
+  - maireinfo-2026-02-13-ppe3
+  - europe1-2026-02-13-ppe3
+  chiffres_cles:
+  - valeur: 6 + 8
+    libelle: réacteurs EPR2 prévus et en option dans la PPE de février 2026 (premier en 2038)
+recherches:
+  avis: >-
+    Recherché le 21 octobre 2026 : aucun avis d'institution (RTE, ADEME, Cour des comptes, Haut Conseil pour le
+    climat) trouvé sur le programme énergétique d'un candidat pour 2027. RTE a jugé en 2025 qu'un moratoire sur
+    les renouvelables compromettrait la réindustrialisation (repéré par un résumé de recherche, non ouvert, non
+    publié).
+  verifications: >-
+    Recherché le 21 octobre 2026 dans les recherches précédentes des rubriques « Vrai ou faux » et « Le vrai du
+    faux » de franceinfo et d'AFP Factuel : aucune vérification retenue sur ce thème. Le chiffrage de la PPE à «
+    300 milliards d'euros » par le RN n'a pas été trouvé vérifié.
+  promesses: Pas encore recherché.

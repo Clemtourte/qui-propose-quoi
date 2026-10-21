@@ -1,0 +1,12 @@
+candidat: zemmour
+theme: ecologie-energie
+phrase: >-
+  Programme de 2022 : 14 réacteurs EPR, aucun nouveau projet éolien, soutien public redirigé vers la géothermie,
+  la biomasse et les pompes à chaleur.
+reponses:
+  nucleaire: 'En 2022 : 14 EPR (reprise en 2027 non documentée)'
+  renouvelables: 'En 2022 : aucun nouveau projet éolien ; aides redirigées vers les renouvelables thermiques'
+date: '2022-03-29'
+sources:
+- linfodurable-2022-03-29-zemmour-ecologie
+- lcp-2022-03-24-candidats-energie

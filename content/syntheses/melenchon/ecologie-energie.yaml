@@ -1,0 +1,14 @@
+candidat: melenchon
+theme: ecologie-energie
+phrase: >-
+  Renationaliser EDF et Engie et rétablir des tarifs réglementés ; en 2022, planifier le démantèlement des centrales
+  nucléaires au profit de l'éolien en mer.
+reponses:
+  nucleaire: 'En 2022 : démantèlement planifié des centrales (calendrier 2027 non documenté)'
+  renouvelables: 'En 2022 : éolien en mer comme alternative au nucléaire'
+  prix: >-
+    Fin de la libéralisation du marché de l'électricité ; EDF et Engie renationalisés ; tarifs réglementés
+date: '2026-07-17'
+sources:
+- lfi-2026-07-17-synthese-chapitre-13
+- lcp-2022-03-24-candidats-energie

@@ -42,8 +42,8 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 9 autres thèmes.
-- État des lieux : 9 thèmes sur 14.
+- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 8 autres thèmes.
+- État des lieux : 8 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
 - Décisions de justice visant les **figures importantes de chaque parti** (et pas seulement le candidat), par exemple Julien Odoul ou Frédéric Boccaletti pour le RN, demandé le 20 octobre 2026. À faire pour les 8 partis avec une même règle, à définir avant de chercher : qui compte comme « membre important » (direction du parti, présidents de groupe, porte-parole, têtes de liste nationales ?), même périmètre de dates et même type de procédures que pour les candidats. Affichage à prévoir à part de la section du candidat, pour ne pas confondre les deux.
 
@@ -148,4 +148,15 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Attal** : aucune position trouvée sur le RIC ni sur les conventions citoyennes. **Glucksmann** : aucune position trouvée sur le référendum. **Philippe** : aucune position sur la proportionnelle ou le mandat présidentiel en 2026 (sa réforme de 2018 relève du bilan). **Zemmour** : aucune proposition institutionnelle de 2026 trouvée en presse ; un projet de référendum présenté le 27 juin 2026 n'est rapporté que par elyseescope.com (exclu).
 - **Tondelier** : programme du parti, pas un programme présidentiel propre.
 - **Doublons de sources à fusionner** : `franceinfo-2026-10-08-philippe-heure-verite` et `franceinfo-2026-10-08-philippe-heure-de-verite`, `euronews-2026-10-09-philippe-travail` et `euronews-2026-10-09-philippe-travail-depenses`.
+
+## Thème « Écologie et énergie », 21 octobre 2026
+État des lieux (émissions 2025, mix électrique 2025, PPE de février 2026, avis du Haut Conseil pour le climat), synthèses et une entrée par candidat (deux pour Marine Le Pen). Programmes 2027 encore partiels : plusieurs positions datent de 2022 ou de 2025 et sont marquées comme telles.
+
+- **Positions de 2022 seulement** : Le Pen (plan « Marie Curie » ; en 2026, seule sa critique de la PPE est documentée), Zemmour (14 EPR, aucune éolienne ; un recensement de juin 2026 sur votons-2027.fr évoque l'abrogation du Pacte vert, agrégateur seul, non publié), Mélenchon sur le nucléaire (calendrier de sortie variable selon les sources : 2030, 2045, 2050, aucune source primaire de 2026 trouvée ; L'Avenir en commun « en cours de réactualisation »).
+- **Attal** : propositions de Renaissance de juillet 2025, avant sa candidature ; pas de programme énergie 2027 trouvé.
+- **Glucksmann** : « 100 jours de la révolution écologique » annoncés, en préparation au 12 octobre 2026 ; position sur les nouveaux EPR non tranchée avec Yannick Jadot. Le projet de Place publique (juin 2025, rénovation, rail, leasing social) n'est pas repris comme position du candidat.
+- **Une seule source** : Bilan électrique 2025 de RTE connu par Connaissance des Énergies (rapport complet RTE non ouvert) ; déclarations de Marine Le Pen et de Bruno Retailleau sur la PPE (février 2026) rapportées par BFMTV via Le Journal de l'Économie ; programme de Philippe (source primaire seule).
+- **Citepa** : l'estimation de juin 2026 (−2,1 %) est connue par l'AFP (rapport du HCC) ; le chiffre absolu (environ 359 Mt CO2e selon un résumé de recherche) n'est pas publié faute d'avoir ouvert le document du Citepa (fiche du ministère inaccessible).
+- **Le Pen 2022, TVA** : Public Sénat écrit « de 20 à 5,6 % » (probable coquille pour 5,5 %) ; le taux n'est pas publié.
+- Biodiversité, agriculture, transports : non traités dans ce thème pour l'instant (l'accroche les annonce en partie).
 
