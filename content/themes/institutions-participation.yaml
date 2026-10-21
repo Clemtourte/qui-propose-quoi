@@ -1,3 +1,73 @@
-titre: "Institutions et participation citoyenne"
+titre: Institutions et participation citoyenne
 ordre: 11
-accroche: "Référendum, RIC, conventions citoyennes, 49.3, réforme des institutions."
+accroche: Référendum, RIC, conventions citoyennes, 49.3, réforme des institutions.
+derniere_verification: '2026-10-21'
+questions:
+- id: referendum
+  libelle: Référendum
+- id: initiative
+  libelle: Initiative citoyenne (RIC, RIP, révocation)
+- id: conventions
+  libelle: Conventions citoyennes
+- id: institutions
+  libelle: Réforme des institutions
+etat_des_lieux:
+- nature: fait
+  texte: >-
+    Le dernier référendum national date du 29 mai 2005 : le traité établissant une Constitution pour l'Europe a
+    été rejeté par 54,67 % des suffrages exprimés, selon les résultats proclamés par le Conseil constitutionnel.
+  date: '2005-06-04'
+  sources:
+  - maireinfo-2005-06-06-referendum-29-mai
+  chiffres_cles:
+  - valeur: '2005'
+    libelle: année du dernier référendum national (traité constitutionnel européen, rejeté à 54,67 %)
+- nature: fait
+  texte: >-
+    Le référendum d'initiative partagée (RIP), prévu par la Constitution, n'a été engagé qu'une fois, contre la
+    privatisation d'Aéroports de Paris. Du 13 juin 2019 au 12 mars 2020, la proposition de loi a recueilli le soutien
+    de 1 093 030 électeurs inscrits, pour 4 717 396 requis (un dixième des inscrits). Le Conseil constitutionnel
+    a constaté l'échec de la procédure le 26 mars 2020.
+  date: '2020-03-26'
+  sources:
+  - conseil-constitutionnel-2020-03-26-rip-adp
+  chiffres_cles:
+  - valeur: 1 093 030
+    libelle: soutiens recueillis par le seul RIP engagé (Aéroports de Paris), pour 4 717 396 requis
+- nature: fait
+  texte: >-
+    L'article 49.3 permet au gouvernement de faire adopter un texte sans vote, sauf si une motion de censure est
+    adoptée. Il a été utilisé « une centaine de fois depuis 1958 », selon Europe 1. Le 3 octobre 2025, Sébastien
+    Lecornu déclare y renoncer pour le budget 2026 ; le 19 janvier 2026, il annonce y recourir pour la partie recettes
+    du projet de loi de finances, « avec une certaine forme de regrets et un peu d'amertume ».
+  date: '2026-01-19'
+  sources:
+  - europe1-2026-01-19-lecornu-49-3
+  - leclubdesjuristes-2025-10-03-lecornu-renonce-49-3
+  chiffres_cles:
+  - valeur: environ 100
+    libelle: recours au 49.3 depuis 1958, selon Europe 1 (janvier 2026)
+- nature: fait
+  texte: >-
+    La Convention citoyenne pour le climat a formulé 149 propositions en juin 2020, que le projet de loi « Climat
+    et résilience » était « censé reprendre » en grande partie, selon LCP (février 2021). La Convention citoyenne
+    sur la fin de vie, organisée par le CESE avec 184 citoyens tirés au sort (décembre 2022 - avril 2023), s'est
+    prononcée à 75,6 % des votants pour une aide active à mourir sous conditions ; son rapport a été adopté à 92
+    %.
+  date: '2023-04-02'
+  sources:
+  - lcp-2021-02-03-convention-climat
+  - cese-2023-04-02-convention-fin-de-vie
+  chiffres_cles:
+  - valeur: '184'
+    libelle: citoyens tirés au sort pour la Convention sur la fin de vie (2022-2023)
+recherches:
+  avis: >-
+    Recherché le 21 octobre 2026 : aucun avis d'institution (Conseil d'État, Conseil constitutionnel, Commission
+    de Venise) trouvé sur les propositions institutionnelles des candidats pour 2027.
+  verifications: >-
+    Recherché le 21 octobre 2026 dans les recherches précédentes des rubriques « Vrai ou faux » et « Le vrai du
+    faux » de franceinfo et d'AFP Factuel : aucune vérification portant sur les propositions institutionnelles des
+    candidats. Le fact-check d'Euronews du 17 septembre 2026 (Marine Le Pen et un référendum sur l'Union européenne)
+    est cité dans ses positions.
+  promesses: Pas encore recherché.

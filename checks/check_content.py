@@ -165,7 +165,7 @@ def coverage(data: dict) -> list[str]:
             n = sum(
                 1
                 for e in data["entrees"].values()
-                if e.get("candidat") == cid and e.get("theme") == tid and e.get("rubrique") == "mesure"
+                if e.get("candidat") == cid and e.get("theme") == tid and e.get("rubrique") in ("mesure", "participation")
             )
             cells.append(("S " if has_synth else "") + (str(n) if n else ("" if has_synth else "·")))
         lines.append(f"| {data['themes'][tid].get('titre', tid)} | " + " | ".join(cells) + " |")

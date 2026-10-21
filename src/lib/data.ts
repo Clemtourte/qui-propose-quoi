@@ -156,7 +156,8 @@ export async function getThemeData(theme: CollectionEntry<'themes'>) {
     return {
       candidat: c,
       synthese: syntheses.find((s) => s.data.candidat.id === c.id),
-      mesures: mine.filter((e) => e.data.rubrique === 'mesure').sort(byDateDesc),
+      // Participation proposals (referendum, citizens' assemblies...) are the measures of the institutions theme.
+      mesures: mine.filter((e) => e.data.rubrique === 'mesure' || e.data.rubrique === 'participation').sort(byDateDesc),
       passe: mine.filter((e) => e.data.rubrique === 'bilan' || e.data.rubrique === 'promesse').sort(byDateDesc),
     };
   });

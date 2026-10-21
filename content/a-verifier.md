@@ -42,8 +42,8 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 10 autres thèmes.
-- État des lieux : 10 thèmes sur 14.
+- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 9 autres thèmes.
+- État des lieux : 9 thèmes sur 14.
 - Promesses passées : aucun thème recherché.
 - Décisions de justice visant les **figures importantes de chaque parti** (et pas seulement le candidat), par exemple Julien Odoul ou Frédéric Boccaletti pour le RN, demandé le 20 octobre 2026. À faire pour les 8 partis avec une même règle, à définir avant de chercher : qui compte comme « membre important » (direction du parti, présidents de groupe, porte-parole, têtes de liste nationales ?), même périmètre de dates et même type de procédures que pour les candidats. Affichage à prévoir à part de la section du candidat, pour ne pas confondre les deux.
 
@@ -137,4 +137,15 @@ Positions des 8 candidats (synthèse et mesures), état des lieux, bilan de Gabr
 - Vérifications de faits : une seule retenue (Le Pen, émeutes après la victoire du PSG). L'affirmation d'Éric Zemmour sur les « 25 % » d'étrangers parmi les détenus (17 septembre 2026) n'a été vérifiée par aucun vérificateur trouvé ; les données officielles du ministère de la Justice permettraient de la confronter, mais ce serait une vérification du rédacteur, non publiée selon la règle.
 - Avis d'institutions : un seul sur une mesure de candidat (Défenseure des droits, présomption de légitime défense ; texte intégral de l'avis 26-05 non ouvert, PDF illisible). Aucun avis trouvé sur la majorité pénale à 15 ou 16 ans ; l'obstacle constitutionnel (principe fondamental de la justice des mineurs, décision du Conseil constitutionnel du 29 août 2002 et suivantes) est à documenter par une source avant toute mention. L'avis de la CGLPL figure dans l'état des lieux ; la citation de la CGLPL rapportée par CNews (« un centre pénitentiaire toutes les six semaines ») n'est pas sur la page du CGLPL consultée et n'est pas publiée.
 - Réactions des autres camps aux propositions (majorité pénale à 15 ou 16 ans, désescalade) : pas encore recherchées.
+
+## Thème « Institutions et participation citoyenne », 21 octobre 2026
+Les entrées « participation » des fiches candidat (déjà publiées) servent de mesures du thème : aucune n'est saisie deux fois. Ajouts : état des lieux, synthèses des 8 candidats, programme 2026 des Écologistes (chapitres 48-49), programme 2022 d'Éric Zemmour, bilan d'Édouard Philippe (réforme des institutions de 2018-2019).
+
+- **49.3** : « une centaine de fois depuis 1958 » selon Europe 1 seul ; aucun décompte officiel trouvé (vie-publique.fr en maintenance le 21 octobre 2026). Le recours de janvier 2026 est connu par Europe 1 ; le renoncement d'octobre 2025 par Le Club des juristes.
+- **Référendum de 2005** : résultat (54,67 %) par Maire-info seul ; la proclamation du Conseil constitutionnel n'a pas été retrouvée en ligne.
+- **Convention citoyenne pour le climat** : nombre de propositions effectivement reprises non documenté (chiffres contradictoires selon les sources) ; seule l'intention de reprise de février 2021 est publiée. Autres conventions (temps de l'enfant, 2025) non recherchées.
+- **Philippe, réforme de 2018-2019** : l'abandon définitif n'est pas daté par une source ; seuls le blocage de juillet 2018 et la relance de 2019 sont publiés.
+- **Attal** : aucune position trouvée sur le RIC ni sur les conventions citoyennes. **Glucksmann** : aucune position trouvée sur le référendum. **Philippe** : aucune position sur la proportionnelle ou le mandat présidentiel en 2026 (sa réforme de 2018 relève du bilan). **Zemmour** : aucune proposition institutionnelle de 2026 trouvée en presse ; un projet de référendum présenté le 27 juin 2026 n'est rapporté que par elyseescope.com (exclu).
+- **Tondelier** : programme du parti, pas un programme présidentiel propre.
+- **Doublons de sources à fusionner** : `franceinfo-2026-10-08-philippe-heure-verite` et `franceinfo-2026-10-08-philippe-heure-de-verite`, `euronews-2026-10-09-philippe-travail` et `euronews-2026-10-09-philippe-travail-depenses`.
 
