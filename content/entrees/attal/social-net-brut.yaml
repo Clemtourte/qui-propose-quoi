@@ -1,0 +1,31 @@
+candidat: attal
+theme: social
+rubrique: mesure
+nature: position
+titre: 'Rapprocher le net du brut : 250 € net de plus par mois pour un salaire médian'
+texte: 'Dans un reportage de France 2 du 31 août 2026, Gabriel Attal promet 250 € net de plus par mois sur un salaire médian
+  et dit : « Il y a les cotisations vieillesse sur lesquelles on peut agir pour rapprocher le net du brut ». franceinfo
+  cite un coût de 40 Md€ sans dire qui l''a estimé et sans le rattacher explicitement aux cotisations vieillesse. L''éditorialiste
+  Jean-Paul Chapel (France Télévisions) objecte que les cotisations financent plus de la moitié des dépenses sociales :
+  « Ce que l''on donne d''une main, on va le reprendre de l''autre ».'
+chiffres:
+- libelle: Coût cité par franceinfo pour la mesure (auteur de l'estimation non précisé)
+  valeur: 40 Md€
+  nature: fait
+reperes:
+- question: salaires
+  mesure: 40 Md€ de coût cité pour le rapprochement du net et du brut
+  equivalent: environ 580 € par habitant, soit 1,3 % du PIB de 2025 ; 2,3 % des dépenses publiques de 2025
+  calcul: '40 Md€ / 69,082 millions d''habitants = 580 € ; 40 / 2 990 Md€ de PIB = 1,3 % ; 40 / 1 714,2 Md€ de dépenses
+    publiques = 2,3 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990 Md€,
+    déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques
+    2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant annuel supposé ; auteur de l''estimation
+    non précisé par franceinfo.'
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
+questions:
+- salaires
+date: '2026-08-31'
+sources:
+- franceinfo-2026-08-31-net-brut

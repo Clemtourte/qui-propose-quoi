@@ -1,0 +1,16 @@
+candidat: philippe
+theme: social
+rubrique: mesure
+nature: position
+titre: Une allocation familiale unique de 350 € dès le premier enfant et environ 3 000 € de réduction d'impôt
+texte: Le 8 octobre 2026 sur France 2 (« L'Heure de vérité »), il propose « une allocation familiale unique qui permet de
+  verser 350 euros dès le premier enfant » et, pour les familles actives avec un deuxième ou un troisième enfant, une réduction
+  d'impôt d'environ 3 000 €, ainsi qu'un prêt à taux zéro pour déménager à la naissance d'un enfant (franceinfo, AFP). L'article
+  ne donne ni conditions, ni dégressivité, ni coût, ni financement. Sur le salaire net, franceinfo (31 août 2026) écrit
+  qu'il veut que les cotisations pèsent « moins sur les travailleurs et plus sur l'ensemble de la population », sans montant.
+questions:
+- minima
+date: '2026-10-08'
+sources:
+- franceinfo-2026-10-08-philippe-allocation-familiale
+- franceinfo-2026-08-31-net-brut

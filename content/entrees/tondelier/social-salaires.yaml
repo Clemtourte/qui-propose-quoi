@@ -1,0 +1,25 @@
+candidat: tondelier
+theme: social
+rubrique: mesure
+nature: position
+titre: Salaire minimum à 2 000 € brut dès 2027, point d'indice indexé sur l'inflation (programme du parti)
+texte: Le programme des Écologistes de juillet 2026 (chapitre 13, « Assurer des rémunérations dignes ») propose de « Passer
+  le salaire minimum à 2000€ brut par mois dès 2027 », avec un soutien ciblé aux très petites et petites et moyennes entreprises
+  et aux associations, d'indexer le point d'indice des fonctionnaires sur l'inflation, d'augmenter de 10 % la rémunération
+  des catégories C et B (15 % pour les enseignants) et de conditionner les exonérations de cotisations à l'augmentation
+  des salariés gagnant moins de 2 000 € net par mois. Il veut aussi supprimer les exonérations « inutiles car supérieures
+  à 1,6 smic » (chapitre 17).
+reperes:
+- question: salaires
+  mesure: Salaire minimum à 2 000 € brut par mois
+  equivalent: 133 € brut par mois de plus que le Smic actuel, soit +7,1 %
+  calcul: Smic brut mensuel de 1 867,02 € depuis le 1er juin 2026 (Insee, 35 heures par semaine). 2 000 − 1 867,02 = 132,98
+    € ; 2 000 / 1 867,02 = 1,071.
+  sources:
+  - insee-2026-06-smic-montants
+questions:
+- salaires
+date: 2026-07
+sources:
+- lesecologistes-2026-07-programme
+- insee-2026-06-smic-montants

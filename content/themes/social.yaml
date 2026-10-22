@@ -1,3 +1,63 @@
-titre: "Social"
+titre: Social
 ordre: 13
-accroche: "Salaires, minima sociaux, assurance chômage, pouvoir d'achat."
+accroche: Salaires, minima sociaux, assurance chômage, pouvoir d'achat.
+derniere_verification: '2026-10-22'
+questions:
+- id: salaires
+  libelle: Salaires, Smic et pouvoir d'achat
+- id: chomage
+  libelle: Assurance chômage
+- id: minima
+  libelle: Minima sociaux, RSA et prestations familiales
+- id: temps
+  libelle: Temps de travail
+etat_des_lieux:
+- nature: fait
+  texte: Au deuxième trimestre 2026, le taux de chômage au sens du Bureau international du travail atteint 8,3 % de la population
+    active, en hausse de 0,2 point sur le trimestre et de 0,7 point sur un an, son plus haut niveau depuis le troisième
+    trimestre 2020. Le pays compte environ 2,7 millions de chômeurs (+62 000 sur le trimestre, +261 000 sur un an). Chez
+    les 15-24 ans, le taux est de 21,6 % (+2,5 points sur un an). L'Insee précise une marge d'erreur de ± 0,3 point.
+  date: '2026-08-07'
+  sources:
+  - insee-2026-08-07-chomage-t2-2026
+  chiffres_cles:
+  - valeur: 8,3 %
+    libelle: taux de chômage au deuxième trimestre 2026, plus haut niveau depuis 2020 (Insee)
+- nature: fait
+  texte: En 2024, 15,4 % de la population vit sous le seuil de pauvreté (1 337 € par mois et par unité de consommation,
+    soit 60 % du niveau de vie médian), soit 9,8 millions de personnes en logement ordinaire en France métropolitaine. Ce
+    taux, stable sur un an, reste à son plus haut niveau depuis 1996. L'indice de Gini atteint 0,302, son maximum depuis
+    1996, et le niveau de vie médian est de 2 228 € par mois pour une personne seule. Selon l'Insee, « Les chômeurs et les
+    familles monoparentales restent les catégories les plus touchées par la pauvreté ».
+  date: '2026-07-09'
+  sources:
+  - insee-2026-07-09-niveau-vie-pauvrete-2024
+  chiffres_cles:
+  - valeur: 15,4 %
+    libelle: taux de pauvreté en 2024, plus haut niveau depuis 1996 (9,8 millions de personnes) (Insee)
+- nature: fait
+  texte: Le Smic horaire brut est de 12,31 € depuis le 1er juin 2026, soit 1 867,02 € brut par mois pour 35 heures par semaine
+    (Insee). Il était de 12,02 € (1 823,03 € brut par mois) du 1er janvier au 31 mai 2026, et de 11,88 € de novembre 2024
+    à décembre 2025.
+  date: '2026-06-01'
+  sources:
+  - insee-2026-06-smic-montants
+  chiffres_cles:
+  - valeur: 1 867 €
+    libelle: Smic mensuel brut (35 heures) depuis le 1er juin 2026 (Insee)
+- nature: fait
+  texte: Dans ses prévisions du 17 juin 2026, l'Unédic anticipe un déficit de l'assurance chômage de 2,3 Md€ en 2026 (contre
+    un excédent de 0,1 Md€ en 2025), puis des excédents de 2,1 Md€ en 2027 et 4,0 Md€ en 2028, à condition qu'il n'y ait
+    pas de nouveaux prélèvements de l'État. Les dépenses seraient de 46,6 Md€ en 2026 et la dette de 61,5 Md€ fin 2026 ;
+    selon l'Unédic, « Le désendettement engagé en sortie de la crise Covid-19 est au point mort ».
+  date: '2026-06-17'
+  sources:
+  - unedic-2026-06-17-previsions-financieres
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution (Insee, Unédic, Cour des comptes, Conseil d''analyse économique,
+    OFCE) sur une mesure sociale proposée par un candidat. La base de chiffrage du Conseil d''analyse économique (8 octobre
+    2026) n''a pas été lue.'
+  verifications: 'Recherché le 22 octobre 2026 : la vérification de franceinfo sur une déclaration de Bruno Retailleau (comptes
+    à découvert), repérée lors de la passe du 20 octobre. Les rubriques de vérification (franceinfo, AFP Factuel) n''ont
+    pas été reparcourues pour ce thème ; Les Décodeurs restent inaccessibles.'
+  promesses: Pas encore recherché.

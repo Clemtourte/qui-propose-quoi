@@ -1,0 +1,36 @@
+candidat: le-pen
+theme: social
+rubrique: mesure
+nature: position
+titre: 'Contre-budget : TVA réduite sur l''énergie, TVA nulle sur 100 produits, impôt sur le revenu supprimé pour les moins
+  de 30 ans'
+texte: 'Selon l''analyse de l''Institut de l''Entreprise de l''annexe du contre-budget du RN (6 octobre 2026), les baisses
+  d''impôts pour les ménages comprennent la baisse de la TVA sur les énergies (12,2 Md€), une TVA nulle sur cent produits
+  de première nécessité (3,5 Md€), l''exonération d''impôt sur le revenu des actifs de moins de trente ans jusqu''à quatre
+  Smic (2,0 Md€) et une part fiscale pleine dès le deuxième enfant. À Hénin-Beaumont (13 septembre 2026), elle dit : « Nous
+  devons mener la bataille sociale » et « Il ne peut pas y avoir de France à deux vitesses » ; franceinfo (31 août) écrit
+  qu''elle estime que seules des hausses de salaires amélioreront le pouvoir d''achat, sans la citer directement. Le programme
+  social du RN (Smic, assurance chômage, minima) n''a pas été trouvé.'
+chiffres:
+- libelle: Baisse de la TVA sur les énergies, selon l'annexe du RN (relevée par l'Institut de l'Entreprise)
+  valeur: 12,2 Md€
+  nature: position
+reperes:
+- question: salaires
+  mesure: 12,2 Md€ de baisse de la TVA sur les énergies
+  equivalent: environ 180 € par habitant, soit 0,41 % du PIB de 2025 ; 0,71 % des dépenses publiques de 2025
+  calcul: '12,2 Md€ / 69,082 millions d''habitants = 180 € ; 12,2 / 2 990 Md€ de PIB = 0,41 % ; 12,2 / 1 714,2 Md€ de dépenses
+    publiques = 0,71 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990 Md€,
+    déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques
+    2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant de 2027 selon l''annexe du RN
+    ; il progresse avec les prix de l''énergie selon l''Institut de l''Entreprise.'
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
+questions:
+- salaires
+date: '2026-10-06'
+sources:
+- idep-2026-10-06-contre-budget-rn
+- franceinfo-2026-09-13-le-pen-henin-beaumont
+- franceinfo-2026-08-31-net-brut
