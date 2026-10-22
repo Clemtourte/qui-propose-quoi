@@ -1,0 +1,29 @@
+candidat: glucksmann
+theme: education
+rubrique: mesure
+nature: position
+titre: « Plan de sauvetage de l'école publique » et +10 % pour tous les enseignants
+citation:
+  texte: >-
+    Je propose un plan sur 5 ans : d'abord la hausse de la rémunération des enseignants, ensuite une baisse du nombre
+    d'élèves par classe en primaire et la rénovation du bâti scolaire.
+  date: '2026-08-23'
+  contexte: Annonce de sa candidature sur TF1, rapportée par Public Sénat
+texte: >-
+  Le 30 août 2026, dans l'émission « Franc-jeu » (France 2 et France Inter), il propose « une augmentation pour tous [les
+  enseignants] de 10 % et ensuite, une augmentation graduelle en fonction de la carrière », qui pourrait « monter jusqu'à
+  25 % » pour un enseignant en milieu de carrière dans le primaire. La mesure « coûte 6 milliards en tout », selon lui.
+  Il veut « profiter de la baisse démographique non pas pour fermer des classes ou des écoles, mais pour augmenter le
+  taux d'encadrement des élèves », et imposer la mixité sociale « dans toutes les écoles qui sont subventionnées par
+  l'État français ».
+chiffres:
+- libelle: Hausse des salaires des enseignants
+  valeur: +10 % pour tous, jusqu'à +25 %
+  nature: position
+- libelle: Coût annoncé
+  valeur: 6 Md€
+  nature: position
+date: '2026-08-30'
+sources:
+- franceinfo-2026-08-30-glucksmann-enseignants
+- publicsenat-2026-08-24-glucksmann-propositions

@@ -1,0 +1,16 @@
+candidat: glucksmann
+theme: education
+declaration:
+  texte: "[Il y a] 23 enfants par classe en maternelle en France, alors que la moyenne de l'OCDE c'est quinze"
+  date: 2026-10-01
+  contexte: Débat de la primaire de la gauche sur France 2 et France Inter
+verificateur: franceinfo (Vrai ou faux)
+verdict: >-
+  « Si ce chiffre est proche de la réalité, il est toutefois légèrement surestimé » ; la comparaison avec l'OCDE «
+  mélange deux indicateurs »
+resume: >-
+  Selon le ministère, une classe de préélémentaire comptait en moyenne 21,7 élèves à la rentrée 2025. L'OCDE ne mesure
+  pas la taille des classes mais le nombre d'enfants par enseignant : 22 en France contre 13 en moyenne dans ses pays
+  membres (« Regards sur l'éducation 2026 », données de 2024).
+date_verification: 2026-10-02
+sources: [franceinfo-2026-10-02-vof-primaire-gauche]

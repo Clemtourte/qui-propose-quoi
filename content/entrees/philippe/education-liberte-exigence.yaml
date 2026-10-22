@@ -1,0 +1,23 @@
+candidat: philippe
+theme: education
+rubrique: mesure
+nature: position
+titre: « Une école de la liberté et de l'exigence »
+texte: >-
+  Son programme veut « faire des chefs d'établissements les véritables patrons de l'école » : liberté d'adapter les
+  méthodes et les horaires, d'imposer l'uniforme, de fixer les règles de discipline, de participer au recrutement et à
+  l'évaluation de leur équipe, avec en contrepartie des évaluations de performance rendues publiques. Il propose d'«
+  augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la
+  moyenne européenne, notamment en milieu de carrière », de recréer des écoles normales, de réduire les effectifs en
+  maternelle et en primaire, de concentrer le primaire sur « lire, écrire, compter », un service public universel du
+  soutien scolaire combinant « assistant IA personnalisé » et « brigades » d'anciens professeurs et d'étudiants, une «
+  amende de responsabilisation scolaire » pour les parents d'enfants « harceleurs, perturbateurs ou absentéistes » et
+  l'interdiction stricte du téléphone portable à l'école primaire et au collège.
+chiffres:
+- libelle: Rémunération moyenne des enseignants sur le quinquennat
+  valeur: +20 %
+  nature: position
+date: '2026-08-25'
+sources:
+- edouardphilippe-2026-france-attentive-enfants
+- publicsenat-2026-08-31-candidats-ecole

@@ -1,0 +1,14 @@
+candidat: glucksmann
+theme: education
+declaration:
+  texte: c'est insupportable qu'en France, un enseignant en primaire soit moins bien payé que son collègue slovène ou portugais en valeur absolue
+  date: 2026-10-01
+  contexte: Débat de la primaire de la gauche sur France 2 et France Inter
+verificateur: franceinfo (Vrai ou faux)
+verdict: "« La tendance de fond pointée par Raphaël Glucksmann est exacte, mais il confond deux instruments de mesure »"
+resume: >-
+  En salaire statutaire brut (Eurydice, 2024-2025), un professeur des écoles français avec 15 ans d'expérience perçoit
+  36 591 euros, moins qu'en Slovénie (40 146) mais plus qu'au Portugal (31 874). En standard de pouvoir d'achat, qui
+  tient compte du coût de la vie, il dispose de 34 386 SPA, contre 37 367 au Portugal et 44 046 en Slovénie.
+date_verification: 2026-10-02
+sources: [franceinfo-2026-10-02-vof-primaire-gauche]

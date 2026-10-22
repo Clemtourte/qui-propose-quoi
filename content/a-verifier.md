@@ -42,8 +42,8 @@ Documents des contre-budgets RN et LFI, avis intégral du HCFP sur le PLF 2027 (
 Institut Montaigne (403), immigration.interieur.gouv.fr (403), Le Monde, Les Échos, Le Figaro, Libération, BFM. Les chiffrages de l'Institut Montaigne (2022 et 2024) restent à consulter.
 
 ## Sections non encore recherchées
-- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 8 autres thèmes.
-- État des lieux : 8 thèmes sur 14.
+- Pour les 8 candidats : « Vision d'ensemble », une passe équilibrée sur « Ce qu'en disent soutiens et adversaires », et les 7 thèmes restants (santé, Europe et défense, Ukraine et Russie, Proche-Orient, logement, social, transparence et probité).
+- État des lieux : 7 thèmes sur 14 (mêmes thèmes).
 - Promesses passées : aucun thème recherché.
 - Décisions de justice visant les **figures importantes de chaque parti** (et pas seulement le candidat), par exemple Julien Odoul ou Frédéric Boccaletti pour le RN, demandé le 20 octobre 2026. À faire pour les 8 partis avec une même règle, à définir avant de chercher : qui compte comme « membre important » (direction du parti, présidents de groupe, porte-parole, têtes de liste nationales ?), même périmètre de dates et même type de procédures que pour les candidats. Affichage à prévoir à part de la section du candidat, pour ne pas confondre les deux.
 
@@ -160,3 +160,21 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Le Pen 2022, TVA** : Public Sénat écrit « de 20 à 5,6 % » (probable coquille pour 5,5 %) ; le taux n'est pas publié.
 - Biodiversité, agriculture, transports : non traités dans ce thème pour l'instant (l'accroche les annonce en partie).
 
+## Thème « Éducation », 22 octobre 2026
+État des lieux (PISA 2025, projections d'effectifs de la DEPP, budget 2027 de l'Éducation nationale, salaires des enseignants selon l'OCDE), quatre questions (salaires, élèves par classe, collège et examens, autorité et liberté des établissements), synthèses et entrées des 8 candidats, bilans d'Attal et de Philippe, trois vérifications de franceinfo. La plupart des propositions datent de la rentrée (24-31 août 2026) ; les programmes de Le Pen, Mélenchon et Zemmour ne sont pas publiés.
+
+- **Programmes non publiés** : Le Pen (propositions du RN aux législatives de 2024 et programme de 2022, affichés comme tels) ; Mélenchon (L'Avenir en commun via la page « comparateur » de la campagne de juin 2025, le chapitre du programme 2025 étant introuvable) ; Zemmour (interview CNews du 13 octobre 2026 et pistes de janvier 2022).
+- **Divergence** : nombre d'enseignants à recruter pour 19 élèves par classe, 60 000 selon la campagne de Jean-Luc Mélenchon (juin 2025), 160 000 selon Public Sénat (31 août 2026). Les deux sont affichés.
+- **Une seule source** :
+  - Coût de 2,5 Md€ de la hausse des salaires de Gabriel Attal (Public Sénat ; Sud Radio reprend le même texte).
+  - Hausse de 135 € et 300 € nets de Bruno Retailleau (Sud Radio seul).
+  - Citation de Raphaël Glucksmann sur TF1 (23 août) : Public Sénat seul. Ses chiffres de 10 %, 25 % et 6 Md€ sont recoupés par franceinfo (30 août).
+  - Propositions du RN de 2024 : Public Sénat (Sud Radio reprend le même texte) ; seule la carte et la frise sont confirmées par une source primaire (proposition de loi n° 2035).
+  - Programme 2022 de Marine Le Pen : Europe 1 seul.
+  - Éric Zemmour, 13 octobre 2026 : CNews seul (son propre plateau).
+  - Salaires des enseignants selon « Regards sur l'éducation 2026 » et Eurydice : franceinfo seul (rapport de l'OCDE inaccessible, erreur 403).
+  - Bilan d'Édouard Philippe (instruction à 3 ans, dédoublement) : Banque des Territoires seule ; Légifrance, vie-publique.fr et education.gouv.fr bloqués par une vérification anti-robot le 22 octobre 2026.
+- **Dates** : dossier de presse du budget 2027 non daté (métadonnées : 1er octobre 2026) ; dossier PISA du ministère daté au mois.
+- **Bilans non recherchés** : votes de Le Pen et Mélenchon (députés de 2017 à 2022) sur la loi de 2019 ; votes de Retailleau au Sénat ; position de Glucksmann au Parlement européen (compétence nationale, sans objet probable).
+- **Réactions** : non recherchées pour ce thème (Mélenchon contre Attal et Philippe, 25 août, cité dans son entrée) ; réactions des candidats à PISA 2025 (Marine Le Pen : « une triple défaite », AFP via Sud Radio seule) non publiées.
+- **Hors périmètre pour l'instant** : université, formation professionnelle et apprentissage (annoncés dans l'accroche du thème), mobilisation lycéenne d'octobre 2026.

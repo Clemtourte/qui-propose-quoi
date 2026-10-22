@@ -1,0 +1,18 @@
+candidat: attal
+theme: education
+declaration:
+  texte: Personne n'a pu savoir si ça marchait parce qu'ils n'ont pas été mis en place. […] Or, ça fonctionne dans plein de pays
+  date: 2026-10-15
+  contexte: Le 8h30 de franceinfo, à propos des groupes de niveau au collège
+verificateur: franceinfo (Le vrai du faux)
+verdict: >-
+  « Contrairement à ce que dit Gabriel Attal, il est possible de savoir si les groupes de niveaux instaurés au collège
+  en septembre 2024 ont permis d'aider les élèves ou non, et la réponse est négative »
+resume: >-
+  Un rapport de l'Inspection générale (juin 2025) conclut que les élèves les plus en difficulté n'ont « clairement pas
+  bénéficié des avancées attendues de la mesure ». Une étude de la DEPP (fin septembre 2026) conclut que les nouvelles
+  organisations « n'ont pas eu d'effet significatif sur les scores en français et en mathématiques aux évaluations
+  nationales de début de 4e ». Sur l'étranger, une synthèse de recherches (programme Idee, novembre 2023) juge les
+  classes de niveau permanentes « inefficaces », mais trouve un « effet positif » aux groupes de besoin temporaires.
+date_verification: 2026-10-16
+sources: [franceinfo-2026-10-16-vdf-attal-groupes-niveau]

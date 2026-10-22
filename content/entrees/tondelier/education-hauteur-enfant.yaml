@@ -1,0 +1,27 @@
+candidat: tondelier
+theme: education
+rubrique: mesure
+nature: position
+titre: 19 élèves par classe en 2032 et +15 % pour les enseignants
+citation:
+  texte: On a tôt mis l'enfance au cœur de notre campagne présidentielle, c'est une priorité nette des écologistes
+  date: '2026-08-31'
+  contexte: Conférence de presse de rentrée consacrée à l'éducation, rapportée par Public Sénat
+texte: >-
+  Le programme des Écologistes (juillet 2026) veut faire de l'école primaire « une priorité absolue en réduisant la
+  taille des classes à 19 élèves en 2032 et à 12 élèves » en éducation prioritaire (REP et REP+), augmenter « les
+  salaires des enseignant·es de 15 % en 5 ans », former et titulariser les 144 000 AESH et interdire l'usage des écrans à
+  l'école avant six ans. Selon Public Sénat, la candidate propose aussi une filière de catégorie B pour les AESH, des
+  temps d'apprentissage « hors les murs » et la transformation des établissements en « refuges climatiques », avec deux
+  milliards d'euros par an, notamment pour leur isolation.
+chiffres:
+- libelle: Élèves par classe en 2032 (en REP et REP+)
+  valeur: 19 (12)
+  nature: position
+- libelle: Salaires des enseignants en cinq ans
+  valeur: +15 %
+  nature: position
+date: '2026-08-31'
+sources:
+- lesecologistes-2026-07-programme
+- publicsenat-2026-08-31-candidats-ecole

@@ -1,3 +1,93 @@
-titre: "Éducation"
+titre: Éducation
 ordre: 6
-accroche: "École, enseignants, université, formation."
+accroche: École, enseignants, université, formation.
+derniere_verification: '2026-10-22'
+questions:
+- id: salaires
+  libelle: Salaires des enseignants
+- id: classes
+  libelle: Élèves par classe
+- id: college
+  libelle: Collège, examens et passage
+- id: autorite
+  libelle: Autorité et liberté des établissements
+etat_des_lieux:
+- nature: fait
+  texte: >-
+    À l'enquête PISA 2025 de l'OCDE, publiée le 8 septembre 2026, les élèves français de 15 ans obtiennent 483 points
+    en sciences, 458 en mathématiques et 456 en compréhension de l'écrit. Par rapport à 2022, le score est quasi stable
+    en sciences (−4 points) mais recule de 18 points en compréhension de l'écrit et de 16 points en mathématiques ;
+    environ un élève sur trois se situe sous le niveau 2 en compréhension de l'écrit. La baisse touche aussi la moyenne
+    de l'OCDE (24 pays comparables) : −26 points en mathématiques et −31 en compréhension de l'écrit depuis 2015.
+    L'OCDE considère que 20 points représentent environ une année de scolarité.
+  date: '2026-09-08'
+  sources:
+  - men-2026-09-pisa-2025
+  - sudradio-2026-09-08-pisa-2025
+  - euronews-2026-09-08-pisa-2025
+  chiffres_cles:
+  - valeur: '458'
+    libelle: score de la France en mathématiques à PISA 2025 (−16 points depuis 2022)
+- nature: fait
+  texte: >-
+    La baisse des naissances réduit le nombre d'élèves. À la rentrée 2026, la DEPP prévoit 6,02 millions d'élèves dans
+    le premier degré (−125 400, soit −2,0 % en un an) et 5,58 millions dans le second degré (−36 200). Selon son scénario
+    intermédiaire, le premier degré passerait de 6,15 millions d'élèves en 2025 à 5,22 millions en 2035 (−933 000,
+    soit −15,2 %) ; au total, la baisse atteindrait 1,7 million d'élèves en dix ans. Le ministère attend près de 180 000
+    élèves de moins à la rentrée 2027.
+  date: '2026-04'
+  sources:
+  - depp-2026-04-ni-26-09-projections-2035
+  - men-2026-10-budget-2027-ecole
+  chiffres_cles:
+  - valeur: −1,7 million
+    libelle: élèves en moins d'ici 2035, selon le scénario intermédiaire de la DEPP
+- nature: fait
+  texte: >-
+    Le projet de budget 2027 attribue à l'Éducation nationale 64 milliards d'euros hors pensions (89,1 milliards
+    pensions comprises), soit 1,2 milliard de plus qu'en 2026 à format constant, selon le ministère. Au titre de la
+    baisse du nombre d'élèves, 3 644 postes d'enseignants sont repris et 2 056 réaffectés : le solde est de 1 588 postes
+    d'enseignants en moins (1 250 dans le public), après 4 000 en 2026. S'y ajoutent 1 804 créations pour la protection
+    des élèves, dont 1 300 accompagnants d'élèves en situation de handicap (AESH), et 3 041 pour les élèves et stagiaires
+    enseignants en formation, soit 3 257 emplois de plus au total. Dans le premier degré public, le nombre moyen d'élèves
+    par classe passerait de 23,2 en 2017 à 20,6 en 2027.
+  date: '2026-10'
+  sources:
+  - men-2026-10-budget-2027-ecole
+  - franceinfo-2026-10-07-vof-budget-education
+  chiffres_cles:
+  - valeur: '20,6'
+    libelle: élèves par classe en moyenne prévus en 2027 dans le premier degré public (23,2 en 2017)
+- nature: jugement
+  auteur: Mathieu Plane (OFCE) et calculs de franceinfo, 7 octobre 2026
+  texte: >-
+    Pour l'économiste Mathieu Plane (OFCE), « en valeur réelle, la hausse de 1,2 milliard revient à zéro » et, dans le
+    projet de budget 2027, « la part du budget de l'Education dans le produit intérieur brut potentiel est réduite ».
+    Selon les calculs de franceinfo, le budget de l'Éducation nationale hors pensions et corrigé de l'inflation baisse
+    de plus de 200 millions d'euros.
+  date: '2026-10-07'
+  sources:
+  - franceinfo-2026-10-07-vof-budget-education
+- nature: fait
+  texte: >-
+    Selon le rapport « Regards sur l'éducation 2026 » de l'OCDE, cité par franceinfo, un enseignant de collège avec
+    15 ans d'ancienneté gagnait en 2025 en moyenne 18 % de moins que la moyenne de l'OCDE ; l'écart est de 2 % en début
+    de carrière. En 2024-2025, un professeur des écoles français avec 15 ans d'expérience a perçu un salaire statutaire
+    brut de 36 591 euros, selon les données Eurydice de la Commission européenne.
+  date: '2026-10-02'
+  sources:
+  - franceinfo-2026-10-02-vof-primaire-gauche
+recherches:
+  avis: >-
+    Recherché le 22 octobre 2026 : aucun avis d'institution (Cour des comptes, Conseil supérieur des programmes, Conseil
+    d'État, Haut Conseil de l'évaluation de l'école) trouvé sur une mesure proposée par un candidat pour 2027. Les
+    évaluations des groupes de niveau mis en place par Gabriel Attal (Inspection générale, juin 2025 ; DEPP, septembre
+    2026) sont connues par la vérification de franceinfo ci-dessous, les rapports eux-mêmes n'ayant pas été ouverts.
+    Institut Montaigne inaccessible.
+  verifications: >-
+    Recherché le 22 octobre 2026 par recherche ciblée sur les rubriques « Vrai ou faux » et « Le vrai du faux » de
+    franceinfo (pistes notées lors de la passe du 20 octobre). Retenues : les vérifications d'une affirmation d'un
+    candidat. La vérification d'une affirmation de Manuel Bompard (LFI), qui n'est pas candidat, sur le budget 2027 n'est
+    pas retenue ici ; l'avis de l'économiste qu'elle cite figure dans l'état des lieux. AFP Factuel n'a pas été parcouru
+    pour ce thème ; Les Décodeurs (Le Monde) restent inaccessibles.
+  promesses: Pas encore recherché.

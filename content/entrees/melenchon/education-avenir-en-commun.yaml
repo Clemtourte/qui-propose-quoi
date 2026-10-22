@@ -1,0 +1,26 @@
+candidat: melenchon
+theme: education
+rubrique: mesure
+nature: position
+titre: 19 élèves par classe et rattrapage du point d'indice (L'Avenir en commun)
+texte: >-
+  Le programme présidentiel détaillé n'est pas publié. Selon la campagne (juin 2025), L'Avenir en commun vise « 19 élèves
+  par classe à la fin du mandat » avec « un plan de recrutement massif d'enseignants (60 000) ». Il propose de « rattraper
+  le gel du point d'indice depuis 2010 » et de revaloriser les grilles salariales par une négociation avec les syndicats,
+  la fin du Pacte enseignant, un malus financier pour les établissements qui écartent les élèves en difficulté, la
+  suppression des subventions facultatives aux établissements privés sous contrat et l'abrogation de la loi Carle.
+  Public Sénat (31 août 2026) cite 160 000 enseignants recrutés et la cantine gratuite, avec 100 % de produits issus de
+  l'agriculture paysanne et biologique. Le 25 août 2026, il accuse Gabriel Attal et Édouard Philippe de vouloir «
+  dynamiter l'école publique » (message sur X rapporté par LCP et Public Sénat).
+chiffres:
+- libelle: Élèves par classe en fin de mandat
+  valeur: '19'
+  nature: position
+- libelle: Enseignants recrutés
+  valeur: 60 000 (LFI) ou 160 000 (Public Sénat)
+  nature: position
+date: '2026-08-31'
+sources:
+- melenchon2027-2025-06-30-comparateur-ecole
+- publicsenat-2026-08-31-candidats-ecole
+- lcp-2026-08-25-attal-ecole

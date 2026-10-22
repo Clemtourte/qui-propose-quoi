@@ -1,0 +1,25 @@
+candidat: retailleau
+theme: education
+rubrique: mesure
+nature: position
+titre: « Refonder l'école » autour des enseignants, des savoirs, de la liberté et de l'autorité
+texte: >-
+  Présenté le 31 août 2026 et élaboré avec le sénateur Max Brisson, son programme veut rapprocher les salaires des
+  enseignants de la moyenne européenne et réformer leurs affectations et leurs carrières, aujourd'hui largement fondées sur
+  l'ancienneté ; Sud Radio rapporte une hausse annoncée de 300 euros nets en milieu de carrière et de 135 euros en début
+  de carrière. Il propose de rétablir un examen d'entrée en sixième, de développer les groupes de niveau et de remettre
+  en cause le passage automatique en classe supérieure, de créer 1 000 établissements publics « libres » pouvant adapter
+  programmes, rythmes et calendrier, de renforcer les pouvoirs des chefs d'établissement et des conseils de discipline,
+  de créer des établissements de réinsertion pour les élèves de moins de 16 ans exclus à répétition, et un « contrat
+  d'engagement des parents ».
+chiffres:
+- libelle: Hausse des salaires annoncée (début / milieu de carrière)
+  valeur: +135 € / +300 € net
+  nature: position
+- libelle: Établissements publics « libres »
+  valeur: 1 000
+  nature: position
+date: '2026-08-31'
+sources:
+- publicsenat-2026-08-31-retailleau-ecole
+- sudradio-2026-09-03-candidats-ecole

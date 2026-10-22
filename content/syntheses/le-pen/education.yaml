@@ -1,0 +1,16 @@
+candidat: le-pen
+theme: education
+phrase: >-
+  Programme 2027 non publié. En 2024, le RN propose une frise du « récit national » dans chaque classe, le retour des
+  séries au bac et des structures spécialisées pour les élèves exclus deux fois ; en 2022, l'uniforme jusqu'en 3e.
+reponses:
+  salaires: 'Pour 2027 : non documenté. En 2022 : +3 % par an pendant le quinquennat'
+  classes: 'En 2022 : dédoublement étendu à tous les CP et à toutes les grandes sections'
+  college: 'En 2024 : retour des séries au bac et notation plus stricte. En 2022 : voie professionnelle possible dès la 5e'
+  autorite: >-
+    En 2024 : élèves exclus deux fois orientés vers des structures spécialisées ; remplacement obligatoire des
+    enseignants absents. En 2022 : uniforme du primaire à la 3e
+date: '2026-08-31'
+sources:
+- publicsenat-2026-08-31-candidats-ecole
+- europe1-2022-04-18-le-pen-education
