@@ -18,6 +18,9 @@ export function visible<T extends { demo?: boolean }>(items: T[]): T[] {
   return items.filter((i) => showDemo || !i.demo);
 }
 
+/** Anchor of a measure card on a theme page ("attal/ecologie-x" -> "mesure-attal-ecologie-x"). */
+export const entryAnchor = (entryId: string) => `mesure-${entryId.replace(/\//g, '-')}`;
+
 const frCollator = new Intl.Collator('fr', { sensitivity: 'base' });
 
 /** Candidates in alphabetical order by last name — never by poll score. */
@@ -28,6 +31,13 @@ export async function getCandidats() {
 
 export async function getThemes() {
   return (await getCollection('themes')).sort((a, b) => a.data.ordre - b.data.ordre);
+}
+
+/** Number of candidates with a summary on each theme: tells documented themes from coming ones. */
+export async function getCouverture(themes: CollectionEntry<'themes'>[], candidats: CollectionEntry<'candidats'>[]) {
+  const ids = new Set(candidats.map((c) => c.id));
+  const syntheses = await getCollection('syntheses', ({ data }) => ids.has(data.candidat.id));
+  return Object.fromEntries(themes.map((t) => [t.id, syntheses.filter((x) => x.data.theme.id === t.id).length]));
 }
 
 const MONTHS = [
@@ -109,9 +119,14 @@ export const CATEGORIE_LABELS: Record<CollectionEntry<'institutions'>['data']['c
 type SourceRef = { collection: 'sources'; id: string };
 
 /** Unique sources referenced by a set of items, most recent first. */
-export async function collectSources(items: Array<{ sources: SourceRef[] } | undefined>) {
+export async function collectSources(
+  items: Array<{ sources: SourceRef[]; reperes?: Array<{ sources: SourceRef[] }> } | undefined>,
+) {
   const ids = new Map<string, SourceRef>();
-  for (const item of items) item?.sources.forEach((s) => ids.set(s.id, s));
+  for (const item of items) {
+    item?.sources.forEach((s) => ids.set(s.id, s));
+    item?.reperes?.forEach((r) => r.sources.forEach((s) => ids.set(s.id, s)));
+  }
   const entries = await getEntries([...ids.values()]);
   return entries.sort((a, b) => b.data.date_publication.localeCompare(a.data.date_publication));
 }
@@ -148,6 +163,12 @@ export async function getThemeData(theme: CollectionEntry<'themes'>) {
   for (const s of syntheses) {
     for (const q of Object.keys(s.data.reponses)) {
       if (!questionIds.has(q)) throw new Error(`syntheses/${s.id}: question inconnue « ${q} » pour le thème ${theme.id}`);
+    }
+  }
+
+  for (const e of entrees) {
+    for (const q of e.data.questions) {
+      if (!questionIds.has(q)) throw new Error(`entrees/${e.id}: question inconnue « ${q} » pour le thème ${theme.id}`);
     }
   }
 

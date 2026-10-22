@@ -86,6 +86,9 @@ def check_sourced(item: dict, where: str, data: dict, report: Report, used: set[
             continue
         if is_demo_id(sid) and not (demo or item.get("demo")):
             report.error(where, f"source fictive « {sid} » utilisée par du contenu réel")
+    # Orders of magnitude carry their own sources (data used in the calculation).
+    for i, repere in enumerate(item.get("reperes") or []):
+        check_sourced({"sources": repere.get("sources")}, f"{where} (repère {i + 1})", data, report, used, demo or bool(item.get("demo")))
     known = [data["sources"][s] for s in sources if s in data["sources"]]
     if known and all(s.get("type") == "agregateur" for s in known):
         report.warn(where, "uniquement des sources de type agrégateur (à confirmer)")

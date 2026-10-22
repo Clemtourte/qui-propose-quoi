@@ -16,6 +16,9 @@ interface Props {
   citation?: { texte: string; date: string; contexte: string };
   promesse?: { texte: string; date: string; contexte: string };
   chiffres?: Array<{ libelle: string; valeur: string; nature: Nature }>;
+  reperes?: Array<{ mesure: string; equivalent: string; calcul: string; sources: Array<{ collection: 'sources'; id: string }> }>;
+  // Anchor so the overview table can link to this item.
+  id?: string;
   theme?: { id: string; titre: string };
   // Tighter layout for narrow columns (comparator).
   compact?: boolean;
@@ -31,12 +34,14 @@ const {
   citation,
   promesse,
   chiffres = [],
+  reperes = [],
+  id,
   theme,
   compact = false,
 } = Astro.props;
 ---
 
-<article class:list={['item', nature, { compact }]}>
+<article class:list={['item', nature, { compact }]} id={id}>
   <div class="meta">
     <NatureTag nature={nature} auteur={auteur} />
     <time datetime={date}>{formatDate(date)}</time>
@@ -78,10 +83,58 @@ const {
       </dl>
     )
   }
+  {
+    reperes.length > 0 && (
+      <div class="reperes">
+        <p class="reperes-titre">Pour se repérer</p>
+        <ul>
+          {reperes.map((r) => (
+            <li>
+              <strong>{typo(r.mesure)}</strong> : {typo(r.equivalent)}
+              <details>
+                <summary>Calcul et sources</summary>
+                <p>{typo(r.calcul)}</p>
+                <SourceRefs sources={r.sources} />
+              </details>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
   <SourceRefs sources={sources} />
 </article>
 
 <style>
+  .reperes {
+    margin: 0.6rem 0;
+    padding: 0.6rem 0.8rem;
+    background: var(--empty-bg);
+    border-radius: var(--radius);
+    font-size: 0.9rem;
+  }
+  .reperes-titre {
+    margin: 0 0 0.3rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .reperes ul {
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+  .reperes summary {
+    cursor: pointer;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .reperes details p {
+    margin: 0.3rem 0;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
   .item {
     background: var(--surface);
     border: 1px solid var(--line);

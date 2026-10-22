@@ -12,7 +12,7 @@ import NatureTag from '../../components/NatureTag.astro';
 import Legende from '../../components/Legende.astro';
 import Initiales from '../../components/Initiales.astro';
 import { getEntry } from 'astro:content';
-import { getThemes, getThemeData, typo, formatDate } from '../../lib/data';
+import { getThemes, getThemeData, entryAnchor, typo, formatDate } from '../../lib/data';
 
 export async function getStaticPaths() {
   const themes = await getThemes();
@@ -145,7 +145,7 @@ const nom = (id: string) => {
                 {synthese && <SourceRefs sources={synthese.data.sources} />}
                 <h3>Mesures</h3>
                 {mesures.length ? (
-                  mesures.map((e) => <Item {...e.data} theme={undefined} />)
+                  mesures.map((e) => <Item {...e.data} id={entryAnchor(e.id)} theme={undefined} />)
                 ) : (
                   <p class="nd">Non documenté.</p>
                 )}
@@ -189,13 +189,17 @@ const nom = (id: string) => {
 </Base>
 
 <script>
-  // Links from the overview table (#carte-<id>) open the matching card.
+  // Links from the overview table (#carte-<id>, #mesure-<id>) open the matching card.
   function openFromHash() {
     const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
-    if (target instanceof HTMLDetailsElement) {
-      target.open = true;
-      target.scrollIntoView();
+    if (!target) return;
+    // Open the candidate card (and the item itself when it is a details) before scrolling to it.
+    let node: Element | null = target;
+    while (node) {
+      if (node instanceof HTMLDetailsElement) node.open = true;
+      node = node.parentElement;
     }
+    target.scrollIntoView();
   }
   window.addEventListener('hashchange', openFromHash);
   openFromHash();

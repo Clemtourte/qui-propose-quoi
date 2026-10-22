@@ -23,6 +23,18 @@ const nature = z.enum(['fait', 'position', 'jugement']);
 
 const sourcesList = z.array(reference('sources')).min(1, 'Au moins une source');
 
+// An order of magnitude that helps a reader picture a figure (e.g. "15 GW" in reactors or in a share of
+// today's fleet). Always a computation shown step by step from sourced data, never a rhetorical comparison;
+// the same kind of reference is used for every candidate.
+const repere = z.object({
+  // Key question of the theme this reference illustrates: the overview table shows it only in that column.
+  question: z.string().optional(),
+  mesure: z.string(),
+  equivalent: z.string(),
+  calcul: z.string(),
+  sources: sourcesList,
+});
+
 const quote = z.object({
   texte: z.string(),
   date: fuzzyDate,
@@ -39,6 +51,7 @@ const sourcedItem = z
     sources: sourcesList,
     // Key figures quoted from `texte`, shown as large numbers at the top of a theme page.
     chiffres_cles: z.array(z.object({ valeur: z.string(), libelle: z.string() })).default([]),
+    reperes: z.array(repere).default([]),
     // Placeholder items attached to real records (e.g. a theme overview), hidden in production.
     demo: z.boolean().default(false),
   })
@@ -147,6 +160,9 @@ const entrees = defineCollection({
       chiffres: z
         .array(z.object({ libelle: z.string(), valeur: z.string(), nature }))
         .default([]),
+      reperes: z.array(repere).default([]),
+      // Ids of the theme's key questions this entry details: the overview table links to it.
+      questions: z.array(z.string()).default([]),
       date: fuzzyDate,
       sources: sourcesList,
     })

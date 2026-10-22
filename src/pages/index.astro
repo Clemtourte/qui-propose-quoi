@@ -3,15 +3,11 @@ import Base from '../layouts/Base.astro';
 import ThemeGrid from '../components/ThemeGrid.astro';
 import CandidatGrid from '../components/CandidatGrid.astro';
 import Legende from '../components/Legende.astro';
-import { getCollection } from 'astro:content';
-import { getCandidats, getThemes } from '../lib/data';
+import { getCandidats, getCouverture, getThemes } from '../lib/data';
 
 const themes = await getThemes();
 const candidats = await getCandidats();
-// Number of candidates with a summary on each theme, to tell documented themes from coming ones.
-const ids = new Set(candidats.map((c) => c.id));
-const syntheses = await getCollection('syntheses', ({ data }) => ids.has(data.candidat.id));
-const couverture = Object.fromEntries(themes.map((t) => [t.id, syntheses.filter((x) => x.data.theme.id === t.id).length]));
+const couverture = await getCouverture(themes, candidats);
 ---
 
 <Base title="Qui propose quoi">
