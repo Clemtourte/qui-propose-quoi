@@ -1,3 +1,58 @@
-titre: "Proche-Orient"
+titre: Proche-Orient
 ordre: 10
-accroche: "Israël, Palestine, Gaza, Iran, position de la France."
+accroche: Israël, Palestine, Gaza, Iran, position de la France.
+derniere_verification: '2026-10-22'
+questions:
+- id: reconnaissance
+  libelle: Reconnaissance de l'État de Palestine et solution à deux États
+- id: gaza
+  libelle: 'Gaza et Cisjordanie : pression sur le gouvernement israélien (sanctions, armes, aide)'
+- id: iran
+  libelle: 'Iran : guerre, programme nucléaire et détroit d''Ormuz'
+etat_des_lieux:
+- nature: fait
+  texte: 'Le cessez-le-feu entre Israël et le Hamas est entré en vigueur le 10 octobre 2025 ; selon l''AFP (10 octobre 2026),
+    le Hamas a libéré les 20 derniers otages vivants trois jours après l''annonce de l''accord. Un an après, Israël frappe
+    encore Gaza presque chaque jour et ses forces contrôlent environ 70 % du territoire, contre 53 % prévus par l''accord.
+    Environ 1 450 Palestiniens ont été tués depuis le cessez-le-feu selon le ministère de la Santé de Gaza (sous l''autorité
+    du Hamas, ses chiffres étant jugés fiables par l''ONU selon l''article). La deuxième phase (transition politique, désarmement
+    du Hamas) n''est pas appliquée : le Hamas dit qu''il rendra ses armes, Israël exige un désarmement vérifiable et n''a
+    pas commencé à se retirer. Donald Trump a promis 10 milliards de dollars pour le « Board of Peace » en janvier ; aucun
+    argent n''est connu pour être arrivé, et un plan de relance de 2,45 milliards de dollars a été proposé en septembre.'
+  date: '2026-10-10'
+  sources:
+  - afp-2026-10-10-gaza-un-an-cessez-le-feu
+  chiffres_cles:
+  - valeur: ≈ 1 450
+    libelle: Palestiniens tués depuis le cessez-le-feu du 10 octobre 2025, selon le ministère de la Santé de Gaza (relayé
+      par l'AFP)
+- nature: fait
+  texte: 'Le 24 juillet 2025, Emmanuel Macron a annoncé que la France reconnaîtrait l''État de Palestine en septembre, à
+    l''ONU ; Benyamin Netanyahou a répondu que la décision « récompense la terreur » et les États-Unis l''ont jugée « imprudente
+    ». Le 22 septembre 2025, à l''Assemblée générale de l''ONU à New York, il a déclaré : « Je déclare que la France reconnaît
+    aujourd''hui l''État de Palestine ». Selon Public Sénat (juillet 2025), 142 États reconnaissaient alors la Palestine,
+    soit environ trois quarts des membres de l''ONU.'
+  date: '2025-09-22'
+  sources:
+  - publicsenat-2025-07-25-reconnaissance-palestine-reactions
+  - financialafrik-2025-09-22-france-reconnait-palestine
+- nature: fait
+  texte: 'Le 28 février 2026, Israël, avec le soutien des États-Unis, a lancé une attaque aérienne sur l''Iran, qualifiée
+    de « préventive » par le ministre israélien de la Défense Israël Katz (Reuters) ; Donald Trump l''a justifiée par des
+    menaces imminentes. Les médias d''État iraniens ont annoncé la mort du guide suprême Ali Khamenei le 1er mars ; l''Iran
+    a riposté par des centaines de missiles et de drones, et le Croissant-Rouge iranien comptait au moins 555 morts en Iran
+    au 2 mars. Une trêve a pris effet en avril, mais les hostilités ont repris en juillet et août. Le détroit d''Ormuz,
+    par où passe environ 20 % du commerce mondial de pétrole et de gaz, reste fortement entravé : le 26 septembre, Donald
+    Trump a rejeté une proposition iranienne de réouverture, et le 17 octobre l''Iran a indiqué que deux pétroliers avaient
+    pris feu après avoir heurté des mines. Aucune information sur des négociations nucléaires en 2026 n''a été trouvée dans
+    les pages lues.'
+  date: '2026-10-17'
+  sources:
+  - jde-2026-03-02-frappes-iran
+  - franceinfo-2026-10-17-crise-ormuz
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution (Conseil d''État, CNCDH, Cour pénale internationale, Commission
+    européenne) sur la proposition d''un candidat en matière de Proche-Orient n''a été retenu. L''avis consultatif de la
+    Cour internationale de justice de juillet 2024, cité par le programme des Écologistes, n''a pas été lu directement.'
+  verifications: 'Recherché le 22 octobre 2026 : aucune vérification de franceinfo ni d''AFP Factuel retenue sur ce thème.'
+  promesses: Pas encore recherché.

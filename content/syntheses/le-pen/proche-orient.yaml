@@ -1,0 +1,16 @@
+candidat: le-pen
+theme: proche-orient
+phrase: 'Iran : approuve le cadrage défensif d''Emmanuel Macron, juge que les États-Unis ont commis une erreur (mars 2026)
+  ; opposée à la reconnaissance de la Palestine (juillet 2025).'
+reponses:
+  reconnaissance: 'Opposée à la reconnaissance : « C''est reconnaître un Etat Hamas et donc un Etat terroriste » (juillet
+    2025)'
+  iran: Position défensive de la France jugée « la bonne » ; les États-Unis auraient commis une erreur (mars 2026, propos
+    rapportés en anglais)
+date: '2026-03-25'
+sources:
+- lcp-2025-07-25-reactions-reconnaissance-palestine
+- publicsenat-2025-07-25-reactions-reconnaissance-politiques
+- lcp-2026-03-04-iran-reactions-allocution-macron
+- franceinfo-2026-03-11-partis-guerre-moyen-orient
+- mem-2026-03-25-le-pen-iran
