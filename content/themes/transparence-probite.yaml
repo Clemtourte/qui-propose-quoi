@@ -1,3 +1,58 @@
-titre: "Transparence et probité"
+titre: Transparence et probité
 ordre: 14
-accroche: "Règles de la vie publique, conflits d'intérêts, financement politique."
+accroche: Règles de la vie publique, conflits d'intérêts, financement politique.
+derniere_verification: '2026-10-22'
+questions:
+- id: ineligibilite
+  libelle: Inéligibilité des élus condamnés
+- id: controle
+  libelle: Contrôle de la vie publique (HATVP)
+- id: lobbying
+  libelle: Lobbying et conflits d'intérêts
+etat_des_lieux:
+- nature: fait
+  texte: Selon le rapport d'activité 2025 de la Haute Autorité pour la transparence de la vie publique (HATVP), présenté
+    le 28 mai 2026, l'institution a reçu 10 362 déclarations de patrimoine et d'intérêts, en a contrôlé 5 795 (+13 % sur
+    un an) et en a publié 3 626, dont 2 319 en ligne. Elle a transmis 57 dossiers au parquet pour défaut de déclaration,
+    un record depuis sa création en 2013, et rendu 641 avis sur des mobilités entre le public et le privé. 38,6 % des responsables
+    publics contrôlés présentaient un risque de conflit d'intérêts, pour lequel elle a recommandé des mesures préventives.
+    Cinquante organismes l'ont contactée sur une éventuelle inscription au répertoire Argos (influence pour le compte de
+    mandants étrangers).
+  date: '2026-05-28'
+  sources:
+  - publicsenat-2026-05-28-hatvp-rapport-2025
+  chiffres_cles:
+  - valeur: '57'
+    libelle: dossiers transmis au parquet par la HATVP en 2025 pour défaut de déclaration, un record depuis 2013
+  - valeur: 38,6 %
+    libelle: des responsables publics contrôlés par la HATVP en 2025 présentaient un risque de conflit d'intérêts
+- nature: jugement
+  auteur: Haute Autorité pour la transparence de la vie publique, rapport d'activité 2025 (28 mai 2026)
+  texte: La HATVP écrit que « Les menaces pesant sur l'intégrité de la vie publique apparaissent grandissantes ». Elle adresse
+    43 propositions au Premier ministre, dont un pouvoir de sanction administrative en cas de défaut de déclaration.
+  date: '2026-05-28'
+  sources:
+  - publicsenat-2026-05-28-hatvp-rapport-2025
+- nature: fait
+  texte: Depuis la loi du 9 décembre 2016 (Sapin II), le juge doit prononcer une peine complémentaire d'inéligibilité contre
+    toute personne condamnée pour une atteinte à la probité, sauf par une décision spécialement motivée au regard des circonstances
+    de l'infraction et de la personnalité de son auteur ; auparavant, cette peine était facultative.
+  date: '2016-12-09'
+  sources:
+  - publicsenat-2025-03-31-sapin-2-ineligibilite
+- nature: fait
+  texte: 'Par sa décision n° 2025-1129 QPC du 28 mars 2025, le Conseil constitutionnel a jugé conforme à la Constitution,
+    sous une réserve, le renvoi qui permet d''assortir d''une exécution provisoire une peine d''inéligibilité. La réserve
+    : « il revient alors au juge, dans sa décision, d''apprécier le caractère proportionné de l''atteinte » que la mesure
+    peut porter à l''exercice d''un mandat en cours et à la liberté de l''électeur.'
+  date: '2025-03-28'
+  sources:
+  - cc-2025-03-28-decision-2025-1129-qpc
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution sur la proposition d''un candidat. Les recommandations
+    de la HATVP (43 propositions) figurent dans l''état des lieux ; le Conseil d''État, la Cour des comptes et l''Agence
+    française anticorruption n''ont pas été consultés directement.'
+  verifications: 'Recherché le 22 octobre 2026 : aucune vérification de franceinfo ni d''AFP Factuel retenue sur ce thème
+    dans les recherches précédentes ; les rubriques n''ont pas été reparcourues spécialement. Les décisions de justice visant
+    les candidats figurent dans leur page, section « Décisions de justice », et non ici.'
+  promesses: Pas encore recherché.

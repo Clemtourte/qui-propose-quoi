@@ -1,0 +1,34 @@
+candidat: tondelier
+theme: transparence-probite
+rubrique: mesure
+nature: position
+titre: Inéligibilité à vie pour détournement ou corruption, moyens accrus pour la HATVP et l'AFA (programme du parti)
+texte: Le programme des Écologistes de juillet 2026 (chapitre 59, « Combattre la corruption ») affirme que la corruption
+  « coûte chaque année près de 120 milliards d'euros à la France » (chiffre cité sans source). Il propose d'« Instaurer
+  l'inéligibilité à vie et démission de leurs fonctions pour les élu·es condamné·es pour détournement de fonds publics ou
+  corruption », de confier les enquêtes de blanchiment et de corruption aux juridictions interrégionales spécialisées (JIRS),
+  d'« Augmenter les moyens financiers et humains » de la Haute Autorité pour la transparence de la vie publique (HATVP)
+  et de l'Agence française anticorruption, de mieux contrôler les mobilités public-privé, d'augmenter les sanctions en cas
+  de refus de communication, de créer un registre public des déports des élu·es et de rendre obligatoire la publication
+  des déclarations d'intérêts et de patrimoine des dirigeants d'entreprises de presse et de médias, de leurs actionnaires
+  et de leurs chroniqueurs réguliers. Le chapitre 48 propose d'étendre aux membres du Conseil constitutionnel les déclarations
+  d'intérêts et de situation patrimoniale vérifiées par la HATVP.
+reperes:
+- question: controle
+  mesure: Corruption évaluée à « près de 120 milliards d'euros » par an par le programme
+  equivalent: environ 1 740 € par habitant, soit 4,0 % du PIB de 2025 ; 7,0 % des dépenses publiques de 2025
+  calcul: '120 Md€ / 69,082 millions d''habitants = 1 740 € ; 120 / 2 990 Md€ de PIB = 4,0 % ; 120 / 1 714,2 Md€ de dépenses
+    publiques = 7,0 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990 Md€,
+    déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques
+    2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Chiffre du programme, cité sans source
+    ; périodicité annuelle selon le texte. Le site ne l''a pas recoupé.'
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
+questions:
+- ineligibilite
+- controle
+- lobbying
+date: 2026-07
+sources:
+- lesecologistes-2026-07-programme
