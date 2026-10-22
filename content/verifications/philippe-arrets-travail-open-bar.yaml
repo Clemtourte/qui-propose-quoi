@@ -1,0 +1,18 @@
+candidat: philippe
+theme: sante
+declaration:
+  texte: mettre fin à l'open bar des arrêts de travail
+  date: '2026-08-27'
+  contexte: Propos rapportés par franceinfo, à propos du coût des arrêts maladie
+verificateur: franceinfo (Vrai ou faux)
+verdict: 'franceinfo ne tranche pas par « vrai » ou « faux » : « le cadre dans lequel ils sont délivrés reste parfois flou
+  »'
+resume: 'La rédaction relève que les arrêts délivrés par téléconsultation représentent 2 à 4 % des arrêts chaque année et
+  que, depuis 2024, un médecin autre que le médecin traitant ne peut prescrire qu''un arrêt de trois jours maximum en téléconsultation.
+  La Cour des comptes (avril 2025, données 2024) relève qu''environ 6 % des téléconsultations en Île-de-France et 11 % dans
+  le Grand Est aboutissent à un arrêt, d''environ deux jours en moyenne. MG France dit que les centres de soins non programmés
+  sont devenus de gros prescripteurs d''arrêts courts, sans chiffre : l''Assurance maladie ne les identifie pas comme une
+  catégorie à part.'
+date_verification: '2026-08-28'
+sources:
+- franceinfo-2026-08-28-vof-philippe-arrets-travail

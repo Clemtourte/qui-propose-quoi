@@ -1,0 +1,15 @@
+candidat: retailleau
+theme: social
+declaration:
+  texte: il y a un tiers des Français, chaque 17 du mois, qui se retrouvent dans le rouge pour leurs comptes
+  date: '2026-09-16'
+  contexte: Le 8h30 de franceinfo
+verificateur: franceinfo (Vrai ou faux)
+verdict: « Le constat de l'ex-ministre de l'Intérieur est donc plutôt vrai, mais un peu imprécis »
+resume: 'Selon franceinfo, il mélange deux études : un sondage YouGov France pour MoneyVox (14 septembre 2026) donne un
+  tiers des Français à découvert au cours des 12 derniers mois, et un sondage CSA Research pour Lesfurets un quart à découvert
+  chaque mois, en moyenne vers le 18. Les deux portent sur environ mille personnes. Sur l''expression « La France est en
+  voie de tiers-mondisation », franceinfo écrit : « Il s''agit d''une exagération, d''un argument politique ».'
+date_verification: '2026-09-17'
+sources:
+- franceinfo-2026-09-17-vof-retailleau-decouvert
