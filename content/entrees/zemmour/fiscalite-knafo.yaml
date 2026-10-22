@@ -13,5 +13,17 @@ chiffres:
   - libelle: Économie annuelle attendue du non-remplacement de 800 000 postes, selon Sarah Knafo
     valeur: 40 Md€
     nature: position
+questions: [budget]
+reperes:
+- question: budget
+  mesure: >-
+    40 Md€ par an (non-remplacement de 800 000 postes), selon Sarah Knafo
+  equivalent: >-
+    environ 580 € par habitant, soit 1,3 % du PIB de 2025 ; 2,3 % des dépenses publiques de 2025
+  calcul: >-
+    40 Md€ / 69,082 millions d'habitants = 580 € ; 40 / 2990 Md€ de PIB = 1,3 % ; 40 / 1 714,2 Md€ de dépenses publiques = 2,3 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d'environ 2 990 Md€, déduit des chiffres de l'Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant annuel donné par Sarah Knafo.
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
 date: 2026-09-18
 sources: [franceinfo-2026-09-18-knafo-budget]

@@ -14,5 +14,15 @@ chiffres:
   - libelle: Économies attendues de la politique d'immigration et de la priorité nationale, selon le RN (contre-budget du 6 octobre 2026)
     valeur: 15 Md€ en 2027, 29 Md€ en année pleine
     nature: position
+reperes:
+- mesure: >-
+    15 Md€ d'économies en 2027 et 29 Md€ en année pleine, selon le RN
+  equivalent: >-
+    environ 220 à 420 € par habitant, soit 0,50 à 0,97 % du PIB de 2025 ; 0,88 à 1,7 % des dépenses publiques de 2025
+  calcul: >-
+    15 Md€ / 69,082 millions d'habitants = 220 € ; 15 / 2990 Md€ de PIB = 0,50 % ; 15 / 1 714,2 Md€ de dépenses publiques = 0,88 % ; puis 29 Md€ / 69,082 millions d'habitants = 420 € ; 29 / 2990 Md€ de PIB = 0,97 % ; 29 / 1 714,2 Md€ de dépenses publiques = 1,7 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d'environ 2 990 Md€, déduit des chiffres de l'Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Les deux bornes sont celles du RN (15 en 2027, 29 en année pleine).
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
 date: 2026-09-13
 sources: [france3-2026-09-13-le-pen-henin-beaumont, sudradio-2026-09-13-le-pen-logement, franceinfo-2026-10-08-critiques-budget-rn]

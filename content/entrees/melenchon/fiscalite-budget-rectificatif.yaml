@@ -18,5 +18,27 @@ chiffres:
   - libelle: Dépenses nouvelles, selon LFI
     valeur: 81,7 Md€
     nature: position
+questions: [budget]
+reperes:
+- question: budget
+  mesure: >-
+    106,4 Md€ de recettes nouvelles, selon LFI
+  equivalent: >-
+    environ 1 540 € par habitant, soit 3,6 % du PIB de 2025 ; 6,2 % des dépenses publiques de 2025
+  calcul: >-
+    106,4 Md€ / 69,082 millions d'habitants = 1 540 € ; 106,4 / 2990 Md€ de PIB = 3,6 % ; 106,4 / 1 714,2 Md€ de dépenses publiques = 6,2 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d'environ 2 990 Md€, déduit des chiffres de l'Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant annuel du budget rectificatif présenté, selon LFI.
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
+- question: budget
+  mesure: >-
+    81,7 Md€ de dépenses nouvelles, selon LFI
+  equivalent: >-
+    environ 1 180 € par habitant, soit 2,7 % du PIB de 2025 ; 4,8 % des dépenses publiques de 2025
+  calcul: >-
+    81,7 Md€ / 69,082 millions d'habitants = 1 180 € ; 81,7 / 2990 Md€ de PIB = 2,7 % ; 81,7 / 1 714,2 Md€ de dépenses publiques = 4,8 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d'environ 2 990 Md€, déduit des chiffres de l'Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant annuel du budget rectificatif présenté, selon LFI.
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
 date: 2026-10-14
 sources: [lcp-2026-10-14-contre-budget-lfi, publicsenat-2026-10-14-contre-budget-lfi]

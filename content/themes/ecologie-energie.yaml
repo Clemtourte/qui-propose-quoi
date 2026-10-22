@@ -60,12 +60,30 @@ etat_des_lieux:
   chiffres_cles:
   - valeur: 6 + 8
     libelle: réacteurs EPR2 prévus et en option dans la PPE de février 2026 (premier en 2038)
+  reperes:
+  - mesure: 6 réacteurs EPR2 prévus
+    equivalent: environ 10 GW, soit 16 % de la puissance du parc nucléaire actuel (63 GW)
+    calcul: >-
+      6 × 1,67 GW (puissance brute d'un EPR2) = 10,0 GW ; 10,0 / 63,0 = 16 %. Ordre de grandeur : puissance brute
+      des EPR2 et puissance installée du parc RTE ne sont pas définies de la même façon.
+    sources:
+    - connaissancedesenergies-epr2-technologie-projets
+    - rte-2026-02-bilan-electrique-2025-principaux-resultats
+  - mesure: 15 GW d'éolien en mer en 2035
+    equivalent: environ 8 fois la puissance installée fin 2025 (1,9 GW)
+    calcul: >-
+      15 / 1,9 = 7,9. Comparaison de puissances installées ; la production d'une éolienne en mer dépend du vent et
+      reste inférieure à sa puissance installée.
+    sources:
+    - rte-2026-02-bilan-electrique-2025-principaux-resultats
 recherches:
   avis: >-
     Recherché le 21 octobre 2026 : aucun avis d'institution (RTE, ADEME, Cour des comptes, Haut Conseil pour le
     climat) trouvé sur le programme énergétique d'un candidat pour 2027. RTE a jugé en 2025 qu'un moratoire sur
     les renouvelables compromettrait la réindustrialisation (repéré par un résumé de recherche, non ouvert, non
-    publié).
+    publié). Nouvelle recherche le 22 octobre 2026 (avis de RTE sur le moratoire de juin 2025, avis du Haut Conseil
+    pour le climat sur la programmation de l'énergie, Cour des comptes sur les EPR2) : rien d'exploitable trouvé par
+    le moteur de recherche ; Pages de publications de RTE, du Haut Conseil pour le climat et de la Cour des comptes parcourues directement le même jour : rien sur les mesures d'un candidat (dernier avis du HCC sur la programmation de l'énergie : 31 janvier 2025 ; avis sur la SNBC 3 : 12 mars 2026).
   verifications: >-
     Recherché le 21 octobre 2026 dans les recherches précédentes des rubriques « Vrai ou faux » et « Le vrai du
     faux » de franceinfo et d'AFP Factuel : aucune vérification retenue sur ce thème. Le chiffrage de la PPE à «

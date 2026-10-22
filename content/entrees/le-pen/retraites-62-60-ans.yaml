@@ -17,5 +17,17 @@ chiffres:
   - libelle: Économies annoncées sur les retraites, selon le RN
     valeur: 15 à 20 Md€ à terme
     nature: position
+questions: [financement]
+reperes:
+- question: financement
+  mesure: >-
+    15 à 20 Md€ d'économies à terme sur les retraites, selon le RN
+  equivalent: >-
+    environ 220 à 290 € par habitant, soit 0,50 à 0,67 % du PIB de 2025 ; 0,88 à 1,2 % des dépenses publiques de 2025
+  calcul: >-
+    15 Md€ / 69,082 millions d'habitants = 220 € ; 15 / 2990 Md€ de PIB = 0,50 % ; 15 / 1 714,2 Md€ de dépenses publiques = 0,88 % ; puis 20 Md€ / 69,082 millions d'habitants = 290 € ; 20 / 2990 Md€ de PIB = 0,67 % ; 20 / 1 714,2 Md€ de dépenses publiques = 1,2 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d'environ 2 990 Md€, déduit des chiffres de l'Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Échéance non précisée (« à terme »).
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
 date: 2026-10-14
 sources: [franceinfo-2026-10-14-le-pen-17-novembre, franceinfo-2026-08-27-debat-medef, europe1-2026-10-06-contre-budget-rn, publicsenat-2026-10-06-contre-budget-rn]

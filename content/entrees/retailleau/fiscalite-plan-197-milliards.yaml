@@ -22,5 +22,17 @@ chiffres:
   - libelle: Agents publics non remplacés
     valeur: 400 000
     nature: position
+questions: [budget]
+reperes:
+- question: budget
+  mesure: >-
+    197 Md€ d'effort sur cinq ans, soit 39,4 Md€ par an en moyenne
+  equivalent: >-
+    environ 570 € par habitant, soit 1,3 % du PIB de 2025 ; 2,3 % des dépenses publiques de 2025
+  calcul: >-
+    39,4 Md€ / 69,082 millions d'habitants = 570 € ; 39,4 / 2990 Md€ de PIB = 1,3 % ; 39,4 / 1 714,2 Md€ de dépenses publiques = 2,3 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d'environ 2 990 Md€, déduit des chiffres de l'Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. 197 / 5 = 39,4 Md€ par an. Montant cumulé sur la période annoncée : la moyenne annuelle suppose un étalement régulier.
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
 date: 2026-10-12
 sources: [publicsenat-2026-10-12-retailleau-economies]

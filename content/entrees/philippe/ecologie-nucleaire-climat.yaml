@@ -9,6 +9,17 @@ texte: >-
   du carbone aux frontières européennes, d'investir dans la capture de carbone et de concentrer l'action climatique
   sur le fret, la rénovation et la grande industrie. Pour l'adaptation : un fonds unique réunissant le fonds Barnier
   et le Fonds vert, « doté de 2 milliards d'euros par an », et une « DATAR 2.0 » fusionnant quatre agences.
+questions: [nucleaire, climat]
+reperes:
+- question: nucleaire
+  mesure: 8 EPR supplémentaires
+  equivalent: >-
+    environ 13 GW, soit 21 % de la puissance du parc nucléaire actuel (63 GW) ; environ 79 TWh par an, soit 18 % de la consommation d'électricité de 2025
+  calcul: >-
+    8 × 1,67 GW (puissance brute d'un EPR2) = 13,4 GW ; 13,4 / 63,0 = 21 %. Hypothèse : ces réacteurs produiraient autant par GW que le parc de 2025 (373,0 TWh pour 63,0 GW, soit 5,9 TWh par GW). 13,4 × 5,9 = 79 TWh ; 79 / 451,2 (consommation 2025) = 18 %. Ordre de grandeur : puissance brute des EPR2 et puissance installée du parc RTE ne sont pas définies de la même façon.
+  sources:
+  - connaissancedesenergies-epr2-technologie-projets
+  - rte-2026-02-bilan-electrique-2025-principaux-resultats
 date: '2026'
 sources:
 - edouardphilippe-2026-france-plus-conquerante

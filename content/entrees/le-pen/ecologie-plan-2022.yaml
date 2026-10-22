@@ -9,6 +9,17 @@ texte: >-
   », les éoliennes étant « progressivement démantelées » ; baisser la TVA sur les carburants, le fioul, le gaz et
   l'électricité ; « la sortie du marché européen libéralisé » de l'énergie. Leur reprise dans le projet de 2027
   n'est pas documentée.
+questions: [nucleaire, renouvelables, prix]
+reperes:
+- question: nucleaire
+  mesure: cinq paires d'EPR puis cinq paires d'EPR 2 (programme de 2022), soit 20 réacteurs
+  equivalent: >-
+    environ 32 à 33 GW, soit environ 51 à 53 % de la puissance du parc nucléaire actuel (63 GW) ; environ 190 à 200 TWh par an, soit 42 à 44 % de la consommation d'électricité de 2025
+  calcul: >-
+    Cinq paires = 10 réacteurs, deux fois = 20 réacteurs. 20 × 1,6 GW (Flamanville 3, RTE) = 32 GW ; 20 × 1,67 GW (EPR2) = 33,4 GW ; 32 / 63,0 = 51 %, 33,4 / 63,0 = 53 %. Hypothèse : ces réacteurs produiraient autant par GW que le parc de 2025 (373,0 TWh pour 63,0 GW, soit 5,9 TWh par GW). 32 × 5,9 = 189 TWh et 33,4 × 5,9 = 198 TWh ; 189 / 451,2 = 42 %, 198 / 451,2 = 44 %. Ordre de grandeur : puissances brute et installée ne sont pas définies de la même façon.
+  sources:
+  - connaissancedesenergies-epr2-technologie-projets
+  - rte-2026-02-bilan-electrique-2025-principaux-resultats
 date: '2022-03-14'
 sources:
 - publicsenat-2022-03-14-le-pen-energie

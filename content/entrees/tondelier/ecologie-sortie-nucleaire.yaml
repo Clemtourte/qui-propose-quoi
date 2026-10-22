@@ -10,6 +10,16 @@ texte: >-
   en 2030, une loi de programmation « énergie-climat », 10 000 communautés énergétiques renouvelables, la baisse
   de la fiscalité sur l'électricité et le refus du marché carbone européen pour les logements et transports des
   ménages (ETS2).
+questions: [nucleaire, renouvelables, prix]
+reperes:
+- question: nucleaire
+  mesure: arrêt du parc « étalé sur une vingtaine d'années »
+  equivalent: >-
+    en moyenne environ 3 GW de nucléaire à arrêter chaque année (parc actuel : 63 GW), soit environ 19 TWh de production en moins par an, 4 % de la consommation d'électricité de 2025
+  calcul: >-
+    63,0 GW / 20 ans = 3,2 GW par an. Hypothèse : ces capacités produiraient autant par GW que le parc de 2025 (373,0 TWh pour 63,0 GW, soit 5,9 TWh par GW). 3,2 × 5,9 = 19 TWh ; 19 / 451,2 = 4 %. Moyenne linéaire, sans tenir compte de la prolongation possible de certaines centrales ni du calendrier réel.
+  sources:
+  - rte-2026-02-bilan-electrique-2025-principaux-resultats
 date: 2026-07
 sources:
 - lesecologistes-2026-07-programme
