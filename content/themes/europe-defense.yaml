@@ -1,3 +1,104 @@
-titre: "Europe et défense"
+titre: Europe et défense
 ordre: 8
-accroche: "Union européenne, budget des armées, OTAN."
+accroche: Union européenne, budget des armées, OTAN.
+derniere_verification: '2026-10-22'
+questions:
+- id: institutions
+  libelle: Avenir des institutions européennes
+- id: budget
+  libelle: Budget de l'UE et contribution française
+- id: marche
+  libelle: Marché unique et protection commerciale
+- id: armees
+  libelle: Budget et format des armées
+- id: otan
+  libelle: OTAN, défense européenne et dissuasion
+etat_des_lieux:
+- nature: fait
+  texte: Le projet de loi de finances pour 2027 augmente les crédits de la mission Défense de 6,4 Md€, au-dessus de 63,4
+    Md€, dont près de la moitié pour l'équipement. Les programmes à effet majeur progressent de 24 % (17,2 Md€), le maintien
+    en condition opérationnelle de 14 % (7,3 Md€) et la dissuasion de 7 %. La France dispose par ailleurs d'un prêt européen
+    SAFE de 15,1 Md€ (première tranche de plus de 2,2 Md€). Le projet n'est pas adopté.
+  date: '2026-10-01'
+  sources:
+  - forcesoperations-2026-10-01-plf-2027-armees
+  chiffres_cles:
+  - valeur: 63,4 Md€
+    libelle: crédits de la mission Défense prévus dans le projet de loi de finances pour 2027 (+6,4 Md€)
+  reperes:
+  - question: armees
+    mesure: 63,4 Md€ de crédits de la mission Défense en 2027
+    equivalent: environ 920 € par habitant, soit 2,1 % du PIB de 2025 ; 3,7 % des dépenses publiques de 2025
+    calcul: '63,4 Md€ / 69,082 millions d''habitants = 920 € ; 63,4 / 2 990 Md€ de PIB = 2,1 % ; 63,4 / 1 714,2 Md€ de dépenses
+      publiques = 3,7 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990
+      Md€, déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations
+      publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant du projet de loi de
+      finances pour 2027, rapporté aux niveaux de 2025.'
+    sources:
+    - insee-2026-05-29-comptes-apu-2025
+    - insee-2026-01-13-bilan-demographique-2025
+  - question: armees
+    mesure: +6,4 Md€ de hausse des crédits de la Défense en 2027
+    equivalent: environ 93 € par habitant, soit 0,21 % du PIB de 2025 ; 0,37 % des dépenses publiques de 2025
+    calcul: '6,4 Md€ / 69,082 millions d''habitants = 93 € ; 6,4 / 2 990 Md€ de PIB = 0,21 % ; 6,4 / 1 714,2 Md€ de dépenses
+      publiques = 0,37 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990
+      Md€, déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations
+      publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Hausse annuelle entre 2026
+      et 2027.'
+    sources:
+    - insee-2026-05-29-comptes-apu-2025
+    - insee-2026-01-13-bilan-demographique-2025
+- nature: fait
+  texte: L'actualisation de la loi de programmation militaire 2024-2030, présentée avec un effort supplémentaire de 36 Md€
+    (de 400 à 436 Md€ de crédits sur la période, dont +8,5 Md€ pour les munitions et +8,4 Md€ pour les drones, et un budget
+    annuel de 76,3 Md€ en 2030, soit 2,5 % du PIB visé) a été durcie par la commission de la défense du Sénat (+14 Md€,
+    450 Md€, au moins 2,7 % du PIB en 2030, 83,9 Md€ en 2030). Le Sénat a finalement rejeté l'article 2 portant l'effort
+    de 36 Md€ dans la nuit du 2 au 3 juin 2026. Après une commission mixte paritaire, le texte a été définitivement adopté
+    début juillet 2026 ; selon Forces Operations, il consolide surtout des marches déjà fixées et n'ajoute pas 36 Md€ de
+    moyens nouveaux.
+  date: '2026-07-03'
+  sources:
+  - publicsenat-2026-05-27-lpm-actualisee-commission
+  - publicsenat-2026-06-03-lpm-senat-rejette-rallonge
+  - forcesoperations-2026-07-03-lpm-adoptee
+- nature: fait
+  texte: Au sommet de La Haye (2025), les alliés de l'OTAN ont fixé un objectif de 3,5 % du PIB de dépenses militaires d'ici
+    2035, auquel s'ajoutent 1,5 % pour des dépenses de sécurité plus larges, soit 5 % au total. Selon les chiffres de l'OTAN
+    cités par France 24, la France a consacré 2,05 % de son PIB à la défense en 2025, contre 2,04 % en 2024.
+  date: '2026-03-27'
+  sources:
+  - touteleurope-2026-03-27-otan-depenses-2025
+  chiffres_cles:
+  - valeur: 2,05 %
+    libelle: 'du PIB consacré à la défense par la France en 2025, selon l''OTAN (objectif : 3,5 % en 2035)'
+- nature: fait
+  texte: L'article 55 du projet de loi de finances pour 2027 fixe le prélèvement sur recettes au profit de l'Union européenne
+    à 30 905 520 986 € (environ 30,9 Md€), soit 8 % de plus que dans la loi de finances initiale pour 2026 (28,4 Md€).
+  date: '2026-10-07'
+  sources:
+  - an-2026-10-07-avis-plf-2027-prelevement-ue
+  chiffres_cles:
+  - valeur: 30,9 Md€
+    libelle: prélèvement sur recettes au profit de l'Union européenne prévu pour 2027 (+8 % sur 2026)
+  reperes:
+  - question: budget
+    mesure: 30,9 Md€ de contribution de la France au budget de l'UE en 2027
+    equivalent: environ 450 € par habitant, soit 1,0 % du PIB de 2025 ; 1,8 % des dépenses publiques de 2025
+    calcul: '30,9 Md€ / 69,082 millions d''habitants = 450 € ; 30,9 / 2 990 Md€ de PIB = 1,0 % ; 30,9 / 1 714,2 Md€ de dépenses
+      publiques = 1,8 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990
+      Md€, déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations
+      publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant du projet de loi de
+      finances pour 2027.'
+    sources:
+    - insee-2026-05-29-comptes-apu-2025
+    - insee-2026-01-13-bilan-demographique-2025
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution (Cour des comptes, Haut Conseil des finances publiques,
+    Commission européenne, OTAN, Institut français des relations internationales) sur la proposition d''un candidat en matière
+    d''Europe ou de défense. L''analyse de l''Institut de l''Entreprise sur le contre-budget du RN juge que la totalité
+    des montants attendus de l''Europe relèvent de mesures non documentées ou juridiquement fragiles : elle figure dans
+    le thème fiscalité et budget.'
+  verifications: 'Recherché le 22 octobre 2026 : aucune vérification de franceinfo ni d''AFP Factuel retenue sur ce thème
+    dans les recherches précédentes ; les rubriques n''ont pas été reparcourues spécialement. Ukraine/Russie et Proche-Orient
+    sont traités à part.'
+  promesses: Pas encore recherché.
