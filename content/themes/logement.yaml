@@ -1,3 +1,67 @@
-titre: "Logement"
+titre: Logement
 ordre: 12
-accroche: "Construction, loyers, accès à la propriété, logement social."
+accroche: Construction, loyers, accès à la propriété, logement social.
+derniere_verification: '2026-10-22'
+questions:
+- id: offre
+  libelle: Construire et accéder à la propriété
+- id: social
+  libelle: Logement social
+- id: loyers
+  libelle: Loyers, aides au logement et expulsions
+- id: renovation
+  libelle: Rénovation énergétique et DPE
+etat_des_lieux:
+- nature: fait
+  texte: Selon le 31e rapport de la Fondation pour le logement (3 février 2026), près d'un million de personnes ne disposent
+    pas d'un logement personnel. 350 000 personnes n'ont pas de domicile (300 000 en 2020), la demande de logement social
+    est à un record de 2,9 millions de ménages en attente (2,1 millions en 2017) et 912 personnes sont mortes de la rue
+    en 2024 (+16 % en un an). Les expulsions locatives avec le concours de la force publique atteignent 24 556 en 2024,
+    un record historique (+29 % en un an). 35 % des ménages déclarent avoir eu froid chez eux en 2025.
+  date: 2026-02
+  sources:
+  - fondation-logement-2026-02-reml-cahier-1
+  chiffres_cles:
+  - valeur: 2,9 millions
+    libelle: ménages en attente d'un logement social en 2026, un record (2,1 millions en 2017) (Fondation pour le logement)
+  - valeur: 350 000
+    libelle: personnes sans domicile en 2025 (300 000 en 2020) (Fondation pour le logement)
+- nature: fait
+  texte: 273 000 logements ont été mis en chantier entre décembre 2024 et novembre 2025, soit 37 % de moins qu'en 2017 (434
+    000), selon le rapport de la Fondation pour le logement ; moins de 300 000 par an depuis 2023. Selon le SDES, relayé
+    par Batiweb, les mises en chantier progressent de 8,9 % en juillet 2026 par rapport à juin et la moyenne des sept premiers
+    mois de 2026 dépasse de 22,1 % celle des douze mois de 2025, tandis que les autorisations des douze derniers mois restent
+    inférieures de 9,5 % à la moyenne des cinq années précédentes.
+  date: '2026-08-28'
+  sources:
+  - fondation-logement-2026-02-reml-cahier-1
+  - batiweb-2026-08-28-sdes-juillet-2026
+  chiffres_cles:
+  - valeur: 273 000
+    libelle: logements mis en chantier de décembre 2024 à novembre 2025, contre 434 000 en 2017 (Fondation pour le logement)
+- nature: fait
+  texte: Le nombre de logements sociaux financés est passé de 124 000 en 2016 à 85 000 en 2024 et environ 95 000 en 2025
+    (hors ANRU et outre-mer), selon la Fondation pour le logement, qui attribue la baisse aux ponctions de l'État sur les
+    organismes Hlm depuis 2017 (de 1,3 à 1,1 milliard d'euros par an en 2025) ; la hausse de 2025 tient surtout aux logements
+    les moins sociaux (PLS), la production de logements très sociaux (PLAI) continuant de reculer. 93 100 ménages reconnus
+    prioritaires au titre du droit au logement opposable (Dalo) attendent un relogement.
+  date: 2026-02
+  sources:
+  - fondation-logement-2026-02-reml-cahier-1
+- nature: fait
+  texte: Le projet de loi de finances pour 2027, déposé le 1er octobre 2026, gèlerait les APL en 2027 (sans chiffrer l'économie),
+    ferait passer la dotation de l'Anah de 1,4 à 1,2 milliard d'euros, créerait un « PTZ parentalité » pour les familles
+    attendant un enfant ou ayant un enfant de moins de trois ans, et plafonnerait l'amortissement de la location meublée
+    non professionnelle à 2,5 % de la valeur du bien (dans la limite de 7 000 euros par an et par foyer fiscal). Le texte
+    n'est pas adopté.
+  date: '2026-10-01'
+  sources:
+  - empruntis-2026-10-13-plf-2027-logement
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution sur une mesure proposée par un candidat (Cour des comptes,
+    Anah, Ancols, Haut Conseil pour le climat, instituts). La réaction de l''Union sociale pour l''habitat à la proposition
+    de Marine Le Pen est rapportée à part, sur la page du candidat, comme opinion attribuée.'
+  verifications: 'Recherché le 22 octobre 2026 : la vérification de franceinfo du 17 septembre 2026 sur une déclaration
+    de Marine Le Pen à propos du logement social figure dans le thème immigration. Les rubriques de vérification (franceinfo,
+    AFP Factuel) n''ont pas été reparcourues pour ce thème ; Les Décodeurs restent inaccessibles.'
+  promesses: Pas encore recherché.
