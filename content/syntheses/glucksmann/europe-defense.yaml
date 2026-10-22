@@ -1,10 +1,14 @@
 candidat: glucksmann
 theme: europe-defense
-phrase: Pas de proposition présidentielle trouvée. Eurodéputé, il demandait en mars 2025 de changer les traités qui obligent
-  à l'unanimité pour décider de la défense à la majorité qualifiée.
+phrase: Fonds européen de défense de 500 Md€ par emprunt commun, dissuasion nucléaire française étendue aux partenaires,
+  traité de refondation d'ici 2030 (« Acte I », 2025).
 reponses:
-  institutions: 'En 2025 (eurodéputé) : changer les traités qui obligent à l''unanimité, décider à la majorité qualifiée
-    même sans la Hongrie'
-date: '2025-03-07'
+  institutions: 'Traité de refondation d''ici 2030 : majorité qualifiée au Conseil européen, initiative législative au Parlement
+    européen (2025) ; en 2025 (eurodéputé), majorité qualifiée pour la défense'
+  budget: « Augmenter massivement le budget de l'Union » et créer des ressources propres nouvelles (2025)
+  otan: Fonds européen de défense de 500 Md€ par emprunt commun ; proposer d'étendre la dissuasion nucléaire française aux
+    autres pays de l'UE (2025)
+date: '2025'
 sources:
+- placepublique-2025-acte-1
 - franceinfo-2025-03-07-glucksmann-defense-europe

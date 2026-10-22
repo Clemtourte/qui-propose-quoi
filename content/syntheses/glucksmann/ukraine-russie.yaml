@@ -1,9 +1,10 @@
 candidat: glucksmann
 theme: ukraine-russie
-phrase: 'Maintien de l''aide : « Vous coupez l''aide à l''Ukraine, vous aurez la guerre dans les pays baltes ou en Pologne
-  » ; aucune mesure précise rapportée.'
+phrase: « Augmenter drastiquement l'aide militaire à l'Ukraine » (« Acte I », 2025) ; « Vous coupez l'aide à l'Ukraine,
+  vous aurez la guerre dans les pays baltes ou en Pologne » (septembre 2026).
 reponses:
-  aide: Maintenir l'aide à l'Ukraine (septembre 2026), sans montant
+  aide: Augmenter drastiquement l'aide militaire, sans montant (2025) ; maintenir l'aide (septembre 2026)
 date: '2026-09-05'
 sources:
+- placepublique-2025-acte-1
 - franceinfo-2026-09-05-reactions-rn-ukraine
