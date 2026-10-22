@@ -1,0 +1,46 @@
+candidat: zemmour
+theme: europe-defense
+rubrique: mesure
+nature: position
+titre: Supprimer la Commission européenne, refuser l'armée européenne, baisser la contribution française (programme européen
+  de 2024)
+texte: 'Le programme de Reconquête ! pour les élections européennes du 9 juin 2024, soutenu par Éric Zemmour (référence
+  de 2024, non repris dans un programme présidentiel), propose : « Supprimer la Commission de Bruxelles » (remplacée par
+  un secrétariat sous l''autorité du Conseil) et rendre au Conseil l''initiative législative ; modifier l''article 55 de
+  la Constitution pour « sanctuariser la primauté du droit national sur le droit européen » ; « Refuser tout nouvel élargissement
+  de l''Union européenne » ; supprimer le Service européen d''action extérieure ; une refonte des traités pour entrer et
+  sortir des coopérations plus souplement ; « Refuser la création d''une armée européenne, tout partage de la dissuasion
+  nucléaire française et de notre siège au Conseil de sécurité de l''ONU » ; refuser tout impôt européen ; « Diminuer de
+  20% la contribution annuelle de la France au budget de l''UE avec un plafond à 20 milliards d''euros par an » ; réduire
+  de 50 % le Fonds social européen ; supprimer la moitié des agences européennes ; rétablir les droits de douane sur les
+  produits agricoles ukrainiens ; un moratoire sur les accords de libre-échange et un audit de leur coût ; relever à 50
+  % les droits de douane sur les véhicules électriques chinois ; rendre impossible le financement d''équipements militaires
+  non européens par des fonds européens (FEP, FEDef). Selon Front Populaire (25 mai 2026, contenu payant, texte tronqué),
+  Éric Zemmour dit à nouveau ne pas vouloir sortir de l''Union européenne dans un entretien à JDNews (19 mai 2026, non lu)
+  ; le programme 2027 de Reconquête n''est pas publié (consultation en ligne en cours). Aucune position de 2026 sur l''OTAN
+  n''a été trouvée.'
+reperes:
+- question: budget
+  mesure: Plafond de 20 Md€ par an pour la contribution française au budget de l'Union européenne (programme européen de
+    Reconquête, 2024)
+  equivalent: environ 290 € par habitant, soit 0,67 % du PIB de 2025 ; 1,2 % des dépenses publiques de 2025 ; 10,9 Md€ de
+    moins que le prélèvement sur recettes de 30,9 Md€ prévu en 2027
+  calcul: '20 Md€ / 69,082 millions d''habitants = 290 € ; 20 / 2 990 Md€ de PIB = 0,67 % ; 20 / 1 714,2 Md€ de dépenses
+    publiques = 1,17 % ; 30,9 − 20 = 10,9 Md€. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB
+    2025 d''environ 2 990 Md€, déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses
+    des administrations publiques 2025 : 1 714,2 Md€ (Insee) ; prélèvement sur recettes au profit de l''UE de 30,9 Md€ prévu
+    au projet de loi de finances pour 2027 (avis de l''Assemblée nationale). Le programme ne dit pas sur quelle base se
+    calcule la baisse de 20 % ; le plafond est comparé ici au prélèvement de 2027, sans actualisation.'
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
+  - an-2026-10-07-avis-plf-2027-prelevement-ue
+questions:
+- institutions
+- budget
+- marche
+- otan
+date: 2024-06
+sources:
+- reconquete-2024-programme-europeennes
+- frontpopulaire-2026-05-25-zemmour-ue
