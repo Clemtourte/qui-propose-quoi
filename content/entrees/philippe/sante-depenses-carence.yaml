@@ -1,0 +1,21 @@
+candidat: philippe
+theme: sante
+rubrique: mesure
+nature: position
+titre: Dépenses de santé stabilisées par la prévention, trois jours de carence pour tous
+texte: Son site de campagne propose de « Stabiliser les dépenses de santé en dépensant mieux, en misant sur la prévention
+  » et d'instaurer un délai de carence de trois jours pour tous les salariés, du privé comme du public, avec un délai de
+  trois à six mois entre un arrêt maladie et une rupture conventionnelle. La page consacrée à l'école propose de « Renforcer
+  la santé à l'école », avec une détection en matière de santé mentale. Le 27 août 2026, il a dit vouloir « mettre fin à
+  l'open bar des arrêts de travail » (franceinfo).
+citation:
+  texte: 3 jours de carence pour tout le monde, dans le privé comme le public
+  date: '2026'
+  contexte: page « Pour une France plus prospère » du site de campagne d'Édouard Philippe
+questions:
+- assurance
+date: '2026'
+sources:
+- edouardphilippe-2026-france-plus-prospere
+- edouardphilippe-2026-france-attentive-enfants
+- franceinfo-2026-08-28-vof-philippe-arrets-travail

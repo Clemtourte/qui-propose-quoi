@@ -1,0 +1,12 @@
+candidat: zemmour
+theme: sante
+phrase: 'Pas de programme santé 2027 trouvé. En 2022 : 1 000 médecins salariés par l''État dans les territoires sous-dotés,
+  400 000 places en Ehpad d''ici 2030, AME remplacée par la prise en charge des soins urgents.'
+reponses:
+  acces: 'En 2022 : 1 000 médecins salariés par l''État envoyés dans les territoires sous-dotés'
+  hopital: 'En 2022 : 40 000 personnels hospitaliers recrutés, +12 % de salaire net pour les infirmières'
+  assurance: 'En 2022 : AME remplacée par une prise en charge des soins urgents'
+date: '2022-03-25'
+sources:
+- lcp-2022-03-25-candidats-sante
+- egora-2022-04-08-programmes-sante-douze-candidats

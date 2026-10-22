@@ -1,0 +1,14 @@
+candidat: le-pen
+theme: sante
+phrase: 'Pas de programme santé 2027 publié. Contre-budget du 6 octobre 2026 : AME remplacée par l''AMU, carte Vitale biométrique.
+  En 2022 : consultations modulées selon le lieu d''installation, fin des fermetures de lits.'
+reponses:
+  acces: 'En 2022 : rémunération des consultations modulée selon le lieu d''installation des médecins'
+  hopital: 'En 2022 : fin immédiate des fermetures de lits, +10 % de salaire net pour les infirmières'
+  assurance: 'En 2022 : fin de l''AME, cartes Vitale biométriques. Contre-budget 2026 : AME remplacée par l''AMU, lutte
+    contre les dépenses indues'
+date: '2026-10-06'
+sources:
+- idep-2026-10-06-contre-budget-rn
+- lcp-2022-03-25-candidats-sante
+- lequotidiendumedecin-2026-02-02-le-pen-sante

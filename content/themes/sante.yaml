@@ -1,3 +1,95 @@
-titre: "Santé"
+titre: Santé
 ordre: 7
-accroche: "Hôpital, accès aux soins, assurance maladie."
+accroche: Hôpital, accès aux soins, assurance maladie.
+derniere_verification: '2026-10-22'
+questions:
+- id: acces
+  libelle: Accès aux soins et déserts médicaux
+- id: hopital
+  libelle: Hôpital et personnels
+- id: assurance
+  libelle: Assurance maladie, remboursements et arrêts maladie
+- id: medicaments
+  libelle: Médicaments
+etat_des_lieux:
+- nature: fait
+  texte: 'Le projet de loi de financement de la Sécurité sociale pour 2027, déposé le 1er octobre 2026, ramène le déficit
+    des régimes obligatoires de base de 21,8 Md€ en 2026 à 12,7 Md€ en 2027. L''objectif de dépenses d''assurance maladie
+    (Ondam) est fixé à 278,7 Md€, soit +2,0 % à champ constant contre une tendance de +3,4 %. Le texte ajoute 5,1 Md€ d''économies
+    (3,9 Md€ nettes de 1,2 Md€ de dépenses nouvelles) : médicaments 2,1 Md€, indemnités journalières (arrêts maladie) 1,0
+    Md€, efficience de l''hôpital et du médico-social 0,9 Md€, remboursements et transferts aux complémentaires 0,7 Md€,
+    soins de ville 0,3 Md€. Selon l''annexe, le déficit remonterait à 17,0 Md€ en 2030. Le texte n''est pas adopté.'
+  date: '2026-10-01'
+  sources:
+  - caducee-2026-10-05-plfss-2027
+  - cdc-2026-10-20-securite-sociale-redressement-2027
+  chiffres_cles:
+  - valeur: 12,7 Md€
+    libelle: déficit prévu des régimes obligatoires de base de la Sécurité sociale en 2027 (21,8 Md€ attendus en 2026)
+  - valeur: 278,7 Md€
+    libelle: objectif de dépenses d'assurance maladie (Ondam) pour 2027, en hausse de 2,0 %
+  reperes:
+  - mesure: 5,1 Md€ d'économies supplémentaires sur la santé en 2027
+    equivalent: environ 74 € par habitant, soit 0,17 % du PIB de 2025 ; 0,30 % des dépenses publiques de 2025
+    calcul: '5,1 Md€ / 69,082 millions d''habitants = 74 € ; 5,1 / 2 990 Md€ de PIB = 0,17 % ; 5,1 / 1 714,2 Md€ de dépenses
+      publiques = 0,30 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990
+      Md€, déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations
+      publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant annuel pour 2027,
+      selon le projet de loi.'
+    sources:
+    - insee-2026-05-29-comptes-apu-2025
+    - insee-2026-01-13-bilan-demographique-2025
+- nature: jugement
+  auteur: Cour des comptes, publication du 20 octobre 2026
+  texte: La Cour des comptes juge que les 3,9 Md€ d'économies sur l'Ondam en 2027 sont surtout paramétriques et que leur
+    acceptabilité « semble de moins en moins garantie ». Elle relève que certaines mesures ne sont pas définies et que certains
+    risques ne sont pas provisionnés, et estime que l'objectif de la loi de financement de 2026 ne sera pas tenu (déficit
+    de 21,8 Md€). Elle recommande de documenter une trajectoire de retour à l'équilibre, visé à l'horizon 2030 si l'effort
+    de 2027 est confirmé, et évoque une reprise de la dette de l'Acoss par la Cades « avant la fin 2027 ».
+  date: '2026-10-20'
+  sources:
+  - cdc-2026-10-20-securite-sociale-redressement-2027
+- nature: fait
+  texte: Selon la Drees (étude du 20 mai 2026, relayée par la presse), sept hôpitaux publics sur dix sont en déficit en
+    2024, pour un déficit cumulé de 2,9 Md€. L'encours de dette des hôpitaux a reculé pour la troisième année consécutive,
+    à 29,9 Md€.
+  date: '2026-05-20'
+  sources:
+  - economiematin-2026-05-20-hopitaux-deficit-drees
+  chiffres_cles:
+  - valeur: 7 sur 10
+    libelle: hôpitaux publics en déficit en 2024, pour 2,9 Md€ au total (Drees, via la presse)
+  reperes:
+  - mesure: 2,9 Md€ de déficit cumulé des hôpitaux publics en 2024
+    equivalent: environ 42 € par habitant, soit 0,10 % du PIB de 2025 ; 0,17 % des dépenses publiques de 2025
+    calcul: '2,9 Md€ / 69,082 millions d''habitants = 42 € ; 2,9 / 2 990 Md€ de PIB = 0,10 % ; 2,9 / 1 714,2 Md€ de dépenses
+      publiques = 0,17 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990
+      Md€, déduit des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations
+      publiques 2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant de l''année 2024.'
+    sources:
+    - insee-2026-05-29-comptes-apu-2025
+    - insee-2026-01-13-bilan-demographique-2025
+- nature: fait
+  texte: Selon le dernier zonage publié par le Gouvernement, 75,7 % des Français vivent sur des territoires où l'accès aux
+    soins médicaux est insuffisant (Sénat, mai 2026). En 2025, 6,4 millions d'assurés sont sans médecin traitant. La densité
+    de médecins généralistes a diminué de 18 % entre 2000 et 2021, celle des spécialistes de 9 %. Selon la Drees, les 10
+    % de la population les mieux dotés en généralistes ont accès à 5,6 consultations par an, les 10 % les moins bien dotés
+    à 1,4.
+  date: 2026-05
+  sources:
+  - senat-2026-05-lutter-contre-deserts-medicaux
+  chiffres_cles:
+  - valeur: 6,4 millions
+    libelle: assurés sans médecin traitant en 2025 (Sénat, mai 2026)
+  - valeur: 75,7 %
+    libelle: des Français vivent sur un territoire à accès aux soins insuffisant, selon le zonage du Gouvernement (Sénat,
+      mai 2026)
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution sur une mesure proposée par un candidat. L''avis de la
+    Cour des comptes sur le projet de loi de financement de la Sécurité sociale figure dans l''état des lieux. Haut Conseil
+    de la santé publique, Haute Autorité de santé, Conseil national de l''Ordre des médecins, Fédération hospitalière de
+    France et Assurance maladie (rapport Charges et produits 2027) non consultés directement.'
+  verifications: 'Recherché le 22 octobre 2026 : la vérification de franceinfo sur la déclaration d''Édouard Philippe (arrêts
+    de travail), repérée lors de la passe du 20 octobre. Les rubriques de vérification (franceinfo, AFP Factuel) n''ont
+    pas été reparcourues pour ce thème ; Les Décodeurs restent inaccessibles.'
+  promesses: Pas encore recherché.

@@ -1,0 +1,12 @@
+candidat: attal
+theme: sante
+phrase: 'Pas de proposition santé trouvée pour 2027. En avril 2024, comme Premier ministre : sanction de 5 euros pour les
+  rendez-vous non honorés, accès direct à certains spécialistes, plus d''étudiants en médecine.'
+reponses:
+  acces: 'En 2024 (Premier ministre) : accès direct à des spécialistes à l''essai, médecin de garde à moins de 30 minutes,
+    16 000 places en 2e année de médecine en 2027'
+  assurance: 'En 2024 : sanction de 5 euros pour un rendez-vous non honoré ; consultation de santé mentale remboursée 50
+    euros'
+date: '2024-04-06'
+sources:
+- europe1-2024-04-06-attal-acces-soins

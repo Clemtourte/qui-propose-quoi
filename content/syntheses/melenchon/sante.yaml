@@ -1,0 +1,14 @@
+candidat: melenchon
+theme: sante
+phrase: « 100 % Sécu », pôle public du médicament et lutte contre les déserts médicaux figurent dans le programme de la
+  campagne ; les pages lues ne détaillent pas les mesures.
+reponses:
+  acces: Lutte contre les déserts médicaux (mesures non détaillées dans les pages lues)
+  hopital: 'En 2022 : 100 000 hospitaliers de plus, réouverture de lits'
+  assurance: « 100 % Sécu » et « sécurité sociale intégrale » (mesures non détaillées dans les pages lues)
+  medicaments: Créer un pôle public du médicament
+date: '2026'
+sources:
+- lfi-2026-synthese-chapitre-15-sante-globale
+- lfi-2026-synthese-chapitre-7-entraide
+- lcp-2022-03-25-candidats-sante
