@@ -1,0 +1,40 @@
+candidat: le-pen
+theme: ukraine-russie
+rubrique: mesure
+nature: position
+titre: Fin de l'aide financière à l'Ukraine six mois après son élection, formation et matériel maintenus
+texte: 'Le 16 septembre 2026 sur LCI, elle dit : « A proportion de ce que nous faisons jusqu''à présent, qui est considérable,
+  nous disons nous ne pouvons pas le faire », « Ça n''est pas un acte d''hostilité à l''égard de l''Ukraine » et « Mais
+  financièrement, nous ne pouvons plus » ; elle estime que la France peut continuer à former les soldats ukrainiens et à
+  fournir du matériel, et plaide pour « une grande conférence pour la paix » menant à « un règlement diplomatique ». Le
+  24 septembre, à Politico : « Nous ne pouvons plus aider financièrement l''Ukraine, mais nous le regrettons par ailleurs
+  ». Le 14 octobre, elle précise que l''aide financière serait maintenue six mois après son élection puis arrêtée, faute
+  de moyens, et chiffre le coût du soutien français à 6 Md€ par an (Euronews) ; son porte-parole Laure Lavalette dit le
+  16 octobre : « Si nous avions de l''argent, nous continuerions à aider financièrement l''Ukraine ». Le 5 septembre, Jordan
+  Bardella (président du RN) déclarait : « En cas de victoire, la France sera fidèle au soutien à l''Ukraine », tout en
+  s''opposant au prêt européen de 90 Md€ (franceinfo). Selon Euronews, Volodymyr Zelensky a répondu qu''elle ne maîtrisait
+  pas certains détails de la coopération militaire franco-ukrainienne. Sa position sur les sanctions contre la Russie n''a
+  pas été trouvée dans des sources lues.'
+reperes:
+- question: aide
+  mesure: 6 Md€ par an d'aide française à l'Ukraine, chiffre cité par Marine Le Pen
+  equivalent: environ 87 € par habitant, soit 0,20 % du PIB de 2025 ; 0,35 % des dépenses publiques de 2025
+  calcul: '6 Md€ / 69,082 millions d''habitants = 87 € ; 6 / 2 990 Md€ de PIB = 0,20 % ; 6 / 1 714,2 Md€ de dépenses publiques
+    = 0,35 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990 Md€, déduit
+    des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques 2025
+    : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Montant annuel moyen cité par Marine Le Pen
+    et recoupé par Euronews avec la moyenne depuis février 2022 ; voir l''état des lieux pour le détail selon l''Institut
+    de Kiel.'
+  sources:
+  - insee-2026-05-29-comptes-apu-2025
+  - insee-2026-01-13-bilan-demographique-2025
+questions:
+- aide
+- negociation
+date: '2026-10-14'
+sources:
+- franceinfo-2026-09-17-le-pen-ukraine-lci
+- franceinfo-2026-09-28-cout-aide-ukraine
+- euronews-2026-10-16-le-pen-ukraine
+- franceinfo-2026-10-16-lavalette-ukraine
+- franceinfo-2026-09-05-reactions-rn-ukraine

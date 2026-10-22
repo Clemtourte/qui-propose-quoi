@@ -1,3 +1,74 @@
-titre: "Ukraine et Russie"
+titre: Ukraine et Russie
 ordre: 9
-accroche: "Soutien à l'Ukraine, sanctions, relations avec la Russie."
+accroche: Soutien à l'Ukraine, sanctions, relations avec la Russie.
+derniere_verification: '2026-10-22'
+questions:
+- id: aide
+  libelle: Aide militaire et financière à l'Ukraine
+- id: negociation
+  libelle: Négociation, cessez-le-feu et garanties de sécurité
+- id: sanctions
+  libelle: Sanctions et avoirs russes
+- id: adhesion
+  libelle: Adhésion de l'Ukraine à l'UE et à l'OTAN
+etat_des_lieux:
+- nature: fait
+  texte: Au 22 octobre 2026, après une rencontre entre Vladimir Poutine et l'émissaire américain Steve Witkoff à Saint-Pétersbourg,
+    le Kremlin se dit prêt « en principe » à reprendre des négociations trilatérales avec l'Ukraine et les États-Unis, qui
+    pourraient reprendre à la mi-novembre, Abou Dhabi étant évoqué. Volodymyr Zelensky a déclaré à Fox News que Kyiv pourrait
+    accepter un cessez-le-feu sur les lignes de front actuelles, sans reconnaître la souveraineté russe sur les territoires
+    occupés. Selon Euronews, les positions de fond ont peu évolué.
+  date: '2026-10-22'
+  sources:
+  - euronews-2026-10-22-paix-financement-ukraine
+- nature: fait
+  texte: Les dirigeants de l'Union européenne ont décidé les 18 et 19 décembre 2025 un soutien de 90 Md€ à l'Ukraine pour
+    2026-2027, financé par un emprunt commun de l'Union, faute d'accord sur l'utilisation des avoirs russes immobilisés
+    (environ 210 Md€ d'actifs souverains russes, dont la majorité chez Euroclear en Belgique). Le prêt est à taux zéro et
+    remboursable seulement si la Russie verse des réparations ; 24 États membres y participent, la Hongrie, la Slovaquie
+    et la République tchèque n'ayant pas à contribuer à son remboursement. Volodymyr Zelensky demande 70 Md€ supplémentaires
+    d'aide militaire et financière pour 2027 ; les dirigeants de l'UE ont accepté de combler ce déficit, une dette commune
+    apparaissant comme l'option la plus probable (Euronews, 22 octobre 2026), et le sommet extraordinaire est prolongé aux
+    26 et 27 novembre.
+  date: '2025-12-19'
+  sources:
+  - touteleurope-2025-12-19-pret-90-milliards-ukraine
+  - euronews-2026-10-22-paix-financement-ukraine
+  chiffres_cles:
+  - valeur: 90 Md€
+    libelle: prêt de l'Union européenne à l'Ukraine pour 2026-2027, par emprunt commun
+- nature: fait
+  texte: 'De février 2022 à juin 2026, selon l''Institut de Kiel (le gouvernement français ne confirme pas ces chiffres),
+    l''aide bilatérale de la France à l''Ukraine atteint 7,91 Md€ : 6,23 Md€ d''aide militaire (canons Caesar, avions Mirage
+    2000, formation), 876 M€ d''aide humanitaire et 799 M€ d''aide financière directe. Ajoutée à la part de la France dans
+    l''aide de l''Union européenne (18,31 Md€, calculée par l''Institut de Kiel), l''aide totale atteint 26,22 Md€, soit
+    environ 6 Md€ par an selon le calcul du Monde, 1,34 % des dépenses annuelles de l''État et 3,99 % des déficits publics
+    moyens de 2022 à 2025. Une partie prend la forme de prêts remboursables, comme le prêt européen de 90 Md€. Le ministère
+    des Armées ne donne pas de chiffre et cite la formation de 22 000 soldats ukrainiens.'
+  date: '2026-09-28'
+  sources:
+  - franceinfo-2026-09-28-cout-aide-ukraine
+  chiffres_cles:
+  - valeur: 26,22 Md€
+    libelle: aide totale de la France à l'Ukraine de février 2022 à juin 2026 (bilatérale et part de l'aide européenne),
+      selon l'Institut de Kiel
+  reperes:
+  - question: aide
+    mesure: Environ 6 Md€ par an d'aide française à l'Ukraine (aide bilatérale et part de l'aide européenne)
+    equivalent: environ 87 € par habitant, soit 0,20 % du PIB de 2025 ; 0,35 % des dépenses publiques de 2025
+    calcul: '6 Md€ / 69,082 millions d''habitants = 87 € ; 6 / 2 990 Md€ de PIB = 0,20 % ; 6 / 1 714,2 Md€ de dépenses publiques
+      = 0,35 %. Bases : population au 1er janvier 2026 (69,1 millions, provisoire) ; PIB 2025 d''environ 2 990 Md€, déduit
+      des chiffres de l''Insee (dette publique de 3 460,5 Md€ = 115,7 % du PIB) ; dépenses des administrations publiques
+      2025 : 1 714,2 Md€ (Insee). Rapporté aux niveaux de 2025, sans actualisation. Moyenne annuelle calculée par Le Monde
+      sur 26,22 Md€ de février 2022 à juin 2026.'
+    sources:
+    - insee-2026-05-29-comptes-apu-2025
+    - insee-2026-01-13-bilan-demographique-2025
+recherches:
+  avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution (Cour des comptes, Haut Conseil des finances publiques,
+    Commission européenne, Ifri) sur la proposition d''un candidat en matière d''aide à l''Ukraine. Les calculs de l''Institut
+    de Kiel sont cités dans l''état des lieux, sans avoir été consultés directement.'
+  verifications: 'Recherché le 22 octobre 2026 : aucune vérification de franceinfo ni d''AFP Factuel retenue sur ce thème.
+    L''assertion d''Attal selon laquelle le RN a « toujours refusé et voté contre les sanctions » n''a pas été vérifiée
+    ; les votes du Parlement européen et de l''Assemblée sur l''Ukraine restent à relever pour les candidats concernés.'
+  promesses: Pas encore recherché.
