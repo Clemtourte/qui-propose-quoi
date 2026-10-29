@@ -17,6 +17,8 @@ en_30_secondes:
   sources:
   - franceinfo-2026-10-08-portraits-candidats
 recherches:
+  declarations: >-
+    Recherché le 29 octobre 2026 (moteur de recherche, puis lecture des articles, dont certains dans le navigateur intégré) : déclarations du candidat du 1er septembre au 29 octobre 2026 ayant suscité au moins une réaction nommée dans la presse, avec ces réactions. Les positions déjà saisies dans les thèmes ne sont pas répétées. Les réactions anonymes (« entourage ») ne sont pas reprises. Aucune déclaration répondant à ce critère n'a pu être lue en texte : son accusation contre Sébastien Lecornu de « propager un climat de guerre civile » (BFMTV, 20 octobre) et sa réponse (« J'ai toujours condamné toute forme de violence ») ne sont connues que par des titres de vidéos ; son soutien à Kylian Mbappé face à la Chine (28 octobre) n'a pas suscité de réaction nommée trouvée. Les entrées de cette section viennent des passes sur les thèmes.
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
@@ -51,4 +53,4 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-21
+derniere_verification: 2026-10-29
