@@ -40,6 +40,23 @@ export async function getCouverture(themes: CollectionEntry<'themes'>[], candida
   return Object.fromEntries(themes.map((t) => [t.id, syntheses.filter((x) => x.data.theme.id === t.id).length]));
 }
 
+/** Why a candidate x theme cell is empty. Three cases a reader must be able to tell apart. */
+export const ABSENCE_LABELS = {
+  non_trouve: 'Pas de position publique trouvée',
+  programme_attendu: 'Programme pas encore publié',
+  pas_cherche: 'Pas encore cherché',
+} as const;
+
+/** Wording for a question left unanswered by a candidate who has a summary on the theme. */
+export const SANS_REPONSE = 'Pas de position trouvée sur ce point';
+
+/** Empty-cell status of a candidate on a theme: the declared record, else "pas encore cherché". */
+export function absenceSur(candidat: CollectionEntry<'candidats'>, themeId: string) {
+  const a = candidat.data.absences[themeId];
+  const statut = a?.statut ?? 'pas_cherche';
+  return { statut, label: ABSENCE_LABELS[statut], note: a?.note, sources: a?.sources ?? [] };
+}
+
 const MONTHS = [
   'janvier', 'février', 'mars', 'avril', 'mai', 'juin',
   'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre',

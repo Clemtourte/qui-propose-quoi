@@ -12,7 +12,7 @@ import NatureTag from '../../components/NatureTag.astro';
 import Legende from '../../components/Legende.astro';
 import Initiales from '../../components/Initiales.astro';
 import { getEntry } from 'astro:content';
-import { getThemes, getThemeData, entryAnchor, typo, formatDate } from '../../lib/data';
+import { getThemes, getThemeData, entryAnchor, absenceSur, typo, formatDate } from '../../lib/data';
 
 export async function getStaticPaths() {
   const themes = await getThemes();
@@ -109,12 +109,12 @@ const nom = (id: string) => {
           <p class="muted note">
             <NatureTag nature="position" /> Ce que déclarent les candidats. Détail et sources dans les cartes plus bas.
           </p>
-          <Survol questions={t.questions} parCandidat={parCandidat} />
+          <Survol questions={t.questions} parCandidat={parCandidat} themeId={theme.id} />
         </section>
       )
     }
 
-    <Comparateur questions={t.questions} parCandidat={parCandidat} />
+    <Comparateur questions={t.questions} parCandidat={parCandidat} themeId={theme.id} />
 
     <section class="cartes" aria-labelledby="cartes-titre">
       <h2 id="cartes-titre">Candidat par candidat</h2>
@@ -122,6 +122,8 @@ const nom = (id: string) => {
       {
         parCandidat.map(({ candidat: c, synthese, mesures, passe }) => {
           const bilan = passe.filter((e) => e.data.rubrique === 'bilan');
+          // Why the card is empty when the candidate has no summary on this theme.
+          const abs = synthese ? null : absenceSur(c, theme.id);
           return (
             <details class="carte" id={`carte-${c.id}`}>
               <summary>
@@ -136,7 +138,7 @@ const nom = (id: string) => {
                   {synthese ? (
                     <span class="phrase">{typo(synthese.data.phrase)}</span>
                   ) : (
-                    <span class="phrase nd-inline">Position non documentée sur ce thème.</span>
+                    <span class="phrase nd-inline">{abs!.label} sur ce thème.</span>
                   )}
                 </span>
                 <span class="plus" aria-hidden="true" />
@@ -146,11 +148,18 @@ const nom = (id: string) => {
                 <h3>Mesures</h3>
                 {mesures.length ? (
                   mesures.map((e) => <Item {...e.data} id={entryAnchor(e.id)} theme={undefined} />)
+                ) : abs ? (
+                  <div class="nd">
+                    <p>
+                      <strong>{abs.label}.</strong> {abs.note ?? 'Aucune recherche notée pour cette case.'}
+                    </p>
+                    {abs.sources.length > 0 && <SourceRefs sources={abs.sources} />}
+                  </div>
                 ) : (
-                  <p class="nd">Non documenté.</p>
+                  <p class="nd">Aucune mesure détaillée saisie sur ce thème.</p>
                 )}
                 <h3>Bilan sur ce thème</h3>
-                {bilan.length ? bilan.map((e) => <Item {...e.data} theme={undefined} />) : <p class="nd">Non documenté.</p>}
+                {bilan.length ? bilan.map((e) => <Item {...e.data} theme={undefined} />) : <p class="nd">Aucun bilan saisi sur ce thème.</p>}
                 <p class="lien">
                   <a href={`/candidats/${c.id}/`}>
                     Voir le projet d'ensemble de {c.data.prenom} {c.data.nom} →

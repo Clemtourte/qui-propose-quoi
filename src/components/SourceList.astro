@@ -27,7 +27,7 @@ const TYPE_LABELS = {
             {s.data.titre}
           </a>
           <span class="muted">
-            {` · ${s.data.media}${s.data.auteur ? `, ${s.data.auteur}` : ''}, ${formatDate(s.data.date_publication)} · ${TYPE_LABELS[s.data.type]} · consulté le ${formatDate(s.data.date_consultation)}`}
+            {` · ${s.data.media}${s.data.auteur ? `, ${s.data.auteur}` : ''}, ${formatDate(s.data.date_publication)} · ${TYPE_LABELS[s.data.type]}${s.data.orientation ? ` (${s.data.orientation})` : ''} · consulté le ${formatDate(s.data.date_consultation)}`}
           </span>
           {s.data.note && <p class="note">{s.data.note}</p>}
         </li>

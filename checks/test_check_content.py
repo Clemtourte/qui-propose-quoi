@@ -97,3 +97,38 @@ def test_coverage_excludes_demo_candidates(tmp_path):
 
 def test_repository_content_passes():
     assert main(["check_content.py", str(REPO_CONTENT)]) == 0
+
+
+def test_absence_with_unknown_theme_is_an_error(tmp_path):
+    base = minimal_content(tmp_path)
+    write(
+        base,
+        "candidats/dupont.yaml",
+        {
+            "nom": "Dupont",
+            "fiche": "complete",
+            "candidature": {"sources": ["presse-1"]},
+            "absences": {"inconnu": {"statut": "non_trouve"}},
+        },
+    )
+    assert any("thème inexistant « inconnu »" in e for e in errors_for(base))
+
+
+def test_absence_contradicting_a_synthesis_is_an_error(tmp_path):
+    base = minimal_content(tmp_path)
+    write(
+        base,
+        "candidats/dupont.yaml",
+        {
+            "nom": "Dupont",
+            "fiche": "complete",
+            "candidature": {"sources": ["presse-1"]},
+            "absences": {"retraites": {"statut": "non_trouve", "sources": ["presse-1"]}},
+        },
+    )
+    write(
+        base,
+        "syntheses/dupont/retraites.yaml",
+        {"candidat": "dupont", "theme": "retraites", "phrase": "x", "sources": ["presse-1"]},
+    )
+    assert any("case déclarée vide alors qu'une synthèse existe" in e for e in errors_for(base))

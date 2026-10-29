@@ -12,22 +12,32 @@ interface Props {
 
 const { id, numero, titre, count, recherche, open = false } = Astro.props;
 const empty = count === 0;
+// A section is "searched" when a note says what was looked for; notes that start with "Pas encore" say the opposite.
+const cherche = !!recherche && !/^pas encore/i.test(recherche.trim());
+const etat = cherche ? 'Rien trouvé' : 'Pas encore cherché';
 ---
 
 <details class:list={['section', { vide: empty }]} id={id} open={open}>
   <summary>
     {numero !== undefined && <span class="num">{numero}</span>}
     <span class="titre">{titre}</span>
-    <span class:list={['count', { empty }]}>{empty ? 'Non documenté' : count}</span>
+    <span class:list={['count', { empty }]}>{empty ? etat : count}</span>
   </summary>
   <div class="body">
     {
       empty ? (
         <p class="nd">
-          <strong>Non documenté.</strong> {recherche ?? 'Section pas encore recherchée.'}
+          <strong>{etat}.</strong> {cherche ? recherche : 'Section pas encore recherchée.'}
         </p>
       ) : (
-        <slot />
+        <>
+          <slot />
+          {cherche && (
+            <p class="cherche">
+              <strong>Ce qui a été cherché :</strong> {recherche}
+            </p>
+          )}
+        </>
       )
     }
   </div>
@@ -113,6 +123,11 @@ const empty = count === 0;
     display: grid;
     gap: 0.75rem;
     padding: 0 0 1.5rem;
+  }
+  .cherche {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--muted);
   }
   .nd {
     background: var(--empty-bg);

@@ -3,14 +3,15 @@
 // at build time; a small script only shows the selected ones and keeps the URL
 // (?comparer=a,b) shareable. Without JavaScript the section stays hidden.
 import Item from './Item.astro';
-import { typo, type CandidatTheme } from '../lib/data';
+import { typo, absenceSur, SANS_REPONSE, type CandidatTheme } from '../lib/data';
 
 interface Props {
   questions: Array<{ id: string; libelle: string }>;
   parCandidat: CandidatTheme[];
+  themeId: string;
 }
 
-const { questions, parCandidat } = Astro.props;
+const { questions, parCandidat, themeId } = Astro.props;
 const MAX = 3;
 ---
 
@@ -52,7 +53,13 @@ const MAX = 3;
           {
             parCandidat.map(({ candidat: c, synthese }) => (
               <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>
-                {synthese ? <p class="phrase">{typo(synthese.data.phrase)}</p> : <p class="nd">Non documenté</p>}
+                {synthese ? (
+                  <p class="phrase">{typo(synthese.data.phrase)}</p>
+                ) : (
+                  <p class="nd" title={absenceSur(c, themeId).note}>
+                    {absenceSur(c, themeId).label}
+                  </p>
+                )}
               </td>
             ))
           }
@@ -68,7 +75,7 @@ const MAX = 3;
               <tr>
                 {parCandidat.map(({ candidat: c, synthese }) => {
                   const r = synthese?.data.reponses[q.id];
-                  return <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>{r ? <p>{typo(r)}</p> : <p class="nd">Non documenté</p>}</td>;
+                  return <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>{r ? <p>{typo(r)}</p> : <p class="nd">{synthese ? SANS_REPONSE : absenceSur(c, themeId).label}</p>}</td>;
                 })}
               </tr>
             </>
@@ -79,7 +86,7 @@ const MAX = 3;
         </tr>
         <tr>
           {
-            parCandidat.map(({ candidat: c, mesures }) => (
+            parCandidat.map(({ candidat: c, mesures, synthese }) => (
               <td data-col={c.id} data-name={`${c.data.prenom} ${c.data.nom}`}>
                 {mesures.length ? (
                   <div class="stack">
@@ -88,7 +95,7 @@ const MAX = 3;
                     ))}
                   </div>
                 ) : (
-                  <p class="nd">Non documenté</p>
+                  <p class="nd">{synthese ? 'Aucune mesure détaillée saisie' : absenceSur(c, themeId).label}</p>
                 )}
               </td>
             ))
@@ -108,7 +115,7 @@ const MAX = 3;
                     ))}
                   </div>
                 ) : (
-                  <p class="nd">Non documenté</p>
+                  <p class="nd">Aucun bilan saisi sur ce thème</p>
                 )}
               </td>
             ))

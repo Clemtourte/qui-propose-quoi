@@ -5,7 +5,8 @@ Errors (exit code 1):
 - a judgement ("jugement") has no author;
 - an excluded source domain is cited (elyseescope.com);
 - a fictional "exemple-*" source or record is used by real content;
-- a synthesis answers a question its theme does not declare.
+- a synthesis answers a question its theme does not declare;
+- an `absences` entry of a candidate names an unknown theme or source, or contradicts an existing synthesis.
 
 Warnings: unused sources, items backed only by aggregator sources.
 
@@ -88,7 +89,14 @@ def check_sourced(item: dict, where: str, data: dict, report: Report, used: set[
             report.error(where, f"source fictive « {sid} » utilisée par du contenu réel")
     # Orders of magnitude carry their own sources (data used in the calculation).
     for i, repere in enumerate(item.get("reperes") or []):
-        check_sourced({"sources": repere.get("sources")}, f"{where} (repère {i + 1})", data, report, used, demo or bool(item.get("demo")))
+        check_sourced(
+            {"sources": repere.get("sources")},
+            f"{where} (repère {i + 1})",
+            data,
+            report,
+            used,
+            demo or bool(item.get("demo")),
+        )
     known = [data["sources"][s] for s in sources if s in data["sources"]]
     if known and all(s.get("type") == "agregateur" for s in known):
         report.warn(where, "uniquement des sources de type agrégateur (à confirmer)")
@@ -116,6 +124,18 @@ def run_checks(data: dict) -> Report:
             check_sourced(c["en_30_secondes"], f"{where} (en_30_secondes)", data, report, used, demo)
         for i, item in enumerate(c.get("vision") or []):
             check_sourced(item, f"{where} (vision[{i}])", data, report, used, demo)
+
+    for cid, c in data["candidats"].items():
+        for tid, absence in (c.get("absences") or {}).items():
+            where = f"candidats/{cid} (absences.{tid})"
+            if tid not in data["themes"]:
+                report.error(where, f"thème inexistant « {tid} »")
+            elif any(s.get("candidat") == cid and s.get("theme") == tid for s in data["syntheses"].values()):
+                report.error(where, "case déclarée vide alors qu'une synthèse existe")
+            for sid in absence.get("sources") or []:
+                used.add(sid)
+                if sid not in data["sources"]:
+                    report.error(where, f"source inexistante « {sid} »")
 
     for tid, t in data["themes"].items():
         for i, item in enumerate(t.get("etat_des_lieux") or []):
@@ -168,9 +188,15 @@ def coverage(data: dict) -> list[str]:
             n = sum(
                 1
                 for e in data["entrees"].values()
-                if e.get("candidat") == cid and e.get("theme") == tid and e.get("rubrique") in ("mesure", "participation")
+                if e.get("candidat") == cid
+                and e.get("theme") == tid
+                and e.get("rubrique") in ("mesure", "participation")
             )
-            cells.append(("S " if has_synth else "") + (str(n) if n else ("" if has_synth else "·")))
+            # ø = empty cell with a recorded reason (searched, programme awaited), · = nothing recorded.
+            absent = tid in (data["candidats"][cid].get("absences") or {})
+            cells.append(
+                ("S " if has_synth else "") + (str(n) if n else ("" if has_synth else ("ø" if absent else "·")))
+            )
         lines.append(f"| {data['themes'][tid].get('titre', tid)} | " + " | ".join(cells) + " |")
     return lines
 
@@ -183,7 +209,7 @@ def main(argv: list[str]) -> int:
     data = load(content_dir)
     report = run_checks(data)
 
-    print("Couverture (S = synthèse, nombre = mesures, · = rien) :\n")
+    print("Couverture (S = synthèse, nombre = mesures, ø = vide avec raison notée, · = rien) :\n")
     print("\n".join(coverage(data)))
     print()
     for w in report.warnings:

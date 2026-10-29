@@ -1,14 +1,15 @@
 ---
 // Overview table: one row per candidate, one column per key question of the theme.
 // It summarises declared positions; the detail and sources are in the cards below.
-import { typo, entryAnchor, type CandidatTheme } from '../lib/data';
+import { typo, entryAnchor, absenceSur, SANS_REPONSE, type CandidatTheme } from '../lib/data';
 
 interface Props {
   questions: Array<{ id: string; libelle: string }>;
   parCandidat: CandidatTheme[];
+  themeId: string;
 }
 
-const { questions, parCandidat } = Astro.props;
+const { questions, parCandidat, themeId } = Astro.props;
 ---
 
 <div class="scroll" tabindex="0" role="region" aria-labelledby="survol-titre">
@@ -30,7 +31,15 @@ const { questions, parCandidat } = Astro.props;
             </th>
             {questions.map((q) => {
               const r = synthese?.data.reponses[q.id];
-              if (!r) return <td class="nd">Non documenté</td>;
+              if (!r) {
+                // Without any summary the cell says why: searched and not found, programme awaited, not searched yet.
+                const a = synthese ? null : absenceSur(c, themeId);
+                return (
+                  <td class="nd" title={a?.note}>
+                    {a ? a.label : SANS_REPONSE}
+                  </td>
+                );
+              }
               // Only the first clause of the reference fits the table; the rest is in the card.
               // Links to the measure card detailing this answer, else to the candidate's card.
               const detail = mesures.find((e) => e.data.questions.includes(q.id));

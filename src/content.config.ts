@@ -72,6 +72,9 @@ const sources = defineCollection({
     date_publication: fuzzyDate,
     date_consultation: fuzzyDate,
     type: z.enum(['primaire', 'presse', 'institution', 'agregateur']),
+    // Short label for an outlet with a declared or widely described editorial line (community, movement or
+    // national angle), shown next to the link like the orientation of think tanks. Our own wording: keep it factual.
+    orientation: z.string().optional(),
     note: z.string().optional(),
   }),
 });
@@ -102,6 +105,18 @@ const candidats = defineCollection({
     vision: z.array(sourcedItem).default([]),
     // What was searched for each section, shown when the section is empty.
     recherches: z.record(z.string(), z.string()).default({}),
+    // Why a theme has no summary for this candidate, by theme id. Without an entry the cell reads
+    // "pas encore cherché"; an entry says what was looked for, or that the programme is not published.
+    absences: z
+      .record(
+        z.string(),
+        z.object({
+          statut: z.enum(['non_trouve', 'programme_attendu', 'pas_cherche']),
+          note: z.string().optional(),
+          sources: z.array(reference('sources')).default([]),
+        }),
+      )
+      .default({}),
     derniere_verification: fuzzyDate,
   }),
 });

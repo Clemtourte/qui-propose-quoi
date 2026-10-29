@@ -17,6 +17,7 @@ const sources = await getEntries(Astro.props.sources);
         {s.data.media}, {formatDate(s.data.date_publication)}
         <span aria-hidden="true">↗</span>
         <span class="visually-hidden">(nouvel onglet)</span>
+        {s.data.orientation && <span class="orient">{s.data.orientation}</span>}
       </a>
     ))
   }
@@ -36,6 +37,15 @@ const sources = await getEntries(Astro.props.sources);
   }
   a {
     color: var(--muted);
+  }
+  /* Editorial line of an engaged or community outlet, like the orientation shown for think tanks. */
+  .orient {
+    margin-left: 0.3rem;
+    padding: 0 0.4rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: 0.72rem;
+    white-space: nowrap;
   }
   a:hover {
     color: var(--accent);
