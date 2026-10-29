@@ -7,15 +7,21 @@ const SITE_NAME = 'Qui propose quoi';
 interface Props {
   title: string;
   description?: string;
+  // Page kind shown as a search filter; pages without it are left out of the search index.
+  indexType?: 'Candidat' | 'Thème';
 }
 
-const { title, description = 'Les candidats à la présidentielle 2027, thème par thème, avec leurs sources.' } =
-  Astro.props;
+const {
+  title,
+  description = 'Les candidats à la présidentielle 2027, thème par thème, avec leurs sources.',
+  indexType,
+} = Astro.props;
 const path = Astro.url.pathname;
 const nav = [
   { href: '/themes/', label: 'Thèmes' },
   { href: '/candidats/', label: 'Candidats' },
   { href: '/sources/', label: 'Sources' },
+  { href: '/recherche/', label: 'Recherche' },
 ];
 ---
 
@@ -56,7 +62,11 @@ const nav = [
         </nav>
       </div>
     </header>
-    <main id="contenu">
+    <main
+      id="contenu"
+      data-pagefind-body={indexType ? '' : undefined}
+      data-pagefind-filter={indexType ? `Type:${indexType}` : undefined}
+    >
       <slot />
     </main>
     <footer class="site-footer">
@@ -68,6 +78,22 @@ const nav = [
     </footer>
   </body>
 </html>
+
+<script>
+  // Links to an anchor inside collapsed sections (overview table, search results) open them first.
+  function openFromHash() {
+    const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+    if (!target) return;
+    let node: Element | null = target;
+    while (node) {
+      if (node instanceof HTMLDetailsElement) node.open = true;
+      node = node.parentElement;
+    }
+    target.scrollIntoView();
+  }
+  window.addEventListener('hashchange', openFromHash);
+  openFromHash();
+</script>
 
 <style>
   .skip {

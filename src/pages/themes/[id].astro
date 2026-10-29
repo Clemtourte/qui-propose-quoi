@@ -44,7 +44,11 @@ const nom = (id: string) => {
 };
 ---
 
-<Base title={t.titre} description={`${t.titre} : ce que propose chaque candidat à la présidentielle 2027, avec sources.`}>
+<Base
+  title={t.titre}
+  description={`${t.titre} : ce que propose chaque candidat à la présidentielle 2027, avec sources.`}
+  indexType="Thème"
+>
   <div class="wrap">
     <header class="hero prose">
       <p class="eyebrow">Thème</p>
@@ -104,7 +108,7 @@ const nom = (id: string) => {
 
     {
       t.questions.length > 0 && (
-        <section class="survol" aria-labelledby="survol-titre">
+        <section class="survol" aria-labelledby="survol-titre" data-pagefind-ignore>
           <h2 id="survol-titre">En un coup d'œil</h2>
           <p class="muted note">
             <NatureTag nature="position" /> Ce que déclarent les candidats. Détail et sources dans les cartes plus bas.
@@ -147,7 +151,9 @@ const nom = (id: string) => {
                 {synthese && <SourceRefs sources={synthese.data.sources} />}
                 <h3>Mesures</h3>
                 {mesures.length ? (
-                  mesures.map((e) => <Item {...e.data} id={entryAnchor(e.id)} theme={undefined} />)
+                  mesures.map((e) => (
+                    <Item {...e.data} id={entryAnchor(e.id)} theme={undefined} qui={`${c.data.prenom} ${c.data.nom}`} />
+                  ))
                 ) : abs ? (
                   <div class="nd">
                     <p>
@@ -159,7 +165,9 @@ const nom = (id: string) => {
                   <p class="nd">Aucune mesure détaillée saisie sur ce thème.</p>
                 )}
                 <h3>Bilan sur ce thème</h3>
-                {bilan.length ? bilan.map((e) => <Item {...e.data} theme={undefined} />) : <p class="nd">Aucun bilan saisi sur ce thème.</p>}
+                {bilan.length ? bilan.map((e) => (
+                    <Item {...e.data} id={entryAnchor(e.id)} theme={undefined} qui={`${c.data.prenom} ${c.data.nom}`} />
+                  )) : <p class="nd">Aucun bilan saisi sur ce thème.</p>}
                 <p class="lien">
                   <a href={`/candidats/${c.id}/`}>
                     Voir le projet d'ensemble de {c.data.prenom} {c.data.nom} →
@@ -173,9 +181,14 @@ const nom = (id: string) => {
     </section>
 
     <div class="sections">
-      <Section id="avis" titre="Avis d'institutions" count={avis.length} recherche={t.recherches.avis}>
-        {avis.map((a) => <AvisCard avis={a} showCandidats />)}
-      </Section>
+      {
+        // Hidden while empty: too few opinions collected so far to keep an empty section on every theme.
+        avis.length > 0 && (
+          <Section id="avis" titre="Avis d'institutions" count={avis.length} recherche={t.recherches.avis}>
+            {avis.map((a) => <AvisCard avis={a} showCandidats />)}
+          </Section>
+        )
+      }
       <Section id="verifications" titre="Affirmations vérifiées" count={verifications.length} recherche={t.recherches.verifications}>
         {verifications.map((v) => <VerifCard verification={v} showCandidat />)}
       </Section>
@@ -186,7 +199,7 @@ const nom = (id: string) => {
               <p class="promesse-qui">
                 <a href={`/candidats/${e.data.candidat.id}/`}>{nom(e.data.candidat.id)}</a>
               </p>
-              <Item {...e.data} theme={undefined} />
+              <Item {...e.data} theme={undefined} qui={nom(e.data.candidat.id)} />
             </div>
           ))
         }
@@ -196,23 +209,6 @@ const nom = (id: string) => {
     <SourceList sources={sources} derniereVerification={t.derniere_verification} />
   </div>
 </Base>
-
-<script>
-  // Links from the overview table (#carte-<id>, #mesure-<id>) open the matching card.
-  function openFromHash() {
-    const target = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
-    if (!target) return;
-    // Open the candidate card (and the item itself when it is a details) before scrolling to it.
-    let node: Element | null = target;
-    while (node) {
-      if (node instanceof HTMLDetailsElement) node.open = true;
-      node = node.parentElement;
-    }
-    target.scrollIntoView();
-  }
-  window.addEventListener('hashchange', openFromHash);
-  openFromHash();
-</script>
 
 <style>
   .hero {

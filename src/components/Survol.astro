@@ -12,12 +12,25 @@ interface Props {
 const { questions, parCandidat, themeId } = Astro.props;
 ---
 
+<div class="survol-bloc" data-survol>
+{
+  // Phones show one question at a time, picked here; the script reveals these chips.
+  questions.length > 1 && (
+    <div class="choix" role="group" aria-label="Question affichée" hidden>
+      {questions.map((q, i) => (
+        <button type="button" class="chip" data-q={q.id} aria-pressed={i === 0 ? 'true' : 'false'}>
+          {q.libelle}
+        </button>
+      ))}
+    </div>
+  )
+}
 <div class="scroll" tabindex="0" role="region" aria-labelledby="survol-titre">
   <table>
     <thead>
       <tr>
         <th scope="col">Candidat</th>
-        {questions.map((q) => <th scope="col">{q.libelle}</th>)}
+        {questions.map((q) => <th scope="col" data-q={q.id}>{q.libelle}</th>)}
       </tr>
     </thead>
     <tbody>
@@ -35,7 +48,7 @@ const { questions, parCandidat, themeId } = Astro.props;
                 // Without any summary the cell says why: searched and not found, programme awaited, not searched yet.
                 const a = synthese ? null : absenceSur(c, themeId);
                 return (
-                  <td class="nd" title={a?.note}>
+                  <td class="nd" title={a?.note} data-q={q.id}>
                     {a ? a.label : SANS_REPONSE}
                   </td>
                 );
@@ -45,7 +58,7 @@ const { questions, parCandidat, themeId } = Astro.props;
               const detail = mesures.find((e) => e.data.questions.includes(q.id));
               const repere = mesures.flatMap((e) => e.data.reperes.filter((x) => x.question === q.id))[0];
               return (
-                <td>
+                <td data-q={q.id}>
                   <a class="cellule" href={detail ? `#${entryAnchor(detail.id)}` : `#carte-${c.id}`}>
                     {typo(r)}
                   </a>
@@ -63,8 +76,69 @@ const { questions, parCandidat, themeId } = Astro.props;
     </tbody>
   </table>
 </div>
+</div>
+
+<script>
+  // On phones, only the column of the chosen question is shown (see the media query below).
+  for (const bloc of document.querySelectorAll<HTMLElement>('[data-survol]')) {
+    const choix = bloc.querySelector<HTMLElement>('.choix');
+    if (!choix) continue;
+    const chips = [...choix.querySelectorAll<HTMLButtonElement>('.chip')];
+    const montrer = (q: string) => {
+      for (const chip of chips) chip.setAttribute('aria-pressed', String(chip.dataset.q === q));
+      for (const cell of bloc.querySelectorAll<HTMLElement>('[data-q]:not(.chip)')) {
+        cell.classList.toggle('autre', cell.dataset.q !== q);
+      }
+    };
+    for (const chip of chips) chip.addEventListener('click', () => montrer(chip.dataset.q!));
+    choix.hidden = false;
+    bloc.classList.add('une-question');
+    montrer(chips[0].dataset.q!);
+  }
+</script>
 
 <style>
+  .choix {
+    display: none;
+  }
+  .chip {
+    font: inherit;
+    font-size: 0.85rem;
+    color: var(--muted);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+  }
+  .chip[aria-pressed='true'] {
+    color: var(--surface);
+    background: var(--text);
+    border-color: var(--text);
+    font-weight: 600;
+  }
+  /* Phones: a two-column table (candidate, answer to the chosen question) instead of a wide scroll. */
+  @media (max-width: 599px) {
+    .une-question .choix {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 0.75rem;
+    }
+    .une-question .autre {
+      display: none;
+    }
+    .une-question table {
+      min-width: 0;
+    }
+    .une-question td {
+      min-width: 0;
+    }
+    .une-question tbody th {
+      position: static;
+      width: 38%;
+    }
+  }
   .cellule {
     color: inherit;
     text-decoration: underline dotted var(--muted);

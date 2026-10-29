@@ -19,6 +19,7 @@ import {
   ISSUES,
   issueJustice,
   typo,
+  entryAnchor,
 } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -95,11 +96,20 @@ const sources = await collectSources([
 const r = c.recherches;
 const itemProps = (e: (typeof entrees)[number]) => ({
   ...e.data,
+  id: entryAnchor(e.id),
   theme: e.data.theme ? themeById.get(e.data.theme.id) : undefined,
 });
+
+// Institution opinions are hidden while empty (decision of 29 Oct. 2026); later sections are renumbered.
+const ordreSections = ['vision', 'programme', ...(avis.length ? ['avis'] : []), 'bilan', 'verifications', 'justice', 'participation', 'declarations', 'soutiens'];
+const numero = (s: string) => ordreSections.indexOf(s) + 2;
 ---
 
-<Base title={`${c.prenom} ${c.nom}`} description={`${c.prenom} ${c.nom} (${c.parti}) : programme, bilan, sources.`}>
+<Base
+  title={`${c.prenom} ${c.nom}`}
+  description={`${c.prenom} ${c.nom} (${c.parti}) : programme, bilan, sources.`}
+  indexType="Candidat"
+>
   <div class="wrap">
     <header class="hero">
       <div class="identite">
@@ -114,7 +124,7 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     </header>
 
     <section class="trente" aria-labelledby="s1">
-      <h2 id="s1"><span class="num">1</span> En 30 secondes</h2>
+      <h2 id="s1"><span class="num" data-pagefind-ignore>1</span> En 30 secondes</h2>
       <div class="candidature">
         <NatureTag nature="fait" />
         <p>{c.candidature.texte}</p>
@@ -164,11 +174,11 @@ const itemProps = (e: (typeof entrees)[number]) => ({
     </section>
 
     <div class="sections">
-      <Section id="vision" numero={2} titre="Vision d'ensemble et cohérence" count={vision.length} recherche={r.vision} open={vision.length > 0}>
+      <Section id="vision" numero={numero('vision')} titre="Vision d'ensemble et cohérence" count={vision.length} recherche={r.vision} open={vision.length > 0}>
         {vision.map((v) => <Item {...v} />)}
       </Section>
 
-      <Section id="programme" numero={3} titre="Programme" count={mesures.length} recherche={r.programme}>
+      <Section id="programme" numero={numero('programme')} titre="Programme" count={mesures.length} recherche={r.programme}>
         {
           mesuresParTheme.map((g) => (
             <div class="groupe">
@@ -176,26 +186,30 @@ const itemProps = (e: (typeof entrees)[number]) => ({
                 <a href={`/themes/${g.theme.id}/`}>{g.theme.data.titre}</a>
               </h3>
               {g.items.map((e) => (
-                <Item {...e.data} theme={undefined} />
+                <Item {...e.data} id={entryAnchor(e.id)} theme={undefined} />
               ))}
             </div>
           ))
         }
       </Section>
 
-      <Section id="avis" numero={4} titre="Avis d'institutions sur son programme" count={avis.length} recherche={r.avis}>
-        {avis.map((a) => <AvisCard avis={a} />)}
-      </Section>
+      {
+        avis.length > 0 && (
+          <Section id="avis" numero={numero('avis')} titre="Avis d'institutions sur son programme" count={avis.length} recherche={r.avis}>
+            {avis.map((a) => <AvisCard avis={a} />)}
+          </Section>
+        )
+      }
 
-      <Section id="bilan" numero={5} titre="Bilan et promesses passées" count={bilan.length} recherche={r.bilan}>
+      <Section id="bilan" numero={numero('bilan')} titre="Bilan et promesses passées" count={bilan.length} recherche={r.bilan}>
         {bilan.map((e) => <Item {...itemProps(e)} />)}
       </Section>
 
-      <Section id="verifications" numero={6} titre="Affirmations vérifiées" count={verifications.length} recherche={r.verifications}>
+      <Section id="verifications" numero={numero('verifications')} titre="Affirmations vérifiées" count={verifications.length} recherche={r.verifications}>
         {verifications.map((v) => <VerifCard verification={v} />)}
       </Section>
 
-      <Section id="justice" numero={7} titre="Décisions de justice" count={justice.length} recherche={r.justice}>
+      <Section id="justice" numero={numero('justice')} titre="Décisions de justice" count={justice.length} recherche={r.justice}>
         {
           resumeJustice.length > 0 && (
             <p class="resume-justice">
@@ -228,7 +242,7 @@ const itemProps = (e: (typeof entrees)[number]) => ({
 
       <Section
         id="participation"
-        numero={8}
+        numero={numero('participation')}
         titre="Place laissée à la population"
         count={participation.length + participationAilleurs.length}
         recherche={r.participation}
@@ -256,11 +270,11 @@ const itemProps = (e: (typeof entrees)[number]) => ({
         }
       </Section>
 
-      <Section id="declarations" numero={9} titre="Déclarations et polémiques" count={declarations.length} recherche={r.declarations}>
+      <Section id="declarations" numero={numero('declarations')} titre="Déclarations et polémiques" count={declarations.length} recherche={r.declarations}>
         {declarations.map((e) => <Item {...itemProps(e)} />)}
       </Section>
 
-      <Section id="soutiens" numero={10} titre="Ce qu'en disent soutiens et adversaires" count={soutiens.length} recherche={r.soutiens}>
+      <Section id="soutiens" numero={numero('soutiens')} titre="Ce qu'en disent soutiens et adversaires" count={soutiens.length} recherche={r.soutiens}>
         {soutiens.map((e) => <Item {...itemProps(e)} />)}
       </Section>
     </div>

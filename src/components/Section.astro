@@ -20,7 +20,7 @@ const etat = cherche ? 'Rien trouvé' : 'Pas encore cherché';
 <details class:list={['section', { vide: empty }]} id={id} open={open}>
   <summary>
     {numero !== undefined && <span class="num">{numero}</span>}
-    <span class="titre">{titre}</span>
+    <h2 class="titre" id={`${id}-titre`}>{titre}</h2>
     <span class:list={['count', { empty }]}>{empty ? etat : count}</span>
   </summary>
   <div class="body">
@@ -102,11 +102,16 @@ const etat = cherche ? 'Rien trouvé' : 'Pas encore cherché';
   .vide summary {
     padding: 0.6rem 0;
   }
+  /* A real heading (outline, search results), styled like the rest of the summary line. */
   .titre {
     flex: 1;
+    margin: 0;
     font-family: var(--font-serif);
     font-size: 1.3rem;
     font-weight: 650;
+  }
+  .titre::before {
+    display: none;
   }
   .count {
     font-size: 0.78rem;

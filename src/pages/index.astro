@@ -19,6 +19,11 @@ const couverture = await getCouverture(themes, candidats);
         Les programmes, les bilans et les déclarations, comparés thème par thème. Les faits, les positions des
         candidats et les opinions des autres sont toujours séparés, et chaque information renvoie à sa source.
       </p>
+      <form class="cherche" action="/recherche/" method="get" role="search">
+        <label class="visually-hidden" for="q">Rechercher dans le site</label>
+        <input id="q" name="q" type="search" placeholder="Un mot, une mesure, un nom…" />
+        <button type="submit">Rechercher</button>
+      </form>
       <Legende />
     </header>
 
@@ -43,6 +48,35 @@ const couverture = await getCouverture(themes, candidats);
     font-family: var(--font-serif);
     font-size: clamp(1.05rem, 2.6vw, 1.2rem);
     color: var(--muted);
+  }
+  .cherche {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1.25rem 0 1rem;
+  }
+  .cherche input {
+    flex: 1;
+    min-width: 0;
+    font: inherit;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 0.6rem 0.8rem;
+  }
+  .cherche input:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 1px;
+  }
+  .cherche button {
+    font: inherit;
+    font-weight: 600;
+    color: var(--surface);
+    background: var(--accent);
+    border: 0;
+    border-radius: var(--radius);
+    padding: 0.6rem 1rem;
+    cursor: pointer;
   }
   .candidats {
     margin-top: 3rem;

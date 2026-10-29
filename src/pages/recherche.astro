@@ -1,0 +1,61 @@
+---
+// Full-text search over candidate and theme pages. The index is built by Pagefind after
+// `astro build` (see the build script), so it only exists on the built site, not in `astro dev`.
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Recherche" description="Rechercher un mot, une mesure ou un nom dans les pages candidat et thème.">
+  <div class="wrap prose">
+    <header>
+      <p class="eyebrow">Recherche</p>
+      <h1>Chercher dans le site</h1>
+      <p class="muted">
+        Un mot, une mesure, un nom, un chiffre&nbsp;: la recherche porte sur les pages candidat et les pages thème.
+      </p>
+    </header>
+    <div id="recherche"></div>
+    <p class="muted indispo" hidden>
+      La recherche n'est disponible que sur le site construit (<code>npm run build</code> puis
+      <code>npm run preview</code>).
+    </p>
+    <noscript><p class="muted">La recherche a besoin de JavaScript.</p></noscript>
+  </div>
+  <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    (() => {
+      if (typeof PagefindUI === 'undefined') {
+        document.querySelector('.indispo').hidden = false;
+        return;
+      }
+      const ui = new PagefindUI({
+        element: '#recherche',
+        showSubResults: true,
+        showImages: false,
+        autofocus: true,
+      });
+      // Searches sent from the home page form arrive as ?q=...
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+    })();
+  </script>
+</Base>
+
+<style is:global>
+  #recherche {
+    --pagefind-ui-scale: 0.9;
+    --pagefind-ui-primary: var(--accent);
+    --pagefind-ui-text: var(--text);
+    --pagefind-ui-background: var(--surface);
+    --pagefind-ui-border: var(--line);
+    --pagefind-ui-tag: var(--accent-bg);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: var(--radius);
+    --pagefind-ui-font: var(--font-sans);
+    margin-top: 1.5rem;
+  }
+  #recherche mark {
+    background: var(--accent-bg);
+    color: inherit;
+  }
+</style>

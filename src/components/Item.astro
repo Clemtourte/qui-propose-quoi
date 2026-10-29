@@ -22,6 +22,9 @@ interface Props {
   theme?: { id: string; titre: string };
   // Tighter layout for narrow columns (comparator).
   compact?: boolean;
+  // Who the item is about, read before the title by screen readers and search results only
+  // (on theme pages the card already shows the name).
+  qui?: string;
 }
 
 const {
@@ -38,16 +41,25 @@ const {
   id,
   theme,
   compact = false,
+  qui,
 } = Astro.props;
 ---
 
-<article class:list={['item', nature, { compact }]} id={id}>
+<!-- The anchor sits on the title when there is one, so search results can point to this item. -->
+<article class:list={['item', nature, { compact }]} id={titre ? undefined : id}>
   <div class="meta">
     <NatureTag nature={nature} auteur={auteur} />
     <time datetime={date}>{formatDate(date)}</time>
     {theme && <a class="theme" href={`/themes/${theme.id}/`}>{theme.titre}</a>}
   </div>
-  {titre && <h3>{typo(titre)}</h3>}
+  {
+    titre && (
+      <h3 id={id}>
+        {qui && <span class="visually-hidden">{qui}&nbsp;: </span>}
+        {typo(titre)}
+      </h3>
+    )
+  }
   {
     citation && (
       <figure>

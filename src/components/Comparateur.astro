@@ -15,7 +15,7 @@ const { questions, parCandidat, themeId } = Astro.props;
 const MAX = 3;
 ---
 
-<section class="cmp" data-comparateur data-max={MAX} hidden aria-labelledby="cmp-titre">
+<section class="cmp" data-comparateur data-max={MAX} hidden aria-labelledby="cmp-titre" data-pagefind-ignore>
   <h2 id="cmp-titre">Comparer côte à côte</h2>
   <p class="muted consigne">Choisissez deux ou trois candidats.</p>
   <div class="chips" role="group" aria-label="Candidats à comparer">
