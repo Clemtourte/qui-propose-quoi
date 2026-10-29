@@ -18,6 +18,8 @@ en_30_secondes:
   - franceinfo-2026-10-08-portraits-candidats
   - conseil-constitutionnel-2022-04-27-second-tour
 recherches:
+  declarations: >-
+    Recherché le 29 octobre 2026 (moteur de recherche, puis lecture des articles, dont certains dans le navigateur intégré) : déclarations du candidat du 1er septembre au 29 octobre 2026 ayant suscité au moins une réaction nommée dans la presse, avec ces réactions. Les positions déjà saisies dans les thèmes ne sont pas répétées. Les réactions anonymes (« entourage ») ne sont pas reprises. Les autres entrées de cette section viennent des passes sur les thèmes. Piste non lue : sa réaction aux propos de Roland Lescure sur les taxes sur les carburants (« dédain insupportable »), polémique visant d'abord le ministre.
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
@@ -46,7 +48,7 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-21
+derniere_verification: 2026-10-29
 absences:
   transparence-probite:
     statut: non_trouve
