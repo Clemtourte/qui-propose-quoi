@@ -53,3 +53,16 @@ recherches:
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
 derniere_verification: 2026-10-21
+absences:
+  ukraine-russie:
+    statut: programme_attendu
+    note: "Programme présidentiel de Reconquête non publié : le mouvement consulte en ligne pour le construire. Aucune déclaration sur l'Ukraine trouvée dans les sources lues (recherche du 22 octobre 2026)."
+    sources: [reconquete-2026-10-site-programme]
+  proche-orient:
+    statut: programme_attendu
+    note: "Programme présidentiel de Reconquête non publié. Aucune déclaration de 2026 trouvée dans les sources lues (recherche du 22 octobre 2026) ; des propos de 2023 à 2025 existent mais n'ont pas pu être lus en texte."
+    sources: [reconquete-2026-10-site-programme]
+  transparence-probite:
+    statut: programme_attendu
+    note: "Programme présidentiel de Reconquête non publié. Aucune proposition sur la probité, le lobbying ou l'inéligibilité trouvée (recherche du 22 octobre 2026)."
+    sources: [reconquete-2026-10-site-programme]
