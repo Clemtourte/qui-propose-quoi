@@ -15,13 +15,70 @@ en_30_secondes:
   sources:
   - franceinfo-2026-10-08-portraits-candidats
   - conseil-constitutionnel-2022-04-13-premier-tour
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: 'LFI présente un « cercle vertueux de la relance écologique et sociale ». Le programme remanié, dit de la « Nouvelle
+    France », aura six chapitres, dans cet ordre : écologie, économie, questions sociales, questions scientifiques, démocratie,
+    géopolitique. Clémence Guetté y voit une réponse à « une forme de crise de la civilisation humaine ». La synthèse de
+    juillet 2026 reprend le passage à une 6e République par une assemblée constituante.'
+  date: 2026-10-14
+  sources:
+  - fortuneo-2026-10-14-economistes-contre-budget-lfi
+  - lcp-2026-09-23-programme-nouvelle-france
+  - lfi-2026-07-17-synthese-pouvoir-au-peuple
+- titre: Financement et arbitrages
+  nature: position
+  texte: 'Budget rectificatif présenté le 14 octobre 2026 : 106,4 milliards d''euros de recettes nouvelles, 81,7 milliards
+    de dépenses nouvelles, 25 milliards affectés à la réduction de la dette et un déficit ramené à 5 % du PIB selon LCP.
+    Les recettes viennent surtout des plus riches et des grandes entreprises (héritages, niches fiscales, taxe Zucman, ISF,
+    flat tax). Les dépenses incluent la suppression de la réforme des retraites, le Smic à 1 700 euros nets et le point
+    d''indice. LFI veut aussi que la BCE gèle ou annule la dette française qu''elle détient. Éric Coquerel juge les recettes
+    « raisonnables » et « crédibles ».'
+  date: 2026-10-14
+  sources:
+  - lcp-2026-10-14-contre-budget-lfi
+  - publicsenat-2026-10-14-contre-budget-lfi
+  - fortuneo-2026-10-14-economistes-contre-budget-lfi
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Mathieu Plane (OFCE), Charlotte de Montpellier (ING), Alain Trannoy (EHESS), Sylvain Bersinger (Bersingéco), interrogés
+    par l'AFP
+  texte: 'Mathieu Plane : des mesures pensées « comme si la France était dans une économie fermée » ; à cause de la mobilité
+    des plus riches, « les 100 milliards ne seraient pas du tout 100 milliards ». Charlotte de Montpellier : le plan « n''est
+    pas assez détaillé » et « ne tient pas compte des effets induits sur l''inflation et l''activité ». Alain Trannoy :
+    « 106 milliards de recettes, c''est sur le papier ». Sylvain Bersinger : « ces niveaux de taxation ne sont pas très
+    crédibles ».'
+  date: 2026-10-14
+  sources:
+  - fortuneo-2026-10-14-economistes-contre-budget-lfi
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Philippe Aghion, économiste ; Mathieu Plane (OFCE) ; équipe de campagne d'Édouard Philippe
+  texte: 'Sur la dette détenue par la BCE, Philippe Aghion estime que la proposition conduirait « tout droit à la banqueroute
+    et à l''éclatement de la zone euro » ; Mathieu Plane : « Il faudrait que nos partenaires européens soient convaincus,
+    ce qui n''est pas le cas aujourd''hui ». L''équipe d''Édouard Philippe affirme que le contre-budget risque de mener
+    la France à « la faillite ».'
+  date: 2026-10-14
+  sources:
+  - franceinfo-2026-09-06-vof-melenchon-nobel
+  - fortuneo-2026-10-14-economistes-contre-budget-lfi
+  - lcp-2026-10-14-contre-budget-lfi
+- titre: Où en est le programme
+  nature: fait
+  texte: Programme attendu les 6 et 7 novembre 2026, chiffrage complet annoncé pour début 2027. L'Institut Montaigne annonce
+    pour le premier trimestre 2027 « l'analyse et le chiffrage des programmes des candidats ».
+  date: 2026-10-30
+  sources:
+  - lcp-2026-09-23-programme-nouvelle-france
+  - lcp-2026-10-14-contre-budget-lfi
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
   vision: >-
-    Pas encore rédigée. Programme « Nouvelle France » annoncé pour le 6 novembre 2026 ; chiffrage complet du
-    contre-budget annoncé pour début 2027.
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Le contre-budget n'a pas été lu dans son document d'origine. Cette section sera reprise après la publication du programme, les 6 et 7 novembre 2026.
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
@@ -46,4 +103,4 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-29
+derniere_verification: 2026-10-30
