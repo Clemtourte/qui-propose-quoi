@@ -309,3 +309,16 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Mélenchon** : citations recoupées (Le JDD, franceinfo). Communiqué de BFMTV : franceinfo (AFP) seul.
 - **Philippe** : l'entretien au *Point* n'a pas été lu (date exacte inconnue) ; la citation vient du JDD, la « surreprésentation » est confirmée par Entrevue. Le JDD parle des violences « du 18 octobre », les autres sources du 17. Réactions d'Olivier Faure et d'Alexis Corbière : JDD seul (le message de Corbière y est reproduit).
 - **Retailleau** : citation du 19 octobre (franceinfo seul), du 21 octobre (Public Sénat seul) ; sa remise en question de la date du second tour n'est connue que par la légende d'une vidéo de franceinfo.
+
+## Vision d'ensemble, 30 octobre 2026
+
+- **Volume inégal dans « Ce qui est contesté »** : il reflète ce qui a été trouvé, pas un jugement. Des économistes nommés sont trouvés pour Le Pen, Mélenchon et, sur une mesure, Glucksmann ; aucun pour Attal, Philippe, Retailleau et Tondelier. À reprendre dans Les Echos, Le Monde, l'OFCE, l'IPP et l'iFRAP. Le chiffrage de l'Institut Montaigne est annoncé pour le premier trimestre 2027.
+- **Attal** : période des 150 Md€ : dix ans selon Public Sénat (3 juillet), « la même période » que cinq ans selon Public Sénat (12 octobre), non précisée sur son site. Les 96 mesures listées sur son site n'ont pas été lues ; elles peuvent préciser des positions saisies dans les thèmes avant que ce site ne soit repéré. Le site est à reprendre thème par thème. La présence de sept économistes le 23 septembre vient de son seul site : leur avis sur le plan n'est pas connu.
+- **Glucksmann** : des comparateurs tiers signalent un « chantier-cadre » sur le financement dans l'Acte I (42 chantiers) ; à lire dans le PDF. Pas de programme sur glucks2027.fr au 30 octobre.
+- **Le Pen** : 140 Md€ (Public Sénat, franceinfo, Europe 1) ou 142 Md€ (LCP). Contribution à l'UE : 9 Md€ (Jordan Bardella) ou 11,1 Md€ dès 2027 (franceinfo). Document du contre-budget non lu.
+- **Mathieu Plane** : présenté comme directeur adjoint de l'IFE par franceinfo (8 octobre), comme économiste de l'OFCE par l'AFP (14 octobre). Chaque source est suivie ; à clarifier.
+- **Mélenchon** : section à reprendre après le 6-7 novembre. Document du contre-budget non lu.
+- **Philippe** : coût et financement de l'allocation unique de 350 € et de la réduction d'impôt non trouvés. Trois de ses pages de priorités citées ont été lues lors des passes sur les thèmes, pas relues le 30 octobre.
+- **Retailleau** : 51 Md€ (LCP) ou 56 Md€ (Public Sénat, dont le détail fait 51) rendus aux ménages et aux entreprises. Document du plan non lu.
+- **Tondelier** : le programme de 208 pages n'a pas pu être rouvert (téléchargement) ; la question d'un coût total ou d'une trajectoire de déficit dans le document reste à vérifier. Seul l'article de L'Opinion a été relu.
+- **Zemmour** : déclaration officielle annoncée « probablement en octobre » ; rien trouvé à ce sujet au 30 octobre. Le livre de Sarah Knafo n'a pas été lu ; les 140 Md€ sont le chiffre du journaliste, non démenti dans l'entretien.
