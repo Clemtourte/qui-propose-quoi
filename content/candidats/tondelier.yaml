@@ -16,13 +16,54 @@ en_30_secondes:
     d'opposition à Hénin-Beaumont (Pas-de-Calais), ville dirigée par le RN. Candidate déclarée depuis octobre 2025.
   sources:
   - franceinfo-2026-10-08-portraits-candidats
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: Le programme du parti (juillet 2026), qui doit servir de programme présidentiel, veut créer la « Première République
+    écologique et citoyenne » pour une « prospérité écologique », et « changer radicalement les règles du jeu économique
+    ». Selon L'Opinion, le parti y revendique une politique économique keynésienne. Il prévoit un processus constituant
+    et la sortie du nucléaire.
+  date: 2026-07-13
+  sources:
+  - lopinion-2026-07-13-programme-ecologistes
+  - lesecologistes-2026-07-programme
+- titre: Financement et arbitrages
+  nature: position
+  texte: 'Dépenses citées : Smic à 2 000 euros brut « dès 2027 », au moins 10 % de plus pour les fonctionnaires, un RSA
+    à 50 % du Smic dès 18 ans, APL revalorisées de 10 %, retour à 62 ans. Recettes citées : taxe Zucman, ISF vert, tranche
+    d''impôt sur le revenu à 60 % au-delà de 250 000 euros, deux tranches de plus sur l''héritage, impôt minimal sur les
+    grandes sociétés, taxe sur les superprofits pétrogaziers, TVA verte, CSG progressive et augmentée d''un point, fin de
+    l''abattement de 10 % des retraités. Le parti écrit : « À cause de ces cadeaux fiscaux, la dette publique a augmenté
+    de 20 points de PIB. » L''article de L''Opinion ne donne ni coût total ni trajectoire de déficit.'
+  date: 2026-07-13
+  sources:
+  - lopinion-2026-07-13-programme-ecologistes
+- titre: Ce qui est contesté
+  nature: fait
+  texte: Non documenté. Aucune critique nommée portant sur le financement ou la cohérence de ce programme n'a été trouvée
+    au 30 octobre 2026.
+  date: 2026-10-30
+  sources:
+  - lopinion-2026-07-13-programme-ecologistes
+- titre: Où en est le programme
+  nature: fait
+  texte: Programme de parti publié en juillet 2026. Le 21 septembre, le conseil fédéral a renvoyé à un vote des adhérents,
+    du 10 au 13 décembre 2026, le choix entre la candidature de Marine Tondelier et le soutien à un candidat d'une autre
+    formation. L'Institut Montaigne annonce pour le premier trimestre 2027 « l'analyse et le chiffrage des programmes des
+    candidats ».
+  date: 2026-10-30
+  sources:
+  - lesecologistes-2026-07-programme
+  - publicsenat-2026-09-21-ecologistes-report
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   declarations: >-
     Recherché le 29 octobre 2026 (moteur de recherche, puis lecture des articles, dont certains dans le navigateur intégré) : déclarations du candidat du 1er septembre au 29 octobre 2026 ayant suscité au moins une réaction nommée dans la presse, avec ces réactions. Les positions déjà saisies dans les thèmes ne sont pas répétées. Les réactions anonymes (« entourage ») ne sont pas reprises. Aucune déclaration répondant à ce critère n'a pu être lue en texte : son accusation contre Sébastien Lecornu de « propager un climat de guerre civile » (BFMTV, 20 octobre) et sa réponse (« J'ai toujours condamné toute forme de violence ») ne sont connues que par des titres de vidéos ; son soutien à Kylian Mbappé face à la Chine (28 octobre) n'a pas suscité de réaction nommée trouvée. Les entrées de cette section viennent des passes sur les thèmes.
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
-  vision: Pas encore rédigée.
+  vision: >-
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Le programme de 208 pages n'a pas pu être rouvert le 30 octobre 2026 (téléchargement bloqué) ; cette section s'appuie sur L'Opinion et sur les entrées lues le 21 octobre.
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
@@ -53,4 +94,4 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-29
+derniere_verification: 2026-10-30
