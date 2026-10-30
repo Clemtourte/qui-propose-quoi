@@ -17,11 +17,71 @@ en_30_secondes:
   sources:
   - franceinfo-2026-10-08-portraits-candidats
   - touteleurope-2026-10-14-candidats
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: 'Désigné le 11 octobre 2026 à l''issue de la primaire, il écrit sur son site : « Je serai le candidat de la rupture
+    avec le macronisme », en citant le fait de « vivre dignement » de son travail et l''école. Il détaille la hausse du
+    salaire net financée par les plus gros héritages, un « plan de sauvetage de l''école publique » sur cinq ans, un service
+    civique obligatoire de dix mois et une convention citoyenne sur l''immigration. L''Acte I de Place publique (2025) a
+    deux parties : « Une France puissante grâce à une Europe souveraine » et « Un nouveau contrat social et démocratique
+    pour une France plus juste ».'
+  date: 2026-10-12
+  sources:
+  - glucks2027-2026-accueil
+  - publicsenat-2026-08-24-glucksmann-propositions
+  - placepublique-2025-acte-1
+  - sudradio-2026-10-12-glucksmann-primaire
+- titre: Financement et arbitrages
+  nature: position
+  texte: 'Le principal financement chiffré trouvé est un transfert : 15 milliards d''euros attendus des plus gros héritages,
+    reversés sur les salaires nets. L''Acte I (2025) prévoit pour la défense un fonds européen de 500 milliards d''euros
+    par emprunt commun. Sur les retraites, il défend depuis le 4 octobre 62 ans modulés selon la pénibilité, après avoir
+    écrit que ceux qui ont « une espérance de vie en bonne santé plus longue doivent en revanche partir plus tard ». Sur
+    les alliances : « Il n''y aura pas d''alliance avec La France insoumise » (France Inter, 12 octobre).'
+  date: 2026-10-12
+  sources:
+  - franceinfo-2026-08-25-vdf-glucksmann-heritages
+  - placepublique-2025-acte-1
+  - publicsenat-2026-08-24-glucksmann-propositions
+  - capital-2026-10-05-glucksmann-retraites
+  - sudradio-2026-10-12-glucksmann-primaire
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Guillaume Allègre, économiste à l'OFCE, cité par franceinfo
+  texte: 'Sur les 15 milliards attendus des héritages : « taxer 1% des plus gros héritages ne suffirait pas, c''est très
+    optimiste ». Il faudrait, selon lui, toucher 5 à 10 % des plus aisés. L''équipe du candidat détaille trois leviers (voir
+    le thème fiscalité et budget).'
+  date: 2026-08-25
+  sources:
+  - franceinfo-2026-08-25-vdf-glucksmann-heritages
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Olivier Faure (PS) et Emmanuel Maurel (GRS), concurrents à la primaire
+  texte: Au débat du 1er octobre, Emmanuel Maurel qualifie la baisse de la CSG d'« usine à gaz » et Olivier Faure y voit
+    « une vieille recette libérale ». Sur les alliances, Olivier Faure a rappelé, selon l'AFP, que le Parti socialiste déciderait
+    « seul » le moment venu « de ce qu'il fait aux législatives ».
+  date: 2026-10-12
+  sources:
+  - nouvelobs-2026-10-02-glucksmann-csg
+  - sudradio-2026-10-12-glucksmann-primaire
+- titre: Où en est le programme
+  nature: fait
+  texte: Au 30 octobre 2026, aucun programme présidentiel publié, aucun chiffrage d'ensemble ni objectif de déficit trouvés.
+    La référence écrite la plus détaillée reste l'Acte I de Place publique (2025). Son équipe dit vouloir intégrer des propositions
+    des autres candidats de la primaire (AFP). L'Institut Montaigne annonce pour le premier trimestre 2027 « l'analyse et
+    le chiffrage des programmes des candidats ».
+  date: 2026-10-30
+  sources:
+  - glucks2027-2026-accueil
+  - sudradio-2026-10-12-glucksmann-primaire
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
-  vision: Pas encore rédigée.
+  vision: >-
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Le site de campagne ne contient pas encore de programme.
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
@@ -51,4 +111,4 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-29
+derniere_verification: 2026-10-30
