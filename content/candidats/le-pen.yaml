@@ -17,6 +17,75 @@ en_30_secondes:
   sources:
   - franceinfo-2026-10-08-portraits-candidats
   - conseil-constitutionnel-2022-04-27-second-tour
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: 'Discours d''Orléans, 25 octobre 2026 : thème de « la Renaissance pour la France », « une méthode, pas une rupture
+    brutale ». Elle annonce un gouvernement « d''union nationale » dirigé par Jordan Bardella, l''inscription de la « communauté
+    nationale » dans la Constitution, une « nation de paix » et la sécurité. Elle propose aussi des référendums sur l''immigration
+    et sur une règle d''or budgétaire.'
+  date: 2026-10-25
+  sources:
+  - europe1-2026-10-25-le-pen-orleans
+  - euronews-2026-09-17-le-pen-referendum
+  - publicsenat-2026-10-06-contre-budget-rn
+- titre: Financement et arbitrages
+  nature: position
+  texte: 'Présenté le 6 octobre 2026 : 140 milliards d''euros d''économies nettes d''ici 2032, 30 milliards nets de baisses
+    d''impôts, un déficit sous 3 % du PIB en 2030 et une dette ramenée de 121 % du PIB en 2027 à 112 % en 2032. Économies
+    annoncées : immigration et priorité nationale (15 milliards en 2027, 29 en année pleine), réorganisation de l''État
+    (20,7 milliards dès 2027), retraites (15 à 20 milliards), collectivités (8,2 milliards), contribution à l''UE (9 milliards
+    selon Jordan Bardella ; 11,1 milliards dès 2027 puis jusqu''à 20 selon franceinfo). Les baisses de TVA et d''impôts
+    de production sont financées notamment par une taxe sur les rachats d''actions (11,4 milliards). Elle récuse le terme
+    de « plan d''austérité ». Jean-Philippe Tanguy (RN) répond aux critiques : « Si les sous-doués qui ont ruiné le pays
+    sont mécontents, notre plan est vraiment excellent. »'
+  date: 2026-10-06
+  sources:
+  - publicsenat-2026-10-06-contre-budget-rn
+  - franceinfo-2026-10-08-critiques-budget-rn
+  - europe1-2026-10-06-contre-budget-rn
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Mathieu Plane, directeur adjoint de l'IFE, cité par franceinfo
+  texte: 'Sur la croissance retenue : « Ce n''est pas du tout crédible comme scénario macroéconomique. » Il relève que le
+    RN compte « couper 66 milliards de dépenses publiques en six mois en 2027 », ce qui « serait inédit », et que la baisse
+    des taux attendue est « très discutable : vous tirez tous les curseurs à votre avantage ». Sur l''immigration : « Plusieurs
+    études estiment qu''une baisse de l''immigration a un effet neutre sur les finances publiques. »'
+  date: 2026-10-08
+  sources:
+  - franceinfo-2026-10-08-critiques-budget-rn
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Nathalie Janson, économiste (Neoma), citée par franceinfo
+  texte: 'Sur la baisse de la contribution à l''UE : « C''est hasardeux » ; « Ce n''est pas dit que les partenaires européens
+    acceptent cela. » Sur la taxe sur les rachats d''actions, franceinfo rapporte qu''elle juge la prévision irréaliste
+    : « Le RN ne prend pas en compte les impacts de la fiscalité. »'
+  date: 2026-10-08
+  sources:
+  - franceinfo-2026-10-08-critiques-budget-rn
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Roland Lescure, ministre de l'Économie ; Édouard Philippe (Horizons) ; Bruno Retailleau (LR) ; Jean-Luc Mélenchon
+    (LFI)
+  texte: 'Roland Lescure sur la contribution à l''UE : « Il faudra le faire adopter par les 26 partenaires, ce n''est pas
+    acquis. » Édouard Philippe : « un plan d''une désinvolture spectaculaire (...) qui ne tient pas la route ». Bruno Retailleau
+    : « Ça ne tient pas debout. Où sont les économies ? » Jean-Luc Mélenchon l''accuse de vouloir « condamner la France
+    à faire des coupes budgétaires et de la récession pendant 120 ans ».'
+  date: 2026-10-12
+  sources:
+  - franceinfo-2026-10-08-critiques-budget-rn
+  - lcp-2026-10-12-retailleau-plan-economies
+- titre: Où en est le programme
+  nature: fait
+  texte: Au 30 octobre 2026, programme complet non publié ; la réforme des retraites, qui doit porter une partie des économies,
+    est annoncée pour le 17 novembre. Le RN retient une croissance de 1,8 % en 2028, 1,7 % en 2029 et 1,8 % en 2030 ; le
+    Haut Conseil des finances publiques prévoit 1,2 % en 2028 et 2029. L'Institut Montaigne annonce pour le premier trimestre
+    2027 « l'analyse et le chiffrage des programmes des candidats ».
+  date: 2026-10-30
+  sources:
+  - franceinfo-2026-10-14-le-pen-17-novembre
+  - franceinfo-2026-10-08-critiques-budget-rn
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   declarations: >-
     Recherché le 29 octobre 2026 (moteur de recherche, puis lecture des articles, dont certains dans le navigateur intégré) : déclarations du candidat du 1er septembre au 29 octobre 2026 ayant suscité au moins une réaction nommée dans la presse, avec ces réactions. Les positions déjà saisies dans les thèmes ne sont pas répétées. Les réactions anonymes (« entourage ») ne sont pas reprises. Les autres entrées de cette section viennent des passes sur les thèmes. Piste non lue : sa réaction aux propos de Roland Lescure sur les taxes sur les carburants (« dédain insupportable »), polémique visant d'abord le ministre.
@@ -24,8 +93,7 @@ recherches:
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
   vision: >-
-    Pas encore rédigée. Programme complet non publié au 19 octobre 2026 ; présentation détaillée de la réforme des
-    retraites annoncée pour le 17 novembre 2026.
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Le document du contre-budget et le texte du discours d'Orléans n'ont pas été lus ; les chiffres viennent de la presse.
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
@@ -48,7 +116,7 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-29
+derniere_verification: 2026-10-30
 absences:
   transparence-probite:
     statut: non_trouve
