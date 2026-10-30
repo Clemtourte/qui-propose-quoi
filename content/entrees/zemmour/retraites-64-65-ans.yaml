@@ -5,12 +5,17 @@ nature: position
 titre: Âge légal à « 64 voire 65 ans » et capitalisation progressive
 citation:
   texte: On va progressivement mettre de la capitalisation
-  date: 2026-09-30
-  contexte: Sur BFMTV (date non précisée), rapporté par franceinfo le 30 septembre 2026
+  date: 2026-09-17
+  contexte: « Face à BFM », BFMTV
 texte: >-
   Il est favorable à un allongement de la durée du travail (« Oui, il faut travailler plus ») et propose de repousser
   l'âge légal à « 64 voire 65 ans ». Il juge que « le système par répartition est mort et condamné » faute d'enfants
   pour le financer, estime qu'« il fallait faire les fonds de pension en 86 » et reconnaît que le passage à la
   capitalisation « va prendre très longtemps ». Il se dit en désaccord avec Marine Le Pen sur ce sujet.
-date: 2026-09-30
-sources: [franceinfo-2026-09-30-retraites-candidats]
+date: 2026-09-17
+sources: [franceinfo-2026-09-30-retraites-candidats, bfmtv-2026-09-18-zemmour-interview]
+appui:
+  texte: >-
+    « Le système par répartition est mort et condamné, il n'y a pas plus assez d'enfants » pour le financer. Aucune
+    donnée ni étude citée à l'appui dans les sources lues.
+  sources: [bfmtv-2026-09-18-zemmour-interview]

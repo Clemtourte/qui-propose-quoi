@@ -34,11 +34,13 @@ vision:
     » pour l'intelligence artificielle. Pour Reconquête, Sarah Knafo, députée européenne non candidate, propose de ne pas
     remplacer 800 000 postes de la fonction publique (40 milliards par an), de supprimer l'aide publique au développement
     (14 milliards) et de réserver les prestations non contributives aux Français (jusqu'à 20 milliards), sans hausse d'impôt.
-    Le journaliste qui l'interroge attribue à son livre 140 milliards d'économies.
+    Son livre chiffre les économies à 130 milliards d'euros par an (L'Essentiel de l'Éco) ; le journaliste de France 2 parlait
+    de 140.
   date: 2026-09-18
   sources:
   - europe1-2026-09-13-zemmour-rentree
   - franceinfo-2026-09-18-knafo-budget
+  - lessentieldeleco-2026-09-20-knafo
 - titre: Ce qui est contesté
   nature: jugement
   auteur: franceinfo (Vrai ou faux) ; Antoine Bozio, économiste (IPP)
@@ -49,6 +51,15 @@ vision:
   date: 2026-09-08
   sources:
   - franceinfo-2026-09-08-vof-knafo-casse-du-siecle
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: L'Essentiel de l'Éco (Etienne Delattes) ; François Ecalle, économiste
+  texte: 'Sur les 800 000 postes à ne pas remplacer : « Le moyen annoncé ne suffit pas à atteindre la cible. » L''article
+    cite François Ecalle, qui estime qu''une réduction de cette ampleur dégagerait de 30 à 40 milliards d''euros d''économies
+    annuelles à terme, à supposer les suppressions réalisées.'
+  date: '2026-09-20'
+  sources:
+  - lessentieldeleco-2026-09-20-knafo
 - titre: Où en est le programme
   nature: fait
   texte: Au 30 octobre 2026, aucun programme 2027 ni chiffrage trouvés. Sa déclaration de candidature officielle était annoncée
