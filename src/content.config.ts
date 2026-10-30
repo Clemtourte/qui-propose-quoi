@@ -173,6 +173,9 @@ const entrees = defineCollection({
       // For rubrique "promesse": `promesse` is what was promised, `texte` what was actually done.
       promesse: quote.optional(),
       texte: z.string(),
+      // What the proposal rests on, as argued by the candidate: data, study, foreign model, hypothesis or
+      // principle invoked. Says so when nothing is cited. Always a declared position, never our assessment.
+      appui: z.object({ texte: z.string(), sources: sourcesList }).optional(),
       citation: quote.optional(),
       chiffres: z
         .array(z.object({ libelle: z.string(), valeur: z.string(), nature }))

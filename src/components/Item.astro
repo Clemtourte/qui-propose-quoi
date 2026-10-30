@@ -15,6 +15,7 @@ interface Props {
   sources: Array<{ collection: 'sources'; id: string }>;
   citation?: { texte: string; date: string; contexte: string };
   promesse?: { texte: string; date: string; contexte: string };
+  appui?: { texte: string; sources: Array<{ collection: 'sources'; id: string }> };
   chiffres?: Array<{ libelle: string; valeur: string; nature: Nature }>;
   reperes?: Array<{ mesure: string; equivalent: string; calcul: string; sources: Array<{ collection: 'sources'; id: string }> }>;
   // Anchor so the overview table can link to this item.
@@ -36,6 +37,7 @@ const {
   sources,
   citation,
   promesse,
+  appui,
   chiffres = [],
   reperes = [],
   id,
@@ -84,6 +86,15 @@ const {
   {promesse && <p class="promesse-label">Ce qui a été fait</p>}
   <p>{typo(texte)}</p>
   {
+    appui && (
+      <div class="appui">
+        <p class="reperes-titre">Sur quoi repose cette proposition</p>
+        <p>{typo(appui.texte)}</p>
+        <SourceRefs sources={appui.sources} />
+      </div>
+    )
+  }
+  {
     chiffres.length > 0 && (
       <dl class="chiffres">
         {chiffres.map((c) => (
@@ -118,7 +129,8 @@ const {
 </article>
 
 <style>
-  .reperes {
+  .reperes,
+  .appui {
     margin: 0.6rem 0;
     padding: 0.6rem 0.8rem;
     background: var(--empty-bg);
