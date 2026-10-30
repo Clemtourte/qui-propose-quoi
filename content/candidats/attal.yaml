@@ -15,11 +15,67 @@ en_30_secondes:
   sources:
   - franceinfo-2026-10-08-portraits-candidats
   - touteleurope-2026-10-14-candidats
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: 'Son site organise le projet en quatre « chantiers capitaux » (école, travail et salaires, frontières, intelligence
+    artificielle) et deux « dettes à résorber » (dette de l''État, dette écologique). Sur l''école : « L''éducation est
+    la mère des batailles. Elle sera ma priorité absolue. » La page sur la dette donne une liste pour le budget : « Trois
+    priorités claires seront fixées : l''éducation, l''écologie et la défense. » Le 23 septembre 2026, il présente deux
+    dépendances à réduire, à la dette et aux énergies fossiles.'
+  date: 2026-09-23
+  sources:
+  - attalpresident-2026-chantiers-capitaux
+  - attalpresident-2026-dette-etat
+  - attalpresident-2026-09-23-plan-desendettement
+- titre: Financement et arbitrages
+  nature: position
+  texte: 'Objectif : 150 milliards d''euros d''économies, dont les deux tiers sur les dépenses sociales, un déficit sous
+    3 % du PIB avant la fin du mandat, les comptes sociaux à l''équilibre en 2032 et l''ensemble des finances publiques
+    à l''équilibre en 2037. En juillet, il parlait de 120 à 150 milliards sur dix ans (Public Sénat). Il prévoit 100 000
+    postes d''État en moins en préservant l''Éducation nationale, les Armées, la Justice et l''Intérieur. Il écrit : « Toutes
+    les propositions que nous formulerons durant la campagne seront financées. » Son site indique qu''il a réuni sept économistes
+    le 23 septembre, dont Olivier Blanchard et Laurence Boone, « pour faire le point sur la situation économique et géopolitique
+    ».'
+  date: 2026-09-23
+  sources:
+  - attalpresident-2026-09-23-plan-desendettement
+  - attalpresident-2026-dette-etat
+  - publicsenat-2026-07-03-attal-fonctionnaires
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Bruno Retailleau, candidat (LR), conférence de presse du 12 octobre 2026
+  texte: 'Visant Gabriel Attal et Édouard Philippe : « Ceux qui ont allumé la mèche ne peuvent prétendre l''éteindre. »
+    Il juge que les « coresponsables de ce bilan » n''ont pas « la moindre légitimité ».'
+  date: 2026-10-12
+  sources:
+  - publicsenat-2026-10-12-retailleau-economies
+  - lcp-2026-10-12-retailleau-plan-economies
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Public Sénat (Guillaume Jacquot)
+  texte: 'L''article parle d''un « virage à 180 degrés » : ministre des Comptes publics en 2022, Gabriel Attal jugeait «
+    pas crédible » de « supprimer 125 000 postes de fonctionnaires sans préciser ». Il relève que les ministères préservés
+    concentrent plus des deux tiers des effectifs de l''État et que « l''effort pourrait ne concerner que les 800 000 agents
+    des autres ministères et établissements publics ».'
+  date: 2026-07-03
+  sources:
+  - publicsenat-2026-07-03-attal-fonctionnaires
+- titre: Où en est le programme
+  nature: fait
+  texte: Au 30 octobre 2026, son site liste 96 « premières mesures ». Aucun document de chiffrage d'ensemble n'a été trouvé,
+    ni d'analyse d'un économiste nommé sur ce plan. L'Institut Montaigne annonce pour le premier trimestre 2027 « l'analyse
+    et le chiffrage des programmes des candidats ».
+  date: 2026-10-30
+  sources:
+  - attalpresident-2026-chantiers-capitaux
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
-  vision: Pas encore rédigée.
+  vision: >-
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Les 96 mesures listées sur son site n'ont pas été lues une à une.
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
@@ -44,7 +100,7 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-29
+derniere_verification: 2026-10-30
 absences:
   transparence-probite:
     statut: non_trouve
