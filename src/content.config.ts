@@ -45,6 +45,8 @@ const quote = z.object({
 const sourcedItem = z
   .object({
     nature,
+    // Fixed heading of the block (the candidate's "vision" uses the same headings for everyone).
+    titre: z.string().optional(),
     texte: z.string(),
     auteur: z.string().optional(),
     date: fuzzyDate,
