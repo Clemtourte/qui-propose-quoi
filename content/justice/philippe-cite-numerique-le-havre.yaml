@@ -1,11 +1,16 @@
 candidat: philippe
 affaire: Cité numérique du Havre
-role: Visé par l'enquête comme maire du Havre ; aucune mise en examen rapportée.
+role: >-
+  Témoin assisté depuis le 29 octobre 2026, statut moins incriminant qu'une mise en examen et modifiable au cours de
+  l'enquête (AFP) ; aucune mise en examen rapportée.
 faits: >-
-  Soupçons de détournement de fonds publics, favoritisme, prise illégale d'intérêts et concussion au Havre, autour
-  d'une convention signée avec une association présidée par une adjointe au maire, qui a reçu plus d'un million
-  d'euros de subventions en deux ans. Les faits ont été signalés par une ancienne cadre de la communauté urbaine.
-  Il conteste les faits ; son cabinet indique qu'il répondra à « toutes les questions que posera la justice ».
+  Soupçons notamment de détournement de fonds publics et de favoritisme, ainsi que de prise illégale d'intérêts et de
+  concussion selon le PNF (mai 2026), et de harcèlement moral selon l'AFP (octobre 2026), au sein de la communauté
+  urbaine du Havre. La plainte vise une convention signée en juillet 2020 avec l'association LH French Tech, présidée
+  par une adjointe au maire, seule candidate, qui devait toucher 2,154 millions d'euros de compensation de service
+  public (AFP) et a perçu plus d'un million d'euros de subventions en deux ans (France 3). Les faits ont été signalés
+  par une ancienne directrice générale adjointe de la communauté urbaine, qui a obtenu le statut de lanceuse d'alerte
+  en janvier 2025. Il conteste les faits.
 stade: enquete
 definitive: false
 etapes:
@@ -18,6 +23,15 @@ etapes:
   stade: enquete
   juridiction: Parquet national financier
   decision: Annonce de l'ouverture d'une information judiciaire, confiée à un juge d'instruction.
-prochaine_etape: Instruction en cours ; aucune mise en examen rapportée au 20 octobre 2026.
+- date: '2026-10-29'
+  stade: enquete
+  juridiction: Juges d'instruction financiers, Paris
+  decision: >-
+    Entendu toute la journée par deux juges, qui l'avaient convoqué comme témoin assisté, et placé sous ce statut.
+    Son avocat : il « se félicite de cette décision favorable qui confirme qu'il n'y a rien à lui reprocher ». L'avocat
+    de la plaignante : « Nous nous réjouissons que l'instruction suive son cours ».
+prochaine_etape: Instruction en cours ; le statut peut être modifié si des éléments nouveaux apparaissent.
 sources:
 - france3-2026-05-19-philippe-pnf
+- orange-2026-10-29-philippe-temoin-assiste
+- france3-2026-10-30-philippe-temoin-assiste
