@@ -17,13 +17,53 @@ en_30_secondes:
   - conseil-constitutionnel-2022-04-13-premier-tour
   - franceinfo-2025-04-02-zemmour-petain
   - franceinfo-2025-12-02-zemmour-mineurs
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: 'Discours du 13 septembre 2026 : il appelle à un « vote du sursaut et de la résurrection », présente l''intelligence
+    artificielle comme « la troisième grande révolution industrielle de l''histoire de l''Occident » et veut relancer le
+    nucléaire (six EPR d''ici à 2035, quatorze d''ici à 2045). Sur l''immigration : « Il faut la remigration », et « Des
+    robots à la place des immigrés » (BFMTV, 17 septembre).'
+  date: 2026-09-17
+  sources:
+  - europe1-2026-09-13-zemmour-rentree
+  - publicsenat-2026-09-18-zemmour-candidature
+- titre: Financement et arbitrages
+  nature: position
+  texte: Aucun budget présenté par le candidat n'a été trouvé. Il veut mobiliser « l'épargne des Européens et des Français
+    » pour l'intelligence artificielle. Pour Reconquête, Sarah Knafo, députée européenne non candidate, propose de ne pas
+    remplacer 800 000 postes de la fonction publique (40 milliards par an), de supprimer l'aide publique au développement
+    (14 milliards) et de réserver les prestations non contributives aux Français (jusqu'à 20 milliards), sans hausse d'impôt.
+    Le journaliste qui l'interroge attribue à son livre 140 milliards d'économies.
+  date: 2026-09-18
+  sources:
+  - europe1-2026-09-13-zemmour-rentree
+  - franceinfo-2026-09-18-knafo-budget
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: franceinfo (Vrai ou faux) ; Antoine Bozio, économiste (IPP)
+  texte: 'Sur le livre de Sarah Knafo, franceinfo juge que le « casse du siècle » « apparaît surtout comme une construction
+    destinée à soutenir ses convictions politiques ». Antoine Bozio rappelle que les cotisations employeur financent retraite,
+    chômage et assurance maladie : « A priori, il n''y a aucun préjudice, sauf si on pense qu''une autre organisation permettrait
+    de payer moins cher pour les mêmes services ».'
+  date: 2026-09-08
+  sources:
+  - franceinfo-2026-09-08-vof-knafo-casse-du-siecle
+- titre: Où en est le programme
+  nature: fait
+  texte: Au 30 octobre 2026, aucun programme 2027 ni chiffrage trouvés. Sa déclaration de candidature officielle était annoncée
+    pour l'automne, « probablement en octobre » (Public Sénat, 18 septembre). L'Institut Montaigne annonce pour le premier
+    trimestre 2027 « l'analyse et le chiffrage des programmes des candidats ».
+  date: 2026-10-30
+  sources:
+  - publicsenat-2026-09-18-zemmour-candidature
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
   vision: >-
-    Pas encore rédigée. Aucun programme chiffré d'Éric Zemmour trouvé au 20 octobre 2026 ; les positions
-    économiques citées sont celles de Sarah Knafo (Reconquête).
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Aucun programme 2027 d'Éric Zemmour trouvé. Son programme de 2022 n'est pas repris ici ; les positions budgétaires citées sont celles de Sarah Knafo.
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
@@ -53,7 +93,7 @@ recherches:
   soutiens: >-
     Recherché le 20 octobre 2026 sur les retraites, la fiscalité et le budget, l'immigration (adversaires politiques
     nommés, économistes, syndicats et organisations) : aucune réaction attribuée trouvée.
-derniere_verification: 2026-10-29
+derniere_verification: 2026-10-30
 absences:
   ukraine-russie:
     statut: programme_attendu
