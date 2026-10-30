@@ -18,3 +18,8 @@ chiffres:
     nature: position
 date: 2026-10-12
 sources: [lcp-2026-09-16-retraites-candidats, franceinfo-2026-10-12-retraites-candidats, franceinfo-2026-08-27-debat-medef]
+appui:
+  texte: >-
+    Il présente l'âge légal comme un totem devenu inutile (LCP) et juge la capitalisation « bonne pour le système,
+    et bonne pour les pensions ». Aucune donnée ni étude citée à l'appui dans les sources lues.
+  sources: [lcp-2026-09-16-retraites-candidats]

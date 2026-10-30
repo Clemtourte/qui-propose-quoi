@@ -61,6 +61,14 @@ vision:
   date: 2026-07-03
   sources:
   - publicsenat-2026-07-03-attal-fonctionnaires
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Édouard Philippe, candidat (Horizons), vidéo du 29 septembre 2026
+  texte: 'Sur la suppression de l''âge légal, sans nommer Gabriel Attal : un système « financièrement intenable » et « socialement
+    incroyablement injuste ».'
+  date: '2026-09-29'
+  sources:
+  - lcp-2026-09-29-philippe-retraites
 - titre: Où en est le programme
   nature: fait
   texte: Au 30 octobre 2026, son site liste 96 « premières mesures ». Aucun document de chiffrage d'ensemble n'a été trouvé,
