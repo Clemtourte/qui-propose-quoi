@@ -31,3 +31,10 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-10-14
 sources: [franceinfo-2026-10-14-le-pen-17-novembre, franceinfo-2026-08-27-debat-medef, europe1-2026-10-06-contre-budget-rn, publicsenat-2026-10-06-contre-budget-rn]
+appui:
+  texte: >-
+    Elle dit que sa réforme est « fondée sur le fait d'obtenir une augmentation du taux d'activité », en particulier
+    chez les jeunes : selon elle, l'âge moyen d'accès à un emploi stable est de 27 ans en France contre 24 en
+    Allemagne. Les économies viendraient de « corrections de mesures injustes ou inefficaces », non détaillées. Elle
+    annonce une présentation « chiffrée » le 17 novembre.
+  sources: [franceinfo-2026-10-14-le-pen-17-novembre]
