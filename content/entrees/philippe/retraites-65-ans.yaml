@@ -13,5 +13,16 @@ texte: >-
   capitalisation collective généralisée aux salariés et plan d'épargne retraite ouvert à chaque Français, avec un
   premier versement de l'État de 500 euros dès le premier emploi, sans hausse des cotisations ni baisse générale
   des pensions.
+chiffres:
+  - libelle: Gain annoncé en année pleine, selon le candidat
+    valeur: environ 30 Md€
+    nature: position
 date: 2026-09-29
-sources: [franceinfo-2026-09-30-philippe-65-ans, lcp-2026-09-29-philippe-retraites, edouardphilippe-2026-france-plus-prospere]
+sources: [franceinfo-2026-09-30-philippe-65-ans, lcp-2026-09-29-philippe-retraites, edouardphilippe-2026-france-plus-prospere, franceinfo-2026-09-30-retraites-candidats]
+appui:
+  texte: >-
+    Il rappelle que « 65 ans, c'était l'âge de départ à la retraite en 1983 » et que « nous vivons aujourd'hui en
+    moyenne huit ans de plus ». Il veut « retrouver l'équilibre de notre système par répartition » et estime le gain
+    à environ 30 milliards d'euros en année pleine (franceinfo). Le calcul n'est pas détaillé dans les articles lus
+    ; sa vidéo de vingt minutes n'a pas été visionnée.
+  sources: [lcp-2026-09-29-philippe-retraites, franceinfo-2026-09-30-retraites-candidats]
