@@ -14,13 +14,57 @@ en_30_secondes:
     situe au centre droit. Il se présente pour la première fois à l'élection présidentielle.
   sources:
   - franceinfo-2026-10-08-portraits-candidats
+vision:
+- titre: Priorités annoncées
+  nature: position
+  texte: 'Son site organise le projet en quatre priorités : une France « plus prospère », « plus sûre », « plus attentive
+    à ses enfants » et « plus conquérante ». Sur la méthode, il prévoit une vingtaine d''ordonnances lors d''une session
+    extraordinaire en juillet 2027. Il prévoit aussi un référendum sur la règle d''or et n''exclut pas un référendum sur
+    l''immigration s''il faut modifier la Constitution.'
+  date: 2026-10-08
+  sources:
+  - edouardphilippe-2026-france-plus-prospere
+  - edouardphilippe-2026-france-plus-sure
+  - edouardphilippe-2026-france-attentive-enfants
+  - edouardphilippe-2026-france-plus-conquerante
+  - franceinfo-2026-10-08-philippe-heure-verite
+- titre: Financement et arbitrages
+  nature: position
+  texte: Déficit ramené de plus de 5 % à 2 % du PIB à la fin du quinquennat, avec « 50 % de l'effort sur les dépenses sociales
+    et un quart sur l'État et les collectivités et un quart grâce à la croissance » ; le montant total n'est pas indiqué.
+    Fonction publique : « Supprimer un tiers des fonctionnaires partant à la retraite, soit plus de 250 000 postes ». Retraites à 65 ans et
+    45 annuités « sans hausse des cotisations ni baisse générale des pensions ». Dépenses de santé stabilisées. 50 milliards
+    de baisse d'impôts de production contre 50 milliards d'« aides publiques improductives » en moins, et aucun nouvel impôt.
+  date: 2026-10-08
+  sources:
+  - edouardphilippe-2026-france-plus-prospere
+- titre: Ce qui est contesté
+  nature: jugement
+  auteur: Bruno Retailleau, candidat (LR) ; Sophie Binet, secrétaire générale de la CGT
+  texte: 'Bruno Retailleau, visant Édouard Philippe et Gabriel Attal : « Ceux qui ont allumé la mèche ne peuvent prétendre
+    l''éteindre. » Sophie Binet, sur la retraite à 65 ans : « Il faut arrêter de se moquer du monde. »'
+  date: 2026-10-12
+  sources:
+  - publicsenat-2026-10-12-retailleau-economies
+  - franceinfo-2026-09-30-philippe-65-ans
+- titre: Où en est le programme
+  nature: fait
+  texte: Au 30 octobre 2026, aucun document de chiffrage d'ensemble trouvé, ni d'analyse d'un économiste nommé sur ce plan.
+    Les articles lus n'indiquent ni le coût ni le financement de l'allocation familiale unique de 350 euros et de la réduction
+    d'impôt d'environ 3 000 euros annoncées le 8 octobre. L'Institut Montaigne annonce pour le premier trimestre 2027 «
+    l'analyse et le chiffrage des programmes des candidats ».
+  date: 2026-10-30
+  sources:
+  - edouardphilippe-2026-france-plus-prospere
+  - franceinfo-2026-10-08-philippe-allocation-familiale
+  - publicsenat-2026-10-09-politique-familiale
+  - institutmontaigne-2026-10-06-reperes
 recherches:
   en_30_secondes: >-
     Parcours recherché le 20 octobre 2026. Propositions principales : programme complet pas encore publié ou
     pas encore traité ; la fiche reprend ses positions sur les thèmes déjà couverts.
   vision: >-
-    Pas encore rédigée. Priorités publiées sur son site de campagne (consulté le 19 octobre 2026), sans document de
-    chiffrage d'ensemble trouvé.
+    Recherché le 30 octobre 2026 (site de campagne quand il existe, articles lus en entier) : priorités annoncées, financement d'ensemble et arbitrages, critiques nommées portant sur la cohérence ou le financement du projet. Même grille pour les huit candidats. Le détail et les sources de chaque mesure sont dans les thèmes. Les trois autres pages de priorités de son site ont été lues lors des passes sur les thèmes (octobre 2026).
   avis: >-
     Recherché le 19 octobre 2026 pour les retraites, la fiscalité et le budget, l'immigration : aucun avis
     d'institution sur son projet 2027 trouvé. Autres thèmes pas encore recherchés.
