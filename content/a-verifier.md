@@ -332,6 +332,19 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Retraites, Le Pen** : Public Sénat (6 octobre) et franceinfo (14 octobre) donnent « corrections de mesures injustes » et « injustes ou inefficaces » ; la formule la plus longue est retenue.
 - **L'Essentiel de l'Éco** : lu par extraits, sur Sarah Knafo. Le résumé trouvé par recherche mentionnant cinq éléments d'expertise manquants n'a pas été relu dans l'article, donc pas repris.
 
+## Fondements de la fiscalité et du budget, 1er novembre 2026
+
+- **Documents de plan non trouvés** : contre-budget du RN et son annexe, budget rectificatif de LFI, plan de Bruno Retailleau. Les blocs reposent sur la presse et l'AFP, et le plan chiffré de Sarah Knafo (son livre) n'a pas été lu. Note de l'Institut de l'Entreprise non relue le 1er novembre : URL à confirmer si elle sert à nouveau.
+- **Mélenchon** : bloc provisoire, à reprendre après le 6-7 novembre. Seule l'entrée sur les patrimoines a un bloc ; le budget rectificatif et la dette auprès de la BCE n'en ont pas (cette dernière a déjà une vérification de franceinfo).
+- **Mesure qui diffère** : IPP sur des données de 2016, et sur le haut de la distribution, pas sur « les 1 % » cités par Marine Tondelier ; HCFP sur 2027, pas sur 2028-2030 du RN ; Sénat sur les agences (environ 500 M€, relayé par Public Sénat, rapport non lu) face aux 3,4 Md€ du RN et aux 7,5 Md€ de Bruno Retailleau, dont les périmètres ne sont pas forcément identiques.
+- **Définition de « Donnée officielle »** : IPP et notes du CAE (sous la responsabilité de leurs auteurs) ne sont pas des statistiques publiques au sens strict. Décision à confirmer : les garder sous cette mention, en nommant l'auteur, ou créer une mention « Étude ». Eurostat sur les droits de succession et le Sénat sur les aides sont lus via la presse.
+- **Aucune donnée trouvée** : part de la dette attribuée au modèle social (Attal) ; prestations non contributives réservées aux Français, jusqu'à 20 Md€ (Sarah Knafo) ; « plus-values latentes » à 10 Md€ (Glucksmann) ; 29 Md€ sur l'immigration (RN, voir aussi le thème immigration).
+- **Piste non publiée** : le coût par poste supprimé varie selon les candidats (calcul sur leurs chiffres : Sarah Knafo 50 000 €, Bruno Retailleau 62 500 €, Gabriel Attal 70 000 €). À publier en repère seulement avec une donnée officielle de coût moyen, et les périodes ne sont pas comparables telles quelles.
+- **Camps** : positions tirées des entrées existantes. Le RN a proposé en octobre 2025 une baisse d'impôts de production de 16,2 Md€ (Public Sénat), pas relevée pour le contre-budget de 2026 : classé « pas de position relevée » en attendant la lecture de son annexe.
+- **Lectures partielles** : OFCE (document de travail : résumé et passages sur les montants), Geerolf (résumé ; affiliation non vérifiée dans le texte, il est présenté comme « économiste »), IPP (résumé), CAE (résumé et passages cités), iFRAP (synthèse de l'étude). Le Focus n° 147 du CAE reste introuvable sur le site lu.
+- **Recherche par camp à élargir** : les trois questions n'ont pas de lecture d'un think tank de gauche (Institut Rousseau, Terra Nova, Fondation Jean-Jaurès). À ajouter pour varier les bords.
+- **Revérification indépendante non faite** (pas de sous-agent, conformément à la méthode).
+
 ## Fondements des retraites, 1er novembre 2026
 
 - **Règle « Donnée officielle »** : uniquement sur un point vérifiable que le candidat invoque, avec chiffre, date et périmètre, sans verdict. Attal : aucun point chiffré invoqué, donc aucune donnée en regard. Le choix de la donnée peut orienter la lecture : à relire candidat par candidat en appliquant la même règle.
