@@ -1,7 +1,7 @@
 titre: "Sécurité et justice"
 ordre: 4
 accroche: "Police, peines, prisons, moyens de la justice."
-derniere_verification: 2026-10-21
+derniere_verification: 2026-11-01
 questions:
   - id: maintien-ordre
     libelle: Maintien de l'ordre
@@ -67,6 +67,99 @@ etat_des_lieux:
       judiciaire, pour résorber la surpopulation des maisons d'arrêt dans un délai fixé par la loi.
     date: 2026-07-02
     sources: [cglpl-2026-07-02-avis-surpopulation]
+raisonnements:
+  - question: Juger les mineurs comme des majeurs, que disent les chiffres et le droit ?
+    lectures:
+      - auteur: Inspection générale de la justice, mission d'appui, juillet 2025
+        date: 2025-07
+        texte: >-
+          Le constat d'une baisse du nombre de mineurs mis en cause « fait consensus », à analyser avec prudence. La hausse dans
+          les infractions violentes « paraît fondée », tandis que le rajeunissement « ne peut être véritablement objectivé ».
+          La mission a écarté de son analyse l'abaissement de la majorité pénale à 16 ans.
+        sources: [justice-2025-07-mission-delinquance-mineurs]
+      - auteur: Conseil constitutionnel, décision du 19 juin 2025
+        date: 2025-06-19
+        texte: >-
+          Il censure la comparution immédiate des mineurs d'au moins 16 ans et la règle qui écartait par principe l'atténuation
+          des peines des récidivistes de plus de 16 ans, au nom du principe d'atténuation de la responsabilité pénale selon l'âge.
+        sources: [conseil-constitutionnel-2025-06-19-2025-886-dc]
+    camps:
+      - libelle: Abaisser la majorité pénale à 16 ans, référendum envisagé
+        candidats: [le-pen]
+      - libelle: L'abaisser à 15 ans pour les faits les plus graves
+        candidats: [retailleau]
+      - libelle: Lever l'excuse de minorité pour le narcotrafic
+        candidats: [philippe]
+      - libelle: Auteur de la loi de 2025, en partie censurée
+        candidats: [attal]
+      - libelle: Pas de position relevée sur ce point dans nos entrées
+        candidats: [glucksmann, melenchon, tondelier, zemmour]
+  - question: Peine plus lourde, plus courte ou autre chose, qu'est-ce qui limite la récidive ?
+    lectures:
+      - auteur: Aurélie Ouss et Arnaud Philippe, Institut des politiques publiques, mars 2024
+        date: 2024-03
+        texte: >-
+          La loi de 2007 « a eu un effet très important sur l'incarcération en France, mais un effet dissuasif de faible ampleur ».
+          L'adaptation constatée est « spécifique au nouveau dispositif » et ne génère pas « une baisse globale » de la délinquance.
+        sources: [ipp-2024-03-peines-planchers]
+      - auteur: Brigitte Barèges, rapporteure UDR de la proposition de loi sur les peines planchers, 17 juin 2025
+        date: 2025-06-17
+        texte: >-
+          À partir de la même note, elle retient une hausse nette des peines et juge que les effets « apparaissent positifs pour
+          les personnes qui ont véritablement été ciblées ». Elle veut des peines « véritablement dissuasives ».
+        sources: [an-2025-06-17-rapport-1586-peines-planchers]
+      - auteur: Garde des Sceaux, réponse à une question écrite, 25 décembre 2012
+        date: 2012-12-25
+        texte: >-
+          Selon cette réponse, l'impact des peines planchers « a été en effet quasi nul sur le niveau des délits graves et des
+          crimes », alors qu'elles accroissent « les courtes peines de prison dont on sait qu'elles sont génératrices de
+          récidive ». Position d'un gouvernement qui préparait leur abrogation.
+        sources: [an-qe-14-1961-peines-planchers]
+      - auteur: Contrôleur général des lieux de privation de liberté, avis publié le 2 juillet 2026
+        date: 2026-07-02
+        texte: >-
+          Il constate « qu'aucune mesure d'envergure nationale n'a été prise » contre la surpopulation et recommande « un mécanisme
+          contraignant de régulation carcérale ».
+        sources: [cglpl-2026-07-02-avis-surpopulation]
+    camps:
+      - libelle: Peines minimales ou planchers
+        candidats: [le-pen, zemmour]
+      - libelle: Peines planchers pour les faits les plus graves et courtes peines dès la première infraction
+        candidats: [philippe]
+      - libelle: Numerus clausus et moratoire sur les nouvelles places
+        candidats: [tondelier]
+      - libelle: Pas de position relevée sur ce point dans nos entrées
+        candidats: [attal, glucksmann, melenchon, retailleau]
+  - question: Maintien de l'ordre et usage de la force, quel cadre ?
+    lectures:
+      - auteur: Défenseur des droits, fiche de novembre 2023 et avis du 26 juin 2026
+        date: 2026-06-26
+        texte: >-
+          L'institution recommande d'interdire le LBD 40x46 dans le maintien de l'ordre. Sur la présomption de légitime défense,
+          Claire Hédon estime qu'elle « viendrait inutilement complexifier le régime actuel ». Son avis ne porte pas sur la version
+          adoptée le 7 juillet 2026.
+        sources: [ddd-2023-11-fiche-maintien-ordre, defenseurdesdroits-2026-06-26-avis-26-05]
+      - auteur: Laurent Nuñez, ministre de l'Intérieur, 7 juillet 2026
+        date: 2026-07-07
+        texte: >-
+          « Ce texte n'organise aucune irresponsabilité pénale des policiers et des gendarmes » ; « n'importe quel procureur pourra
+          renverser cette présomption ». Les partisans du texte invoquent le besoin de ne pas être « automatiquement » suspectés.
+        sources: [lcp-2026-07-07-presomption-usage-arme]
+      - auteur: Conseil national des barreaux, octobre 2026
+        date: 2026-10-13
+        texte: >-
+          Il rappelle son opposition au texte, qui selon lui « fragiliserait les garanties attachées à l'État de droit », et note
+          que l'article L. 435-1 instaure déjà depuis 2017 un régime spécifique d'usage des armes.
+        sources: [cnb-2026-10-13-presomption]
+    camps:
+      - libelle: Assumer l'usage de la force, présomption en faveur des forces de l'ordre
+        candidats: [attal, le-pen, retailleau]
+      - libelle: Désescalade, fin des LBD et de la Brav-M
+        candidats: [melenchon, tondelier]
+      - libelle: Réponse « extrêmement ferme », doctrine non détaillée
+        candidats: [glucksmann]
+      - libelle: Pas de position relevée sur ce point dans nos entrées
+        candidats: [philippe, zemmour]
 recherches:
   avis: >-
     Recherché le 21 octobre 2026 : un avis de la Défenseure des droits sur la présomption de légitime défense des

@@ -13,3 +13,20 @@ texte: >-
   sanction pénale donné aux maires pour réprimer les petites infractions.
 date: 2026
 sources: [edouardphilippe-2026-france-plus-sure]
+appui:
+  faits: >-
+    Son programme invoque les « pays du Nord qui condamnent dès la première infraction », sans les nommer ni citer de
+    résultat.
+  raisonnement: >-
+    Une peine « courte et dissuasive plutôt que d'enfermer trop tard et trop longtemps ». Selon Le JDD, il veut aussi des
+    peines planchers en cas de récidive contre les dépositaires de l'autorité.
+  sources: [edouardphilippe-2026-france-plus-sure, lejdd-2026-10-29-philippe-immigration-emeutes]
+  donnees:
+    - texte: >-
+        Institut des politiques publiques (mars 2024), sur la loi de 2007 : peines fermes 50 % plus élevées pour les récidivistes
+        légaux, pas d'effet dissuasif à court terme, puis une probabilité de récidive 10 % plus faible, pour les seules
+        infractions visées. Son projet vise un autre périmètre. Aucune donnée n'a été lue sur les pays du Nord.
+      sources: [ipp-2024-03-peines-planchers]
+    - texte: >-
+        Ministère de la Justice : une journée de détention coûtait en moyenne 129,33 € en 2024, 118,16 € en maison d'arrêt.
+      sources: [an-qe-13927-detenus-etrangers]

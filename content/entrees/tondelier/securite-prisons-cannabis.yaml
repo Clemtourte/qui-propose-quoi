@@ -11,3 +11,19 @@ texte: >-
   des structures à but non lucratif.
 date: 2026-07
 sources: [lesecologistes-2026-07-programme]
+appui:
+  faits: >-
+    Le programme affirme, sans chiffre : « Plus on construit, plus on enferme, sans jamais mieux enfermer. »
+  raisonnement: >-
+    « La prison doit rester l'exception, pas devenir la règle. » La construction de places « coûte cher, échoue à réduire la
+    violence et mine nos libertés ».
+  sources: [lesecologistes-2026-07-programme]
+  donnees:
+    - texte: >-
+        Ministère de la Justice, chiffres rapportés par l'AFP (1er septembre 2026) : 90 020 détenus pour 63 348 places, soit une
+        densité de 142,1 %. Le Contrôleur général recommande un mécanisme contraignant de régulation (juillet 2026).
+      sources: [sudradio-2026-10-03-detenus-record, cglpl-2026-07-02-avis-surpopulation]
+    - texte: >-
+        Conseil d'analyse économique (juin 2019), sur le cannabis : 2 à 2,8 Md€ de recettes fiscales et 27 000 à 80 000 emplois
+        estimés en cas de légalisation encadrée, chiffres que la note présente comme difficiles à déterminer précisément.
+      sources: [cae-2019-06-20-cannabis]

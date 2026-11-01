@@ -10,3 +10,14 @@ texte: >-
   policiers ». Il réitère son appel à Emmanuel Macron à déclarer « l'état d'urgence ».
 date: 2026-10-19
 sources: [boursorama-2026-10-19-retailleau-violences, rmc-2026-10-20-bardella-majorite-penale]
+appui:
+  faits: >-
+    Aucun chiffre n'est cité dans les propos lus. Il vise « les crimes et délits les plus graves », après les exactions des
+    17 et 18 octobre.
+  sources: [boursorama-2026-10-19-retailleau-violences]
+  donnees:
+    - texte: >-
+        Cour des comptes (2025), citée par l'Inspection générale de la justice : 146 mineurs de 15 à 17 ans condamnés pour crimes
+        en 2012, 57 en 2023. La protection judiciaire de la jeunesse signale toutefois une hausse récente des incarcérations
+        pour des faits d'une extrême violence. L'Inspection juge l'évolution difficile à apprécier.
+      sources: [justice-2025-07-mission-delinquance-mineurs]

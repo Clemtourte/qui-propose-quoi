@@ -10,3 +10,18 @@ texte: >-
   constitutionnel, il envisage un référendum par l'article 11 de la Constitution.
 date: 2026-10-20
 sources: [rmc-2026-10-20-bardella-majorite-penale]
+appui:
+  faits: >-
+    RMC rapporte que le RN veut adapter la réponse pénale à « la réalité de la délinquance actuelle ». Elle cite des données
+    du ministère de la Justice sur les 2 331 gardes à vue du 17 octobre : 70 % de majeurs, 30 % de mineurs.
+  raisonnement: >-
+    Le livret « Sécurité » de 2022 voit dans la rapidité de la sanction « un élément essentiel » pour « limiter la
+    récidive » et reproche à la réforme de 2021 de ne pas abaisser « la majorité pénale, par exemple à seize ans ». Référence
+    ancienne, citée en 2026 par LCP comme livret du programme.
+  sources: [rmc-2026-10-20-bardella-majorite-penale, rn-2022-livret-securite, lcp-2026-10-19-maintien-ordre-propositions]
+  donnees:
+    - texte: >-
+        Inspection générale de la justice (juillet 2025) : 165 638 mineurs mis en cause en 2016, 131 572 en 2024 (−20 %), une
+        baisse à relativiser selon elle. La hausse dans les infractions violentes « paraît fondée » ; les chiffres de
+        l'Intérieur et de la Justice ne sont pas « corrélés ».
+      sources: [justice-2025-07-mission-delinquance-mineurs]

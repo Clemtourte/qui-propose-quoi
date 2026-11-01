@@ -9,3 +9,15 @@ texte: >-
   en 2014. Il lie ces violences à l'immigration et défend la « remigration ».
 date: 2026-10-18
 sources: [lejdd-2026-10-19-zemmour-remigration]
+appui:
+  faits: >-
+    Il invoque les violences du 17 octobre et ne cite pas de chiffre sur la récidive dans les propos rapportés.
+  raisonnement: >-
+    Il défend le retour de deux dispositifs supprimés et lie ces violences à l'immigration.
+  sources: [lejdd-2026-10-19-zemmour-remigration]
+  donnees:
+    - texte: >-
+        Institut des politiques publiques (mars 2024), sur les peines planchers de 2007 : pas d'effet dissuasif à court terme,
+        puis une probabilité de récidive 10 % plus faible pour les seules infractions visées, environ 4 000 détenus de plus et
+        un coût d'environ 146 M€ par an, en estimation basse.
+      sources: [ipp-2024-03-peines-planchers]

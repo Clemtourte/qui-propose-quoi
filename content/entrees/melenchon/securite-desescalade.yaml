@@ -11,3 +11,18 @@ texte: >-
   rétablir la police de proximité ; celui de 2027 doit paraître début novembre 2026.
 date: 2026-10-19
 sources: [lfi-2025-08-15-desintox-maintien-ordre, lcp-2026-10-19-maintien-ordre-propositions]
+appui:
+  faits: >-
+    La France insoumise écrit que la répression des gilets jaunes a causé « plus de 300 blessures à la tête, 25 éborgnements
+    à la suite d'un tir de LBD et 5 membres arrachés », et cite l'Allemagne, où la police affiche des panneaux lumineux pour
+    expliquer ses actes à la foule. Bloc provisoire : le livret de 2027 est attendu en novembre 2026.
+  raisonnement: >-
+    « La désescalade s'obtient aussi en amont avec l'instauration d'un dialogue entre les organisateurs d'une manifestation
+    et la préfecture. »
+  sources: [lfi-2025-08-15-desintox-maintien-ordre]
+  donnees:
+    - texte: >-
+        Défenseur des droits (fiche de novembre 2023) : il recommande d'interdire le LBD 40x46 dans les opérations de maintien
+        de l'ordre et relève que le schéma de 2021 n'est pas revenu sur cet usage. Aucun décompte officiel des blessures n'a
+        été lu.
+      sources: [ddd-2023-11-fiche-maintien-ordre]
