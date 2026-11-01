@@ -1,0 +1,56 @@
+candidat: attal
+theme: education
+rubrique: mesure
+nature: position
+titre: Certificat d'études, redoublement, groupes de niveau et barème national des sanctions
+citation:
+  texte: >-
+    Laisser des élèves glisser de classe en classe alors qu'ils n'ont pas le niveau pour passer dans la classe supérieure, c'est le pire service qu'on
+    peut leur rendre.
+  date: '2026-09-09'
+  contexte: Sur franceinfo, propos repris par son site de campagne
+texte: >-
+  Son site prévoit un certificat d'études « en fin de CM2 » ; l'élève qui échoue suit une « année passerelle » avant le collège. Le redoublement doit
+  « redevenir une décision pédagogique ordinaire ». Le brevet deviendrait obligatoire pour entrer en seconde : sans lui, l'élève ne redouble pas sa 3e
+  mais rejoint une « prépa Lycée » en petits effectifs. Il veut rétablir « dès 2027 » les groupes de niveau en français et en mathématiques au collège,
+  et généraliser la méthode de Singapour en mathématiques. Sur l'autorité : un conseil de discipline dès le primaire et un barème national des sanctions,
+  pour que « la même faute » entraîne « la même sanction ». Les absences courtes des enseignants seraient remplacées sur place par l'équipe de
+  l'établissement. Il veut aussi fermer « les 100 collèges qui constituent les pires ghettos scolaires » en répartissant les élèves dans d'autres
+  établissements (entretien au Monde, rapporté par LCP).
+questions: [college, autorite]
+date: '2026-09-09'
+sources:
+- attalpresident-2026-09-09-certificat-etudes
+- attalpresident-2026-09-09-annee-passerelle
+- attalpresident-2026-05-23-redoublement
+- attalpresident-2026-08-25-brevet
+- attalpresident-2026-09-09-groupes-niveau
+- attalpresident-2026-05-23-methode-singapour
+- attalpresident-2026-06-01-conseil-discipline
+- attalpresident-2026-06-01-bareme-sanctions
+- attalpresident-2026-09-01-remplacement
+- lcp-2026-08-25-attal-ecole
+appui:
+  faits: >-
+    Son site invoque un recul de la France du 7e au 20e rang des pays occidentaux en mathématiques en vingt-cinq ans, sans en donner la source, et un brevet
+    « obtenu par près de neuf élèves sur dix », qu'il qualifie de « mensonge collectif ». Il cite PISA 2022 (474 points en mathématiques) et TIMSS 2023
+    (484 points en CM1, contre 524 en moyenne dans l'Union européenne).
+  raisonnement: >-
+    Un élève qui passe sans les bases « accumule un retard qui ne se rattrape pas par la suite ». L'année passerelle sépare le constat de la punition :
+    « Le constat sans la sanction et le temps de rattrapage plutôt que l'exclusion. » Sur les groupes de niveau, ses successeurs « les ont abandonnés avant
+    même qu'ils ne puissent produire leurs effets » ; une vérification de franceinfo sur ce point figure plus bas sur cette page.
+  sources:
+  - attalpresident-2026-08-25-brevet
+  - attalpresident-2026-05-23-methode-singapour
+  - attalpresident-2026-09-09-annee-passerelle
+  - attalpresident-2026-05-23-redoublement
+  - attalpresident-2026-09-09-groupes-niveau
+  donnees:
+  - texte: >-
+      DEPP (juillet 2026, résultats provisoires) : 81,6 % de réussite au brevet en juin 2026, soit 3,9 points de moins qu'en 2025, session où le taux était
+      donc de 85,5 %. Les modalités ont changé en 2026 : 60 % d'épreuves terminales, contre 50 % auparavant.
+    sources: [depp-2026-07-ni-26-34-brevet]
+  - texte: >-
+      DEPP (évaluations de début de 6e, 2025) : 28,0 % des élèves sont dans les groupes les moins performants en français, 32,5 % en mathématiques. PISA 2025 :
+      458 points en mathématiques. Aucune donnée officielle n'a été lue sur le classement du 7e au 20e rang.
+    sources: [depp-2025-evaluations-sixieme, men-2026-09-pisa-2025]

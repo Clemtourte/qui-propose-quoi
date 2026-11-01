@@ -2,7 +2,7 @@ candidat: attal
 theme: education
 rubrique: mesure
 nature: position
-titre: Certificat d'études à l'entrée en 6e, moins de 20 élèves par classe en primaire
+titre: Loi de programmation, moins de 20 élèves par classe en primaire et 200 à 500 € de plus pour les enseignants
 citation:
   texte: Je veux mettre fin au doute français sur l'école de la République
   date: '2026-08-25'
@@ -10,12 +10,9 @@ citation:
 texte: >-
   Il veut « dès 2027 » une « loi de programmation pour l'école », pilotée par « un ministre de l'Education nationale qui
   restera en poste cinq ans ». En primaire, il veut « atteindre moins de 20 élèves par classe grâce à la baisse
-  démographique ». Il propose de rétablir le certificat d'études « à l'entrée en 6e pour garantir que les élèves ont le
-  bagage nécessaire », avec une « année passerelle » pour ceux qui n'ont pas le niveau, de rendre le brevet obligatoire
-  pour passer en seconde et une « généralisation des groupes de niveau en français et en mathématiques ». Il veut fermer
-  « les 100 collèges qui constituent les pires ghettos scolaires » en répartissant les élèves dans d'autres
-  établissements, et « que le traitement des enseignants soit revalorisé de 200 euros net par mois, jusqu'à 500 euros net
-  pour les milieux de carrière ». Son équipe évalue ce coût à 2,5 milliards d'euros (Public Sénat).
+  démographique » et « que le traitement des enseignants soit revalorisé de 200 euros net par mois, jusqu'à 500 euros net
+  pour les milieux de carrière ». Son équipe évalue ce coût à 2,5 milliards d'euros (Public Sénat). Il se fixe comme
+  objectif de « reprendre en dix ans l'une des premières places du classement PISA » (site de campagne).
 chiffres:
 - libelle: Hausse du traitement des enseignants
   valeur: 200 à 500 € net par mois
@@ -23,7 +20,7 @@ chiffres:
 - libelle: Coût de la hausse, selon son équipe
   valeur: 2,5 Md€
   nature: position
-questions: [salaires]
+questions: [salaires, classes]
 reperes:
 - question: salaires
   mesure: >-
@@ -40,3 +37,6 @@ sources:
 - franceinfo-2026-08-25-attal-ecole
 - lcp-2026-08-25-attal-ecole
 - publicsenat-2026-08-31-candidats-ecole
+- attalpresident-2026-chantier-ecole
+- attalpresident-2026-09-01-salaires-professeurs
+- attalpresident-2026-09-09-ministre-cinq-ans

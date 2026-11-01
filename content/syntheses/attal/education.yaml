@@ -7,10 +7,16 @@ reponses:
   salaires: +200 € net par mois, jusqu'à +500 € en milieu de carrière (2,5 Md€ selon son équipe)
   classes: Moins de 20 élèves par classe en primaire, grâce à la baisse démographique
   college: >-
-    Certificat d'études à l'entrée en 6e (année passerelle sinon), brevet obligatoire pour entrer en 2de, groupes de
-    niveau généralisés en français et en mathématiques
-date: '2026-08-25'
+    Certificat d'études en fin de CM2 (année passerelle sinon), redoublement rétabli, brevet obligatoire pour entrer en
+    2de, groupes de niveau en français et en mathématiques
+  autorite: >-
+    Conseil de discipline dès le primaire, barème national des sanctions ; absences courtes remplacées sur place par
+    l'établissement
+date: '2026-09-09'
 sources:
 - franceinfo-2026-08-25-attal-ecole
 - lcp-2026-08-25-attal-ecole
 - publicsenat-2026-08-31-candidats-ecole
+- attalpresident-2026-09-09-certificat-etudes
+- attalpresident-2026-05-23-redoublement
+- attalpresident-2026-06-01-bareme-sanctions
