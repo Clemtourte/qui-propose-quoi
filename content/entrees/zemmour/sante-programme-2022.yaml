@@ -16,3 +16,12 @@ date: '2022-03-25'
 sources:
 - lcp-2022-03-25-candidats-sante
 - egora-2022-04-08-programmes-sante-douze-candidats
+appui:
+  faits: >-
+    Programme de 2022 : 1 000 médecins salariés par l'État sur cinq ans, sans calcul dans les passages lus. Référence ancienne : aucun fondement n'a été
+    trouvé pour 2027.
+  sources: [lcp-2022-03-25-candidats-sante, egora-2022-04-08-programmes-sante-douze-candidats]
+  donnees:
+    - texte: >-
+        Sénat (mai 2026) : 6,4 millions d'assurés sans médecin traitant en 2025 ; la densité de généralistes baisse de 18 % entre 2000 et 2021.
+      sources: [senat-2026-05-lutter-contre-deserts-medicaux]

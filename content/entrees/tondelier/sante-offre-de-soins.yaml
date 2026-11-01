@@ -16,3 +16,14 @@ questions:
 date: 2026-07
 sources:
 - lesecologistes-2026-07-programme
+appui:
+  faits: >-
+    Le programme affirme : « Six millions de français·ses n'ont pas de médecins traitants. » Il ne chiffre pas ses 2 000 centres de santé à cet endroit.
+  raisonnement: >-
+    Augmenter l'offre publique de soins et rééquilibrer les formations vers les régions les moins dotées.
+  sources: [lesecologistes-2026-07-programme]
+  donnees:
+    - texte: >-
+        Sénat (mai 2026) : 6,4 millions d'assurés sans médecin traitant en 2025, et 75,7 % des Français sur un territoire où l'accès aux soins est jugé
+        insuffisant selon le zonage du Gouvernement.
+      sources: [senat-2026-05-lutter-contre-deserts-medicaux]

@@ -20,3 +20,15 @@ questions:
 date: '2025'
 sources:
 - placepublique-2025-acte-1
+appui:
+  faits: >-
+    Le document de Place publique n'indique ni montant ni calendrier dans les passages lus. Il s'agit d'un texte de 2025, antérieur à la primaire.
+  raisonnement: >-
+    « Bâtir un modèle coopératif de santé piloté localement », et remplacer la tarification à l'acte à l'hôpital par un « financement global,
+    territorial et pluri-annuel ».
+  sources: [placepublique-2025-acte-1]
+  donnees:
+    - texte: >-
+        Drees (étude du 20 mai 2026, via la presse) : sept hôpitaux publics sur dix en déficit en 2024, pour 2,9 Md€. Aucune évaluation officielle du
+        changement de tarification qu'il propose n'a été lue.
+      sources: [economiematin-2026-05-20-hopitaux-deficit-drees]

@@ -31,3 +31,16 @@ date: '2026-10-12'
 sources:
 - publicsenat-2026-10-12-retailleau-economies
 - lcp-2026-10-12-retailleau-plan-economies
+appui:
+  faits: >-
+    Son plan vise des médecins à « un niveau de prescription préoccupant », selon Public Sénat, sans chiffre sur leur nombre. Le document du plan n'a pas
+    été trouvé.
+  raisonnement: >-
+    Réexamens périodiques, surveillance des prescripteurs et jour de carence « que personne ne pourra racheter » ; les gains d'efficience seraient
+    réinvestis dans les soins.
+  sources: [publicsenat-2026-10-12-retailleau-economies]
+  donnees:
+    - texte: >-
+        Caisse nationale d'assurance maladie, citée par Public Sénat : le coût des arrêts atteint 12 Md€ en 2022, hors accidents du travail et maternité ; de
+        2019 à 2023, 42 % de la hausse vient d'un recours accru et d'arrêts plus longs, 58 % de facteurs démographiques et économiques.
+      sources: [publicsenat-2025-07-22-arrets-maladie]

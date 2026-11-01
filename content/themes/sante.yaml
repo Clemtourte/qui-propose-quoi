@@ -1,7 +1,7 @@
 titre: Santé
 ordre: 7
 accroche: Hôpital, accès aux soins, assurance maladie.
-derniere_verification: '2026-10-22'
+derniere_verification: '2026-11-01'
 questions:
 - id: acces
   libelle: Accès aux soins et déserts médicaux
@@ -84,6 +84,99 @@ etat_des_lieux:
   - valeur: 75,7 %
     libelle: des Français vivent sur un territoire à accès aux soins insuffisant, selon le zonage du Gouvernement (Sénat,
       mai 2026)
+raisonnements:
+- question: Vais-je trouver un médecin près de chez moi ?
+  lectures:
+  - auteur: Guillaume Garot, député socialiste, mai 2025
+    date: '2025-05-07'
+    texte: >-
+      Sa proposition, votée par l'Assemblée (99 voix contre 9), crée une autorisation préalable à l'installation : de droit dans les zones manquant de
+      médecins, conditionnée dans les zones bien dotées. Selon lui, « nous avons remis un peu de République dans notre organisation collective ».
+    sources: [lcp-2025-05-07-loi-garot]
+  - auteur: Yannick Neuder, alors ministre de la Santé, mai 2025
+    date: '2025-05-07'
+    texte: >-
+      Opposé à cette régulation, il estime que la lutte contre les déserts médicaux sera efficace dès lors que l'on « formera plus de médecins ».
+    sources: [lcp-2025-05-07-loi-garot]
+  - auteur: Conseil national de l'Ordre des médecins, 21 mai 2026
+    date: '2026-05-21'
+    texte: >-
+      Il y voit « une réponse simpliste » qui risque d'aggraver les difficultés d'accès aux soins, et défend l'incitation et l'organisation coordonnée.
+    sources: [cnom-2026-05-21-ppl-garot]
+  - auteur: Corinne Imbert, rapporteure au Sénat, juin 2026
+    date: 2026-06
+    texte: >-
+      Le texte imposerait « la restriction la plus stricte jamais imposée à une profession de santé ». Le Sénat préfère un engagement d'exercice partiel en
+      zone sous-dotée pour s'installer en zone bien dotée. Le texte n'est pas adopté.
+    sources: [banquedesterritoires-2026-06-deserts-medicaux]
+  camps:
+  - libelle: Plus de centres de santé, de lieux publics de soins
+    candidats: [glucksmann, tondelier]
+  - libelle: Moduler la rémunération des médecins selon le lieu (2022)
+    candidats: [le-pen]
+  - libelle: Médecins salariés par l'État dans les territoires sous-dotés (2022)
+    candidats: [zemmour]
+  - libelle: Un assistant médical d'intelligence artificielle
+    candidats: [attal]
+  - libelle: Pas de mesure détaillée relevée dans nos entrées
+    candidats: [melenchon, philippe, retailleau]
+- question: Les arrêts maladie coûtent-ils trop cher, et à cause de quoi ?
+  lectures:
+  - auteur: Caisse nationale d'assurance maladie et Cour des comptes, citées par Public Sénat, juillet 2025
+    date: '2025-07-22'
+    texte: >-
+      De 2019 à 2023, 58 % de la hausse s'explique par des facteurs démographiques et économiques, et 42 % par un recours accru, notamment chez les jeunes, et
+      des arrêts plus longs. Les plus de 55 ans font 18,3 % des actifs et 27 % des journées indemnisées en 2022.
+    sources: [publicsenat-2025-07-22-arrets-maladie]
+  - auteur: franceinfo, Vrai ou faux, 28 août 2026
+    date: '2026-08-28'
+    texte: >-
+      Sur « l'open bar » : les arrêts par téléconsultation représentent 2 à 4 % des arrêts, et « le cadre dans lequel ils sont délivrés reste parfois flou ».
+    sources: [franceinfo-2026-08-28-vof-philippe-arrets-travail]
+  - auteur: Fondation iFRAP, septembre 2023
+    date: '2023-09-19'
+    texte: >-
+      Elle juge que se concentrer sur le privé est une erreur de diagnostic : selon son estimation, non officielle, le public pèse 40 % des indemnités pour 20 %
+      de l'emploi.
+    sources: [ifrap-2023-09-19-arrets-maladie]
+  camps:
+  - libelle: Plus de jours de carence pour tous (3 jours)
+    candidats: [philippe]
+  - libelle: Un jour de carence obligatoire dans le privé et 4 Md€ d'économies
+    candidats: [retailleau]
+  - libelle: Un plan contre la « dérive », non détaillé
+    candidats: [attal]
+  - libelle: Pas de mesure relevée sur ce point dans nos entrées
+    candidats: [glucksmann, le-pen, melenchon, tondelier, zemmour]
+- question: L'hôpital manque-t-il de lits, d'argent ou d'organisation ?
+  lectures:
+  - auteur: Drees, panorama du 9 juillet 2026, cité par l'AFP
+    nature: fait
+    date: 2026-07
+    texte: >-
+      Selon la Drees, fin 2024 : 367 100 lits d'hospitalisation complète, en baisse depuis plus de vingt ans, et des capacités de jour et à domicile en hausse. La baisse
+      ralentit : −0,6 % en 2024, contre −1,2 % en 2023.
+    sources: [afp-2026-07-lits-hopitaux-drees]
+  - auteur: Cour des comptes, 20 octobre 2026
+    date: '2026-10-20'
+    texte: >-
+      Sur le budget 2027, elle juge que l'acceptabilité des économies sur l'assurance maladie « semble de moins en moins garantie » et demande une trajectoire
+      documentée de retour à l'équilibre.
+    sources: [cdc-2026-10-20-securite-sociale-redressement-2027]
+  - auteur: Institut de l'Entreprise, note sur le contre-budget du RN, 6 octobre 2026
+    date: '2026-10-06'
+    texte: >-
+      Elle estime que les économies attendues sur les coûts hospitaliers et le parcours de soins (8,3 Md€ en 2031) ne reposent sur « aucune mesure détaillée ».
+    sources: [idep-2026-10-06-contre-budget-rn]
+  camps:
+  - libelle: Plus de personnels, de salaires et de lits (2022 pour Le Pen, Mélenchon et Zemmour)
+    candidats: [le-pen, melenchon, tondelier, zemmour]
+  - libelle: Changer le financement, moins de tarification à l'acte
+    candidats: [glucksmann, tondelier]
+  - libelle: Gains d'efficience réinvestis, dépenses sans engagement chiffré
+    candidats: [retailleau]
+  - libelle: Pas de mesure relevée sur ce point dans nos entrées
+    candidats: [attal, philippe]
 recherches:
   avis: 'Recherché le 22 octobre 2026 : aucun avis d''institution sur une mesure proposée par un candidat. L''avis de la
     Cour des comptes sur le projet de loi de financement de la Sécurité sociale figure dans l''état des lieux. Haut Conseil

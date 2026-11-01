@@ -15,3 +15,16 @@ date: '2026-10-06'
 sources:
 - idep-2026-10-06-contre-budget-rn
 - lequotidiendumedecin-2026-02-02-le-pen-sante
+appui:
+  faits: >-
+    Le dossier du contre-budget inscrit pour 2027 environ 3,2 Md€ sur la « réforme de l'hôpital et du parcours de soin » et 3 Md€ sur les affections de
+    longue durée, sans détail de calcul. Son plan de 2022 promettait 20 Md€ pour l'hôpital ; sa reprise pour 2027 n'est pas documentée.
+  sources: [rn-2026-10-06-dossier-contre-budget, lcp-2022-03-25-candidats-sante]
+  donnees:
+    - texte: >-
+        Sénat (rapport sur le budget 2026) : l'aide médicale d'État a coûté 1 387 M€ en 2024, soins urgents compris ; le RN attend 1,1 Md€ de son
+        remplacement.
+      sources: [senat-2025-11-essentiel-mission-sante-plf-2026]
+    - texte: >-
+        Drees, citée par l'AFP : 367 100 lits d'hospitalisation complète fin 2024, 2 300 de moins en un an, 91 000 places d'hospitalisation partielle.
+      sources: [afp-2026-07-lits-hopitaux-drees]

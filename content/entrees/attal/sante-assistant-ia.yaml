@@ -1,0 +1,25 @@
+candidat: attal
+theme: sante
+rubrique: mesure
+nature: position
+titre: Un assistant médical d'intelligence artificielle pour chaque Français
+texte: >-
+  Son site propose que chaque Français dispose d'un assistant médical IA, « en appui des médecins, sans les remplacer », pour obtenir un
+  premier conseil et être mieux orienté. L'État le commanderait à des entreprises privées. Il annonce aussi l'équilibre de la Sécurité
+  sociale en 2032, avec un « plan d'action contre la dérive des arrêts maladie », non détaillé dans la page lue. Ni coût ni calendrier
+  ne sont indiqués pour l'assistant.
+questions: [acces, assurance]
+date: '2026'
+sources: [attalpresident-2026-assistant-medical-ia, attalpresident-2026-equilibre-securite-sociale]
+appui:
+  faits: >-
+    Aucune donnée n'est citée sur l'effet attendu de l'assistant dans la page lue.
+  raisonnement: >-
+    « Passer des commandes plutôt que distribuer des subventions fait émerger des champions européens de l'IA. » « L'IA que nous voulons sera
+    souveraine et sera un gain pour les Français au quotidien. »
+  sources: [attalpresident-2026-assistant-medical-ia]
+  donnees:
+    - texte: >-
+        Sénat (mai 2026) : 6,4 millions d'assurés sans médecin traitant en 2025. Aucune évaluation officielle d'un assistant médical de ce type n'a
+        été lue.
+      sources: [senat-2026-05-lutter-contre-deserts-medicaux]

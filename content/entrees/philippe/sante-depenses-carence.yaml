@@ -19,3 +19,16 @@ sources:
 - edouardphilippe-2026-france-plus-prospere
 - edouardphilippe-2026-france-attentive-enfants
 - franceinfo-2026-08-28-vof-philippe-arrets-travail
+appui:
+  faits: >-
+    Il parle d'« open bar des arrêts de travail ». franceinfo relève que les arrêts par téléconsultation représentent 2 à 4 % des arrêts et ne
+    tranche pas par vrai ou faux.
+  raisonnement: >-
+    « Stabiliser les dépenses de santé en dépensant mieux, en misant sur la prévention » : même règle de carence pour le privé et le public.
+  sources: [edouardphilippe-2026-france-plus-prospere, franceinfo-2026-08-28-vof-philippe-arrets-travail]
+  donnees:
+    - texte: >-
+        Caisse nationale d'assurance maladie, citée par Public Sénat : de 2019 à 2023, 58 % de la hausse du coût des arrêts vient de facteurs démographiques
+        et économiques (actifs plus nombreux et plus âgés, salaires), 42 % d'un recours accru et d'arrêts plus longs. Coût en 2022 : 12 Md€, contre 7,69 Md€
+        en 2017, hors accidents du travail et maternité.
+      sources: [publicsenat-2025-07-22-arrets-maladie]

@@ -12,3 +12,12 @@ questions:
 date: '2022-03-25'
 sources:
 - lcp-2022-03-25-candidats-sante
+appui:
+  faits: >-
+    Le programme de 2022, rapporté par LCP, ne donne pas de calcul dans le passage lu. Bloc provisoire : le programme est attendu en novembre 2026.
+  sources: [lcp-2022-03-25-candidats-sante]
+  donnees:
+    - texte: >-
+        Drees, citée par l'AFP : 2 300 lits d'hospitalisation complète en moins en 2024 (−0,6 %), une baisse continue depuis plus de vingt ans,
+        tandis que l'hospitalisation de jour et à domicile progresse.
+      sources: [afp-2026-07-lits-hopitaux-drees]
