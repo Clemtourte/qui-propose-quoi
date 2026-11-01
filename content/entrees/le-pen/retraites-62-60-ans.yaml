@@ -32,9 +32,17 @@ reperes:
 date: 2026-10-14
 sources: [franceinfo-2026-10-14-le-pen-17-novembre, franceinfo-2026-08-27-debat-medef, europe1-2026-10-06-contre-budget-rn, publicsenat-2026-10-06-contre-budget-rn]
 appui:
-  texte: >-
-    Elle dit que sa réforme est « fondée sur le fait d'obtenir une augmentation du taux d'activité », en particulier
-    chez les jeunes : selon elle, l'âge moyen d'accès à un emploi stable est de 27 ans en France contre 24 en
-    Allemagne. Les économies viendraient de « corrections de mesures injustes ou inefficaces », non détaillées. Elle
+  faits: >-
+    Selon elle, l'âge moyen d'accès à un emploi stable est de 27 ans en France contre 24 en Allemagne. La source de
+    ces chiffres n'est pas précisée dans l'article lu.
+  raisonnement: >-
+    Sa réforme est « fondée sur le fait d'obtenir une augmentation du taux d'activité », en particulier chez les
+    jeunes. Les économies viendraient de « corrections de mesures injustes ou inefficaces », non détaillées. Elle
     annonce une présentation « chiffrée » le 17 novembre.
   sources: [franceinfo-2026-10-14-le-pen-17-novembre]
+  donnees:
+    - texte: >-
+        Aucune donnée officielle comparant cet âge moyen entre les deux pays n'a été trouvée au 1er novembre 2026.
+        Indicateur voisin, qui ne mesure pas la même chose : en 2025, le taux d'emploi des 15-24 ans est de 34,5 % en
+        France et de 50,8 % en Allemagne (Eurostat, qui signale une différence de définition pour la France).
+      sources: [eurostat-2026-10-26-emploi-15-24]

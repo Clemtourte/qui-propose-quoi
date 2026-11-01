@@ -137,12 +137,21 @@ type SourceRef = { collection: 'sources'; id: string };
 
 /** Unique sources referenced by a set of items, most recent first. */
 export async function collectSources(
-  items: Array<{ sources: SourceRef[]; reperes?: Array<{ sources: SourceRef[] }> } | undefined>,
+  items: Array<
+    | {
+        sources: SourceRef[];
+        reperes?: Array<{ sources: SourceRef[] }>;
+        appui?: { sources: SourceRef[]; donnees?: Array<{ sources: SourceRef[] }> };
+      }
+    | undefined
+  >,
 ) {
   const ids = new Map<string, SourceRef>();
   for (const item of items) {
     item?.sources.forEach((s) => ids.set(s.id, s));
     item?.reperes?.forEach((r) => r.sources.forEach((s) => ids.set(s.id, s)));
+    item?.appui?.sources.forEach((s) => ids.set(s.id, s));
+    item?.appui?.donnees?.forEach((d) => d.sources.forEach((s) => ids.set(s.id, s)));
   }
   const entries = await getEntries([...ids.values()]);
   return entries.sort((a, b) => b.data.date_publication.localeCompare(a.data.date_publication));
@@ -204,6 +213,7 @@ export async function getThemeData(theme: CollectionEntry<'themes'>) {
   const promesses = entrees.filter((e) => e.data.rubrique === 'promesse').sort(byDateDesc);
   const sources = await collectSources([
     ...etat,
+    ...theme.data.raisonnements.flatMap((r) => r.lectures),
     ...entrees.map((e) => e.data),
     ...syntheses.map((s) => s.data),
     ...avis.map((a) => a.data),

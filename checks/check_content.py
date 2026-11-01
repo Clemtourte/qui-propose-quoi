@@ -97,6 +97,14 @@ def check_sourced(item: dict, where: str, data: dict, report: Report, used: set[
             used,
             demo or bool(item.get("demo")),
         )
+    # What a proposal rests on, and the official figures set next to it, carry their own sources too.
+    appui = item.get("appui")
+    if appui:
+        check_sourced({"sources": appui.get("sources")}, f"{where} (appui)", data, report, used, demo)
+        for i, donnee in enumerate(appui.get("donnees") or []):
+            check_sourced(
+                {"sources": donnee.get("sources")}, f"{where} (appui, donnée {i + 1})", data, report, used, demo
+            )
     known = [data["sources"][s] for s in sources if s in data["sources"]]
     if known and all(s.get("type") == "agregateur" for s in known):
         report.warn(where, "uniquement des sources de type agrégateur (à confirmer)")
@@ -140,6 +148,13 @@ def run_checks(data: dict) -> Report:
     for tid, t in data["themes"].items():
         for i, item in enumerate(t.get("etat_des_lieux") or []):
             check_sourced(item, f"themes/{tid} (etat_des_lieux[{i}])", data, report, used, False)
+        for i, r in enumerate(t.get("raisonnements") or []):
+            where = f"themes/{tid} (raisonnements[{i}])"
+            for lecture in r.get("lectures") or []:
+                check_sourced({"sources": lecture.get("sources")}, where, data, report, used, False)
+            for camp in r.get("camps") or []:
+                for cid in camp.get("candidats") or []:
+                    check_ref("candidats", cid, where, data, report)
 
     for name in ("entrees", "syntheses", "verifications", "justice"):
         for eid, e in data[name].items():

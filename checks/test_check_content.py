@@ -53,6 +53,25 @@ def test_missing_source_is_an_error(tmp_path):
     assert any("source inexistante « absente »" in e for e in errors_for(base))
 
 
+def test_missing_source_in_appui_is_an_error(tmp_path):
+    base = minimal_content(tmp_path)
+    write(
+        base,
+        "entrees/dupont/m1.yaml",
+        {
+            "candidat": "dupont",
+            "theme": "retraites",
+            "rubrique": "mesure",
+            "nature": "position",
+            "sources": ["presse-1"],
+            "appui": {"sources": ["absente-1"], "donnees": [{"sources": ["absente-2"]}]},
+        },
+    )
+    errors = errors_for(base)
+    assert any("source inexistante « absente-1 »" in e for e in errors)
+    assert any("source inexistante « absente-2 »" in e for e in errors)
+
+
 def test_judgement_without_author_is_an_error(tmp_path):
     base = minimal_content(tmp_path)
     write(

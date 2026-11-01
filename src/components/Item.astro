@@ -15,7 +15,12 @@ interface Props {
   sources: Array<{ collection: 'sources'; id: string }>;
   citation?: { texte: string; date: string; contexte: string };
   promesse?: { texte: string; date: string; contexte: string };
-  appui?: { texte: string; sources: Array<{ collection: 'sources'; id: string }> };
+  appui?: {
+    faits?: string;
+    raisonnement?: string;
+    sources: Array<{ collection: 'sources'; id: string }>;
+    donnees?: Array<{ texte: string; sources: Array<{ collection: 'sources'; id: string }> }>;
+  };
   chiffres?: Array<{ libelle: string; valeur: string; nature: Nature }>;
   reperes?: Array<{ mesure: string; equivalent: string; calcul: string; sources: Array<{ collection: 'sources'; id: string }> }>;
   // Anchor so the overview table can link to this item.
@@ -87,11 +92,19 @@ const {
   <p>{typo(texte)}</p>
   {
     appui && (
-      <div class="appui">
-        <p class="reperes-titre">Sur quoi repose cette proposition</p>
-        <p>{typo(appui.texte)}</p>
+      <details class="appui">
+        <summary>Sur quoi repose cette proposition</summary>
+        {appui.faits && <p class="appui-ligne"><strong>Faits invoqués&nbsp;:</strong> {typo(appui.faits)}</p>}
+        {appui.raisonnement && <p class="appui-ligne"><strong>Raisonnement&nbsp;:</strong> {typo(appui.raisonnement)}</p>}
         <SourceRefs sources={appui.sources} />
-      </div>
+        {appui.donnees?.map((d) => (
+          <div class="donnee">
+            <p class="reperes-titre">Donnée officielle</p>
+            <p>{typo(d.texte)}</p>
+            <SourceRefs sources={d.sources} />
+          </div>
+        ))}
+      </details>
     )
   }
   {
@@ -136,6 +149,22 @@ const {
     background: var(--empty-bg);
     border-radius: var(--radius);
     font-size: 0.9rem;
+  }
+  .appui > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .appui[open] > summary {
+    margin-bottom: 0.4rem;
+  }
+  .appui-ligne + .appui-ligne {
+    margin-top: 0.35rem;
+  }
+  .donnee {
+    margin-top: 0.7rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--line);
   }
   .reperes-titre {
     margin: 0 0 0.3rem;

@@ -16,8 +16,15 @@ texte: >-
 date: 2026-10-04
 sources: [capital-2026-10-05-glucksmann-retraites, cercle-epargnants-2026-10-07-glucksmann-62-ans, franceinfo-2026-08-27-debat-medef, lcp-2026-05-26-glucksmann-programme, lcp-2026-09-16-retraites-candidats]
 appui:
-  texte: >-
+  faits: >-
     Il invoque un écart de « plus de dix ans » d'espérance de vie en bonne santé entre un cadre supérieur et un
-    ouvrier au moment du départ : « Toute réforme juste des retraites doit partir de là ». La source de ce chiffre
-    n'est pas précisée dans l'article lu.
+    ouvrier au moment du départ. La source de ce chiffre n'est pas précisée dans l'article lu.
+  raisonnement: « Toute réforme juste des retraites doit partir de là ».
   sources: [capital-2026-10-05-glucksmann-retraites]
+  donnees:
+    - texte: >-
+        Ined (données de 2003, mesurées à 35 ans, et non au départ en retraite) : espérance de vie sans limitation
+        fonctionnelle de 34 ans pour les hommes cadres et de 24 ans pour les ouvriers (10 ans d'écart) ; de 35 et
+        27 ans pour les femmes (8 ans). Insee (2020-2022) : l'écart d'espérance de vie totale à 35 ans entre cadres
+        et ouvriers est de 5,3 ans pour les hommes et de 3,4 ans pour les femmes.
+      sources: [cor-2023-12-04-cambois-bonne-sante, insee-2024-07-esperance-cadres-ouvriers]

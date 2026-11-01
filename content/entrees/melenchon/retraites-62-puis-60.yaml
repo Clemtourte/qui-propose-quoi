@@ -29,8 +29,15 @@ reperes:
 date: 2026-08-27
 sources: [franceinfo-2026-08-27-debat-medef, franceinfo-2026-10-12-retraites-candidats, publicsenat-2026-10-14-contre-budget-lfi]
 appui:
-  texte: >-
+  faits: Aucune donnée ni étude citée dans les sources lues, en dehors du coût de 9 Md€ annoncé par LFI.
+  raisonnement: >-
     Il défend un principe : « Le temps libre des retraités, c'est du travail civique, du temps familial. Ce n'est
     pas du temps perdu ». Sur le financement du retour à 60 ans : « Une fois qu'on a regardé combien il faut, on
-    sait combien il faut prendre et on sait à qui ». Aucune donnée ni étude citée à l'appui dans les sources lues.
+    sait combien il faut prendre et on sait à qui ».
   sources: [lcp-2026-09-16-retraites-candidats, franceinfo-2026-10-12-retraites-candidats]
+  donnees:
+    - texte: >-
+        Cour des comptes (20 février 2025, avant la suspension de la réforme de 2023) : avancer d'un an l'âge
+        d'ouverture des droits (63 ans au lieu de 64) coûterait 13 Md€ à l'ensemble des finances publiques en 2035.
+        Cette estimation ne porte pas sur un retour à 62 ans.
+      sources: [ccomptes-2025-02-20-situation-retraites]

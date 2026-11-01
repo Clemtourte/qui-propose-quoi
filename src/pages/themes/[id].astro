@@ -182,6 +182,39 @@ const nom = (id: string) => {
 
     <div class="sections">
       {
+        // Hidden while empty: this section is being written theme by theme.
+        t.raisonnements.length > 0 && (
+          <Section id="raisonnements" titre="Les raisonnements en présence" count={t.raisonnements.length}>
+            {t.raisonnements.map((r) => (
+              <div class="raison">
+                <h3>{typo(r.question)}</h3>
+                {r.lectures.map((l) => (
+                  <Item nature="jugement" auteur={l.auteur} texte={l.texte} date={l.date} sources={l.sources} />
+                ))}
+                {r.camps.length > 0 && (
+                  <div class="camps">
+                    <NatureTag nature="position" />
+                    <ul>
+                      {r.camps.map((c) => (
+                        <li>
+                          {typo(c.libelle)}&nbsp;:{' '}
+                          {c.candidats.map((x, i) => (
+                            <>
+                              {i > 0 && ', '}
+                              <a href={`#carte-${x.id}`}>{nom(x.id)}</a>
+                            </>
+                          ))}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            ))}
+          </Section>
+        )
+      }
+      {
         // Hidden while empty: too few opinions collected so far to keep an empty section on every theme.
         avis.length > 0 && (
           <Section id="avis" titre="Avis d'institutions" count={avis.length} recherche={t.recherches.avis}>
@@ -276,6 +309,25 @@ const nom = (id: string) => {
     margin-top: auto;
     font-size: 0.75rem;
     color: var(--muted);
+  }
+  .raison {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .raison + .raison {
+    margin-top: 1rem;
+  }
+  .raison h3 {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+  }
+  .camps {
+    font-size: 0.92rem;
+  }
+  .camps ul {
+    margin: 0.4rem 0 0;
+    padding-left: 1.2rem;
   }
   .etat-detail {
     max-width: var(--measure);

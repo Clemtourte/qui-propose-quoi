@@ -13,8 +13,19 @@ texte: >-
 date: 2026-09-16
 sources: [lcp-2026-09-16-retraites-candidats, lopinion-2026-07-13-programme-ecologistes, franceinfo-2026-08-27-debat-medef, franceinfo-2026-09-30-retraites-candidats]
 appui:
-  texte: >-
+  faits: >-
     « Il y a un petit déficit sur le régime des retraites (...) et le Comité d'orientation pour les retraites dit
-    que c'est stable jusque 2030. » Pour financer : « Il y a 77 milliards d'exonérations de cotisations, il suffit
-    qu'on en prenne 10%. »
+    que c'est stable jusque 2030. »
+  raisonnement: >-
+    Pour financer : « Il y a 77 milliards d'exonérations de cotisations, il suffit qu'on en prenne 10%. »
   sources: [franceinfo-2026-09-30-retraites-candidats]
+  donnees:
+    - texte: >-
+        COR (juin 2026, à réglementation inchangée) : déficit de 5,1 Md€ en 2025 (0,2 point de PIB) et de 6,8 Md€ en
+        2030 (0,2 point), puis de 0,9 point en 2045 et de 2,4 points en 2070.
+      sources: [cor-2026-06-rapport-annuel-synthese]
+    - texte: >-
+        Cour des comptes (mai 2025) : les allègements généraux de cotisations patronales atteignent 77,3 Md€ en 2024.
+        Ces moindres recettes concernent les finances sociales dans leur ensemble, pas les seules retraites, et « ont
+        vocation à être compensées par l'État ».
+      sources: [ccomptes-2025-05-26-securite-sociale]

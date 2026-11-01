@@ -14,8 +14,13 @@ texte: >-
 date: 2026-09-18
 sources: [franceinfo-2026-09-18-knafo-budget, sudradio-2026-10-16-knafo-800000-postes]
 appui:
-  texte: >-
-    Sarah Knafo juge le système par répartition « condamné à mort » : « quand on l'a créé initialement, il y avait
-    quatre actifs pour un retraité. Aujourd'hui, vous avez 1,7 actif pour un retraité ». La source de ces chiffres
-    n'est pas précisée dans l'entretien lu.
+  faits: >-
+    Sarah Knafo : « quand on l'a créé initialement, il y avait quatre actifs pour un retraité. Aujourd'hui, vous avez
+    1,7 actif pour un retraité ». La source de ces chiffres n'est pas précisée dans l'entretien lu.
+  raisonnement: Elle juge le système par répartition « condamné à mort ».
   sources: [sudradio-2026-10-16-knafo-800000-postes]
+  donnees:
+    - texte: >-
+        COR (juin 2026, tous régimes) : 2,1 cotisants par retraité en 2002, 1,8 en 2025, 1,3 projeté en 2070. Aucune
+        source officielle n'a pu être lue au 1er novembre 2026 sur le chiffre de quatre actifs à la création du système.
+      sources: [cor-2026-06-rapport-annuel]

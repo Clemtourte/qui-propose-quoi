@@ -20,9 +20,20 @@ chiffres:
 date: 2026-09-29
 sources: [franceinfo-2026-09-30-philippe-65-ans, lcp-2026-09-29-philippe-retraites, edouardphilippe-2026-france-plus-prospere, franceinfo-2026-09-30-retraites-candidats]
 appui:
-  texte: >-
+  faits: >-
     Il rappelle que « 65 ans, c'était l'âge de départ à la retraite en 1983 » et que « nous vivons aujourd'hui en
-    moyenne huit ans de plus ». Il veut « retrouver l'équilibre de notre système par répartition » et estime le gain
-    à environ 30 milliards d'euros en année pleine (franceinfo). Le calcul n'est pas détaillé dans les articles lus
-    ; sa vidéo de vingt minutes n'a pas été visionnée.
+    moyenne huit ans de plus ». Il estime le gain à environ 30 milliards d'euros en année pleine (franceinfo), sans
+    détail du calcul dans les sources écrites consultées.
+  raisonnement: Il veut « retrouver l'équilibre de notre système par répartition ».
   sources: [lcp-2026-09-29-philippe-retraites, franceinfo-2026-09-30-retraites-candidats]
+  donnees:
+    - texte: >-
+        Insee : l'espérance de vie à la naissance passe de 70,7 ans (hommes) et 78,8 ans (femmes) en 1983, en France
+        métropolitaine, à 80,3 et 85,9 ans en 2025, en France (provisoire) ; à 60 ans, de 17,6 et 22,6 ans à 23,9 et
+        27,9 ans. COR : la réforme de 1983 a ouvert le taux plein dès 60 ans avec 37,5 années de cotisation.
+      sources: [insee-2024-01-16-esperance-vie-retrospectif, insee-2026-01-13-esperance-vie-ages, cor-2026-06-rapport-annuel]
+    - texte: >-
+        Cour des comptes (20 février 2025, avant la suspension de la réforme de 2023) : reculer d'un an l'âge d'ouverture
+        des droits (65 ans) rapporterait 10,6 à 17,7 Md€ en 2035 selon les générations concernées. Le périmètre diffère
+        de sa réforme, qui porte aussi la durée de cotisation à 45 ans.
+      sources: [ccomptes-2025-02-20-situation-retraites]

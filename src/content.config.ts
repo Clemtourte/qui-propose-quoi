@@ -62,6 +62,29 @@ const sourcedItem = z
     path: ['auteur'],
   });
 
+// What the proposal rests on, as argued by the candidate. `faits`: data, study or foreign model invoked (or the
+// mention that none is cited). `raisonnement`: theory, principle or hypothesis. Both are declared positions, never
+// our assessment. `donnees`: figure published by an official body on a checkable point the candidate invokes:
+// figure, date and scope only, no verdict; says so when the measure differs or when nothing was found.
+const appui = z
+  .object({
+    faits: z.string().optional(),
+    raisonnement: z.string().optional(),
+    sources: sourcesList,
+    donnees: z.array(z.object({ texte: z.string(), sources: sourcesList })).default([]),
+  })
+  .refine((d) => !!d.faits || !!d.raisonnement, { message: 'Un appui donne des faits invoqués ou un raisonnement' });
+
+// One debate of a theme: readings by named authors, then which candidates stand where. Candidates are listed by
+// reference so that their positions stay in their entries (never entered twice).
+const raisonnement = z.object({
+  question: z.string(),
+  lectures: z
+    .array(z.object({ auteur: z.string(), date: fuzzyDate, texte: z.string(), sources: sourcesList }))
+    .min(1),
+  camps: z.array(z.object({ libelle: z.string(), candidats: z.array(reference('candidats')).min(1) })).default([]),
+});
+
 const yaml = (base: string) => glob({ pattern: '**/*.yaml', base });
 
 const sources = defineCollection({
@@ -132,6 +155,7 @@ const themes = defineCollection({
     etat_des_lieux: z.array(sourcedItem).default([]),
     // Key questions used as columns of the overview table and rows of the comparator.
     questions: z.array(z.object({ id: z.string(), libelle: z.string() })).default([]),
+    raisonnements: z.array(raisonnement).default([]),
     // What was searched for each section of the theme page, shown when the section is empty.
     recherches: z.record(z.string(), z.string()).default({}),
     derniere_verification: fuzzyDate.optional(),
@@ -173,9 +197,7 @@ const entrees = defineCollection({
       // For rubrique "promesse": `promesse` is what was promised, `texte` what was actually done.
       promesse: quote.optional(),
       texte: z.string(),
-      // What the proposal rests on, as argued by the candidate: data, study, foreign model, hypothesis or
-      // principle invoked. Says so when nothing is cited. Always a declared position, never our assessment.
-      appui: z.object({ texte: z.string(), sources: sourcesList }).optional(),
+      appui: appui.optional(),
       citation: quote.optional(),
       chiffres: z
         .array(z.object({ libelle: z.string(), valeur: z.string(), nature }))

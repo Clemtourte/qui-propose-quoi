@@ -38,9 +38,17 @@ reperes:
 date: 2026-09-22
 sources: [lcp-2026-09-23-retailleau-retraites, publicsenat-2026-10-12-retailleau-economies, franceinfo-2026-10-12-retraites-candidats]
 appui:
-  texte: >-
-    « Si on ne travaille pas un peu plus, tout va s'effondrer. » Il lie l'âge du taux plein à l'espérance de vie «
-    pour qu'on s'évite des psychodrames tous les 10 ans ou 15 ans ». Il justifie la capitalisation par le fait
-    d'éviter que « des fonds américains ou étrangers » rachètent les entreprises, avec un rendement « fixé à au
-    moins 4 % » selon LCP. Le calcul des 40 milliards n'est pas détaillé dans les articles lus.
+  faits: >-
+    Il retient pour la capitalisation un rendement « fixé à au moins 4 % » selon LCP. Le calcul des 40 milliards n'est
+    pas détaillé dans les articles lus.
+  raisonnement: >-
+    « Si on ne travaille pas un peu plus, tout va s'effondrer. » Il lie l'âge du taux plein à l'espérance de vie
+    « pour qu'on s'évite des psychodrames tous les 10 ans ou 15 ans ». Il justifie la capitalisation par le fait
+    d'éviter que « des fonds américains ou étrangers » rachètent les entreprises.
   sources: [franceinfo-2026-10-12-retraites-candidats, lcp-2026-09-16-retraites-candidats, lcp-2026-09-23-retailleau-retraites]
+  donnees:
+    - texte: >-
+        COR (juin 2026, à réglementation inchangée) : déficit de 0,2 point de PIB en 2030, de 0,9 en 2045 et de 2,4 en
+        2070 ; dépenses de 14,1 % du PIB en 2025, de 14,2 % en 2045 et de 15,3 % en 2070. Les réserves des régimes
+        atteignent 223,9 Md€ fin 2025, soit 7,5 % du PIB.
+      sources: [cor-2026-06-rapport-annuel-synthese, cor-2026-06-rapport-annuel]

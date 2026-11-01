@@ -15,7 +15,12 @@ texte: >-
 date: 2026-09-17
 sources: [franceinfo-2026-09-30-retraites-candidats, bfmtv-2026-09-18-zemmour-interview]
 appui:
-  texte: >-
-    « Le système par répartition est mort et condamné, il n'y a pas plus assez d'enfants » pour le financer. Aucune
-    donnée ni étude citée à l'appui dans les sources lues.
+  faits: Aucune donnée ni étude citée dans les sources lues.
+  raisonnement: « Le système par répartition est mort et condamné, il n'y a pas plus assez d'enfants » pour le financer.
   sources: [bfmtv-2026-09-18-zemmour-interview]
+  donnees:
+    - texte: >-
+        Insee : 1,56 enfant par femme en 2025, et un solde naturel négatif (environ −6 000) pour la première fois depuis
+        la fin de la Seconde Guerre mondiale. COR (juin 2026, avec 1,45 enfant par femme à partir de 2028 et un solde
+        migratoire de +150 000) : 1,8 cotisant par retraité en 2025, 1,3 en 2070 ; déficit de 2,4 points de PIB en 2070.
+      sources: [insee-2026-01-13-bilan-demographique-2025, cor-2026-06-rapport-annuel, cor-2026-06-rapport-annuel-synthese]

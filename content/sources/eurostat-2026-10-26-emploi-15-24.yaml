@@ -1,0 +1,7 @@
+url: https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/lfsi_emp_a?geo=FR&geo=DE&age=Y15-24&sex=T&unit=PC_POP&indic_em=EMP_LFS&time=2024&time=2025&format=JSON
+titre: "Employment and labour force by sex and age, annual data (lfsi_emp_a), 15-24 ans, France et Allemagne"
+media: Eurostat
+date_publication: 2026-10-26
+date_consultation: 2026-11-01
+type: institution
+note: Eurostat signale une différence de définition (indicateur « d ») pour la France.

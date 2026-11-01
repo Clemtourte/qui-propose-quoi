@@ -1,7 +1,7 @@
 titre: "Retraites"
 ordre: 1
 accroche: "Âge de départ, durée de cotisation, financement du système."
-derniere_verification: 2026-10-20
+derniere_verification: 2026-11-01
 questions:
   - id: age-legal
     libelle: Âge légal de départ
@@ -49,6 +49,95 @@ etat_des_lieux:
       1964 à 1968). Estimations publiées avant la suspension de la réforme de 2023.
     date: 2025-02-20
     sources: [ccomptes-2025-02-20-situation-retraites]
+raisonnements:
+  - question: Répartition ou capitalisation ?
+    lectures:
+      - auteur: Conseil d'orientation des retraites, dossier du 18 décembre 2025
+        date: 2025-12-18
+        texte: >-
+          La répartition offre un rendement en moyenne égal à la croissance de l'économie ; la capitalisation dépend des
+          marchés financiers, avec des frais et un risque de fortes pertes en cas de crise. La répartition est sensible
+          aux chocs démographiques, économiques et politiques ; la capitalisation, à la volatilité financière et à une
+          baisse du rendement du capital liée au vieillissement. Remplacer la répartition, même en partie, implique une
+          double cotisation des actifs, une mise à contribution des retraités ou une prise en charge par l'État.
+        sources: [cor-2025-12-18-dossier-capitalisation]
+      - auteur: Bertrand Martinot, Fondation pour l'innovation politique, novembre 2024
+        date: 2024-11
+        texte: >-
+          Il défend un fonds collectif et obligatoire couvrant à long terme un tiers des dépenses de retraite du secteur
+          privé. La transition « réclame nécessairement quelques sacrifices à court terme », puis permettrait « une baisse
+          sensible des cotisations de retraite ». Il la juge « inséparable » d'un redressement des finances publiques.
+        sources: [fondapol-2024-11-martinot-capitalisation]
+      - auteur: Anne Lavigne, Université d'Orléans, groupe de travail du COR, 11 décembre 2025
+        date: 2025-12-11
+        texte: >-
+          « La capitalisation n'est pas la réponse à court terme, mais une réponse possible à long terme » : selon elle, la
+          transition ne peut se faire sans un fonds d'amorçage (réserves existantes, hausse de cotisations, baisse de
+          pensions ou endettement).
+        sources: [cor-2025-12-11-lavigne-capitalisation]
+    camps:
+      - libelle: Part de capitalisation annoncée
+        candidats: [attal, le-pen, philippe, retailleau, zemmour]
+      - libelle: Se dit opposé à la capitalisation
+        candidats: [glucksmann]
+      - libelle: Pas de position relevée sur ce point
+        candidats: [melenchon, tondelier]
+  - question: Quel levier pour équilibrer le système ?
+    lectures:
+      - auteur: Conseil d'orientation des retraites, rapport annuel, juin 2026
+        date: 2026-06
+        texte: >-
+          Trois leviers peuvent être combinés. Le seul âge de départ devrait atteindre en moyenne 64,2 ans en 2030, 65,6 ans
+          en 2045 et 67,6 ans en 2070 ; ou bien la seule pension relative baisser de 1,0, 3,3 et 7,4 points ; ou bien le seul
+          taux de prélèvement monter de 0,5, 2,1 et 5,6 points. Dans les modèles sollicités (Direction générale du Trésor,
+          OFCE, I-MIP), pensions et cotisations pèsent sur l'activité ; le report de l'âge l'augmente, après une hausse
+          temporaire du chômage. Le COR ajoute que ses projections « ne corroborent pas l'idée d'une progression des dépenses
+          de retraite qui échapperait à toute maîtrise ».
+        sources: [cor-2026-06-rapport-annuel, cor-2026-06-rapport-annuel-synthese]
+      - auteur: Fondation iFRAP, Sandrine Gorreri, 16 juin 2026
+        date: 2026-06-16
+        texte: >-
+          Selon elle, les simulations du COR montrent que « seul le report de l'âge a un effet positif sur l'activité (PIB),
+          sur l'emploi et sur le solde des finances publiques ». Sans nouvelle réforme, elle estime qu'il n'y a pas de
+          redressement des comptes.
+        sources: [ifrap-2026-06-16-six-angles-morts]
+      - auteur: Union syndicale Solidaires, 15 juin 2026
+        date: 2026-06-15
+        texte: >-
+          Selon elle, « le problème ne vient donc pas d'un supposé excès de dépenses mais bien d'un manque chronique de
+          recettes ». Elle propose la fin des exonérations de cotisations patronales, la hausse des salaires et de la cotisation sociale, et
+          demande une retraite à 60 ans avec 37,5 annuités.
+        sources: [solidaires-2026-06-15-rapport-cor]
+    camps:
+      - libelle: Âge de départ à 64 ans ou au-delà
+        candidats: [philippe, zemmour]
+      - libelle: Âge minimal de 63 ans, taux plein à 65 ans
+        candidats: [retailleau]
+      - libelle: Retour à un âge inférieur à 64 ans
+        candidats: [glucksmann, le-pen, melenchon, tondelier]
+      - libelle: Suppression de l'âge légal
+        candidats: [attal]
+  - question: Même âge pour tous ou départ modulé ?
+    lectures:
+      - auteur: Conseil d'orientation des retraites, dossier du 6 février 2025
+        date: 2025-02-06
+        texte: >-
+          Un système contributif en répartition mutualise le risque de longévité et « ne devrait ainsi pas prendre en compte la
+          mortalité différentielle », mais la loi lui assigne un objectif d'équité. Les ouvriers, qui partent plus jeunes que
+          les cadres, passent deux années de moins à la retraite. Le dispositif carrières longues « semble mal ciblé » : les
+          personnes ayant commencé à travailler avant 19 ans ont une moindre espérance de vie, mais pas l'ensemble de ses
+          bénéficiaires. Deux voies sont évoquées : renforcer la
+          redistribution vers les plus modestes, ou allonger leur durée de retraite.
+        sources: [cor-2025-02-06-dossier-esperance-vie]
+    camps:
+      - libelle: Départ modulé selon la pénibilité ou le début de carrière
+        candidats: [glucksmann, le-pen, tondelier]
+      - libelle: Système fondé sur la durée de cotisation
+        candidats: [attal]
+      - libelle: Départs anticipés maintenus pour les carrières longues
+        candidats: [philippe, retailleau]
+      - libelle: Pas de position relevée sur ce point
+        candidats: [melenchon, zemmour]
 recherches:
   avis: >-
     Recherché le 22 octobre 2026 : aucun avis d'institution portant sur les projets 2027 des candidats (Cour des
