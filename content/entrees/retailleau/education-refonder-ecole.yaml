@@ -11,7 +11,8 @@ texte: >-
   en cause le passage automatique en classe supérieure, de créer 1 000 établissements publics « libres » pouvant adapter
   programmes, rythmes et calendrier, de renforcer les pouvoirs des chefs d'établissement et des conseils de discipline,
   de créer des établissements de réinsertion pour les élèves de moins de 16 ans exclus à répétition, et un « contrat
-  d'engagement des parents ».
+  d'engagement des parents ». Sur RTL, il parle d'« internats disciplinaires » pour les élèves « récidivistes qui sont
+  violents, qui sont des harceleurs » (rapporté par Sud Radio).
 chiffres:
 - libelle: Hausse des salaires annoncée (début / milieu de carrière)
   valeur: +135 € / +300 € net
@@ -19,7 +20,26 @@ chiffres:
 - libelle: Établissements publics « libres »
   valeur: 1 000
   nature: position
+questions: [salaires, college, autorite]
 date: '2026-08-31'
 sources:
 - publicsenat-2026-08-31-retailleau-ecole
 - sudradio-2026-09-03-candidats-ecole
+- sudradio-2026-09-02-retailleau-internats
+appui:
+  faits: >-
+    Max Brisson, sénateur qui a élaboré le projet avec lui : « Nous sommes le seul pays où le système est géré depuis un ministère omnipotent » ; « Les professeurs soit
+    ne rentrent pas, soit s'en vont. » Le collège unique est présenté comme l'une des causes des difficultés scolaires et du décrochage (Public Sénat).
+  raisonnement: >-
+    « On assume le fait que tous les élèves ne progressent pas au même rythme » (Max Brisson). La rémunération n'est « qu'un facteur » d'attractivité, sans
+    changement des carrières et des affectations. Il veut « arracher l'école à cette idéologie du pédagogisme qui a affaissé le niveau » (RTL, rapporté par Sud Radio).
+  sources: [publicsenat-2026-08-31-retailleau-ecole, sudradio-2026-09-02-retailleau-internats]
+  donnees:
+  - texte: >-
+      Ministère de l'Éducation nationale, concours 2026, premiers recrutés à bac+3 : 98,5 % des postes pourvus dans le premier degré (92,1 % en 2025), 96,1 % dans le
+      second degré (90,6 % en 2025).
+    sources: [men-2026-07-09-concours-enseignants]
+  - texte: >-
+      Centre d'analyse stratégique (2013), lu via Weka : la France n'a pas suivi le mouvement général d'autonomie des pays de l'OCDE depuis les années 1980 ; les
+      établissements n'ont pas de marge sur les programmes ni sur le recrutement des enseignants. Donnée ancienne, à actualiser.
+    sources: [weka-2013-cas-autonomie-etablissements]

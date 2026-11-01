@@ -19,8 +19,27 @@ chiffres:
 - libelle: Enseignants recrutés
   valeur: 60 000 (LFI) ou 160 000 (Public Sénat)
   nature: position
+questions: [salaires, classes]
 date: '2026-08-31'
 sources:
 - melenchon2027-2025-06-30-comparateur-ecole
 - publicsenat-2026-08-31-candidats-ecole
 - lcp-2026-08-25-attal-ecole
+appui:
+  faits: >-
+    La campagne invoque le gel du point d'indice « depuis 2010 ». Aucun chiffrage du plan de recrutement n'a été lu. Bloc provisoire : le programme doit être
+    présenté début novembre 2026.
+  raisonnement: >-
+    Il voit dans les projets d'autonomie des établissements d'Édouard Philippe et de Gabriel Attal une manière de « dynamiter l'école publique » et d'instaurer un
+    « marché de la concurrence ». Sa campagne propose de faire peser un « malus financier » sur les établissements pratiquant « l'éviction des élèves en
+    difficulté ».
+  sources: [melenchon2027-2025-06-30-comparateur-ecole, publicsenat-2026-08-31-candidats-ecole]
+  donnees:
+  - texte: >-
+      Ministère de l'Éducation nationale : 20,6 élèves par classe en moyenne prévus en 2027 dans le premier degré public. La campagne ne précise pas ici si ses 19
+      élèves portent sur ce seul périmètre.
+    sources: [men-2026-10-budget-2027-ecole]
+  - texte: >-
+      Cour des comptes (2026) : 22,3 % des collégiens sont dans le privé en 2023, contre 21,7 % en 2011 ; la part d'élèves de milieux très favorisés y passe de
+      26 % en 2000 à 42 % en 2023.
+    sources: [cdc-2026-03-25-carte-colleges]

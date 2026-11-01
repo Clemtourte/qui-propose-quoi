@@ -15,7 +15,8 @@ texte: >-
   25 % » pour un enseignant en milieu de carrière dans le primaire. La mesure « coûte 6 milliards en tout », selon lui.
   Il veut « profiter de la baisse démographique non pas pour fermer des classes ou des écoles, mais pour augmenter le
   taux d'encadrement des élèves », et imposer la mixité sociale « dans toutes les écoles qui sont subventionnées par
-  l'État français ».
+  l'État français ». Le projet de Place publique (2025), qui n'est pas son programme présidentiel, veut « intégrer les
+  établissements privés sous contrat à la carte scolaire » et « lancer une convention citoyenne pour l'École ».
 chiffres:
 - libelle: Hausse des salaires des enseignants
   valeur: +10 % pour tous, jusqu'à +25 %
@@ -23,7 +24,7 @@ chiffres:
 - libelle: Coût annoncé
   valeur: 6 Md€
   nature: position
-questions: [salaires]
+questions: [salaires, classes]
 reperes:
 - question: salaires
   mesure: >-
@@ -39,3 +40,23 @@ date: '2026-08-30'
 sources:
 - franceinfo-2026-08-30-glucksmann-enseignants
 - publicsenat-2026-08-24-glucksmann-propositions
+- placepublique-2025-acte-1
+appui:
+  faits: >-
+    Sur TF1, le 23 août 2026 : « selon l'OCDE, nous avons l'école qui reproduit le plus les inégalités en Europe, qui maltraite le plus les enseignants. Un
+    enseignant français en école primaire gagne moins qu'un enseignant portugais ou slovène. » Une vérification de franceinfo sur ce salaire figure plus
+    bas sur cette page.
+  raisonnement: >-
+    La baisse du nombre d'élèves doit servir « non pas pour fermer des classes ou des écoles, mais pour augmenter le taux d'encadrement des élèves ». Le
+    plan commence par la rémunération, pour « rattraper les moyennes européennes » selon Public Sénat.
+  sources: [publicsenat-2026-08-24-glucksmann-propositions, franceinfo-2026-08-30-glucksmann-enseignants, publicsenat-2026-08-31-candidats-ecole]
+  donnees:
+  - texte: >-
+      Ministère de l'Éducation nationale, sur PISA : en 2025, « l'origine sociale reste fortement liée aux résultats scolaires en France ». L'effet du milieu
+      social en mathématiques a diminué davantage en France que dans tout autre pays entre 2012 et 2022, tout en restant supérieur à la moyenne de l'OCDE. Ce
+      document ne classe pas les pays européens entre eux.
+    sources: [men-2026-09-pisa-2025]
+  - texte: >-
+      OCDE, « Regards sur l'éducation 2026 », cité par franceinfo : un enseignant de collège avec 15 ans d'ancienneté gagnait en 2025 en moyenne 18 % de moins
+      que la moyenne de l'OCDE ; l'écart est de 2 % en début de carrière.
+    sources: [franceinfo-2026-10-02-vof-primaire-gauche]

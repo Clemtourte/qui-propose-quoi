@@ -11,8 +11,25 @@ texte: >-
   en 2023 et de rendre obligatoire le remplacement des enseignants absents. L'affichage de la carte et de la frise
   faisait l'objet d'une proposition de loi du groupe RN, dont Marine Le Pen, déposée le 21 décembre 2023. Au 3 septembre
   2026, le RN n'avait pas annoncé de hausse des salaires des enseignants (Sud Radio).
+questions: [college, autorite]
 date: '2026-08-31'
 sources:
 - publicsenat-2026-08-31-candidats-ecole
 - an-2023-12-21-ppl-2035-carte-frise
 - sudradio-2026-09-03-candidats-ecole
+appui:
+  faits: >-
+    Aucune donnée chiffrée n'est citée dans les textes lus sur ces propositions. Après la publication de PISA 2025, Marine Le Pen déplore « une triple
+    défaite » pour l'école, l'économie et « les gouvernants » (AFP, 8 septembre 2026).
+  raisonnement: >-
+    Le programme de 2022 visait à lutter contre le « pédagogisme » et à rétablir la discipline (Europe 1). La proposition de loi de 2023 sur la carte et la
+    frise rattache l'histoire-géographie à la mission de l'école républicaine, « former des citoyens français ».
+  sources: [sudradio-2026-09-08-pisa-2025, europe1-2022-04-18-le-pen-education, an-2023-12-21-ppl-2035-carte-frise]
+  donnees:
+  - texte: >-
+      PISA 2025 : 458 points en mathématiques (−16 depuis 2022) et 456 en compréhension de l'écrit (−18). La moyenne de l'OCDE recule aussi depuis 2015.
+    sources: [men-2026-09-pisa-2025]
+  - texte: >-
+      Sur le dédoublement proposé en 2022 pour tous les CP et grandes sections, la DEPP a évalué un dispositif différent, limité à l'éducation prioritaire : gain
+      en fin de CE1, aucune différence significative à l'entrée en 6e pour la première cohorte (février 2026).
+    sources: [depp-2026-02-synthese-8-taille-classes]

@@ -1,7 +1,7 @@
 titre: Éducation
 ordre: 6
 accroche: École, enseignants, université, formation.
-derniere_verification: '2026-10-22'
+derniere_verification: '2026-11-01'
 questions:
 - id: salaires
   libelle: Salaires des enseignants
@@ -77,6 +77,196 @@ etat_des_lieux:
   date: '2026-10-02'
   sources:
   - franceinfo-2026-10-02-vof-primaire-gauche
+- nature: fait
+  texte: >-
+    Selon la DEPP, un enseignant fonctionnaire ou assimilé perçoit en moyenne 3 090 euros nets par mois en 2024, soit 4,3 %
+    de plus qu'en 2023 en euros constants, surtout grâce aux primes. Au concours 2026, ouvert dès bac+3, 98,5 % des postes
+    sont pourvus dans le premier degré (92,1 % en 2025) et 96,1 % dans le second degré (90,6 % en 2025), selon le ministère.
+  date: '2026-08-20'
+  sources:
+  - depp-2026-08-20-ni-26-36-salaires
+  - men-2026-07-09-concours-enseignants
+  chiffres_cles:
+  - valeur: 3 090 €
+    libelle: salaire net mensuel moyen d'un enseignant fonctionnaire ou assimilé en 2024 (DEPP)
+- nature: fait
+  texte: >-
+    À l'entrée en 6e en 2025, 28,0 % des élèves sont dans les groupes les moins performants en français et 32,5 % en
+    mathématiques ; en français, cette part atteint 54,5 % en REP+ et 15,7 % dans le privé sous contrat. Au brevet de juin
+    2026, 81,6 % des candidats sont admis (résultats provisoires), 3,9 points de moins qu'en 2025, année précédant le passage
+    à 60 % d'épreuves terminales.
+  date: '2026-07'
+  sources:
+  - depp-2025-evaluations-sixieme
+  - depp-2026-07-ni-26-34-brevet
+  chiffres_cles:
+  - valeur: 81,6 %
+    libelle: de réussite au brevet en juin 2026 (provisoire), après 85,5 % en 2025 (DEPP)
+- nature: fait
+  texte: >-
+    Selon la Cour des comptes (2026), environ 1 550 collèges sur 6 700 présentent une faible mixité sociale en 2024-2025 : un
+    peu moins de 750 accueillent surtout des enfants de familles favorisées, pour trois quarts dans le privé, et 800 surtout
+    des enfants de familles défavorisées, à 76 % en éducation prioritaire. Le privé scolarise 22,3 % des collégiens en 2023.
+  date: '2026-03-25'
+  sources:
+  - cdc-2026-03-25-carte-colleges
+  chiffres_cles:
+  - valeur: 1 550 sur 6 700
+    libelle: collèges à faible mixité sociale en 2024-2025, selon la méthode de la Cour des comptes
+raisonnements:
+- question: Les enseignants sont-ils mal payés, et les augmenter suffira-t-il ?
+  lectures:
+  - auteur: DEPP, note d'information du 20 août 2026
+    nature: fait
+    date: '2026-08-20'
+    texte: >-
+      3 090 euros nets par mois en moyenne en 2024, pour les enseignants fonctionnaires ou assimilés, soit +4,3 % en euros constants, surtout par les primes. Les
+      agrégés gagnent en moyenne 1,4 fois plus que les professeurs des écoles.
+    sources: [depp-2026-08-20-ni-26-36-salaires]
+  - auteur: SNES-FSU, syndicat d'enseignants, 23 août 2026
+    date: '2026-08-23'
+    texte: >-
+      Il juge que cette moyenne mélange anciennetés et niveaux, écarte les contractuels et compte les heures supplémentaires et le Pacte, qui ne sont pas selon
+      lui une revalorisation : « travailler plus pour s'épuiser plus ».
+    sources: [snes-2026-08-23-3090-euros]
+  - auteur: Éric Charbonnier, spécialiste de l'éducation à l'OCDE, 8 septembre 2026
+    date: '2026-09-08'
+    texte: >-
+      « La France a une dépense d'éducation assez forte par rapport aux performances obtenues. » Il recommande « surtout » de « bien investir l'argent ».
+    sources: [sudradio-2026-09-08-pisa-2025]
+  - auteur: Ministère de l'Éducation nationale, juillet 2026
+    date: '2026-07-09'
+    texte: >-
+      Au concours 2026, ouvert dès bac+3, il voit « un premier regain d'attractivité » : 76,6 % d'inscrits en plus, pour 40,2 % de postes en plus.
+    sources: [men-2026-07-09-concours-enseignants]
+  camps:
+  - libelle: Une hausse chiffrée pour tous les enseignants
+    candidats: [attal, glucksmann, philippe, tondelier]
+  - libelle: Rattraper le point d'indice et négocier les grilles avec les syndicats
+    candidats: [melenchon]
+  - libelle: Se rapprocher de la moyenne européenne et revoir carrières et affectations
+    candidats: [retailleau]
+  - libelle: +3 % par an en 2022, rien d'annoncé pour 2027 au 3 septembre 2026
+    candidats: [le-pen]
+  - libelle: Pas de position relevée dans nos entrées
+    candidats: [zemmour]
+- question: Mon enfant apprendra-t-il mieux dans une classe plus petite ?
+  lectures:
+  - auteur: DEPP, synthèse de février 2026, à court terme
+    nature: fait
+    date: 2026-02
+    texte: >-
+      Depuis 2017, les CP et CE1 d'éducation prioritaire sont dédoublés : en REP+, de 21,6 à 13,1 élèves en CP. En fin de CE1, les élèves ont des résultats
+      supérieurs à ceux d'écoles comparables. L'effet est surtout visible en CP, et plus fort pour les élèves les plus en difficulté en mathématiques.
+    sources: [depp-2026-02-synthese-8-taille-classes]
+  - auteur: Travail de thèse soutenu par la DEPP (El Bah, 2026)
+    nature: fait
+    date: 2026-02
+    texte: >-
+      À l'entrée en 6e, aucune différence statistiquement significative en français ni en mathématiques pour la première cohorte. La DEPP cite des limites : une seule
+      cohorte, sans la grande section, et l'effet du Covid. Dans les outre-mer, un effet positif subsiste en français.
+    sources: [depp-2026-02-synthese-8-taille-classes]
+  - auteur: Thomas Piketty et Mathieu Valdenaire, 2006, cités par la DEPP
+    date: '2006'
+    texte: >-
+      À partir de panels d'élèves des années 1990, ils trouvent des effets positifs de classes plus petites à tous les niveaux, nettement plus marqués dans le premier
+      degré.
+    sources: [depp-2026-02-synthese-8-taille-classes]
+  camps:
+  - libelle: Un objectif chiffré (moins de 20 ou 19 élèves ; 12 en éducation prioritaire pour Tondelier)
+    candidats: [attal, melenchon, tondelier]
+  - libelle: Moins d'élèves en primaire, sans chiffre
+    candidats: [glucksmann, philippe]
+  - libelle: Dédoublement de tous les CP et grandes sections (2022)
+    candidats: [le-pen]
+  - libelle: Pas de mesure relevée dans nos entrées
+    candidats: [retailleau, zemmour]
+- question: Faut-il un examen pour entrer en 6e, le redoublement et des groupes de niveau ?
+  lectures:
+  - auteur: Cnesco, conférence de consensus, 2014-2015
+    date: '2015'
+    texte: >-
+      Selon sa fiche, la recherche internationale montre que le redoublement « au mieux n'a pas d'effet, ou peut s'avérer nocif ». Sa synthèse relève des effets parfois
+      positifs à court terme, notamment accompagnés d'autres aides, et négatifs à long terme. Parents, enseignants et élèves le jugent pourtant bénéfique.
+    sources: [cnesco-2015-fiche-redoublement, cnesco-2014-12-synthese-redoublement]
+  - auteur: Inspection générale (juin 2025) et DEPP (septembre 2026), cités par franceinfo
+    nature: fait
+    date: '2026-10-16'
+    texte: >-
+      Sur les groupes de niveau de 2024 : les élèves les plus en difficulté n'ont « clairement pas bénéficié des avancées attendues » (Inspection), et aucun « effet
+      significatif » aux évaluations de début de 4e (DEPP). Des groupes réduits ont toutefois donné de meilleures conditions d'apprentissage.
+    sources: [franceinfo-2026-10-16-vdf-attal-groupes-niveau]
+  - auteur: Programme Idee, note de novembre 2023, citée par franceinfo
+    date: 2023-11
+    texte: >-
+      Les classes de niveau permanentes sont « inefficaces » ; des groupes « de besoin » temporaires, sur des notions précises, ont « un effet positif sur les
+      performances des élèves ».
+    sources: [franceinfo-2026-10-16-vdf-attal-groupes-niveau]
+  - auteur: Institut Montaigne, chiffrage de 2022 (proposition d'Éric Zemmour)
+    date: '2022'
+    texte: >-
+      Un certificat d'études coûterait de l'ordre de 9,8 M€ par an à organiser, hors coûts indirects et hors redoublement induit, pratique qu'il dit identifiée comme
+      « inefficace à moyen terme » par la littérature.
+    sources: [institutmontaigne-2022-certificat-etudes-reconquete]
+  camps:
+  - libelle: Un examen ou un certificat avant la 6e, moins de passage automatique, groupes de niveau
+    candidats: [attal, retailleau]
+  - libelle: Un examen à l'entrée en 6e et en 2de, « la sélection à tous les étages »
+    candidats: [zemmour]
+  - libelle: Défendre le collège unique, refuser « une école du tri »
+    candidats: [tondelier]
+  - libelle: Pas d'examen d'entrée ni de redoublement relevés dans nos entrées
+    candidats: [glucksmann, le-pen, melenchon, philippe]
+- question: Donner plus de liberté aux chefs d'établissement, est-ce utile ?
+  lectures:
+  - auteur: Cour des comptes, note de décembre 2021
+    date: 2021-12
+    texte: >-
+      Elle note une dépense d'éducation supérieure à la moyenne de l'OCDE et une performance qui « tend à se dégrader ». « L'augmentation des marges d'autonomie des
+      établissements » figure parmi les leviers qu'elle juge possibles.
+    sources: [cdc-2021-12-note-enseignement-scolaire]
+  - auteur: Centre d'analyse stratégique, janvier 2013, lu via Weka
+    date: '2013'
+    texte: >-
+      Il préconise plus de marges, sans remettre en cause la gratuité et la non-sélection des élèves, et sous réserve d'un pilotage et d'un encadrement nationaux.
+    sources: [weka-2013-cas-autonomie-etablissements]
+  camps:
+  - libelle: Des chefs d'établissement libres de leurs méthodes ou de leurs équipes
+    candidats: [philippe, retailleau, zemmour]
+  - libelle: Un barème national des sanctions, et les absences courtes gérées sur place
+    candidats: [attal]
+  - libelle: Contre, un « marché de la concurrence »
+    candidats: [melenchon]
+  - libelle: Pas de position relevée dans nos entrées
+    candidats: [glucksmann, le-pen, tondelier]
+- question: 'Public, privé, collèges « ghettos » : que faire pour la mixité sociale ?'
+  lectures:
+  - auteur: Cour des comptes, rapport public 2026
+    nature: fait
+    date: '2026-03-25'
+    texte: >-
+      La part d'élèves de milieux très favorisés dans les collèges privés passe de 26 % en 2000 à 42 % en 2023. Le surcoût pour une famille est de l'ordre de 1 600 € par an.
+      Elle recommande d'associer le privé sous contrat à un nouveau maillage des collèges « pour mieux remplir l'objectif de mixité sociale ».
+    sources: [cdc-2026-03-25-carte-colleges]
+  - auteur: Cour des comptes, rapport du 1er juin 2023, lu via la Banque des Territoires
+    date: '2023-06-01'
+    texte: >-
+      Le privé sous contrat a reçu 8 Md€ de l'État en 2022. Elle préconise de « moduler les moyens » selon « les caractéristiques sociales des populations accueillies ».
+    sources: [banquedesterritoires-2023-06-02-cour-enseignement-prive]
+  - auteur: Fondation iFRAP, juin 2023
+    date: '2023-06-06'
+    texte: >-
+      Elle juge « discutable » une approche par la contrainte, et propose de lever la règle du 80/20 pour développer le privé sous contrat dans les zones moins favorisées.
+    sources: [ifrap-2023-06-06-mixite-prive]
+  camps:
+  - libelle: Moins de financement public pour le privé, ou sous conditions de mixité
+    candidats: [melenchon, tondelier]
+  - libelle: Le privé sous contrat intégré à la carte scolaire
+    candidats: [glucksmann]
+  - libelle: Fermer 100 collèges et répartir leurs élèves
+    candidats: [attal]
+  - libelle: Pas de position relevée dans nos entrées
+    candidats: [le-pen, philippe, retailleau, zemmour]
 recherches:
   avis: >-
     Recherché le 22 octobre 2026 : aucun avis d'institution (Cour des comptes, Conseil supérieur des programmes, Conseil

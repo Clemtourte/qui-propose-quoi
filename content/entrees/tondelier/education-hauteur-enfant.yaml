@@ -11,7 +11,8 @@ texte: >-
   Le programme des Écologistes (juillet 2026) veut faire de l'école primaire « une priorité absolue en réduisant la
   taille des classes à 19 élèves en 2032 et à 12 élèves » en éducation prioritaire (REP et REP+), augmenter « les
   salaires des enseignant·es de 15 % en 5 ans », former et titulariser les 144 000 AESH et interdire l'usage des écrans à
-  l'école avant six ans. Selon Public Sénat, la candidate propose aussi une filière de catégorie B pour les AESH, des
+  l'école avant six ans. Il veut « défendre un collège unique et inclusif » et ramener « la part de financement public » du
+  privé à 50 %, « en contrepartie des frais de scolarité », sous « obligations de mixité sociale ». Selon Public Sénat, la candidate propose aussi une filière de catégorie B pour les AESH, des
   temps d'apprentissage « hors les murs » et la transformation des établissements en « refuges climatiques », avec deux
   milliards d'euros par an, notamment pour leur isolation.
 chiffres:
@@ -21,7 +22,25 @@ chiffres:
 - libelle: Salaires des enseignants en cinq ans
   valeur: +15 %
   nature: position
+questions: [salaires, classes, college]
 date: '2026-08-31'
 sources:
 - lesecologistes-2026-07-programme
 - publicsenat-2026-08-31-candidats-ecole
+appui:
+  faits: >-
+    Le programme des Écologistes cite « 83 % des enfants de cadres ou de professions intellectuelles supérieures » diplômés du supérieur « contre 37 % des enfants
+    d'ouvriers », sans indiquer de source.
+  raisonnement: >-
+    « Nous refusons une école du tri et de la sélection qui crée des vainqueurs et des vaincus. » La baisse des effectifs est « l'occasion de diminuer radicalement le
+    nombre d'élèves par classe. Mais cela ne suffira pas ».
+  sources: [lesecologistes-2026-07-programme]
+  donnees:
+  - texte: >-
+      DEPP (évaluations de début de 6e, 2025) : en français, 54,5 % des collégiens de REP+ sont dans les groupes les moins performants, contre 15,7 % dans le privé sous
+      contrat. Mesure différente de celle du programme : niveau à 11 ans, pas diplôme. Aucune donnée officielle n'a été lue sur les 83 % et 37 %.
+    sources: [depp-2025-evaluations-sixieme]
+  - texte: >-
+      DEPP (février 2026) : en REP+, la taille moyenne des classes de CP passe de 21,6 élèves en 2016 à 13,1 en 2017. Gain en fin de CE1, aucune différence
+      significative à l'entrée en 6e pour la première cohorte.
+    sources: [depp-2026-02-synthese-8-taille-classes]

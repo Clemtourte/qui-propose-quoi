@@ -13,6 +13,21 @@ texte: >-
   l'entrée en sixième et en seconde et « un véritable baccalauréat ». Il veut orienter vers le CAP dès la quatrième les
   élèves plus doués pour ces formations et donner aux chefs d'établissement l'autonomie de « sanctionner et même de
   choisir ses professeurs ». Aucun programme de Reconquête pour 2027 n'a été trouvé.
+questions: [college, autorite]
 date: '2026-10-13'
 sources:
 - cnews-2026-10-13-zemmour-ecole
+appui:
+  faits: >-
+    « L'école française est la pire en matière de discipline de tout l'Occident, c'est dans les statistiques » ; « On avait sans doute la meilleure école du monde »
+    (CNews, 13 octobre 2026). Aucune statistique n'est citée dans l'article.
+  raisonnement: >-
+    Redresser le niveau n'est « pas compliqué puisque l'on avait des méthodes qui nous ont donné la meilleure école du monde mais on les a jugées archaïques ».
+    La sélection limiterait l'entrée à l'université, faute de niveau suffisant, pour des études supérieures qui « croulent sous le nombre ».
+  sources: [cnews-2026-10-13-zemmour-ecole]
+  donnees:
+  - texte: >-
+      PISA 2025, selon le ministère de l'Éducation nationale : 47 % des élèves français déclarent du bruit ou du désordre dans la plupart ou la totalité des cours de
+      sciences, contre 31 % en moyenne dans l'OCDE. La France figure « parmi les pays où ces perturbations sont les plus fréquemment signalées ». Ce document ne donne
+      pas de classement sur « tout l'Occident ». Aucune donnée n'a été lue sur « la meilleure école du monde ».
+    sources: [men-2026-09-pisa-2025]

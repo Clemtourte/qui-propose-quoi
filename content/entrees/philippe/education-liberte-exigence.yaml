@@ -17,7 +17,23 @@ chiffres:
 - libelle: Rémunération moyenne des enseignants sur le quinquennat
   valeur: +20 %
   nature: position
+questions: [salaires, classes, college, autorite]
 date: '2026-08-25'
 sources:
 - edouardphilippe-2026-france-attentive-enfants
 - publicsenat-2026-08-31-candidats-ecole
+appui:
+  faits: >-
+    Il veut que « la France rattrape son retard et se hisse au niveau de la moyenne européenne sans dégrader les finances publiques » (Le Figaro, 24 août 2026, cité
+    par L'Essentiel de l'Éco, qui indique un financement par la baisse démographique). L'amende de responsabilisation est « inspirée du modèle britannique ».
+    Aucune donnée n'est citée sur l'effet de l'autonomie ou de cette amende dans les pages lues.
+  raisonnement: >-
+    La hausse est « massif[ve] mais […] indispensable pour redonner de la dignité à leur métier ». Plus de liberté pour les établissements, en échange de résultats
+    publics : leurs évaluations de performance seraient rendues publiques auprès des parents et des élus locaux.
+  sources: [edouardphilippe-2026-france-attentive-enfants, lessentieldeleco-2026-08-27-augmenter-enseignants, publicsenat-2026-08-31-candidats-ecole]
+  donnees:
+  - texte: >-
+      OCDE, « Regards sur l'éducation 2026 », cité par franceinfo : en 2025, 18 % sous la moyenne de l'OCDE à 15 ans d'ancienneté au collège, 2 % en début de
+      carrière. L'OCDE compare à sa moyenne, pas à la moyenne européenne qu'il vise. DEPP : 3 090 € nets par mois en moyenne en 2024, pour les enseignants
+      fonctionnaires ou assimilés.
+    sources: [franceinfo-2026-10-02-vof-primaire-gauche, depp-2026-08-20-ni-26-36-salaires]
