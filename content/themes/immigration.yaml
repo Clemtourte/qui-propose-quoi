@@ -136,9 +136,10 @@ raisonnements:
   - question: Que permet le droit, et qu'est-ce qui freine son application ?
     lectures:
       - auteur: Conseil constitutionnel, décision du 11 avril 2024
+        nature: fait
         date: 2024-04-11
         texte: >-
-          Le bénéfice de certaines prestations peut être soumis à une condition de durée de résidence ou d'activité, mais
+          Pour le Conseil constitutionnel, le bénéfice de certaines prestations peut être soumis à une condition de durée de résidence ou d'activité, mais
           « cette durée ne saurait être telle qu'elle prive de garanties légales » les exigences constitutionnelles. Cinq ans de
           résidence ou trente mois d'activité portent « une atteinte disproportionnée ».
         sources: [conseil-constitutionnel-2024-04-11-2024-6-rip]

@@ -184,12 +184,12 @@ const nom = (id: string) => {
       {
         // Hidden while empty: this section is being written theme by theme.
         t.raisonnements.length > 0 && (
-          <Section id="raisonnements" titre="Les raisonnements en présence" count={t.raisonnements.length}>
+          <Section id="raisonnements" titre="Pourquoi ils ne sont pas d'accord" count={t.raisonnements.length}>
             {t.raisonnements.map((r) => (
               <div class="raison">
                 <h3>{typo(r.question)}</h3>
                 {r.lectures.map((l) => (
-                  <Item nature="jugement" auteur={l.auteur} texte={l.texte} date={l.date} sources={l.sources} />
+                  <Item nature={l.nature} auteur={l.auteur} texte={l.texte} date={l.date} sources={l.sources} />
                 ))}
                 {r.camps.length > 0 && (
                   <div class="camps">

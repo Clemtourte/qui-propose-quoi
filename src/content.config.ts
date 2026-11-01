@@ -80,7 +80,8 @@ const appui = z
 const raisonnement = z.object({
   question: z.string(),
   lectures: z
-    .array(z.object({ auteur: z.string(), date: fuzzyDate, texte: z.string(), sources: sourcesList }))
+    // A reading is an attributed opinion unless it reports a checkable fact or a court decision.
+    .array(z.object({ auteur: z.string(), date: fuzzyDate, texte: z.string(), nature: nature.default('jugement'), sources: sourcesList }))
     .min(1),
   camps: z.array(z.object({ libelle: z.string(), candidats: z.array(reference('candidats')).min(1) })).default([]),
 });
@@ -188,9 +189,11 @@ const entrees = defineCollection({
     .object({
       candidat: reference('candidats'),
       theme: reference('themes').optional(),
-      rubrique: z.enum(['mesure', 'bilan', 'promesse', 'participation', 'declaration', 'soutien_adversaire']),
+      rubrique: z.enum(['mesure', 'bilan', 'promesse', 'participation', 'declaration', 'soutien_adversaire', 'discriminations']),
       // Also listed (as a link) under "Place laissée à la population" on the candidate page.
       aussi_participation: z.boolean().default(false),
+      // Also listed (as a link) under "Racisme et discriminations" on the candidate page.
+      aussi_discriminations: z.boolean().default(false),
       nature,
       auteur: z.string().optional(),
       titre: z.string(),

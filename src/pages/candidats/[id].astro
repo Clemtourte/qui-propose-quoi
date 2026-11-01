@@ -52,6 +52,11 @@ const participation = byRubrique('participation');
 const participationAilleurs = entrees
   .filter((e) => e.data.aussi_participation && e.data.rubrique !== 'participation')
   .sort((a, b) => b.data.date.localeCompare(a.data.date));
+const discriminations = byRubrique('discriminations');
+// Entries filed elsewhere that also concern racism or discrimination.
+const discriminationsAilleurs = entrees
+  .filter((e) => e.data.aussi_discriminations && e.data.rubrique !== 'discriminations')
+  .sort((a, b) => b.data.date.localeCompare(a.data.date));
 const declarations = byRubrique('declaration');
 const soutiens = byRubrique('soutien_adversaire');
 
@@ -101,7 +106,7 @@ const itemProps = (e: (typeof entrees)[number]) => ({
 });
 
 // Institution opinions are hidden while empty (decision of 29 Oct. 2026); later sections are renumbered.
-const ordreSections = ['vision', 'programme', ...(avis.length ? ['avis'] : []), 'bilan', 'verifications', 'justice', 'participation', 'declarations', 'soutiens'];
+const ordreSections = ['vision', 'programme', ...(avis.length ? ['avis'] : []), 'bilan', 'verifications', 'justice', 'discriminations', 'participation', 'declarations', 'soutiens'];
 const numero = (s: string) => ordreSections.indexOf(s) + 2;
 ---
 
@@ -240,6 +245,36 @@ const numero = (s: string) => ordreSections.indexOf(s) + 2;
           )
         }
         {r.justice && <p class="muted perimetre">{typo(r.justice)}</p>}
+      </Section>
+
+      <Section
+        id="discriminations"
+        numero={numero('discriminations')}
+        titre="Racisme et discriminations"
+        count={discriminations.length + discriminationsAilleurs.length}
+        recherche={r.discriminations}
+      >
+        {discriminations.map((e) => <Item {...itemProps(e)} />)}
+        {
+          discriminationsAilleurs.length > 0 && (
+            <div class="voir-aussi">
+              <p class="propose-titre">Voir aussi, dans d'autres sections de cette page&nbsp;:</p>
+              <ul>
+                {discriminationsAilleurs.map((e) => (
+                  <li>
+                    {typo(e.data.titre)}
+                    {e.data.theme && (
+                      <>
+                        {' '}
+                        (<a href={`/themes/${e.data.theme.id}/`}>{themeById.get(e.data.theme.id)?.titre}</a>)
+                      </>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
       </Section>
 
       <Section
