@@ -14,3 +14,17 @@ texte: >-
   Parlement. Il évoque aussi l'incapacité de l'État à appliquer les obligations de quitter le territoire (Public Sénat).
 date: 2026-05-28
 sources: [lcp-2026-05-26-glucksmann-programme, publicsenat-2026-08-24-glucksmann-propositions]
+appui:
+  faits: >-
+    Aucun chiffre n'est cité dans les extraits lus. Il renvoie aux « données démographiques, économiques ou sécuritaires »
+    que les citoyens tirés au sort auraient à examiner.
+  raisonnement: >-
+    « Au lieu de fuir le débat migratoire, nous l'assumerons. » Les tenants de l'immigration zéro devraient écouter « un
+    petit patron ou un directeur d'hôpital » ; ceux « qui disent qu'il n'y a aucun problème » devraient analyser
+    « l'incapacité de notre État à appliquer les Obligations de quitter le territoire français ».
+  sources: [publicsenat-2026-08-24-glucksmann-propositions]
+  donnees:
+    - texte: >-
+        Cour des comptes (janvier 2024) : en 2022, 134 280 obligations de quitter le territoire prononcées ; « autour de 10 % »
+        sont exécutées.
+      sources: [macommune-2024-01-04-cour-comptes-expulsions]

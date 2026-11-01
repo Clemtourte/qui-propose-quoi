@@ -26,3 +26,21 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-02-12
 sources: [publicsenat-2026-02-13-retailleau-referendum, publicsenat-2026-10-12-retailleau-economies]
+appui:
+  faits: >-
+    Son plan, cité par Public Sénat, attend 10 Md€ d'économies sur l'immigration, dont 4,5 Md€ de deux mesures qui dépendent
+    de la révision constitutionnelle. Le document du plan n'a pas été trouvé.
+  raisonnement: >-
+    Il veut « réduire drastiquement l'immigration » et « redonner la primauté à notre droit national », en soumettant
+    directement plusieurs textes au référendum.
+  sources: [publicsenat-2026-02-13-retailleau-referendum, publicsenat-2026-10-12-retailleau-economies]
+  donnees:
+    - texte: >-
+        Conseil constitutionnel (11 avril 2024) : une condition de cinq ans de résidence ou de trente mois d'activité pour
+        des prestations sociales porte « une atteinte disproportionnée » aux exigences constitutionnelles. Le texte alors
+        examiné était une proposition de loi, sans révision de la Constitution.
+      sources: [conseil-constitutionnel-2024-04-11-2024-6-rip]
+    - texte: >-
+        Direction générale des étrangers en France (2025, provisoire) : 90 959 premiers titres pour motif familial et 116 835
+        pour études, sur 377 462.
+      sources: [dgef-2026-06-30-titres-sejour-2025]

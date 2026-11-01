@@ -1,7 +1,7 @@
 titre: "Immigration"
 ordre: 3
 accroche: "Entrées, titres de séjour, asile, intégration, éloignements."
-derniere_verification: 2026-10-20
+derniere_verification: 2026-11-01
 questions:
   - id: niveau
     libelle: Niveau d'immigration visé
@@ -14,14 +14,21 @@ questions:
 etat_des_lieux:
   - nature: fait
     texte: >-
-      En 2025, 384 230 premiers titres de séjour ont été délivrés, soit 11,2 % de plus qu'en 2024 (données
-      provisoires du ministère de l'Intérieur). Les études sont le premier motif (environ 118 000 titres), devant
-      les motifs humanitaires (92 600, +65 %), familiaux (91 000, stables) et économiques (51 190, −13 %).
-    date: 2026-01-27
-    sources: [publicsenat-2026-01-27-titres-sejour-2025, franceinfo-2026-01-27-rapport-immigration-2025]
+      En 2025, 377 462 premiers titres de séjour ont été délivrés, soit 9,2 % de plus qu'en 2024 (données provisoires
+      du ministère de l'Intérieur, publiées le 30 juin 2026 ; la première estimation de janvier donnait 384 230). Les
+      études sont le premier motif (116 835 titres), devant les motifs familiaux (90 959, stables), humanitaires
+      (88 001, +56,8 %) et économiques (50 848, −13,2 %).
+    date: 2026-06-30
+    sources: [dgef-2026-06-30-titres-sejour-2025, publicsenat-2026-01-27-titres-sejour-2025]
     chiffres_cles:
-      - valeur: "384 230"
-        libelle: "premiers titres de séjour délivrés en 2025 (+11,2 % sur un an, données provisoires)"
+      - valeur: "377 462"
+        libelle: "premiers titres de séjour délivrés en 2025 (+9,2 % sur un an, données provisoires)"
+  - nature: fait
+    texte: >-
+      En 2024, 7,7 millions d'immigrés vivent en France, soit 11,3 % de la population, et 6,0 millions d'étrangers,
+      soit 8,8 %. Un immigré est né étranger à l'étranger ; un étranger peut être né en France.
+    date: 2025-10-07
+    sources: [insee-2025-10-07-immigres-etrangers-2024]
   - nature: fait
     texte: >-
       Environ 117 000 premières demandes d'asile ont été enregistrées en 2025 (−10 % sur un an), sur 151 665
@@ -39,6 +46,126 @@ etat_des_lieux:
     chiffres_cles:
       - valeur: "24 985"
         libelle: "éloignements d'étrangers en 2025 (+15,7 % sur un an, données provisoires)"
+raisonnements:
+  - question: Que pèse l'immigration sur les finances publiques ?
+    lectures:
+      - auteur: Ana Damas de Matos, OCDE, octobre 2021
+        date: 2021-10-28
+        texte: >-
+          Sur 2006-2018, la contribution nette totale des immigrés est « comprise entre ‑1 % et +1 % du PIB dans la plupart des
+          pays ». En France, elle passe de +1,02 % du PIB sur les seuls impôts et prestations individuels à −0,85 % en intégrant
+          les biens publics.
+        sources: [ocde-2021-10-28-impact-budgetaire-immigration]
+      - auteur: Jean-Christophe Dumont (OCDE) et Lionel Ragot (Paris Nanterre, CEPII), devant l'Assemblée, 25 février 2026
+        date: 2026-02-25
+        texte: >-
+          Selon le premier, les effets sont « globalement faibles » et l'immigration « n'est ni la cause du déficit de la
+          Sécurité sociale, ni celle du budget de l'État ». Le second parle d'un « consensus relatif » sur des effets
+          « globalement modérés » : environ −0,2 point de PIB sur 1979-2011. Selon lui, une politique plus restrictive
+          dégraderait les comptes de la protection sociale.
+        sources: [an-2026-02-25-table-ronde-migrations-securite-sociale]
+      - auteur: Nicolas Pouvreau-Monti, Observatoire de l'immigration et de la démographie, devant l'Assemblée, 25 février 2026
+        date: 2026-02-25
+        texte: >-
+          Les difficultés du système de santé « n'ont pas pour cause racine l'immigration », mais les politiques actuelles y
+          ajoutent « un degré de pression qui, à bien des égards, n'est pas souhaitable ». Il présente l'aide médicale d'État
+          comme « une exception européenne ». Dumont juge la discussion « plus nuancée » sur ce point.
+        sources: [an-2026-02-25-table-ronde-migrations-securite-sociale]
+      - auteur: François Saint-Cast et Samuel-Frédéric Servière, Fondation iFRAP, janvier 2022
+        date: 2022-01-12
+        texte: >-
+          À partir du même rapport de l'OCDE, ils retiennent −0,53 % du PIB hors charge de la dette, 5e plus mauvais résultat
+          selon eux, et plaident pour une immigration choisie, avec moins de regroupement familial et des quotas économiques.
+        sources: [ifrap-2022-01-12-immigration-couts-gains]
+      - auteur: Institut de l'Entreprise, note sur le contre-budget du RN, 6 octobre 2026
+        date: 2026-10-06
+        texte: >-
+          La note classe 92 % des montants attendus de l'immigration (15,1 puis 29 Md€) parmi les mesures « non documentées ou
+          juridiquement fragiles ».
+        sources: [idep-2026-10-06-contre-budget-rn]
+    camps:
+      - libelle: Restreindre des prestations aux étrangers, avec des économies chiffrées
+        candidats: [le-pen, retailleau]
+      - libelle: Restreindre les aides ou expulser leurs bénéficiaires, sans chiffrage relevé
+        candidats: [philippe, zemmour]
+      - libelle: Garantir ou élargir l'accès aux soins et aux droits
+        candidats: [melenchon, tondelier]
+      - libelle: Pas de mesure relevée sur ce point
+        candidats: [attal, glucksmann]
+  - question: La France a-t-elle besoin d'immigration de travail ?
+    lectures:
+      - auteur: Thierry Pech, Terra Nova, 16 janvier 2026
+        date: 2026-01-16
+        texte: >-
+          S'appuyant sur l'Insee, il écrit que l'emploi des immigrés explique « environ un quart des créations nettes d'emploi
+          en France » entre 2019 et 2024, et que la population immigrée en âge de travailler a crû de 7,3 %, contre 14,2 % en
+          Allemagne et 33 % en Espagne.
+        sources: [terranova-2026-01-16-contribution-immigres-travail]
+      - auteur: Christine Erhel, Cnam, Centre d'études de l'emploi et du travail, octobre 2026
+        date: 2026-10-09
+        texte: >-
+          « La main-d'œuvre étrangère est essentielle au fonctionnement du marché du travail et cette tendance va s'accentuer
+          dans les dix prochaines années avec le choc démographique qui va conduire à une baisse de la population active. »
+        sources: [publicsenat-2026-10-09-rn-taxe-embauche]
+      - auteur: Lionel Ragot (Paris Nanterre, CEPII), devant l'Assemblée, 25 février 2026
+        date: 2026-02-25
+        texte: >-
+          Selon lui, l'immigration « ne peut en aucun cas constituer la solution » au financement de la protection sociale :
+          stabiliser le ratio de dépendance par les seuls flux reviendrait à « doubler la population française tous les
+          quarante ans ». Le résultat dépend de l'âge à l'entrée et de la qualification.
+        sources: [an-2026-02-25-table-ronde-migrations-securite-sociale]
+      - auteur: Jean-Christophe Dumont (OCDE), devant l'Assemblée, 25 février 2026
+        date: 2026-02-25
+        texte: >-
+          Le taux d'emploi des immigrés est inférieur de sept points à celui des natifs. L'aligner à profil comparable
+          rapporterait environ 0,2 point de PIB par an, soit près de 4,6 Md€.
+        sources: [an-2026-02-25-table-ronde-migrations-securite-sociale]
+    camps:
+      - libelle: Donner la priorité à l'immigration de travail, tout en réduisant les entrées
+        candidats: [attal, philippe]
+      - libelle: Régulariser les travailleurs
+        candidats: [melenchon, tondelier]
+      - libelle: Taxer l'embauche d'un salarié extra-européen
+        candidats: [le-pen]
+      - libelle: Les robots pourraient remplacer la main-d'œuvre immigrée
+        candidats: [zemmour]
+      - libelle: L'immigration zéro n'est « ni souhaitable, ni possible », et une convention citoyenne en débat
+        candidats: [glucksmann]
+      - libelle: Pas de position relevée sur ce point
+        candidats: [retailleau]
+  - question: Que permet le droit, et qu'est-ce qui freine son application ?
+    lectures:
+      - auteur: Conseil constitutionnel, décision du 11 avril 2024
+        date: 2024-04-11
+        texte: >-
+          Le bénéfice de certaines prestations peut être soumis à une condition de durée de résidence ou d'activité, mais
+          « cette durée ne saurait être telle qu'elle prive de garanties légales » les exigences constitutionnelles. Cinq ans de
+          résidence ou trente mois d'activité portent « une atteinte disproportionnée ».
+        sources: [conseil-constitutionnel-2024-04-11-2024-6-rip]
+      - auteur: Richard Ferrand, président du Conseil constitutionnel, 9 octobre 2026
+        date: 2026-10-09
+        texte: >-
+          « Aujourd'hui, vouloir réformer la Constitution par l'article 11, ça n'existe pas. » Le RN lui reproche d'avoir manqué
+          à la neutralité de sa fonction.
+        sources: [franceinfo-2026-10-13-ferrand-referendum]
+      - auteur: Cour des comptes, rapport du 4 janvier 2024
+        date: 2024-01-04
+        texte: >-
+          Elle compte 133 modifications du cadre législatif en moins de dix ans et juge que les préfectures sont saturées. Elle
+          recommande de renforcer leurs moyens. Selon son premier président, Pierre Moscovici, « l'État peut mieux s'organiser »,
+          notamment pour obtenir les laissez-passer consulaires.
+        sources: [ccomptes-2024-01-04-immigration-irreguliere, macommune-2024-01-04-cour-comptes-expulsions]
+    camps:
+      - libelle: Réviser la Constitution par référendum
+        candidats: [le-pen, retailleau]
+      - libelle: N'écarte pas totalement un référendum
+        candidats: [philippe]
+      - libelle: Abroger les lois récentes sur l'asile et l'immigration
+        candidats: [melenchon, tondelier]
+      - libelle: Passer par une convention citoyenne et le Parlement
+        candidats: [glucksmann]
+      - libelle: Pas de position relevée sur ce point dans nos entrées
+        candidats: [attal, zemmour]
 recherches:
   avis: >-
     Recherché le 19 octobre 2026 : aucun avis d'institution sur les projets 2027 de Marine Le Pen, Jean-Luc Mélenchon

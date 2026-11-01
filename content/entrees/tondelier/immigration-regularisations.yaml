@@ -12,3 +12,16 @@ texte: >-
   lois asile et immigration adoptées sous Emmanuel Macron. Il ne fixe pas d'objectif chiffré d'entrées.
 date: 2026-07
 sources: [lesecologistes-2026-07-programme]
+appui:
+  faits: >-
+    Le programme avance, sans source : « Une personne française sur quatre a désormais un grand-parent étranger. »
+  raisonnement: >-
+    « Arrêter la fabrique juridique des sans-papiers par la complexification croissante du droit des étrangers. » Et : « Au
+    regard des enjeux démographiques, nous devons refaire de la France un pays attractif pour les migrant·es. »
+  sources: [lesecologistes-2026-07-programme]
+  donnees:
+    - texte: >-
+        Cour des comptes (janvier 2024) : 133 modifications du cadre législatif en moins de dix ans et 447 257 obligations de
+        quitter le territoire prononcées de 2019 à 2022, dont « autour de 10 % » exécutées. Aucune donnée officielle n'a été
+        lue sur la part de Français ayant un grand-parent étranger.
+      sources: [ccomptes-2024-01-04-immigration-irreguliere, macommune-2024-01-04-cour-comptes-expulsions]

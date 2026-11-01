@@ -14,3 +14,20 @@ texte: >-
   « remigration » et estime que les robots pourraient à l'avenir remplacer la main-d'œuvre immigrée.
 date: 2026-09-17
 sources: [europe1-2026-09-18-zemmour-immigration, europe1-2026-09-13-zemmour-rentree]
+appui:
+  faits: >-
+    « Il faut renvoyer tous les étrangers qui sont dans les prisons françaises. Ça fait 25% des prisons. » Il invoque aussi
+    « un article du code des étrangers qui date, je pense, de 1945, et qui dit que tout étranger qui pèse sur les finances
+    publiques doit être expulsé ».
+  raisonnement: >-
+    La « remigration », c'est-à-dire, selon Europe 1, l'expulsion des étrangers et pas seulement l'arrêt de l'immigration.
+    Il estime que les robots pourraient à l'avenir remplacer la main-d'œuvre immigrée.
+  sources: [europe1-2026-09-18-zemmour-immigration]
+  donnees:
+    - texte: >-
+        Ministère de la Justice (1er avril 2026) : 21 329 détenus de nationalité étrangère sur 88 419, soit 24,2 %, et 1 500
+        libérations conditionnelles-expulsion en 2025. L'article de 1945 qu'il cite n'a pas été vérifié.
+      sources: [an-qe-13927-detenus-etrangers]
+    - texte: >-
+        Direction générale des étrangers en France : environ 4,5 millions d'étrangers en situation régulière fin 2025.
+      sources: [dgef-2026-06-30-titres-sejour-2025]

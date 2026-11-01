@@ -14,3 +14,17 @@ texte: >-
   qu'une part d'immigration reste nécessaire.
 date: 2026-05-26
 sources: [franceinfo-2026-05-26-attal-immigration, europe1-2026-05-26-attal-immigration]
+appui:
+  faits: >-
+    Aucun chiffre n'est cité dans les propos rapportés par franceinfo et Europe 1.
+  raisonnement: >-
+    Il veut « privilégier l'immigration de travail au regroupement familial » : « C'est aussi un service à rendre aux
+    personnes qu'on accueille et qu'aujourd'hui, on n'accueille pas suffisamment bien. » Il estime aussi « qu'on a besoin
+    d'une part d'immigration en France ».
+  sources: [franceinfo-2026-05-26-attal-immigration]
+  donnees:
+    - texte: >-
+        Direction générale des étrangers en France (2025, provisoire) : 50 848 premiers titres pour motif économique (13,5 %,
+        −13,2 % sur un an) et 90 959 pour motif familial (24,1 %, stable), dont 40 536 pour des familles de Français. La
+        publication ne donne pas à part le regroupement familial.
+      sources: [dgef-2026-06-30-titres-sejour-2025]

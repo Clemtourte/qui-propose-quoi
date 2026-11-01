@@ -14,3 +14,18 @@ texte: >-
   l'Algérie. Sur France 2, il n'écarte pas totalement un référendum sur l'immigration.
 date: 2026-10-08
 sources: [edouardphilippe-2026-france-plus-sure, franceinfo-2026-10-08-philippe-heure-de-verite, euronews-2026-10-09-philippe-travail-depenses]
+appui:
+  faits: >-
+    Selon Euronews, il vise un niveau « largement inférieur à 200 000 » titres par an, comparable à celui d'avant 2010. Son
+    programme ne donne pas de base de calcul.
+  raisonnement: >-
+    « Notre politique d'intégration ne fonctionne pas (...). Il faut admettre que l'immigration est trop importante. » Il
+    défend « une immigration de travail » et veut s'attaquer « au regroupement familial et au droit à mener une vie
+    familiale normale ».
+  sources: [euronews-2026-10-09-philippe-travail-depenses, franceinfo-2026-10-08-philippe-heure-de-verite]
+  donnees:
+    - texte: >-
+        Direction générale des étrangers en France (2025, provisoire) : 377 462 premiers titres, dont 116 835 pour études,
+        90 959 pour motif familial, 88 001 pour motif humanitaire et 50 848 pour motif économique. La série lue commence en
+        2021 : le niveau d'avant 2010 n'a pas été vérifié.
+      sources: [dgef-2026-06-30-titres-sejour-2025]

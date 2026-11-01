@@ -26,3 +26,30 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-09-13
 sources: [france3-2026-09-13-le-pen-henin-beaumont, sudradio-2026-09-13-le-pen-logement, franceinfo-2026-10-08-critiques-budget-rn]
+appui:
+  faits: >-
+    Le dossier du contre-budget détaille 15,1 Md€ pour 2027, dont 7,5 Md€ en réservant les prestations de solidarité aux
+    étrangers ayant « au moins 5 ans ETP travaillés en France », 1,92 Md€ de taxe de 14 % sur les transferts d'argent vers
+    les pays tiers, 1,1 Md€ par le remplacement de l'aide médicale d'État par une aide d'urgence, 1,1 Md€ de hausse des
+    frais de scolarité des étudiants étrangers, 1 Md€ par la suppression du visa pour soins et 1 Md€ de taxe à l'embauche
+    d'un extra-européen. Il présente des tableaux, sans détail de calcul.
+  raisonnement: >-
+    Marine Le Pen parle d'« un droit naturel et juste ». Renaud Labaye, présenté par Public Sénat comme son bras droit,
+    évoque « la seule discrimination que nous revendiquons », à propos de la taxe à l'embauche.
+  sources: [rn-2026-10-06-dossier-contre-budget, france3-2026-09-13-le-pen-henin-beaumont, publicsenat-2026-10-09-rn-taxe-embauche]
+  donnees:
+    - texte: >-
+        OCDE (moyenne 2006-2018) : en France, les immigrés contribuent à hauteur de +1,02 % du PIB en ne comptant que les
+        impôts, les cotisations et les prestations individuelles, et de −0,85 % du PIB en leur attribuant aussi une part des
+        biens publics, dont la défense et la dette. Selon l'OCDE devant l'Assemblée, à ce dernier niveau le solde est négatif
+        pour tous.
+      sources: [ocde-2021-10-28-impact-budgetaire-immigration, an-2026-02-25-table-ronde-migrations-securite-sociale]
+    - texte: >-
+        Sénat (rapport sur le budget 2026) : l'aide médicale d'État a coûté 1 387 M€ en 2024, soins urgents compris.
+      sources: [senat-2025-11-essentiel-mission-sante-plf-2026]
+    - texte: >-
+        Conseil constitutionnel (11 avril 2024) : une condition de cinq ans de résidence ou de trente mois d'activité pour
+        des prestations sociales porte « une atteinte disproportionnée » aux exigences constitutionnelles. Le texte alors
+        examiné était une proposition de loi, sans révision de la Constitution ; le critère du RN (5 ans de travail à temps
+        plein) diffère.
+      sources: [conseil-constitutionnel-2024-04-11-2024-6-rip]
