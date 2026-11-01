@@ -315,7 +315,7 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Volume inégal dans « Ce qui est contesté »** : il reflète ce qui a été trouvé, pas un jugement. Des économistes nommés sont trouvés pour Le Pen, Mélenchon et, sur une mesure, Glucksmann ; aucun pour Attal, Philippe, Retailleau et Tondelier. À reprendre dans Les Echos, Le Monde, l'OFCE, l'IPP et l'iFRAP. Le chiffrage de l'Institut Montaigne est annoncé pour le premier trimestre 2027.
 - **Attal** : période des 150 Md€ : dix ans selon Public Sénat (3 juillet), « la même période » que cinq ans selon Public Sénat (12 octobre), non précisée sur son site. Les 96 mesures listées sur son site n'ont pas été lues ; elles peuvent préciser des positions saisies dans les thèmes avant que ce site ne soit repéré. Le site est à reprendre thème par thème. La présence de sept économistes le 23 septembre vient de son seul site : leur avis sur le plan n'est pas connu.
 - **Glucksmann** : des comparateurs tiers signalent un « chantier-cadre » sur le financement dans l'Acte I (42 chantiers) ; à lire dans le PDF. Pas de programme sur glucks2027.fr au 30 octobre.
-- **Le Pen** : 140 Md€ (Public Sénat, franceinfo, Europe 1) ou 142 Md€ (LCP). Contribution à l'UE : 9 Md€ (Jordan Bardella) ou 11,1 Md€ dès 2027 (franceinfo). Document du contre-budget non lu.
+- **Le Pen** : 140 Md€ (Public Sénat, franceinfo, Europe 1) ou 142 Md€ (LCP). Contribution à l'UE : 9 Md€ (Jordan Bardella) ou 11,1 Md€ dès 2027 (franceinfo et dossier du RN, lu le 1er novembre 2026).
 - **Mathieu Plane** : présenté comme directeur adjoint de l'IFE par franceinfo (8 octobre), comme économiste de l'OFCE par l'AFP (14 octobre). Chaque source est suivie ; à clarifier.
 - **Mélenchon** : section à reprendre après le 6-7 novembre. Document du contre-budget non lu.
 - **Philippe** : coût et financement de l'allocation unique de 350 € et de la réduction d'impôt non trouvés. Trois de ses pages de priorités citées ont été lues lors des passes sur les thèmes, pas relues le 30 octobre.
@@ -334,7 +334,7 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 
 ## Fondements de la fiscalité et du budget, 1er novembre 2026
 
-- **Documents de plan non trouvés** : contre-budget du RN et son annexe, budget rectificatif de LFI, plan de Bruno Retailleau. Les blocs reposent sur la presse et l'AFP, et le plan chiffré de Sarah Knafo (son livre) n'a pas été lu. Note de l'Institut de l'Entreprise non relue le 1er novembre : URL à confirmer si elle sert à nouveau.
+- **Documents de plan non trouvés** : budget rectificatif de LFI, plan de Bruno Retailleau. Le dossier du contre-budget du RN a été trouvé le 1er novembre 2026 sur le site du député Nicolas Dragon : chercher une version sur un site du RN. Les blocs reposent sur la presse et l'AFP, et le plan chiffré de Sarah Knafo (son livre) n'a pas été lu. Note de l'Institut de l'Entreprise non relue le 1er novembre : URL à confirmer si elle sert à nouveau.
 - **Mélenchon** : bloc provisoire, à reprendre après le 6-7 novembre. Seule l'entrée sur les patrimoines a un bloc ; le budget rectificatif et la dette auprès de la BCE n'en ont pas (cette dernière a déjà une vérification de franceinfo).
 - **Mesure qui diffère** : IPP sur des données de 2016, et sur le haut de la distribution, pas sur « les 1 % » cités par Marine Tondelier ; HCFP sur 2027, pas sur 2028-2030 du RN ; Sénat sur les agences (environ 500 M€, relayé par Public Sénat, rapport non lu) face aux 3,4 Md€ du RN et aux 7,5 Md€ de Bruno Retailleau, dont les périmètres ne sont pas forcément identiques.
 - **Définition de « Donnée officielle »** : IPP et notes du CAE (sous la responsabilité de leurs auteurs) ne sont pas des statistiques publiques au sens strict. Décision du 1er novembre 2026 : ils restent sous cette mention, avec l'organisme ou l'auteur nommé dans le texte, sans mention « Étude » distincte. Eurostat sur les droits de succession et le Sénat sur les aides sont lus via la presse.
@@ -357,3 +357,38 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Eurostat** : indicateur « d » (définition différente) pour la France ; nature exacte de la différence non lue.
 - **« Les raisonnements en présence »** : COR lu en synthèse et par extraits du rapport complet ; note de la Fondapol lue dans son résumé et sa présentation ; présentation d'Anne Lavigne lue sur diapositives ; dossier en bref du COR, pas tous les documents de séance. L'étiquette « think tank libéral » de l'iFRAP est notre formulation (sa page dit seulement « Le Think-Tank ») : à confirmer. La question « Même âge pour tous » n'a qu'une lecture : chercher d'autres auteurs. Le classement des candidats dans les camps vient des entrées existantes : à revoir après le 6-7 novembre (LFI) et le 17 novembre (RN).
 - **Revérification indépendante non faite** (pas de sous-agent, conformément à la méthode).
+
+## Fondements de l'immigration, 1er novembre 2026
+
+- **Dossier du RN** : tableaux lus sur les postes immigration et agences, seulement pour la colonne de 2027 : l'extraction du PDF ne permet pas de lire de façon sûre les années suivantes (29 Md€ repris de l'Institut de l'Entreprise et de la presse). Hébergé sur le site d'un député.
+- **Regroupement familial** : le chiffre de l'Ined (12 885 titres en 2023, environ 5 %) vient d'un résumé de recherche ; site de l'Ined indisponible le 1er novembre (503), non publié. La DGEF ne donne pas ce chiffre à part dans la page lue. À ajouter quand l'Ined sera accessible : il concerne Attal, Philippe, Retailleau et Le Pen.
+- **OCDE** : tableau 4.1 lu dans la page, en-têtes de colonnes non extraits ; l'interprétation repose sur la présentation de Jean-Christophe Dumont à l'Assemblée et sur La Finance pour tous. Données de 2006-2018, à actualiser. Dumont indique aussi un solde proche de zéro avant les biens publics purs (0,25 % dans le tableau).
+- **Commission d'enquête** : la rapporteure est RN et son groupe a demandé la commission, ce que dit la note de la source. Seule une partie du compte rendu a été lue.
+- **Observatoire de l'immigration et de la démographie** : orientation non affichée, faute de source de presse solide lue ; une page encyclopédique évoque un financement par Périclès, à vérifier.
+- **Terra Nova** : l'article de Thierry Pech cite la note de conjoncture de l'Insee de décembre 2025, non lue directement. Le rapport de Terra Nova sur l'immigration de travail n'a pas été lu.
+- **Une seule source** : Cour des comptes sur les « autour de 10 % » d'obligations de quitter le territoire exécutées, lu via macommune.info (dépêche), le rapport complet n'ayant pas été lu ; l'article date par erreur le rapport de 2023.
+- **Non vérifié** : l'article de 1945 cité par Éric Zemmour et « une personne française sur quatre » des Écologistes. Le chiffre des « 25 % » de détenus étrangers est proche de la donnée du ministère (24,2 %) ; le livret du RN de 2022 cite aussi « près de 25 % ».
+- **Mélenchon** : bloc provisoire ; programme de 2024, à reprendre après le 6-7 novembre.
+- **Camps** : classement rédigé à partir de nos entrées, à relire. « Pas de position relevée » ne veut pas dire absence de position.
+
+## Fondements de la sécurité et de la justice, 1er novembre 2026
+
+- **Mineurs** : le rapport de l'Inspection générale de la justice est lu sur sa partie statistique. Les chiffres de la Cour des comptes (146 puis 57 condamnations) sont cités par ce rapport, non lus à la source. Il écarte explicitement la question des 16 ans. Aucun avis de la Défenseure des droits ou de la CNCDH sur l'abaissement de la majorité pénale n'a été trouvé.
+- **Peines planchers** : note de l'IPP lue. Rapport Barèges (groupe UDR) lu sur ses passages d'évaluation : il affirme une diffusion aux co-condamnés, tandis que l'IPP parle d'une « faible diffusion ». Le rapport cite un autre travail d'Arnaud Philippe, non lu. La réponse de la garde des Sceaux de 2012 est une position gouvernementale.
+- **Courtes peines** : l'article de synthèse d'Henneguelle et Monnery n'a été lu que dans son résumé, sans résultat chiffré, et n'est pas publié. Aucune donnée lue sur les « pays du Nord » cités par Édouard Philippe.
+- **Gardes à vue du 17 octobre** : 2 331, 30 % de mineurs : une seule source (RMC, données du ministère de la Justice).
+- **LFI, blessures** : les chiffres de La France insoumise sur les gilets jaunes ne sont pas confrontés à un décompte officiel, non trouvé.
+- **Le Pen** : le fondement repose sur le livret de 2022 et sur RMC ; aucun texte de 2026 lu n'expose son raisonnement sur les mineurs.
+- **CNB** : l'article est lu sur son début ; la date du 13 octobre 2026 provient du résultat de recherche.
+- **Livret du PS** : cité via LCP, non lu ; LCP précise qu'on ignore si Raphaël Glucksmann reprend toute cette ligne.
+
+## Fondements de l'écologie et de l'énergie, 1er novembre 2026
+
+- **RTE 2021** : l'étude « Futurs énergétiques 2050 » est lue via le compte rendu de la Banque des Territoires, et ses chiffres datent d'avant les nouveaux devis des EPR2 (72,8 Md€). RTE 2025 : résumé exécutif, lu par extraits.
+- **EPR2** : devis d'EDF via l'AFP. Le chiffre de la Cour des comptes (plus de 100 Md€ avec le financement) vient d'un résumé de recherche, non publié. Le coût de 8 réacteurs supplémentaires n'est pas documenté.
+- **300 Md€ du RN** : décomposition et chiffres de Matignon lus dans Public Sénat ; la note de Matignon et le rapport du comité de gestion des charges de service public ne sont pas lus. Un chiffre de la CRE (50 Md€) vient d'un résumé de recherche, non publié.
+- **Mélenchon** : le statut d'EDF est sourcé (AFP, 2023). La part de l'État dans Engie n'est pas vérifiée : des dépôts donnent 23,64 % et un document de 2026 un autre chiffre, à lire. Bloc provisoire jusqu'au programme.
+- **Attal** : définition de son objectif des « trois quarts » non trouvée ; le bloc signale que la mesure peut différer de l'indépendance énergétique.
+- **Global Chance et iFRAP** : ces lectures datent de 2023 et 2025, avant la version finale de la programmation.
+- **Le Pen, Zemmour** : positions de 2022 pour le mix ; leur reprise pour 2027 reste à documenter.
+- **Revérification indépendante non faite** sur ces trois thèmes (pas de sous-agent, conformément à la méthode).
