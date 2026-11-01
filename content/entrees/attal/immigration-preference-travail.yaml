@@ -11,20 +11,24 @@ texte: >-
   Il veut que « l'immigration économique » devienne la priorité de la politique migratoire et « durcir les conditions
   du regroupement familial », par exemple en augmentant la durée de résidence requise en France. Il juge
   « ni possible ni souhaitable » un moratoire de trois ans sur les entrées, proposé par Gérald Darmanin, et estime
-  qu'une part d'immigration reste nécessaire.
+  qu'une part d'immigration reste nécessaire. Son site propose un système à points inspiré du Canada, articulé avec des
+  quotas votés tous les deux ans par le Parlement.
 date: 2026-05-26
-sources: [franceinfo-2026-05-26-attal-immigration, europe1-2026-05-26-attal-immigration]
+sources: [franceinfo-2026-05-26-attal-immigration, europe1-2026-05-26-attal-immigration, attalpresident-2026-immigration-points]
 appui:
   faits: >-
-    Aucun chiffre n'est cité dans les propos rapportés par franceinfo et Europe 1.
+    Son site cite 7,7 millions d'immigrés en 2024 (11,3 % de la population), 2,9 millions de visas et 157 947 demandeurs
+    d'asile, et prend pour modèle « un système à points comme au Canada ».
   raisonnement: >-
     Il veut « privilégier l'immigration de travail au regroupement familial » : « C'est aussi un service à rendre aux
     personnes qu'on accueille et qu'aujourd'hui, on n'accueille pas suffisamment bien. » Il estime aussi « qu'on a besoin
-    d'une part d'immigration en France ».
-  sources: [franceinfo-2026-05-26-attal-immigration]
+    d'une part d'immigration en France ». Critères annoncés : « une offre d'emploi stable, un logement, parler français,
+    connaître nos valeurs et les respecter ».
+  sources: [franceinfo-2026-05-26-attal-immigration, attalpresident-2026-frontieres]
   donnees:
     - texte: >-
         Direction générale des étrangers en France (2025, provisoire) : 50 848 premiers titres pour motif économique (13,5 %,
         −13,2 % sur un an) et 90 959 pour motif familial (24,1 %, stable), dont 40 536 pour des familles de Français. La
-        publication ne donne pas à part le regroupement familial.
-      sources: [dgef-2026-06-30-titres-sejour-2025]
+        publication ne donne pas à part le regroupement familial. Insee (2024) : 7,7 millions d'immigrés, soit 11,3 %,
+        comme il l'écrit. Aucune donnée n'a été lue sur les résultats du système canadien.
+      sources: [dgef-2026-06-30-titres-sejour-2025, insee-2025-10-07-immigres-etrangers-2024]
