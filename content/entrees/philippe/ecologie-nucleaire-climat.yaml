@@ -23,3 +23,16 @@ reperes:
 date: '2026'
 sources:
 - edouardphilippe-2026-france-plus-conquerante
+appui:
+  faits: >-
+    Son programme ne donne ni le coût ni le calendrier des 8 EPR supplémentaires.
+  raisonnement: >-
+    « Assurer notre souveraineté énergétique » par le nucléaire, les renouvelables et l'électrification massive des usages, et
+    un prix du carbone aux frontières pour protéger « nos industries qui décarbonent face à une concurrence déloyale ».
+  sources: [edouardphilippe-2026-france-plus-conquerante]
+  donnees:
+    - texte: >-
+        EDF, cité par l'AFP (décembre 2025) : 72,8 Md€ pour les 6 premiers EPR2 (euros de 2020, hors financement), soit environ
+        40 % de plus qu'en 2022, et une première mise en service visée en 2038. Aucun coût officiel n'a été lu pour 8 réacteurs de
+        plus.
+      sources: [afp-2025-12-18-cout-epr2]

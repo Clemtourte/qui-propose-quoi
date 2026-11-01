@@ -11,3 +11,18 @@ questions: [renouvelables]
 date: '2026-02-12'
 sources:
 - journaldeleconomie-2026-02-12-ppe-retailleau-le-pen
+appui:
+  faits: >-
+    Selon Public Sénat, les 300 Md€ du RN se composent d'environ 200 Md€ d'investissements dans les réseaux et d'environ
+    100 Md€ de soutien aux renouvelables et au biométhane. Marine Le Pen ajoute : « Mais c'est sans aucun doute bien
+    davantage. »
+  raisonnement: >-
+    Elle conteste le recours au décret, « faute démocratique », et met « au défi » Sébastien Lecornu « de démontrer devant le
+    Parlement le contraire ». Le contre-budget du RN prévoit aussi un « prix national de l'électricité » (5,6 Md€ en 2027).
+  sources: [publicsenat-2026-02-12-ppe-300-milliards, journaldeleconomie-2026-02-12-ppe-retailleau-le-pen, rn-2026-10-06-dossier-contre-budget]
+  donnees:
+    - texte: >-
+        Matignon, cité par Public Sénat : selon les prix de l'énergie, la programmation coûterait à l'État de l'ordre de 115 Md€
+        sur 45 ans si les prix sont bas, ou lui rapporterait 35 Md€ s'ils sont hauts. Le périmètre diffère de celui du RN, qui
+        inclut les réseaux.
+      sources: [publicsenat-2026-02-12-ppe-300-milliards]

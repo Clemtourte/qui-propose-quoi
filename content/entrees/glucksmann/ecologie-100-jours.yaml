@@ -18,3 +18,16 @@ date: '2026-08-25'
 sources:
 - lcp-2026-08-25-glucksmann-100-jours
 - linfodurable-2026-10-12-glucksmann-ecologie
+appui:
+  faits: >-
+    Il parle d'« addiction au gaz et au pétrole », sans chiffre dans les propos rapportés. Le plan n'est pas chiffré à cette
+    date.
+  raisonnement: >-
+    « La révolution écologique, c'est une révolution industrielle » : produire en France pour ne pas être « dépendant en tout
+    de la Chine ». Il reconnaît un point « qui reste à discuter » avec Yannick Jadot, les nouveaux réacteurs.
+  sources: [lcp-2026-08-25-glucksmann-100-jours]
+  donnees:
+    - texte: >-
+        Service statistique du ministère de la Transition écologique (2025, provisoire) : facture énergétique de 45,8 Md€, en
+        baisse de 21 % sur un an et près de trois fois inférieure au record de 2022.
+      sources: [sdes-2026-04-22-bilan-energetique-2025]

@@ -1,7 +1,7 @@
 titre: Écologie et énergie
 ordre: 5
 accroche: Climat, nucléaire et renouvelables, prix de l'énergie, biodiversité.
-derniere_verification: '2026-10-21'
+derniere_verification: '2026-11-01'
 questions:
 - id: nucleaire
   libelle: Nucléaire
@@ -76,6 +76,93 @@ etat_des_lieux:
       reste inférieure à sa puissance installée.
     sources:
     - rte-2026-02-bilan-electrique-2025-principaux-resultats
+raisonnements:
+- question: Que coûte la programmation de l'énergie, et que faut-il compter ?
+  lectures:
+  - auteur: Matignon, cité par Public Sénat, février 2026
+    date: '2026-02-12'
+    texte: >-
+      Selon les scénarios de prix de l'énergie, de l'ordre de 115 Md€ de coût sur 45 ans si les prix sont bas, ou 35 Md€ de gain
+      s'ils sont hauts.
+    sources: [publicsenat-2026-02-12-ppe-300-milliards]
+  - auteur: Andreas Rüdinger (Iddri) et Nicolas Goldberg (Terra Nova), février 2026
+    date: '2026-02-12'
+    texte: >-
+      Pour le premier, les investissements dans les réseaux servent à les « adapter » au changement climatique, à
+      l'électrification et à toutes les nouvelles capacités, et le RN retient un scénario de prix bas pour le soutien aux
+      renouvelables. Le second relève que le calcul du RN ne compte pas les 6 EPR, qui avec le financement « avoisineront les
+      100 milliards ».
+    sources: [publicsenat-2026-02-12-ppe-300-milliards]
+  - auteur: Fondation iFRAP, mai 2025
+    date: '2025-05-06'
+    texte: >-
+      À partir des chiffres du comité de gestion des charges de service public, elle retient 130 à 159 Md€ d'engagements de soutien
+      aux renouvelables sur 2024-2060 à prix médians, et voit un « tournant » dans l'appel du Premier ministre à un développement
+      « raisonné ».
+    sources: [ifrap-2025-05-06-couts-renouvelables]
+  camps:
+  - libelle: Contestent la programmation adoptée par décret
+    candidats: [le-pen, retailleau]
+  - libelle: Pas de position relevée sur son coût dans nos entrées
+    candidats: [attal, glucksmann, melenchon, philippe, tondelier, zemmour]
+- question: Nucléaire, renouvelables, ou les deux ?
+  lectures:
+  - auteur: RTE, Futurs énergétiques 2050, octobre 2021
+    date: '2021-10-25'
+    texte: >-
+      « Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables. » Selon RTE,
+      « construire de nouveaux réacteurs nucléaires est pertinent » : l'écart serait de l'ordre de 10 Md€ par an, à cause des
+      réseaux et de la flexibilité. RTE dit présenter les options sans en choisir une. Compte rendu de la Banque des Territoires.
+    sources: [banquedesterritoires-2021-10-25-rte-futurs-energetiques]
+  - auteur: RTE, Bilan prévisionnel, décembre 2025
+    date: '2025-12-09'
+    texte: >-
+      « Fermer de manière anticipée des réacteurs nucléaires, ou arrêter complètement le développement des renouvelables écarterait
+      la possibilité d'une décarbonation rapide à l'horizon de 5-10 ans. » Les réseaux « peuvent devenir bloquants plus rapidement
+      que la production ».
+    sources: [rte-2025-12-09-bilan-previsionnel-resume]
+  - auteur: Bertrand Château, Global Chance, débat public de janvier 2023
+    date: '2023-01-24'
+    texte: >-
+      Il conteste les hypothèses de coût de RTE : le coût de production des EPR2 « serait plutôt de l'ordre de 100 €/MWh a minima »,
+      contre 60 à 75 €/MWh retenus selon lui par RTE.
+    sources: [globalchance-2023-01-24-epr2-facture]
+  - auteur: Bernard Kasriel, Fondation iFRAP, mars 2025
+    date: '2025-03-25'
+    texte: >-
+      Il juge que le projet de programmation « ne répond à aucun des impératifs de puissance garantie, de pilotabilité ou de
+      souveraineté » et voit dans l'exemple allemand « le modèle à ne pas suivre ». Son texte porte sur la version de 2025.
+    sources: [ifrap-2025-03-25-ppe3-souverainete]
+  camps:
+  - libelle: Nucléaire et renouvelables ensemble
+    candidats: [attal, glucksmann, philippe]
+  - libelle: Nucléaire, et arrêt des soutiens ou de l'éolien (2022 pour Le Pen et Zemmour)
+    candidats: [le-pen, retailleau, zemmour]
+  - libelle: Sortie du nucléaire (2022 pour Mélenchon, calendrier 2027 non documenté)
+    candidats: [melenchon, tondelier]
+- question: Sortir des énergies fossiles, à quel rythme ?
+  lectures:
+  - auteur: Haut Conseil pour le climat, rapport du 9 juillet 2026
+    date: '2026-07-09'
+    texte: >-
+      Le rythme de baisse des émissions « va devoir au moins doubler », et « la seule poursuite des politiques climatiques actuelles
+      ne permettra pas » d'y répondre.
+    sources: [connaissancedesenergies-2026-07-09-hcc-rapport-2026]
+  - auteur: RTE, Bilan prévisionnel, décembre 2025
+    date: '2025-12-09'
+    texte: >-
+      Dans sa trajectoire de décarbonation rapide, la consommation d'électricité augmenterait de 135 TWh en dix ans et les importations
+      de combustibles fossiles baisseraient d'environ 500 TWh. RTE relève un « retard pris dans l'électrification depuis 2023 ».
+    sources: [rte-2025-12-09-bilan-previsionnel-resume]
+  camps:
+  - libelle: Un plan de 100 jours, non chiffré à ce stade
+    candidats: [glucksmann]
+  - libelle: Une loi de programmation
+    candidats: [attal, tondelier]
+  - libelle: Prix du carbone aux frontières, capture du carbone, électrification
+    candidats: [philippe]
+  - libelle: Pas de calendrier relevé dans nos entrées
+    candidats: [le-pen, melenchon, retailleau, zemmour]
 recherches:
   avis: >-
     Recherché le 21 octobre 2026 : aucun avis d'institution (RTE, ADEME, Cour des comptes, Haut Conseil pour le

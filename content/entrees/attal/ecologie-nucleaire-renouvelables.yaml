@@ -15,3 +15,16 @@ date: '2025-07-22'
 sources:
 - linfodurable-2025-07-22-attal-nouvelle-donne
 - lcp-2025-06-23-attal-axe-anti-ecologie
+appui:
+  faits: >-
+    Il ne cite pas de chiffre sur la situation actuelle dans les propos rapportés.
+  raisonnement: >-
+    Un argument de souveraineté : « Ceux qui refusent le nucléaire et le renouvelable organisent notre vassalisation au
+    Moyen-Orient et parfois à des régimes islamistes et autoritaires. »
+  sources: [linfodurable-2025-07-22-attal-nouvelle-donne]
+  donnees:
+    - texte: >-
+        Service statistique du ministère de la Transition écologique (2025, provisoire) : 62,7 % d'indépendance énergétique,
+        meilleur niveau depuis 1970. Son objectif, des « trois quarts » de l'énergie produits en France, n'est pas forcément
+        mesuré de la même façon.
+      sources: [sdes-2026-04-22-bilan-energetique-2025]

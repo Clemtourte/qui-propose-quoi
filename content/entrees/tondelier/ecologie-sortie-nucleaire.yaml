@@ -23,3 +23,21 @@ reperes:
 date: 2026-07
 sources:
 - lesecologistes-2026-07-programme
+appui:
+  faits: >-
+    Le programme parle de programmes EPR-2 et SMR « extrêmement dispendieux » et de « centrales vieillissantes », sans chiffre
+    à cet endroit.
+  raisonnement: >-
+    Étaler l'arrêt sur une vingtaine d'années et étudier des prolongations pour « éviter l'effet falaise », tout en développant
+    les renouvelables et les communautés d'énergie.
+  sources: [lesecologistes-2026-07-programme]
+  donnees:
+    - texte: >-
+        EDF, cité par l'AFP (décembre 2025) : 72,8 Md€ pour les 6 premiers EPR2 (euros de 2020, hors financement), soit environ
+        40 % de plus qu'en 2022.
+      sources: [afp-2025-12-18-cout-epr2]
+    - texte: >-
+        RTE : en 2021, un écart de l'ordre de 10 Md€ par an, jusqu'à 20 Md€ dans certains scénarios, en faveur d'un système avec
+        14 EPR ; en décembre 2025, fermer des réacteurs « de manière anticipée » écarterait une décarbonation rapide. Son horizon
+        de 5-10 ans est plus court que le calendrier du programme.
+      sources: [banquedesterritoires-2021-10-25-rte-futurs-energetiques, rte-2025-12-09-bilan-previsionnel-resume]

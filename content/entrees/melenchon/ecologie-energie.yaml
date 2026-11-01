@@ -14,3 +14,12 @@ date: '2026-07-17'
 sources:
 - lfi-2026-07-17-synthese-chapitre-13
 - lcp-2022-03-24-candidats-energie
+appui:
+  faits: >-
+    La synthèse de campagne énonce la mesure sans chiffre. Bloc provisoire : le programme est attendu en novembre 2026.
+  sources: [lfi-2026-07-17-synthese-chapitre-13]
+  donnees:
+    - texte: >-
+        Autorité des marchés financiers, citée par l'AFP : depuis le retrait obligatoire du 8 juin 2023, l'État détient 100 % du
+        capital d'EDF, pour une opération chiffrée à 9,7 Md€. La part actuelle de l'État dans Engie n'a pas été vérifiée.
+      sources: [afp-2023-05-26-edf-retrait-obligatoire]

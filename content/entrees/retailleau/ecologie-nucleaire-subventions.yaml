@@ -15,3 +15,20 @@ sources:
 - linfodurable-2025-07-02-retailleau-attal-renouvelables
 - europe1-2025-07-03-retailleau-renouvelables
 - journaldeleconomie-2026-02-12-ppe-retailleau-le-pen
+appui:
+  faits: >-
+    Il invoque une « intermittence coûteuse à gérer », sans chiffre dans les extraits lus.
+  raisonnement: >-
+    Il faut « rebâtir un parc nucléaire » pour « éviter l'effet falaise lié au vieillissement des centrales actuelles » ; dès
+    lors, « il n'y a donc aucune raison de continuer de les financer par des subventions publiques ».
+  sources: [linfodurable-2025-07-02-retailleau-attal-renouvelables]
+  donnees:
+    - texte: >-
+        RTE (décembre 2025) : « fermer de manière anticipée des réacteurs nucléaires, ou arrêter complètement le développement des
+        renouvelables écarterait la possibilité d'une décarbonation rapide à l'horizon de 5-10 ans ». Sa mesure porte sur l'arrêt
+        du développement, non sur l'arrêt des seules subventions.
+      sources: [rte-2025-12-09-bilan-previsionnel-resume]
+    - texte: >-
+        Comité de gestion des charges de service public de l'électricité, cité par l'iFRAP : 130 à 159 Md€ d'engagements de
+        soutien aux renouvelables sur 2024-2060, en euros de 2024 et à prix médians, engagements déjà pris compris.
+      sources: [ifrap-2025-05-06-couts-renouvelables]
