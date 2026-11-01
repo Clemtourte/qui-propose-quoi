@@ -158,15 +158,17 @@ const numero = (s: string) => ordreSections.indexOf(s) + 2;
           showSyntheses && (
             <div class="resume">
               <NatureTag nature="position" />
-              <p class="propose-titre">Ses positions sur les thèmes déjà traités sur ce site&nbsp;:</p>
-              <ul class="propose">
-                {syntheses.map(({ s, theme }) => (
-                  <li>
-                    <a href={`/themes/${theme!.id}/`}>{theme!.data.titre}</a>&nbsp;: {typo(s.data.phrase)}
-                  </li>
-                ))}
-              </ul>
-              <SourceRefs sources={[...new Map(syntheses.flatMap((x) => x.s.data.sources).map((x) => [x.id, x])).values()]} />
+              <details class="positions">
+                <summary>Ses positions sur les {syntheses.length} thèmes déjà traités sur ce site</summary>
+                <ul class="propose">
+                  {syntheses.map(({ s, theme }) => (
+                    <li>
+                      <a href={`/themes/${theme!.id}/`}>{theme!.data.titre}</a>&nbsp;: {typo(s.data.phrase)}
+                    </li>
+                  ))}
+                </ul>
+                <SourceRefs sources={[...new Map(syntheses.flatMap((x) => x.s.data.sources).map((x) => [x.id, x])).values()]} />
+              </details>
             </div>
           )
         )
@@ -279,7 +281,7 @@ const numero = (s: string) => ordreSections.indexOf(s) + 2;
       </Section>
     </div>
 
-    <SourceList sources={sources} derniereVerification={c.derniere_verification} />
+    <SourceList sources={sources} derniereVerification={c.derniere_verification} replie />
   </div>
 </Base>
 
@@ -342,6 +344,16 @@ const numero = (s: string) => ordreSections.indexOf(s) + 2;
   .propose-titre {
     font-weight: 600;
     margin-bottom: 0.4rem;
+  }
+  .positions {
+    margin-top: 0.5rem;
+  }
+  .positions > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+    padding: 0.4rem 0;
+    margin-bottom: 0.5rem;
   }
   .propose {
     margin: 0;
