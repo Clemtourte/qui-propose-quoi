@@ -392,3 +392,24 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Global Chance et iFRAP** : ces lectures datent de 2023 et 2025, avant la version finale de la programmation.
 - **Le Pen, Zemmour** : positions de 2022 pour le mix ; leur reprise pour 2027 reste à documenter.
 - **Revérification indépendante non faite** sur ces trois thèmes (pas de sous-agent, conformément à la méthode).
+
+## Racisme et discriminations, 1er novembre 2026
+
+- **Recherche en un seul passage**, par moteur de recherche : la liste n'est pas exhaustive, surtout pour le RN et LFI. L'écart entre candidats peut tenir à la réalité comme à la couverture de presse. À refaire avec une requête par parti et par année.
+- **À lire à la source** : enquête de Mediapart sur Jordan Bardella (lue via Public Sénat, LCP et l'AFP) ; enquête du Monde sur les investitures RN de 2024 ; article de Public Sénat sur Axel Loustau, non retenu faute de lecture ; Le Point sur Anthinéa, cité par le Times of Israël.
+- **Une seule source** : Daniel Grenon (dépêche sur macommune.info, appel non documenté) ; Grégoire de Fournas (Le Temps) ; Jérémie Piano (Europe 1, cassation non documentée) ; « Epstine » (AFP via La Libre) ; David Guiraud et Thomas Portes (Times of Israël, média qui qualifie lui-même le message d'antisémite).
+- **Boccaletti** : dates divergentes pour la librairie (1997, milieu des années 1990, 2006 chez L'Insoumission, non retenue) ; date exacte de la condamnation à confirmer.
+- **Histoire du FN** : RTBF et Sud Radio ; le détail des condamnations de Jean-Marie Le Pen n'est pas repris décision par décision. Aucune recherche équivalente sur l'histoire des autres partis, à faire pour tenir la même grille.
+- **Non retenu** : Andrée Taurinya (LFI), condamnée pour diffamation après avoir accusé un candidat d'antisémitisme, car la condamnation ne porte pas sur du racisme. Élus locaux (Carpentras, Vaulx-en-Velin, Dordogne) hors périmètre.
+- **Débat sur le mot « fascisme »** : non traité. Il faudra des historiens et politistes nommés, de plusieurs avis.
+- **Risque juridique** : section à faire relire avant toute diffusion plus large ; personnes nommées, faits anciens, présomption d'innocence pour Jordan Bardella.
+
+## Fondements de la santé, 1er novembre 2026
+
+- **Sites de campagne** : seul celui d'Attal a été parcouru mesure par mesure pour la santé, par le titre des 96 mesures. La même lecture reste à faire pour les autres avant de conclure à une absence de position.
+- **Arrêts maladie** : chiffres de la Cour des comptes et de la Caisse nationale d'assurance maladie lus via Public Sénat ; données de 2022 et 2019-2023. L'étude de la Drees (décembre 2024) n'a pas pu être ouverte. L'iFRAP publie une estimation non officielle pour le public, de 2023. L'effet des jours de carence n'a pas été documenté : aucune étude lue.
+- **Déserts médicaux** : pas de donnée lue sur l'efficacité d'une régulation, ni de comparaison étrangère. Position personnelle de Bruno Retailleau non trouvée ; la proposition du sénateur Mouiller (LR) ne vaut pas position du candidat.
+- **Hôpital** : Drees via l'AFP. Aucune lecture de gauche ou syndicale retenue (page de la FHF non exploitable) ; HCAAM non lu. À équilibrer.
+- **Le Pen** : article du Quotidien du médecin réservé aux abonnés. Montants du dossier du RN lus sur la page de synthèse, rapprochés par ordre d'affichage (3,2 Md€ et 3 Md€) : à confirmer dans l'annexe.
+- **Médicaments** : non approfondi.
+

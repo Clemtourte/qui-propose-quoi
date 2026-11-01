@@ -115,3 +115,9 @@
 - Contre-budget du RN : dossier trouvé et lu (tableaux par poste) ; il confirme les 15,1 Md€ sur l'immigration en 2027 et les 3,4 Md€ sur les agences. La mention « document non lu » est retirée du bloc fiscal de Marine Le Pen.
 - Institut de l'Entreprise : orientation affichée (« think tank lié aux entreprises »).
   - Revérification indépendante non faite (pas de sous-agent, conformément à la méthode).
+- Nouvelle section « Racisme et discriminations » sur les pages candidat, même périmètre pour les 8 : le RN (Frédéric Boccaletti, Frédéric Chatillon et le GUD, messages attribués à Jordan Bardella par Mediapart et qu'il dément, Daniel Grenon, Grégoire de Fournas, histoire du FN), LFI (propos « Epstine », David Guiraud, Thomas Portes), Bruno Retailleau (« origines ethniques »), Éric Zemmour (condamnations, Jérémie Piano), Édouard Philippe (renvoi vers ses propos au Point). Rien trouvé pour Attal, Glucksmann et Tondelier dans ce périmètre.
+- Fondements de la santé (prototype du nouveau ton) : blocs pour les 8 candidats, questions concrètes (trouver un médecin, arrêts maladie, hôpital). Section renommée « Pourquoi ils ne sont pas d'accord » sur tous les thèmes.
+- Correction, Gabriel Attal : son site de campagne n'avait pas été exploité. Immigration : système à points inspiré du Canada et chiffres de son site ajoutés. Santé : « aucune proposition trouvée » était faux, assistant médical IA et équilibre de la Sécurité sociale ajoutés.
+- Site : une lecture peut être marquée « Fait » (Drees, décisions du Conseil constitutionnel), au lieu de « Opinion ».
+- Ligne éditoriale du 1er novembre 2026 inscrite dans les consignes.
+  - Revérification indépendante non faite (pas de sous-agent, conformément à la méthode).
