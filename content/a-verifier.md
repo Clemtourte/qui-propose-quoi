@@ -413,3 +413,18 @@ Les entrées « participation » des fiches candidat (déjà publiées) servent 
 - **Le Pen** : article du Quotidien du médecin réservé aux abonnés. Montants du dossier du RN lus sur la page de synthèse, rapprochés par ordre d'affichage (3,2 Md€ et 3 Md€) : à confirmer dans l'annexe.
 - **Médicaments** : non approfondi.
 
+## Fondements de l'éducation, 1er novembre 2026
+
+- **Sites de campagne** : celui d'Attal est lu mesure par mesure pour l'école et celui de Philippe sur sa page enfance. Aucun site de campagne détaillé trouvé pour Le Pen (rassemblementnational.fr/projet en 404), Retailleau et Zemmour (parti-reconquete.fr : rien de chiffré sur l'école, réseau « Parents vigilants » non retenu). Le dossier du contre-budget du RN ne contient pas les mots éducation, enseignant ou école dans le texte extrait.
+- **Mélenchon** : bloc provisoire. À reprendre après le 6-7 novembre. Écart de 60 000 à 160 000 enseignants non résolu. Plan thématique de LFI non lu (melenchon2027.fr/programme/plans-thematiques).
+- **Attal, coût** : 2,5 Md€ selon Public Sénat, « entre 2,5 et 3 milliards d'euros » selon L'Essentiel de l'Éco. Seul le premier est affiché.
+- **Attal, classement** : le recul du 7e au 20e rang en mathématiques n'est pas retrouvé dans une donnée officielle ; TIMSS 2023 et PISA 2022 sont cités sur son site et non relus à la source.
+- **Attal, redoublement** : le site dit « rétablir », alors que des textes de mars 2024 ont déjà modifié les règles (Banque des Territoires). Les règles en vigueur à la rentrée 2026 ne sont pas vérifiées, ni le taux actuel de redoublement. Le Cnesco donne 22 % d'élèves ayant redoublé avant 15 ans (PISA 2015), donnée ancienne, non publiée.
+- **Retailleau** : apprentissage dès 14 ans et formation professionnelle retirée à l'Éducation nationale (RTL, début septembre 2026) lus seulement sur 75secondes, non retenu : à confirmer sur RTL. Le coût de ses hausses de salaire n'est pas connu. Sud Radio est seul pour les internats disciplinaires et pour les 135 et 300 euros.
+- **Philippe** : citations du Figaro du 24 août lues via L'Essentiel de l'Éco ; financement par la baisse démographique lu dans le même article, à confirmer. Coût des 20 % non documenté.
+- **Le Pen** : « une triple défaite », AFP via Sud Radio seule. Position sur l'école en 2027 toujours limitée à 2022 et 2024.
+- **Déséquilibre des lectures** : la question sur l'examen, le redoublement et les groupes de niveau n'a aucune lecture favorable d'un auteur extérieur aux candidats (recherche faite, rien trouvé d'exploitable). Sur l'autonomie, aucune lecture critique en dehors de Jean-Luc Mélenchon. Études internationales de l'OCDE sur l'autonomie non lues. À compléter.
+- **Lectures indirectes** : Inspection générale, DEPP sur les groupes de niveau et note Idee lues via franceinfo ; Centre d'analyse stratégique (2013) via Weka ; Cour des comptes de 2023 via la Banque des Territoires ; Cour des comptes de 2021 sur sa page de présentation ; OCDE via franceinfo et Sud Radio.
+- **Cour des comptes 2026** : chapitre lu sur une copie hébergée par la CGT Éduc'action Bretagne ; adresse sur ccomptes.fr et date exacte à confirmer. Valeurs des courbes (26 % puis 42 %) lues dans le graphique extrait du PDF, recoupées pour 2000 par le rapport de 2023 (26,4 %).
+- **Institut Montaigne** : le chiffrage de 9,8 M€ date de 2022 et porte sur la proposition d'Éric Zemmour, pas sur celles de Gabriel Attal ou de Bruno Retailleau.
+- **Hors périmètre pour l'instant** : université, lycée professionnel, AESH et élèves handicapés, santé mentale à l'école.
