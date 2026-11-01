@@ -99,3 +99,7 @@
 - Profondeur des sources (30 octobre), test sur les retraites : nouveau bloc « Sur quoi repose cette proposition » (champ `appui`) pour les 8 candidats, avec ce que chacun invoque ou la mention qu'aucune donnée n'est citée. Critique d'Édouard Philippe sur le système sans âge légal d'Attal ajoutée (LCP). Philippe : gain annoncé d'environ 30 Md€ ajouté (franceinfo). Zemmour : interview BFMTV retrouvée et datée du 17 septembre. Livre de Sarah Knafo : 130 Md€ par an (L'Essentiel de l'Éco), pas 140.
 - Deuxièmes sources ajoutées : Retailleau (plan de 197 Md€, arrêts maladie), Attal (journée référendaire), Zemmour (retraites), Sarah Knafo (retraites, budget). Reste 11 entrées de presse à source unique avec un chiffre ou une citation.
   - Revérification indépendante non faite (pas de sous-agent, conformément à la méthode).
+
+## 1er novembre 2026
+- Site, allègement de l'affichage : liste des sources repliée sur les pages candidat et thème (nombre et date de dernière vérification toujours visibles, liste complète ouverte sur la page Sources) ; dans « En 30 secondes », positions par thème repliées. Mots affichés sans rien déplier : environ 570 à 890 par page candidat, 360 à 800 par page thème.
+- Site, mobile : les étiquettes d'orientation des médias passent à la ligne ; les pages de Marine Le Pen et de Bruno Retailleau ne débordent plus.
