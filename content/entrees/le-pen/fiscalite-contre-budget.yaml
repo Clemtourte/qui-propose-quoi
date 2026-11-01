@@ -28,3 +28,21 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-10-06
 sources: [franceinfo-2026-10-06-le-pen-140-milliards, europe1-2026-10-06-contre-budget-rn, publicsenat-2026-10-06-contre-budget-rn, franceinfo-2026-10-08-critiques-budget-rn]
+appui:
+  faits: >-
+    Le RN retient une croissance de 1,8 %, 1,7 % et 1,8 % de 2028 à 2030, attend de l'immigration 29 Md€ « en année
+    pleine », soit « 20 % » du plan, et 3,4 Md€ en 2027 de « la fin de la quasi-totalité des agences ». Le document
+    du RN n'a pas été lu directement.
+  raisonnement: >-
+    Elle présente un « effort radical » pour « redresser » les finances publiques et fait de la réorganisation de
+    l'État « la mère des batailles » (20,7 Md€ dès 2027 selon le RN).
+  sources: [publicsenat-2026-10-06-contre-budget-rn, franceinfo-2026-10-08-critiques-budget-rn]
+  donnees:
+    - texte: >-
+        Haut Conseil des finances publiques (octobre 2026) : la prévision de croissance du gouvernement pour 2027, 1,0 %,
+        paraît « optimiste au regard des dernières évolutions ». Cet avis ne porte pas sur les années 2028 à 2030.
+      sources: [hcfp-2026-10-avis-plf-2027]
+    - texte: >-
+        Commission d'enquête du Sénat, citée par Public Sénat : environ 500 M€ d'économies sur les agences de l'État, si
+        aucune politique publique n'est supprimée.
+      sources: [publicsenat-2026-10-06-contre-budget-rn]

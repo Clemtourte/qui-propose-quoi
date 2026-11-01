@@ -26,3 +26,16 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026
 sources: [edouardphilippe-2026-france-plus-prospere]
+appui:
+  faits: >-
+    Son programme parle du « plus grand choc de compétitivité jamais réalisé », sans lister dans la page lue les aides
+    qualifiées d'« improductives » ni détailler le calcul.
+  raisonnement: « Libérer nos entreprises du poids des impôts et de la bureaucratie ».
+  sources: [edouardphilippe-2026-france-plus-prospere]
+  donnees:
+    - texte: >-
+        Aides aux entreprises en 2023 : au moins 211 Md€ selon la commission d'enquête du Sénat, 112 Md€ selon le
+        Haut-commissariat au Plan, qui exclut les allègements de cotisations. Il n'existe pas de définition officielle d'une
+        aide. Impôts de production : 3,6 % de la valeur ajoutée des entreprises en France et 0,5 % en Allemagne (Conseil
+        d'analyse économique, juin 2019).
+      sources: [publicsenat-2025-09-15-aides-211-milliards, cae-2019-06-impots-production]

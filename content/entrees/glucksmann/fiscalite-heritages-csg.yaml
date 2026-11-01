@@ -31,3 +31,18 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-08-23
 sources: [franceinfo-2026-08-25-vdf-glucksmann-heritages, publicsenat-2026-08-24-glucksmann-propositions, franceinfo-2026-08-27-debat-medef]
+appui:
+  faits: >-
+    Selon son équipe : 2 Md€ de la tranche haute, 3 Md€ du pacte Dutreil et 10 Md€ des plus-values latentes, « dans le
+    contexte démographique des successions à venir des baby boomers » selon franceinfo. Le calcul n'est pas publié dans
+    les sources lues.
+  raisonnement: >-
+    « Ça nous permettra de récupérer 15 milliards d'euros que nous transfèrerons directement sur la fiche de paie des
+    travailleurs français. »
+  sources: [franceinfo-2026-08-25-vdf-glucksmann-heritages]
+  donnees:
+    - texte: >-
+        Conseil d'analyse économique (décembre 2021) : les transmissions représentent plus de 15 % du PIB par an, soit
+        300 Md€ ; le pacte Dutreil coûte 2 à 3 Md€ en 2018-2019. Eurostat, cité par franceinfo : les droits de succession
+        et de donation rapportent environ 20 Md€.
+      sources: [cae-2021-12-repenser-heritage, franceinfo-2026-08-25-vdf-glucksmann-heritages]

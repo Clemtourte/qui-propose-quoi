@@ -36,3 +36,20 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-10-12
 sources: [publicsenat-2026-10-12-retailleau-economies, lcp-2026-10-12-retailleau-plan-economies]
+appui:
+  faits: >-
+    Il chiffre la dette de l'État « à plus de 3.400 milliards » et juge la France « déjà entrée dans une première phase
+    de la crise » sur les marchés. Le document de son plan n'a pas été trouvé.
+  raisonnement: >-
+    « Je veux donner un grand coup de frein à la dépense publique et un coup d'accélérateur à la croissance. » Sur
+    l'alternative : « C'est ça ou la Grèce ».
+  sources: [lagazettefrance-2026-10-12-afp-retailleau]
+  donnees:
+    - texte: >-
+        Insee : dette publique de 3 460,5 Md€ fin 2025, soit 115,7 % du PIB, toutes administrations confondues. Fonction
+        publique : 5,9 millions d'agents fin 2024 et 136 700 nouvelles pensions cette année-là.
+      sources: [insee-2026-05-29-comptes-apu-2025, insee-2026-02-emploi-fonction-publique, dgafp-2025-departs-retraite]
+    - texte: >-
+        Commission d'enquête du Sénat, citée par Public Sénat : environ 500 M€ d'économies sur les agences de l'État, si
+        aucune politique publique n'est supprimée.
+      sources: [publicsenat-2026-10-06-contre-budget-rn]

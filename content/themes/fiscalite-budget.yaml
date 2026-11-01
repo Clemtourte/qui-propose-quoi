@@ -1,7 +1,7 @@
 titre: "Fiscalité et budget"
 ordre: 2
 accroche: "Impôts, dépense publique, déficit et dette."
-derniere_verification: 2026-10-20
+derniere_verification: 2026-11-01
 questions:
   - id: deficit
     libelle: Objectif de déficit
@@ -49,6 +49,100 @@ etat_des_lieux:
       significatif dès à présent puis de poursuivre les efforts dans la durée ».
     date: 2026-10
     sources: [hcfp-2026-10-avis-plf-2027]
+raisonnements:
+  - question: Réduire le déficit par les dépenses, les recettes ou la croissance ?
+    lectures:
+      - auteur: Haut Conseil des finances publiques, avis d'octobre 2026
+        date: 2026-10
+        texte: >-
+          Sur le budget 2027, il relève « un effort budgétaire qui serait important (près de 40 Md€ hors charge d'intérêts),
+          mais une réduction du déficit limitée ». La dette continue d'augmenter : « la stabiliser nécessite un ajustement
+          significatif dès à présent puis de poursuivre les efforts dans la durée ».
+        sources: [hcfp-2026-10-avis-plf-2027]
+      - auteur: OFCE, prévisions d'avril 2026
+        date: 2026-04-08
+        texte: >-
+          Pour 2026, les économies sur l'État, les collectivités et la Sécurité sociale ont des multiplicateurs de court
+          terme de 0,7 à 0,8 ; la plupart des nouvelles mesures fiscales, des multiplicateurs faibles à court terme, « mais
+          plus élevés à long terme ». Au total, la politique budgétaire abaisserait la croissance de 0,5 point en 2026.
+        sources: [ofce-2026-04-08-prevision-finances-publiques]
+      - auteur: Agnès Verdier-Molinié, Fondation iFRAP, 23 janvier 2026
+        date: 2026-01-23
+        texte: >-
+          Selon elle, « nous avons trop d'impôts et trop de dépenses publiques ». Elle critique le budget 2026, qui augmente
+          selon elle les prélèvements obligatoires de 44 Md€ et les dépenses publiques de 37 Md€ en valeur.
+        sources: [ifrap-2026-01-23-budget-saborde]
+    camps:
+      - libelle: Économies sur les dépenses, sans hausse d'impôts annoncée
+        candidats: [attal, philippe, retailleau, zemmour]
+      - libelle: Économies et baisse nette des impôts, avec une taxe sur les rachats d'actions
+        candidats: [le-pen]
+      - libelle: Recettes nouvelles sur les patrimoines et les grandes entreprises
+        candidats: [melenchon, tondelier]
+      - libelle: Taxe sur les héritages reversée sur les salaires
+        candidats: [glucksmann]
+  - question: Taxer les plus hauts patrimoines, pour quel rendement ?
+    lectures:
+      - auteur: Laurent Bach, Antoine Bozio, Arthur Guillouzouic et Clément Malgouyres, Institut des politiques publiques, juin 2023
+        date: 2023-06
+        texte: >-
+          À partir de données fiscales de 2016, et en comptant les revenus non distribués des sociétés détenues, le taux
+          effectif atteint 46 % pour les 0,1 % les plus riches et 26 % pour les 0,0002 % les plus riches.
+        sources: [ipp-2023-06-milliardaires]
+      - auteur: Guillaume Allègre et Xavier Timbeau, OFCE, mai 2026
+        date: 2026-05-19
+        texte: >-
+          Ils rappellent que la taxe de 2 % au-delà de 100 millions d'euros lèverait 19,4 Md€ selon Parrinello, Varaschin et
+          Zucman (2025). Ils estiment à 4,4 Md€ l'écart à combler pour que l'impôt ne soit plus dégressif. Ils jugent le
+          patrimoine incohérent comme assiette et proposent de taxer le revenu économique, plus-values comprises.
+        sources: [ofce-2026-05-19-allegre-timbeau]
+      - auteur: François Geerolf, économiste, version d'octobre 2026
+        date: 2026-10
+        texte: >-
+          Il juge le constat de l'IPP « fragile » et estime que « les 20 milliards d'euros promis en valent plutôt 2 à 6 ».
+        sources: [geerolf-2026-10-mensonges-taxe-zucman]
+      - auteur: Fondation iFRAP, septembre 2025
+        date: 2025-09
+        texte: >-
+          Avec une autre mesure, rapportée au revenu disponible brut de 2022, elle compte 55,8 % d'impôts directs pour les
+          1 % les plus riches et 55,2 % pour les 0,1 %.
+        sources: [ifrap-2025-09-fiscalite-plus-riches]
+    camps:
+      - libelle: Taxe Zucman
+        candidats: [melenchon, tondelier]
+      - libelle: Hausse de la taxation des plus gros héritages
+        candidats: [glucksmann]
+      - libelle: Refus de toute hausse d'impôts
+        candidats: [attal, philippe, retailleau, zemmour]
+      - libelle: Pas de position relevée sur ce point
+        candidats: [le-pen]
+  - question: Baisser les impôts de production, avec quel effet ?
+    lectures:
+      - auteur: Philippe Martin et Alain Trannoy, Conseil d'analyse économique, juin 2019
+        date: 2019-06
+        texte: >-
+          « L'analyse économique enseigne que les impôts sur la production sont les plus nocifs en raison des distorsions
+          qu'ils engendrent tout au long de la chaîne de production. » Ils recommandent de supprimer en priorité la C3S.
+        sources: [cae-2019-06-impots-production]
+      - auteur: Institut Montaigne, avril 2026
+        date: 2026-04
+        texte: >-
+          Son baromètre situe ces impôts à 3,57 % du PIB en 2024, contre 3,82 % en 2023 ; la baisse « doit être interprétée
+          avec prudence, car tenant largement à des facteurs conjoncturels ou sectoriels ».
+        sources: [montaigne-2026-04-barometre-impots-production]
+      - auteur: Commission d'enquête du Sénat et Haut-commissariat au Plan, 2025
+        date: 2025-09-15
+        texte: >-
+          Le financement par une baisse des aides dépend du périmètre retenu : au moins 211 Md€ d'aides aux entreprises en 2023
+          pour le Sénat, 112 Md€ pour le Haut-commissariat, qui exclut les allègements de cotisations.
+        sources: [publicsenat-2025-09-15-aides-211-milliards]
+    camps:
+      - libelle: Baisse annoncée des impôts de production
+        candidats: [philippe, retailleau]
+      - libelle: Hausse de la fiscalité des grandes entreprises
+        candidats: [melenchon, tondelier]
+      - libelle: Pas de position relevée sur ce point dans nos entrées
+        candidats: [attal, glucksmann, le-pen, zemmour]
 recherches:
   avis: >-
     Recherché le 22 octobre 2026 (presse, sites de l'Institut de l'Entreprise, du CAE, de l'OFCE) : une note

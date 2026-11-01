@@ -33,3 +33,23 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-07-02
 sources: [publicsenat-2026-07-03-attal-fonctionnaires, moneyvox-2026-07-03-attal-fonctionnaires, acteurspublics-2026-07-03-attal-fonctionnaires]
+appui:
+  faits: >-
+    Sur son site, sans source citée : « sur 100 € d'argent public dépensé, 57 € financent le modèle social et seulement
+    9 € l'éducation et 3 € la défense ». Et aussi : « Deux tiers de notre dette proviennent de l'absence de contrôle de
+    notre modèle social, en particulier les retraites et la santé. »
+  raisonnement: >-
+    « Réformer le modèle social pour inciter davantage à l'activité et réduire son coût budgétaire : c'est possible et
+    d'autres pays l'ont fait en Europe. » Les pays ne sont pas nommés.
+  sources: [attalpresident-2026-dette-etat]
+  donnees:
+    - texte: >-
+        Insee (données de 2024) : sur 1 672 Md€ de dépenses publiques, 41 % pour la protection sociale hors santé, 16 %
+        pour la santé, 9 % pour l'enseignement et 54 Md€ pour la défense. En dix ans, la part du PIB consacrée à la
+        protection sociale hors santé baisse de 0,8 point et celle de la santé monte de 0,6 point. Aucune donnée
+        officielle n'a été trouvée sur la part de la dette attribuée au modèle social.
+      sources: [insee-2026-02-depenses-par-fonction]
+    - texte: >-
+        Fonction publique, pour ses 100 000 postes d'État : 5,9 millions d'agents fin 2024, tous versants confondus (Insee),
+        et 136 700 nouvelles pensions cette année-là (DGAFP).
+      sources: [insee-2026-02-emploi-fonction-publique, dgafp-2025-departs-retraite]

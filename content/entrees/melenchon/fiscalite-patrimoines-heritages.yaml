@@ -15,3 +15,17 @@ texte: >-
   (montant non précisé).
 date: 2026-10-14
 sources: [lcp-2026-10-14-contre-budget-lfi, publicsenat-2026-10-14-contre-budget-lfi]
+appui:
+  faits: >-
+    Éric Coquerel juge ces recettes « raisonnables » et « crédibles ». Le calcul des rendements n'est pas publié dans
+    les sources lues ; la nouvelle version du programme est annoncée pour les 6 et 7 novembre 2026.
+  raisonnement: >-
+    Il présente un « cercle vertueux de la relance écologique et sociale », que l'AFP décrit comme une politique de la
+    demande.
+  sources: [lagazettefrance-2026-10-14-afp-economistes-lfi]
+  donnees:
+    - texte: >-
+        Institut des politiques publiques (données de 2016) : taux d'imposition effectif de 46 % pour les 0,1 % les plus
+        riches et de 26 % pour les 0,0002 % les plus riches. Eurostat, cité par franceinfo : les droits de succession et de
+        donation rapportent environ 20 Md€.
+      sources: [ipp-2023-06-milliardaires, franceinfo-2026-08-25-vdf-glucksmann-heritages]

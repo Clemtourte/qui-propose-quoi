@@ -27,3 +27,17 @@ reperes:
   - insee-2026-01-13-bilan-demographique-2025
 date: 2026-09-18
 sources: [franceinfo-2026-09-18-knafo-budget, lessentieldeleco-2026-09-20-knafo]
+appui:
+  faits: >-
+    Sarah Knafo, sans source citée : « ne pas remplacer 800 000 postes de la fonction publique. Ça, ça nous fait une
+    économie annuelle de 40 milliards d'euros. Ensuite, supprimer l'aide publique au développement, 14 milliards d'euros. »
+  raisonnement: >-
+    À propos du budget du gouvernement : « Il propose juste de freiner la voiture qui fonce dans le mur. Moi, je propose
+    de changer de direction. »
+  sources: [franceinfo-2026-09-18-knafo-budget]
+  donnees:
+    - texte: >-
+        Fonction publique : 5,9 millions d'agents fin 2024 (Insee) et 136 700 nouvelles pensions cette année-là (DGAFP).
+        Aide publique au développement au sens de l'OCDE : un peu plus de 13 Md€ en 2025, soit 0,43 % du revenu national
+        brut (Sénat).
+      sources: [insee-2026-02-emploi-fonction-publique, dgafp-2025-departs-retraite, senat-2025-avis-aide-developpement]

@@ -17,3 +17,18 @@ texte: >-
   revenus moins d'impôts que tout le reste des Français » (Reporterre).
 date: 2026-08-27
 sources: [lopinion-2026-07-13-programme-ecologistes, franceinfo-2026-09-02-vof-tondelier-dutreil, reporterre-2026-08-25-ecologie-partout]
+appui:
+  faits: >-
+    Selon elle, les 1 % les plus riches « paient proportionnellement à leurs revenus moins d'impôts que tout le reste
+    des Français ». Le programme du parti parle de « foyers riches qui paient proportionnellement moins d'impôt que les
+    foyers modestes », sans citer de source.
+  raisonnement: >-
+    Le programme défend « une croissance des recettes fiscales permettant de financer un haut niveau de services publics
+    et les investissements nécessaires à la transition écologique ».
+  sources: [reporterre-2026-08-25-ecologie-partout, lesecologistes-2026-07-programme]
+  donnees:
+    - texte: >-
+        Institut des politiques publiques (données de 2016) : taux d'imposition effectif progressif jusqu'à 46 % pour les
+        0,1 % les plus riches, puis de 26 % pour les 0,0002 % les plus riches. Cette mesure diffère du seuil de 1 % cité par
+        la candidate.
+      sources: [ipp-2023-06-milliardaires]

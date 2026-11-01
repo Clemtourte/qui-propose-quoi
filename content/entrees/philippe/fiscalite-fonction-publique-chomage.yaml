@@ -9,3 +9,15 @@ texte: >-
   les moins de 50 ans, contre 18 mois actuellement selon son programme.
 date: 2026-10-08
 sources: [edouardphilippe-2026-france-plus-prospere, euronews-2026-10-09-philippe-travail-depenses]
+appui:
+  faits: >-
+    Son programme retient « plus de 250 000 postes sur le quinquennat » et cite un « modèle allemand » pour le chômage,
+    sans détail du calcul dans la page lue.
+  raisonnement: >-
+    Une « stratégie de sauvetage des dépenses publiques », avec 50 % de l'effort sur les dépenses sociales, un quart sur
+    l'État et les collectivités et un quart grâce à la croissance.
+  sources: [edouardphilippe-2026-france-plus-prospere]
+  donnees:
+    - texte: >-
+        Fonction publique : 5,9 millions d'agents fin 2024 (Insee) et 136 700 nouvelles pensions cette année-là (DGAFP).
+      sources: [insee-2026-02-emploi-fonction-publique, dgafp-2025-departs-retraite]
